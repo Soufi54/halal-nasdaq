@@ -15,8 +15,16 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
+import { PortfolioTable } from "@/components/portfolio-table";
 
-type Holding = {
+type ExcludedHolding = {
+  ticker: string;
+  company: string;
+  weight: number;
+  halal_status: string;
+};
+
+const holdings = data.holdings as Array<{
   halal_rank: number;
   ticker: string;
   company: string;
@@ -26,16 +34,7 @@ type Holding = {
   interest_pct: number | null;
   rank: number;
   weight: number;
-};
-
-type ExcludedHolding = {
-  ticker: string;
-  company: string;
-  weight: number;
-  halal_status: string;
-};
-
-const holdings = data.holdings as Holding[];
+}>;
 const excluded = data.excluded as ExcludedHolding[];
 const stats = data.stats;
 
@@ -104,45 +103,8 @@ export default function Home() {
           </Card>
         </div>
 
-        {/* Composition */}
-        <Card>
-          <CardHeader>
-            <CardTitle>Composition de l'indice</CardTitle>
-            <CardDescription>
-              {stats.included} actions halal — poids redistribues pro-rata (total = 100%)
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead className="w-12">#</TableHead>
-                  <TableHead>Ticker</TableHead>
-                  <TableHead>Entreprise</TableHead>
-                  <TableHead className="text-right">Poids halal</TableHead>
-                  <TableHead className="text-right">Poids original</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {holdings.map((h) => (
-                  <TableRow key={h.ticker}>
-                    <TableCell className="font-mono text-zinc-400">
-                      {h.halal_rank}
-                    </TableCell>
-                    <TableCell className="font-bold">{h.ticker}</TableCell>
-                    <TableCell>{h.company}</TableCell>
-                    <TableCell className="text-right font-mono">
-                      {h.halal_weight.toFixed(2)}%
-                    </TableCell>
-                    <TableCell className="text-right font-mono text-zinc-400">
-                      {h.original_weight.toFixed(2)}%
-                    </TableCell>
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </CardContent>
-        </Card>
+        {/* Composition + simulateur portefeuille */}
+        <PortfolioTable holdings={holdings} includedCount={stats.included} />
 
         {/* Exclues */}
         <Card>
