@@ -1,21 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-sans",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "NASDAQ 100 Halal | Indice ethique conforme AAOIFI",
+  title: "NASDAQ 100 Halal | Investissement ethique conforme AAOIFI",
   description:
-    "Reconstitution du NASDAQ 100 filtree selon les criteres de conformite charia AAOIFI. Actions halal uniquement, poids redistribues.",
+    "Reconstitution du NASDAQ 100 filtree selon les criteres de conformite charia AAOIFI. Actions halal uniquement, poids redistribues. Simulateur de portefeuille integre.",
 };
 
 export default function RootLayout({
@@ -25,11 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${inter.variable} antialiased`}>{children}</body>
     </html>
   );
 }

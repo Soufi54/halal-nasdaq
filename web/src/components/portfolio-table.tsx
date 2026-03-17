@@ -1,22 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
-import { Input } from "@/components/ui/input";
 
 type Holding = {
   halal_rank: number;
@@ -32,15 +16,19 @@ type Holding = {
 
 function formatMoney(amount: number): string {
   if (amount >= 1000) {
-    return amount.toLocaleString("fr-FR", {
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-    }) + " EUR";
+    return (
+      amount.toLocaleString("fr-FR", {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0,
+      }) + " EUR"
+    );
   }
-  return amount.toLocaleString("fr-FR", {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
-  }) + " EUR";
+  return (
+    amount.toLocaleString("fr-FR", {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    }) + " EUR"
+  );
 }
 
 export function PortfolioTable({
@@ -52,73 +40,101 @@ export function PortfolioTable({
 }) {
   const [portfolio, setPortfolio] = useState<string>("");
 
-  const amount = parseFloat(portfolio.replace(/\s/g, "").replace(",", ".")) || 0;
+  const amount =
+    parseFloat(portfolio.replace(/\s/g, "").replace(",", ".")) || 0;
 
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>Composition de l'indice</CardTitle>
-        <CardDescription>
-          {includedCount} actions halal — poids redistribues pro-rata (total = 100%)
-        </CardDescription>
-        <div className="flex items-center gap-3 pt-2">
-          <label htmlFor="portfolio" className="text-sm font-medium whitespace-nowrap">
-            Mon portefeuille :
+    <section>
+      <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <h2 className="text-2xl font-bold">Composition de l'indice</h2>
+          <p className="mt-1 text-sm text-[var(--color-muted-foreground)]">
+            {includedCount} actions halal — poids redistribues pro-rata
+          </p>
+        </div>
+        <div className="flex items-center gap-3">
+          <label
+            htmlFor="portfolio"
+            className="text-sm font-medium text-[var(--color-muted-foreground)] whitespace-nowrap"
+          >
+            Mon portefeuille
           </label>
-          <div className="relative max-w-xs">
-            <Input
+          <div className="relative">
+            <input
               id="portfolio"
               type="text"
               inputMode="decimal"
-              placeholder="ex: 10000"
+              placeholder="10 000"
               value={portfolio}
               onChange={(e) => setPortfolio(e.target.value)}
-              className="pr-12"
+              className="h-10 w-40 rounded-xl border border-white/10 bg-white/5 px-4 pr-12 text-sm font-mono text-[var(--foreground)] placeholder:text-[var(--color-muted-foreground)]/40 focus:border-[var(--color-gold)]/50 focus:outline-none focus:ring-1 focus:ring-[var(--color-gold)]/30 transition-colors"
             />
-            <span className="absolute right-3 top-1/2 -translate-y-1/2 text-sm text-zinc-400">
+            <span className="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-medium text-[var(--color-muted-foreground)]/50">
               EUR
             </span>
           </div>
         </div>
-      </CardHeader>
-      <CardContent>
-        <Table>
-          <TableHeader>
-            <TableRow>
-              <TableHead className="w-12">#</TableHead>
-              <TableHead>Ticker</TableHead>
-              <TableHead>Entreprise</TableHead>
-              <TableHead className="text-right">Poids</TableHead>
+      </div>
+
+      <div className="overflow-hidden rounded-2xl border border-white/5 bg-[var(--card)]">
+        <table className="w-full text-sm">
+          <thead>
+            <tr className="border-b border-white/5">
+              <th className="w-14 px-6 py-4 text-left font-medium text-[var(--color-muted-foreground)]">
+                #
+              </th>
+              <th className="px-6 py-4 text-left font-medium text-[var(--color-muted-foreground)]">
+                Ticker
+              </th>
+              <th className="px-6 py-4 text-left font-medium text-[var(--color-muted-foreground)]">
+                Entreprise
+              </th>
+              <th className="px-6 py-4 text-right font-medium text-[var(--color-muted-foreground)]">
+                Poids
+              </th>
               {amount > 0 && (
-                <TableHead className="text-right">Montant</TableHead>
+                <th className="px-6 py-4 text-right font-medium text-[var(--color-gold)]">
+                  Montant
+                </th>
               )}
-              <TableHead className="text-right text-zinc-400">Poids original</TableHead>
-            </TableRow>
-          </TableHeader>
-          <TableBody>
-            {holdings.map((h) => (
-              <TableRow key={h.ticker}>
-                <TableCell className="font-mono text-zinc-400">
+              <th className="px-6 py-4 text-right font-medium text-[var(--color-muted-foreground)]/40">
+                Original
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {holdings.map((h, i) => (
+              <tr
+                key={h.ticker}
+                className={`border-b border-white/5 last:border-0 transition-colors hover:bg-white/[0.03] ${
+                  i % 2 === 0 ? "" : "bg-white/[0.01]"
+                }`}
+              >
+                <td className="px-6 py-3.5 font-mono text-[var(--color-muted-foreground)]/50">
                   {h.halal_rank}
-                </TableCell>
-                <TableCell className="font-bold">{h.ticker}</TableCell>
-                <TableCell>{h.company}</TableCell>
-                <TableCell className="text-right font-mono">
+                </td>
+                <td className="px-6 py-3.5">
+                  <span className="font-bold">{h.ticker}</span>
+                </td>
+                <td className="px-6 py-3.5 text-[var(--color-muted-foreground)]">
+                  {h.company}
+                </td>
+                <td className="px-6 py-3.5 text-right font-mono">
                   {h.halal_weight.toFixed(2)}%
-                </TableCell>
+                </td>
                 {amount > 0 && (
-                  <TableCell className="text-right font-mono font-semibold">
-                    {formatMoney(amount * h.halal_weight / 100)}
-                  </TableCell>
+                  <td className="px-6 py-3.5 text-right font-mono font-semibold text-[var(--color-gold)]">
+                    {formatMoney((amount * h.halal_weight) / 100)}
+                  </td>
                 )}
-                <TableCell className="text-right font-mono text-zinc-400">
+                <td className="px-6 py-3.5 text-right font-mono text-[var(--color-muted-foreground)]/30">
                   {h.original_weight.toFixed(2)}%
-                </TableCell>
-              </TableRow>
+                </td>
+              </tr>
             ))}
-          </TableBody>
-        </Table>
-      </CardContent>
-    </Card>
+          </tbody>
+        </table>
+      </div>
+    </section>
   );
 }
