@@ -58,7 +58,7 @@ export default function Home() {
             NASDAQ 100 Halal
           </h1>
           <p className="mt-1 text-sm text-zinc-500">
-            Indice NASDAQ 100 reconstitue selon les criteres AAOIFI — Mise a
+            Indice NASDAQ 100 reconstitue selon les criteres AAOIFI (strict) — Mise a
             jour : {data.date}
           </p>
         </div>
@@ -66,13 +66,13 @@ export default function Home() {
 
       <main className="mx-auto max-w-6xl px-4 py-8 space-y-8">
         {/* Stats */}
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
           <Card>
             <CardHeader className="pb-2">
-              <CardDescription>Actions incluses</CardDescription>
+              <CardDescription>Actions halal incluses</CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-3xl font-bold">{stats.included}</p>
+              <p className="text-3xl font-bold text-emerald-600">{stats.included}</p>
               <p className="text-xs text-zinc-500">
                 sur {stats.total_nasdaq100}
               </p>
@@ -93,23 +93,13 @@ export default function Home() {
           </Card>
           <Card>
             <CardHeader className="pb-2">
-              <CardDescription>Halal</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p className="text-3xl font-bold text-emerald-600">
-                {stats.halal_count}
-              </p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardHeader className="pb-2">
-              <CardDescription>Doubtful</CardDescription>
+              <CardDescription>Dont doubtful exclues</CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-3xl font-bold text-amber-600">
                 {stats.doubtful_count}
               </p>
-              <p className="text-xs text-zinc-500">inclus dans l'indice</p>
+              <p className="text-xs text-zinc-500">approche stricte</p>
             </CardContent>
           </Card>
         </div>
@@ -119,8 +109,7 @@ export default function Home() {
           <CardHeader>
             <CardTitle>Composition de l'indice</CardTitle>
             <CardDescription>
-              {stats.included} actions — poids redistribues pro-rata (total =
-              100%)
+              {stats.included} actions halal — poids redistribues pro-rata (total = 100%)
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -132,7 +121,6 @@ export default function Home() {
                   <TableHead>Entreprise</TableHead>
                   <TableHead className="text-right">Poids halal</TableHead>
                   <TableHead className="text-right">Poids original</TableHead>
-                  <TableHead>Statut</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -149,9 +137,6 @@ export default function Home() {
                     <TableCell className="text-right font-mono text-zinc-400">
                       {h.original_weight.toFixed(2)}%
                     </TableCell>
-                    <TableCell>
-                      <StatusBadge status={h.halal_status} />
-                    </TableCell>
                   </TableRow>
                 ))}
               </TableBody>
@@ -164,7 +149,7 @@ export default function Home() {
           <CardHeader>
             <CardTitle>Actions exclues</CardTitle>
             <CardDescription>
-              {stats.excluded} actions non-conformes AAOIFI (
+              {stats.excluded} actions non-conformes ou douteuses (
               {stats.excluded_weight_pct}% du NASDAQ 100 original)
             </CardDescription>
           </CardHeader>
@@ -175,7 +160,7 @@ export default function Home() {
                   <TableHead>Ticker</TableHead>
                   <TableHead>Entreprise</TableHead>
                   <TableHead className="text-right">Poids original</TableHead>
-                  <TableHead>Raison</TableHead>
+                  <TableHead>Statut</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -212,11 +197,10 @@ export default function Home() {
               Institutions). Mis a jour trimestriellement.
             </p>
             <p>
-              <strong>Methode :</strong> Les actions non-conformes sont exclues
-              de l'indice. Les poids des actions restantes sont redistribues
-              pro-rata pour que le total fasse 100%. Les actions "doubtful"
-              (questionable) sont incluses car considerees investissables selon
-              Zoya/AAOIFI.
+              <strong>Methode (stricte) :</strong> Seules les actions certifiees
+              "Halal" sont incluses. Les actions "Doubtful" (questionable) et
+              "Non conformes" sont exclues. Les poids des actions restantes sont
+              redistribues pro-rata pour que le total fasse 100%.
             </p>
             <p>
               <strong>Disclaimer :</strong> Cet outil est fourni a titre
@@ -231,7 +215,7 @@ export default function Home() {
       <footer className="border-t bg-white py-6 dark:bg-zinc-900">
         <div className="mx-auto max-w-6xl px-4 text-center text-sm text-zinc-400">
           NASDAQ 100 Halal — Donnees mises a jour le {data.date} — Standard
-          AAOIFI
+          AAOIFI (strict)
         </div>
       </footer>
     </div>

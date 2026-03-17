@@ -47,9 +47,9 @@ def main():
         else:
             excluded.append(h)
 
-    # Les "doubtful" sont consideres halal par Zoya (investissables)
-    # On les inclut dans l'indice avec un flag
-    included = halal_holdings + doubtful_holdings
+    # Les "doubtful" sont exclus de l'indice (approche stricte)
+    excluded.extend(doubtful_holdings)
+    included = halal_holdings
 
     # Redistribuer les poids pro-rata
     total_included_weight = sum(h["weight"] for h in included)
