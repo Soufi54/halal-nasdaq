@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const jakarta = Plus_Jakarta_Sans({
   variable: "--font-sans",
+  subsets: ["latin"],
+});
+
+const jetbrains = JetBrains_Mono({
+  variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
@@ -20,7 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${inter.variable} antialiased`}>{children}</body>
+      <body
+        className={`${jakarta.variable} ${jetbrains.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
