@@ -1,229 +1,231 @@
-import data from "@/data.json";
-import { PortfolioTable } from "@/components/portfolio-table";
-import { Badge } from "@/components/ui/badge";
+import Link from "next/link";
+import nasdaqData from "@/data.json";
 
-type ExcludedHolding = {
-  ticker: string;
-  company: string;
-  weight: number;
-  halal_status: string;
-};
-
-const holdings = data.holdings as Array<{
-  halal_rank: number;
-  ticker: string;
-  company: string;
-  halal_weight: number;
-  original_weight: number;
-  halal_status: string;
-  interest_pct: number | null;
-  rank: number;
-  weight: number;
-}>;
-const excluded = data.excluded as ExcludedHolding[];
-const stats = data.stats;
-
-function StatusBadge({ status }: { status: string }) {
-  if (status === "doubtful") {
-    return (
-      <span className="inline-flex items-center rounded-full bg-[var(--color-doubtful-muted)] px-2.5 py-0.5 text-xs font-medium text-[var(--color-doubtful)]">
-        Doubtful
-      </span>
-    );
-  }
-  return (
-    <span className="inline-flex items-center rounded-full bg-[var(--color-haram-muted)] px-2.5 py-0.5 text-xs font-medium text-[var(--color-haram)]">
-      Non conforme
-    </span>
-  );
-}
+const nasdaqStats = nasdaqData.stats;
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[var(--background)]">
+    <div className="min-h-screen">
       {/* Hero */}
-      <header className="relative overflow-hidden border-b border-white/5">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#f8d234]/5 via-transparent to-transparent" />
-        <div className="relative mx-auto max-w-6xl px-6 pt-16 pb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="h-8 w-1 rounded-full bg-[var(--color-gold)]" />
-            <span className="text-sm font-medium tracking-widest uppercase text-[var(--color-gold)]">
+      <section className="relative overflow-hidden border-b border-white/5">
+        <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--color-gold)_0%,_transparent_50%)] opacity-[0.03]" />
+        <div className="relative mx-auto max-w-6xl px-6 pt-24 pb-20">
+          <div className="flex items-center gap-3 mb-8">
+            <div className="h-px flex-1 max-w-12 bg-[var(--color-gold)]" />
+            <span className="text-sm font-semibold tracking-widest uppercase text-[var(--color-gold)]">
               Standard AAOIFI
             </span>
           </div>
-          <h1 className="text-5xl font-bold tracking-tight leading-tight md:text-6xl">
-            NASDAQ 100
+          <h1 className="text-5xl font-extrabold tracking-tight leading-[1.1] md:text-7xl max-w-3xl">
+            Investir en
             <br />
-            <span className="text-[var(--color-gold)]">Halal</span>
+            <span className="text-[var(--color-gold)]">bourse halal</span>,
+            <br />
+            simplement.
           </h1>
-          <p className="mt-4 max-w-xl text-lg text-[var(--color-muted-foreground)] leading-relaxed">
-            L'indice NASDAQ 100 reconstitue en excluant les actions non
-            conformes a la charia. Approche stricte — uniquement les actions
-            certifiees halal.
+          <p className="mt-6 max-w-xl text-lg text-[var(--color-muted-foreground)] leading-relaxed">
+            Indices NASDAQ 100 et S&P 500 reconstitues sans les actions non
+            conformes a la charia. Donnees ouvertes, scraping transparent,
+            simulateur de portefeuille integre.
           </p>
-          <p className="mt-3 text-sm text-[var(--color-muted-foreground)]/60">
-            Derniere mise a jour : {data.date}
-          </p>
-        </div>
-      </header>
-
-      <main className="mx-auto max-w-6xl px-6 py-12 space-y-12">
-        {/* Stats */}
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
-            <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
-              Actions halal
-            </p>
-            <p className="mt-2 text-4xl font-bold text-[var(--color-halal)]">
-              {stats.included}
-            </p>
-            <p className="mt-1 text-sm text-[var(--color-muted-foreground)]/50">
-              sur {stats.total_nasdaq100} du NASDAQ 100
-            </p>
-          </div>
-          <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
-            <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
-              Actions exclues
-            </p>
-            <p className="mt-2 text-4xl font-bold text-[var(--color-haram)]">
-              {stats.excluded}
-            </p>
-            <p className="mt-1 text-sm text-[var(--color-muted-foreground)]/50">
-              {stats.excluded_weight_pct}% du poids original
-            </p>
-          </div>
-          <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
-            <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
-              Dont doubtful exclues
-            </p>
-            <p className="mt-2 text-4xl font-bold text-[var(--color-doubtful)]">
-              {stats.doubtful_count}
-            </p>
-            <p className="mt-1 text-sm text-[var(--color-muted-foreground)]/50">
-              approche stricte
-            </p>
+          <div className="mt-10 flex flex-wrap gap-4">
+            <Link
+              href="/nasdaq-halal"
+              className="inline-flex h-12 items-center rounded-xl bg-[var(--color-gold)] px-6 text-sm font-semibold text-black transition-colors hover:bg-[var(--color-gold)]/90"
+            >
+              NASDAQ 100 Halal
+            </Link>
+            <Link
+              href="/sp500-halal"
+              className="inline-flex h-12 items-center rounded-xl border border-white/10 px-6 text-sm font-semibold transition-colors hover:bg-white/5"
+            >
+              S&P 500 Halal
+            </Link>
           </div>
         </div>
+      </section>
 
-        {/* Composition + simulateur */}
-        <PortfolioTable holdings={holdings} includedCount={stats.included} />
+      {/* Indices cards */}
+      <section className="mx-auto max-w-6xl px-6 py-16">
+        <h2 className="text-2xl font-bold mb-8">Nos indices</h2>
+        <div className="grid gap-6 md:grid-cols-2">
+          <Link
+            href="/nasdaq-halal"
+            className="group rounded-2xl border border-white/5 bg-[var(--card)] p-8 transition-all hover:border-[var(--color-gold)]/20 hover:bg-white/[0.03]"
+          >
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-xl font-bold">NASDAQ 100 Halal</h3>
+              <span className="text-sm text-[var(--color-muted-foreground)] group-hover:text-[var(--color-gold)] transition-colors">
+                Voir →
+              </span>
+            </div>
+            <div className="flex gap-8 mb-4">
+              <div>
+                <p className="text-3xl font-bold text-[var(--color-halal)]">
+                  {nasdaqStats.included}
+                </p>
+                <p className="text-xs text-[var(--color-muted-foreground)]">
+                  actions halal
+                </p>
+              </div>
+              <div>
+                <p className="text-3xl font-bold text-[var(--color-haram)]">
+                  {nasdaqStats.excluded}
+                </p>
+                <p className="text-xs text-[var(--color-muted-foreground)]">
+                  exclues
+                </p>
+              </div>
+            </div>
+            <p className="text-sm text-[var(--color-muted-foreground)]">
+              L'indice NASDAQ 100 filtre selon les criteres AAOIFI. Approche
+              stricte — seules les actions certifiees halal sont incluses.
+            </p>
+          </Link>
 
-        {/* Exclues */}
-        <section>
-          <div className="mb-6">
-            <h2 className="text-2xl font-bold">Actions exclues</h2>
-            <p className="mt-1 text-sm text-[var(--color-muted-foreground)]">
-              {stats.excluded} actions non conformes ou douteuses —{" "}
-              {stats.excluded_weight_pct}% du NASDAQ 100 original
+          <Link
+            href="/sp500-halal"
+            className="group rounded-2xl border border-white/5 bg-[var(--card)] p-8 transition-all hover:border-[var(--color-gold)]/20 hover:bg-white/[0.03]"
+          >
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-xl font-bold">S&P 500 Halal</h3>
+              <span className="text-sm text-[var(--color-muted-foreground)] group-hover:text-[var(--color-gold)] transition-colors">
+                Voir →
+              </span>
+            </div>
+            <div className="flex gap-8 mb-4">
+              <div>
+                <p className="text-3xl font-bold text-[var(--color-halal)]">
+                  —
+                </p>
+                <p className="text-xs text-[var(--color-muted-foreground)]">
+                  actions halal
+                </p>
+              </div>
+              <div>
+                <p className="text-3xl font-bold text-[var(--color-haram)]">
+                  —
+                </p>
+                <p className="text-xs text-[var(--color-muted-foreground)]">
+                  exclues
+                </p>
+              </div>
+            </div>
+            <p className="text-sm text-[var(--color-muted-foreground)]">
+              Le S&P 500 reconstitue selon les memes criteres. 500 actions
+              analysees, poids redistribues pro-rata.
+            </p>
+          </Link>
+        </div>
+      </section>
+
+      {/* Features */}
+      <section className="border-t border-white/5">
+        <div className="mx-auto max-w-6xl px-6 py-16">
+          <h2 className="text-2xl font-bold mb-8">Comment ca marche</h2>
+          <div className="grid gap-6 md:grid-cols-3">
+            <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[var(--color-gold)]/10">
+                <span className="text-lg font-bold text-[var(--color-gold)]">1</span>
+              </div>
+              <h3 className="font-semibold mb-2">Scraping des poids</h3>
+              <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+                Les poids de chaque action sont recuperes automatiquement depuis
+                les ETF de reference (QQQ pour le NASDAQ, SPY pour le S&P).
+              </p>
+            </div>
+            <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[var(--color-halal)]/10">
+                <span className="text-lg font-bold text-[var(--color-halal)]">2</span>
+              </div>
+              <h3 className="font-semibold mb-2">Screening AAOIFI</h3>
+              <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+                Chaque action est verifiee sur Zoya.finance selon le standard
+                AAOIFI. Les actions non conformes et douteuses sont exclues.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-white/10">
+                <span className="text-lg font-bold">3</span>
+              </div>
+              <h3 className="font-semibold mb-2">Redistribution pro-rata</h3>
+              <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+                Les poids des actions restantes sont redistribues
+                proportionnellement pour reconstituer un indice a 100%.
+                Simulez votre portefeuille en un clic.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Guides */}
+      <section className="border-t border-white/5">
+        <div className="mx-auto max-w-6xl px-6 py-16">
+          <div className="flex items-center justify-between mb-8">
+            <h2 className="text-2xl font-bold">Guides</h2>
+            <Link
+              href="/guides"
+              className="text-sm text-[var(--color-gold)] hover:underline"
+            >
+              Tous les guides →
+            </Link>
+          </div>
+          <div className="grid gap-4 md:grid-cols-3">
+            {[
+              {
+                href: "/guides/pourquoi-investir",
+                title: "Pourquoi investir ?",
+                desc: "Les bases de l'investissement et pourquoi c'est important pour chaque musulman.",
+              },
+              {
+                href: "/guides/actions-boursieres",
+                title: "Actions boursieres",
+                desc: "Comment investir en bourse de maniere halal. Screeners, criteres, plateformes.",
+              },
+              {
+                href: "/guides/investir-simplement",
+                title: "Investir sans se prendre la tete",
+                desc: "La strategie passive : ETFs, DCA, et comment commencer avec peu.",
+              },
+            ].map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="group rounded-2xl border border-white/5 bg-[var(--card)] p-6 transition-all hover:border-white/10 hover:bg-white/[0.03]"
+              >
+                <h3 className="font-semibold mb-2 group-hover:text-[var(--color-gold)] transition-colors">
+                  {guide.title}
+                </h3>
+                <p className="text-sm text-[var(--color-muted-foreground)]">
+                  {guide.desc}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Disclaimer banner */}
+      <section className="border-t border-white/5">
+        <div className="mx-auto max-w-6xl px-6 py-12">
+          <div className="rounded-2xl border border-[var(--color-haram)]/10 bg-[var(--color-haram)]/5 p-6">
+            <h3 className="font-semibold text-[var(--color-haram)] mb-2">
+              Avertissement
+            </h3>
+            <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+              Ce site ne fournit <strong>aucun conseil en investissement</strong>{" "}
+              ni <strong>aucun avis religieux</strong>. Les donnees sont generees
+              par scraping automatique et peuvent contenir des erreurs. Le statut
+              halal/haram est indicatif — les createurs de ce site ne s'engagent
+              sur rien d'un point de vue ethique ou financier.{" "}
+              <strong>Faites vos propres recherches</strong> (DYOR) et consultez
+              un conseiller financier qualifie ainsi qu'un scholar islamique.
             </p>
           </div>
-          <div className="overflow-hidden rounded-2xl border border-white/5 bg-[var(--card)]">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-white/5">
-                  <th className="px-6 py-4 text-left font-medium text-[var(--color-muted-foreground)]">
-                    Ticker
-                  </th>
-                  <th className="px-6 py-4 text-left font-medium text-[var(--color-muted-foreground)]">
-                    Entreprise
-                  </th>
-                  <th className="px-6 py-4 text-right font-medium text-[var(--color-muted-foreground)]">
-                    Poids original
-                  </th>
-                  <th className="px-6 py-4 text-left font-medium text-[var(--color-muted-foreground)]">
-                    Statut
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {excluded.map((h, i) => (
-                  <tr
-                    key={h.ticker}
-                    className={`border-b border-white/5 last:border-0 transition-colors hover:bg-white/[0.02] ${
-                      i % 2 === 0 ? "" : "bg-white/[0.01]"
-                    }`}
-                  >
-                    <td className="px-6 py-3.5 font-bold">{h.ticker}</td>
-                    <td className="px-6 py-3.5 text-[var(--color-muted-foreground)]">
-                      {h.company}
-                    </td>
-                    <td className="px-6 py-3.5 text-right font-mono">
-                      {h.weight.toFixed(2)}%
-                    </td>
-                    <td className="px-6 py-3.5">
-                      <StatusBadge status={h.halal_status} />
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        {/* Methodologie */}
-        <section>
-          <div className="mb-6">
-            <h2 className="text-2xl font-bold">Methodologie</h2>
-          </div>
-          <div className="grid gap-4 md:grid-cols-2">
-            <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6 space-y-2">
-              <div className="flex items-center gap-2 mb-3">
-                <div className="h-2 w-2 rounded-full bg-[var(--color-gold)]" />
-                <h3 className="font-semibold">Source des poids</h3>
-              </div>
-              <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
-                ETF QQQ (Invesco) via SlickCharts. Les poids refletent la
-                capitalisation boursiere de chaque action dans l'indice. Mis a
-                jour hebdomadairement.
-              </p>
-            </div>
-            <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6 space-y-2">
-              <div className="flex items-center gap-2 mb-3">
-                <div className="h-2 w-2 rounded-full bg-[var(--color-halal)]" />
-                <h3 className="font-semibold">Screening halal</h3>
-              </div>
-              <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
-                Zoya.finance, standard AAOIFI (Accounting and Auditing
-                Organization for Islamic Financial Institutions). Screening
-                trimestriel apres les publications de resultats.
-              </p>
-            </div>
-            <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6 space-y-2">
-              <div className="flex items-center gap-2 mb-3">
-                <div className="h-2 w-2 rounded-full bg-[var(--color-haram)]" />
-                <h3 className="font-semibold">Methode stricte</h3>
-              </div>
-              <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
-                Seules les actions certifiees "Halal" sont incluses. Les actions
-                "Doubtful" et "Non conformes" sont exclues. Les poids sont
-                redistribues pro-rata (total = 100%).
-              </p>
-            </div>
-            <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6 space-y-2">
-              <div className="flex items-center gap-2 mb-3">
-                <div className="h-2 w-2 rounded-full bg-[var(--color-muted-foreground)]" />
-                <h3 className="font-semibold">Disclaimer</h3>
-              </div>
-              <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
-                Cet outil est fourni a titre informatif. Il ne constitue pas un
-                conseil en investissement. Consultez un conseiller financier et
-                un scholar islamique avant d'investir.
-              </p>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer className="border-t border-white/5 py-8">
-        <div className="mx-auto max-w-6xl px-6 flex flex-col items-center gap-2">
-          <p className="text-sm text-[var(--color-muted-foreground)]/50">
-            NASDAQ 100 Halal — Standard AAOIFI (strict)
-          </p>
-          <p className="text-xs text-[var(--color-muted-foreground)]/30">
-            Donnees mises a jour le {data.date}
-          </p>
         </div>
-      </footer>
+      </section>
     </div>
   );
 }

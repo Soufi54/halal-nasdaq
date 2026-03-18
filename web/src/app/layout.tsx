@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
+import { Nav } from "@/components/nav";
+import { Footer } from "@/components/footer";
 import "./globals.css";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -13,9 +15,13 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NASDAQ 100 Halal | Investissement ethique conforme AAOIFI",
+  title: {
+    default: "MuslimFinance.net — Investir halal, simplement",
+    template: "%s | MuslimFinance.net",
+  },
   description:
-    "Reconstitution du NASDAQ 100 filtree selon les criteres de conformite charia AAOIFI. Actions halal uniquement, poids redistribues. Simulateur de portefeuille integre.",
+    "Indices boursiers reconstitues conformes a la charia (AAOIFI). NASDAQ 100 Halal, S&P 500 Halal, guides d'investissement. Gratuit et open-source.",
+  metadataBase: new URL("https://muslimfinance.net"),
 };
 
 export default function RootLayout({
@@ -28,7 +34,9 @@ export default function RootLayout({
       <body
         className={`${jakarta.variable} ${jetbrains.variable} antialiased`}
       >
+        <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );
