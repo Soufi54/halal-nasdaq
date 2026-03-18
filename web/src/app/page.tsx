@@ -1,7 +1,9 @@
 import Link from "next/link";
 import nasdaqData from "@/data.json";
+import sp500Data from "@/sp500-data.json";
 
 const nasdaqStats = nasdaqData.stats;
+const sp500Stats = sp500Data.stats;
 
 export default function Home() {
   return (
@@ -97,7 +99,7 @@ export default function Home() {
             <div className="flex gap-8 mb-4">
               <div>
                 <p className="text-3xl font-bold text-[var(--color-halal)]">
-                  —
+                  {sp500Stats.included}
                 </p>
                 <p className="text-xs text-[var(--color-muted-foreground)]">
                   actions halal
@@ -105,7 +107,7 @@ export default function Home() {
               </div>
               <div>
                 <p className="text-3xl font-bold text-[var(--color-haram)]">
-                  —
+                  {sp500Stats.excluded}
                 </p>
                 <p className="text-xs text-[var(--color-muted-foreground)]">
                   exclues
@@ -113,7 +115,7 @@ export default function Home() {
               </div>
             </div>
             <p className="text-sm text-[var(--color-muted-foreground)]">
-              Le S&P 500 reconstitue selon les memes criteres. 500 actions
+              Le S&P 500 reconstitue selon les memes criteres. {sp500Stats.total_sp500} actions
               analysees, poids redistribues pro-rata.
             </p>
           </Link>

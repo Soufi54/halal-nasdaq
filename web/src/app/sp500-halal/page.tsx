@@ -1,10 +1,48 @@
 import type { Metadata } from "next";
+import data from "@/sp500-data.json";
+import { PortfolioTable } from "@/components/portfolio-table";
 
 export const metadata: Metadata = {
   title: "S&P 500 Halal",
   description:
-    "Composition du S&P 500 reconstitue selon les criteres AAOIFI. Actions halal uniquement, poids redistribues, simulateur de portefeuille.",
+    "Composition du S&P 500 reconstitue selon les criteres AAOIFI. 223 actions halal, poids redistribues, simulateur de portefeuille.",
 };
+
+type ExcludedHolding = {
+  ticker: string;
+  company: string;
+  weight: number;
+  halal_status: string;
+};
+
+const holdings = data.holdings as Array<{
+  halal_rank: number;
+  ticker: string;
+  company: string;
+  halal_weight: number;
+  original_weight: number;
+  halal_status: string;
+  interest_pct: number | null;
+  rank: number;
+  weight: number;
+}>;
+const excluded = data.excluded as ExcludedHolding[];
+const stats = data.stats;
+
+function StatusBadge({ status }: { status: string }) {
+  if (status === "doubtful") {
+    return (
+      <span className="inline-flex items-center rounded-full bg-[var(--color-doubtful-muted)] px-2.5 py-0.5 text-xs font-medium text-[var(--color-doubtful)]">
+        Doubtful
+      </span>
+    );
+  }
+  return (
+    <span className="inline-flex items-center rounded-full bg-[var(--color-haram-muted)] px-2.5 py-0.5 text-xs font-medium text-[var(--color-haram)]">
+      Non conforme
+    </span>
+  );
+}
 
 export default function SP500Halal() {
   return (
@@ -26,23 +64,118 @@ export default function SP500Halal() {
             Le S&P 500 reconstitue en excluant les actions non conformes et
             douteuses selon les criteres AAOIFI.
           </p>
+          <p className="mt-3 text-sm text-[var(--color-muted-foreground)]/60">
+            Derniere mise a jour : {data.date}
+          </p>
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-6 py-12">
-        <div className="flex items-center justify-center py-24">
-          <div className="text-center">
-            <div className="mb-4 flex h-16 w-16 mx-auto items-center justify-center rounded-2xl bg-[var(--color-gold)]/10">
-              <span className="text-2xl font-bold text-[var(--color-gold)]">
-                500
-              </span>
-            </div>
-            <h2 className="text-xl font-bold mb-2">Bientot disponible</h2>
-            <p className="text-sm text-[var(--color-muted-foreground)] max-w-md">
-              Le screening des 500 actions du S&P 500 est en cours. Cette page
-              sera mise a jour automatiquement une fois les donnees pretes.
+      <main className="mx-auto max-w-6xl px-6 py-12 space-y-12">
+        {/* Stats */}
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
+            <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
+              Actions halal
+            </p>
+            <p className="mt-2 text-4xl font-bold text-[var(--color-halal)]">
+              {stats.included}
+            </p>
+            <p className="mt-1 text-sm text-[var(--color-muted-foreground)]/50">
+              sur {stats.total_sp500} du S&P 500
             </p>
           </div>
+          <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
+            <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
+              Actions exclues
+            </p>
+            <p className="mt-2 text-4xl font-bold text-[var(--color-haram)]">
+              {stats.excluded}
+            </p>
+            <p className="mt-1 text-sm text-[var(--color-muted-foreground)]/50">
+              {stats.excluded_weight_pct}% du poids original
+            </p>
+          </div>
+          <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
+            <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
+              Dont doubtful
+            </p>
+            <p className="mt-2 text-4xl font-bold text-[var(--color-doubtful)]">
+              {stats.doubtful_count}
+            </p>
+            <p className="mt-1 text-sm text-[var(--color-muted-foreground)]/50">
+              exclues (approche stricte)
+            </p>
+          </div>
+        </div>
+
+        {/* Composition + simulateur */}
+        <PortfolioTable holdings={holdings} includedCount={stats.included} />
+
+        {/* Exclues */}
+        <section>
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold">Actions exclues</h2>
+            <p className="mt-1 text-sm text-[var(--color-muted-foreground)]">
+              {stats.excluded} actions non conformes ou douteuses —{" "}
+              {stats.excluded_weight_pct}% du S&P 500 original
+            </p>
+          </div>
+          <div className="overflow-hidden rounded-2xl border border-white/5 bg-[var(--card)]">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-white/5">
+                  <th className="px-6 py-4 text-left font-medium text-[var(--color-muted-foreground)]">
+                    Ticker
+                  </th>
+                  <th className="px-6 py-4 text-left font-medium text-[var(--color-muted-foreground)]">
+                    Entreprise
+                  </th>
+                  <th className="px-6 py-4 text-right font-medium text-[var(--color-muted-foreground)]">
+                    Poids original
+                  </th>
+                  <th className="px-6 py-4 text-left font-medium text-[var(--color-muted-foreground)]">
+                    Statut
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {excluded.map((h, i) => (
+                  <tr
+                    key={h.ticker}
+                    className={`border-b border-white/5 last:border-0 transition-colors hover:bg-white/[0.02] ${
+                      i % 2 === 0 ? "" : "bg-white/[0.01]"
+                    }`}
+                  >
+                    <td className="px-6 py-3.5 font-bold">{h.ticker}</td>
+                    <td className="px-6 py-3.5 text-[var(--color-muted-foreground)]">
+                      {h.company}
+                    </td>
+                    <td className="px-6 py-3.5 text-right font-mono">
+                      {h.weight.toFixed(2)}%
+                    </td>
+                    <td className="px-6 py-3.5">
+                      <StatusBadge status={h.halal_status} />
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        {/* Disclaimer */}
+        <div className="rounded-2xl border border-[var(--color-haram)]/10 bg-[var(--color-haram)]/5 p-6">
+          <h3 className="font-semibold text-[var(--color-haram)] mb-2">
+            Avertissement
+          </h3>
+          <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+            Ces donnees sont generees automatiquement par scraping de sources
+            publiques et ne constituent en aucun cas un conseil en investissement
+            ni un avis religieux. Les statuts halal/haram proviennent de
+            Zoya.finance et peuvent contenir des erreurs.{" "}
+            <strong>Faites vos propres recherches</strong> et verifications
+            aupres de sources fiables avant toute decision d'investissement.
+          </p>
         </div>
       </main>
     </div>
