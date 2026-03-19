@@ -35,9 +35,14 @@ const guides = [
     desc: "Halal par nature, protege contre l'inflation. Les differentes facons d'acheter de l'or et ce qu'il faut savoir.",
   },
   {
+    href: "/guides/murabaha",
+    title: "La Murabaha : simulations et comparaison",
+    desc: "Combien coute une Murabaha vs un credit classique ? Simulations reelles, frais caches, et comment reduire le cout.",
+  },
+  {
     href: "/guides/immobilier",
     title: "Immobilier sans riba",
-    desc: "Murabaha, achat comptant, location-vente. Comment acheter un bien immobilier sans pret bancaire classique.",
+    desc: "Strategie HLM, achat comptant, Murabaha. Toutes les facons d'acheter un bien sans pret classique.",
   },
   {
     href: "/guides/recapitulatif",

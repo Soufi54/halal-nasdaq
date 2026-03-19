@@ -3,18 +3,18 @@ import { GuideLayout } from "@/components/guide-layout";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Recapitulatif des investissements halal",
+  title: "Tous les investissements halal — Recapitulatif",
   description:
-    "Vue d'ensemble de toutes les options d'investissement conformes a la charia : actions, ETFs, or, immobilier, et plus.",
+    "Vue d'ensemble complete de toutes les options d'investissement conformes a la charia : actions, ETFs, or, immobilier, SCPI, assurance vie, PER, et plus.",
 };
 
 export default function Recapitulatif() {
   return (
-    <GuideLayout title="Recapitulatif des investissements halal">
+    <GuideLayout title="Tous les investissements halal">
       <p className="text-lg">
         Toutes les options d'investissement conformes (ou potentiellement
-        conformes) a la charia, classees par type. Chacune a ses avantages et
-        ses limites.
+        conformes) a la charia, classees par type. Un tableau pour tout voir
+        d'un coup, et une strategie recommandee a la fin.
       </p>
 
       <div className="overflow-x-auto">
@@ -44,17 +44,17 @@ export default function Recapitulatif() {
                 <span className="text-[var(--color-halal)]">Halal</span> (avec
                 screening)
               </td>
-              <td className="py-3 px-4">7-12% /an (historique)</td>
+              <td className="py-3 px-4">7-13% /an</td>
               <td className="py-3 pl-4">Moyenne</td>
             </tr>
             <tr className="border-b border-[var(--border)]">
               <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
-                ETFs halal (SPUS, HLAL)
+                ETFs halal (ISDU, ISDW, IGDA)
               </td>
               <td className="py-3 px-4">
                 <span className="text-[var(--color-halal)]">Halal</span>
               </td>
-              <td className="py-3 px-4">7-10% /an</td>
+              <td className="py-3 px-4">~10% /an</td>
               <td className="py-3 pl-4">Facile</td>
             </tr>
             <tr className="border-b border-[var(--border)]">
@@ -64,7 +64,7 @@ export default function Recapitulatif() {
               <td className="py-3 px-4">
                 <span className="text-[var(--color-halal)]">Halal</span>
               </td>
-              <td className="py-3 px-4">3-8% /an</td>
+              <td className="py-3 px-4">~7% /an</td>
               <td className="py-3 pl-4">Facile</td>
             </tr>
             <tr className="border-b border-[var(--border)]">
@@ -79,6 +79,49 @@ export default function Recapitulatif() {
             </tr>
             <tr className="border-b border-[var(--border)]">
               <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
+                Immobilier HLM / bailleurs sociaux
+              </td>
+              <td className="py-3 px-4">
+                <span className="text-[var(--color-halal)]">Halal</span>
+              </td>
+              <td className="py-3 px-4">7-10% brut</td>
+              <td className="py-3 pl-4">Moyenne</td>
+            </tr>
+            <tr className="border-b border-[var(--border)]">
+              <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
+                Assurance vie halal (570easi)
+              </td>
+              <td className="py-3 px-4">
+                <span className="text-[var(--color-halal)]">Halal</span>
+              </td>
+              <td className="py-3 px-4">~4% /an</td>
+              <td className="py-3 pl-4">Facile</td>
+            </tr>
+            <tr className="border-b border-[var(--border)]">
+              <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
+                PER halal (Perennys, 570easi)
+              </td>
+              <td className="py-3 px-4">
+                <span className="text-[var(--color-halal)]">Halal</span> +
+                defiscalisant
+              </td>
+              <td className="py-3 px-4">~4% /an</td>
+              <td className="py-3 pl-4">Facile</td>
+            </tr>
+            <tr className="border-b border-[var(--border)]">
+              <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
+                SCPI Fair Invest (570easi)
+              </td>
+              <td className="py-3 px-4">
+                <span className="text-[var(--color-doubtful)]">
+                  Controverse
+                </span>
+              </td>
+              <td className="py-3 px-4">~4% /an</td>
+              <td className="py-3 pl-4">Facile</td>
+            </tr>
+            <tr className="border-b border-[var(--border)]">
+              <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
                 Crowdfunding immobilier
               </td>
               <td className="py-3 px-4">
@@ -89,19 +132,28 @@ export default function Recapitulatif() {
             </tr>
             <tr className="border-b border-[var(--border)]">
               <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
-                SCPI
+                Luxe (montres &lt; 5K)
               </td>
               <td className="py-3 px-4">
-                <span className="text-[var(--color-doubtful)]">
-                  Controverse
-                </span>
+                <span className="text-[var(--color-halal)]">Halal</span>
               </td>
-              <td className="py-3 px-4">4-6% /an</td>
-              <td className="py-3 pl-4">Facile</td>
+              <td className="py-3 px-4">&gt;10% /an</td>
+              <td className="py-3 pl-4">Expertise requise</td>
+            </tr>
+            <tr className="border-b border-[var(--border)]">
+              <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
+                Investissement prive (business)
+              </td>
+              <td className="py-3 px-4">
+                <span className="text-[var(--color-halal)]">Halal</span> (si
+                activite licite)
+              </td>
+              <td className="py-3 px-4">Variable</td>
+              <td className="py-3 pl-4">Tres difficile</td>
             </tr>
             <tr>
               <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
-                Assurance vie / Livrets
+                Assurance vie classique / Livrets
               </td>
               <td className="py-3 px-4">
                 <span className="text-[var(--color-haram)]">
@@ -117,34 +169,71 @@ export default function Recapitulatif() {
       </div>
 
       <h2 className="text-xl font-bold text-[var(--foreground)] pt-4">
-        Notre recommandation
+        Strategie recommandee
       </h2>
       <p>
-        Pour la plupart des gens, la strategie la plus simple est de combiner :
+        Voici la repartition qu'on recommande pour la plupart des gens, par
+        ordre de priorite :
       </p>
-      <ul className="list-disc pl-6 space-y-2">
+      <ol className="list-decimal pl-6 space-y-3">
         <li>
-          <strong>Un matelas de securite</strong> (3-6 mois de depenses) sur un
-          compte courant
+          <strong>Matelas de securite (3-6 mois de depenses)</strong> — sur un
+          compte courant, accessible immediatement. C'est la base, ne touchez
+          jamais a cet argent pour investir
         </li>
         <li>
-          <strong>Un investissement passif en actions halal</strong> via des
-          ETFs (SPUS, HLAL) ou en{" "}
+          <strong>ETF halal ou reconstitution d'indice en DCA (~50-70%)</strong>{" "}
+          — c'est le moteur de croissance de votre portefeuille. ISDU ou ISDW
+          sur Trade Republic (programme gratuit), ou reconstituez l'indice avec
+          nos outils{" "}
           <Link
             href="/nasdaq-halal"
             className="text-[var(--color-gold)] hover:underline"
           >
-            reconstituant l'indice vous-meme
+            NASDAQ 100 Halal
+          </Link>{" "}
+          et{" "}
+          <Link
+            href="/sp500-halal"
+            className="text-[var(--color-gold)] hover:underline"
+          >
+            S&P 500 Halal
           </Link>
         </li>
         <li>
-          <strong>Un peu d'or</strong> pour la diversification (5-15% du
-          portefeuille)
+          <strong>Or via{" "}
+          <a
+            href="https://www.inaia.fr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--color-gold)] hover:underline"
+          >
+            INAIA
+          </a>{" "}
+          (~10-20%)</strong>{" "}
+          — diversification et protection. Comportement inverse aux actions,
+          valeur refuge en periode de crise
         </li>
         <li>
-          <strong>De l'immobilier</strong> si vous avez le capital et le temps
+          <strong>Immobilier si capital suffisant</strong> — quand vous avez
+          assez pour acheter comptant ou via murabaha. Regardez les biens HLM
+          sur{" "}
+          <a
+            href="https://www.bienveo.fr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--color-gold)] hover:underline"
+          >
+            Bienveo
+          </a>{" "}
+          en priorite
         </li>
-      </ul>
+      </ol>
+      <p>
+        L'important n'est pas le montant mais la regularite. Meme 50 EUR/mois
+        investis de maniere consistante pendant 20 ans generent un capital
+        significatif. Commencez maintenant.
+      </p>
     </GuideLayout>
   );
 }
