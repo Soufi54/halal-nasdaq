@@ -4,39 +4,45 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Guides",
   description:
-    "Guides complets pour investir de maniere halal. Actions, ETFs, or, immobilier, et plus.",
+    "Tout ce qu'il faut savoir avant d'investir halal. Repartition de l'epargne, actions, ETFs, or, immobilier.",
+};
+
+const featured = {
+  href: "/guides/repartition",
+  title: "Comment repartir son epargne",
+  desc: "Le premier guide a lire. Combien garder en cash, combien investir, comment repartir entre actions, or et immobilier. Le cadre essentiel avant de commencer.",
 };
 
 const guides = [
   {
     href: "/guides/pourquoi-investir",
     title: "Pourquoi investir ?",
-    desc: "Comprendre l'importance d'investir son argent et pourquoi le laisser dormir sur un compte est une perte.",
+    desc: "L'inflation mange votre epargne. La zakat vous pousse a la faire fructifier. Voici pourquoi ne rien faire est la pire option.",
   },
   {
     href: "/guides/actions-boursieres",
-    title: "Actions boursieres halal",
-    desc: "Comment investir en bourse de maniere conforme. Screeners, criteres AAOIFI, purification des dividendes.",
+    title: "Acheter des actions halal",
+    desc: "Quel screener utiliser, quels criteres AAOIFI verifier, comment purifier les dividendes, sur quelle plateforme acheter.",
   },
   {
     href: "/guides/investir-simplement",
-    title: "Investir sans se prendre la tete",
-    desc: "La strategie passive pour ceux qui n'ont pas le temps : ETFs, DCA, et comment commencer avec peu.",
+    title: "La methode simple",
+    desc: "Pas le temps ? ETFs halal, achat automatique chaque mois, et votre portefeuille tourne tout seul.",
   },
   {
     href: "/guides/or",
     title: "Investir dans l'or",
-    desc: "L'or comme investissement halal par nature. Formes d'investissement, avantages, inconvenients.",
+    desc: "Halal par nature, protege contre l'inflation. Les differentes facons d'acheter de l'or et ce qu'il faut savoir.",
   },
   {
     href: "/guides/immobilier",
-    title: "Immobilier physique",
-    desc: "Acheter un bien immobilier sans riba. Financement halal, alternatives au pret bancaire classique.",
+    title: "Immobilier sans riba",
+    desc: "Murabaha, achat comptant, location-vente. Comment acheter un bien immobilier sans pret bancaire classique.",
   },
   {
     href: "/guides/recapitulatif",
-    title: "Recapitulatif des investissements",
-    desc: "Vue d'ensemble de toutes les options d'investissement halal disponibles, classees par type.",
+    title: "Tous les investissements halal",
+    desc: "Le tableau comparatif : rendement, temps, liquidite, difficulte. Pour savoir ou mettre votre argent selon votre profil.",
   },
 ];
 
@@ -45,23 +51,40 @@ export default function Guides() {
     <div className="min-h-screen">
       <header className="border-b border-[var(--border)]">
         <div className="mx-auto max-w-6xl px-6 pt-16 pb-12">
-          <h1 className="text-4xl font-extrabold tracking-tight">Guides</h1>
-          <p className="mt-4 text-lg text-[var(--color-muted-foreground)] leading-relaxed">
-            Apprendre a investir de maniere conforme a la charia. Des bases aux
-            strategies avancees.
+          <h1 className="text-4xl font-bold tracking-tight text-[var(--color-navy)]">Guides</h1>
+          <p className="mt-4 text-lg text-[var(--color-muted-foreground)] leading-relaxed max-w-2xl">
+            Vous debutez ? Commencez par le guide sur la repartition de
+            l'epargne. Sinon, piochez ce qui vous interesse.
           </p>
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-6 py-12">
-        <div className="grid gap-4 md:grid-cols-2">
+      <main className="mx-auto max-w-6xl px-6 py-12 space-y-8">
+        {/* Featured guide */}
+        <Link
+          href={featured.href}
+          className="cursor-pointer group block glass-card rounded-2xl p-8 border-2 border-[var(--color-gold)]/20"
+        >
+          <span className="inline-block rounded-full bg-[var(--color-gold-muted)] px-3 py-1 text-[0.65rem] font-semibold text-[var(--color-gold)] uppercase tracking-wider mb-4">
+            A lire en premier
+          </span>
+          <h2 className="text-2xl font-bold mb-3 text-[var(--color-navy)] group-hover:text-[var(--color-gold)] transition-colors duration-200">
+            {featured.title}
+          </h2>
+          <p className="text-[var(--color-muted-foreground)] leading-relaxed max-w-2xl">
+            {featured.desc}
+          </p>
+        </Link>
+
+        {/* Other guides */}
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {guides.map((guide) => (
             <Link
               key={guide.href}
               href={guide.href}
-              className="group rounded-2xl border border-[var(--border)] bg-white p-6 transition-all hover:border-[var(--color-gold)]/20 hover:bg-slate-50"
+              className="cursor-pointer group glass-card rounded-2xl p-6"
             >
-              <h2 className="text-lg font-bold mb-2 group-hover:text-[var(--color-gold)] transition-colors">
+              <h2 className="text-lg font-bold mb-2 text-[var(--color-navy)] group-hover:text-[var(--color-gold)] transition-colors duration-200">
                 {guide.title}
               </h2>
               <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
