@@ -31,6 +31,38 @@ function formatMoney(amount: number): string {
   );
 }
 
+function downloadCSV(holdings: Holding[], amount: number) {
+  const sep = ";";
+  const header = amount > 0
+    ? ["#", "Ticker", "Entreprise", "Poids (%)", "Montant (EUR)", "Poids original (%)"]
+    : ["#", "Ticker", "Entreprise", "Poids (%)", "Poids original (%)"];
+
+  const rows = holdings.map((h) => {
+    const base = [
+      h.halal_rank,
+      h.ticker,
+      `"${h.company}"`,
+      h.halal_weight.toFixed(2),
+    ];
+    if (amount > 0) {
+      base.push(((amount * h.halal_weight) / 100).toFixed(2));
+    }
+    base.push(h.original_weight.toFixed(2));
+    return base.join(sep);
+  });
+
+  const csv = "\uFEFF" + header.join(sep) + "\n" + rows.join("\n");
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = amount > 0
+    ? `portefeuille-halal-${amount}EUR.csv`
+    : "composition-halal.csv";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
 export function PortfolioTable({
   holdings,
   includedCount,
@@ -52,7 +84,7 @@ export function PortfolioTable({
             {includedCount} actions — poids redistribues pro-rata
           </p>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 flex-wrap">
           <label
             htmlFor="portfolio"
             className="text-sm font-medium text-[var(--color-muted-foreground)] whitespace-nowrap"
@@ -73,6 +105,17 @@ export function PortfolioTable({
               EUR
             </span>
           </div>
+          <button
+            onClick={() => downloadCSV(holdings, amount)}
+            className="cursor-pointer h-11 rounded-xl border border-[var(--border)] bg-white/60 px-4 text-sm font-medium text-[var(--color-navy)] transition-all duration-200 hover:bg-white hover:shadow-sm hover:-translate-y-0.5"
+          >
+            <span className="flex items-center gap-2">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="shrink-0">
+                <path d="M4 12h8M8 2v8m0 0L5 7m3 3l3-3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              Exporter CSV
+            </span>
+          </button>
         </div>
       </div>
 
