@@ -74,7 +74,7 @@ export default function NasdaqHalal() {
       <main className="mx-auto max-w-6xl px-6 py-12 space-y-12">
         {/* Stats */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <div className="rounded-2xl border border-[var(--border)] bg-white p-6">
+          <div className="glass-card rounded-2xl p-6">
             <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
               Actions halal
             </p>
@@ -85,7 +85,7 @@ export default function NasdaqHalal() {
               sur {stats.total_nasdaq100} du NASDAQ 100
             </p>
           </div>
-          <div className="rounded-2xl border border-[var(--border)] bg-white p-6">
+          <div className="glass-card rounded-2xl p-6">
             <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
               Actions exclues
             </p>
@@ -96,7 +96,7 @@ export default function NasdaqHalal() {
               {stats.excluded_weight_pct}% du poids original
             </p>
           </div>
-          <div className="rounded-2xl border border-[var(--border)] bg-white p-6">
+          <div className="glass-card rounded-2xl p-6">
             <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
               Dont doubtful
             </p>
@@ -121,7 +121,7 @@ export default function NasdaqHalal() {
               {stats.excluded_weight_pct}% du NASDAQ 100 original
             </p>
           </div>
-          <div className="overflow-hidden rounded-2xl border border-[var(--border)] bg-white">
+          <div className="glass-card rounded-2xl !p-0">
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-[var(--border)]">

@@ -47,9 +47,9 @@ export function PortfolioTable({
     <section>
       <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <h2 className="text-2xl font-bold text-[var(--color-navy)]">Composition de l'indice</h2>
+          <h2 className="text-2xl font-bold text-[var(--color-navy)]">Composition</h2>
           <p className="mt-1 text-sm text-[var(--color-muted-foreground)]">
-            {includedCount} actions halal — poids redistribues pro-rata
+            {includedCount} actions — poids redistribues pro-rata
           </p>
         </div>
         <div className="flex items-center gap-3">
@@ -57,7 +57,7 @@ export function PortfolioTable({
             htmlFor="portfolio"
             className="text-sm font-medium text-[var(--color-muted-foreground)] whitespace-nowrap"
           >
-            Mon portefeuille
+            Simuler un portefeuille
           </label>
           <div className="relative">
             <input
@@ -67,38 +67,38 @@ export function PortfolioTable({
               placeholder="10 000"
               value={portfolio}
               onChange={(e) => setPortfolio(e.target.value)}
-              className="h-10 w-40 rounded-xl border border-[var(--border)] bg-white px-4 pr-12 text-sm font-mono text-[var(--foreground)] placeholder:text-[var(--color-muted-foreground)]/40 focus:border-[var(--color-gold)] focus:outline-none focus:ring-2 focus:ring-[var(--color-gold)]/20 transition-colors duration-200"
+              className="h-11 w-44 rounded-xl border border-[var(--border)] bg-white/80 backdrop-blur-sm px-4 pr-14 text-sm font-mono text-[var(--foreground)] placeholder:text-[var(--color-muted-foreground)]/40 focus:border-[var(--color-navy)] focus:outline-none focus:ring-2 focus:ring-[var(--color-navy)]/10 transition-all duration-200"
             />
-            <span className="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-medium text-[var(--color-muted-foreground)]">
+            <span className="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-semibold text-[var(--color-muted-foreground)]">
               EUR
             </span>
           </div>
         </div>
       </div>
 
-      <div className="overflow-x-auto rounded-2xl border border-[var(--border)] bg-white shadow-sm">
+      <div className="overflow-x-auto rounded-2xl glass-card !p-0">
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-[var(--border)] bg-slate-50">
-              <th className="w-14 px-6 py-3.5 text-left font-semibold text-[var(--color-navy)]">
+            <tr className="border-b border-[var(--border)]">
+              <th className="w-14 px-5 py-4 text-left text-xs font-semibold uppercase tracking-wider text-[var(--color-muted-foreground)]">
                 #
               </th>
-              <th className="px-6 py-3.5 text-left font-semibold text-[var(--color-navy)]">
+              <th className="px-5 py-4 text-left text-xs font-semibold uppercase tracking-wider text-[var(--color-muted-foreground)]">
                 Ticker
               </th>
-              <th className="px-6 py-3.5 text-left font-semibold text-[var(--color-navy)]">
+              <th className="px-5 py-4 text-left text-xs font-semibold uppercase tracking-wider text-[var(--color-muted-foreground)]">
                 Entreprise
               </th>
-              <th className="px-6 py-3.5 text-right font-semibold text-[var(--color-navy)]">
+              <th className="px-5 py-4 text-right text-xs font-semibold uppercase tracking-wider text-[var(--color-muted-foreground)]">
                 Poids
               </th>
               {amount > 0 && (
-                <th className="px-6 py-3.5 text-right font-semibold text-[var(--color-gold)]">
+                <th className="px-5 py-4 text-right text-xs font-semibold uppercase tracking-wider text-[var(--color-gold)]">
                   Montant
                 </th>
               )}
-              <th className="px-6 py-3.5 text-right font-semibold text-[var(--color-muted-foreground)]">
-                Original
+              <th className="px-5 py-4 text-right text-xs font-semibold uppercase tracking-wider text-[var(--color-muted-foreground)]/50">
+                Orig.
               </th>
             </tr>
           </thead>
@@ -106,28 +106,28 @@ export function PortfolioTable({
             {holdings.map((h, i) => (
               <tr
                 key={h.ticker}
-                className={`cursor-pointer border-b border-[var(--border)] last:border-0 transition-colors duration-150 hover:bg-slate-50 ${
-                  i % 2 === 0 ? "bg-white" : "bg-slate-50/50"
+                className={`border-b border-[var(--border)] last:border-0 transition-colors duration-150 hover:bg-white/50 ${
+                  i % 2 === 0 ? "" : "bg-white/20"
                 }`}
               >
-                <td className="px-6 py-3 font-mono text-[var(--color-muted-foreground)]">
+                <td className="px-5 py-3.5 font-mono text-xs text-[var(--color-muted-foreground)]">
                   {h.halal_rank}
                 </td>
-                <td className="px-6 py-3">
-                  <span className="font-bold text-[var(--color-navy)]">{h.ticker}</span>
+                <td className="px-5 py-3.5">
+                  <span className="font-semibold text-[var(--color-navy)]">{h.ticker}</span>
                 </td>
-                <td className="px-6 py-3 text-[var(--color-muted-foreground)]">
+                <td className="px-5 py-3.5 text-[var(--color-muted-foreground)]">
                   {h.company}
                 </td>
-                <td className="px-6 py-3 text-right font-mono font-medium">
+                <td className="px-5 py-3.5 text-right font-mono font-medium text-[var(--foreground)]">
                   {h.halal_weight.toFixed(2)}%
                 </td>
                 {amount > 0 && (
-                  <td className="px-6 py-3 text-right font-mono font-semibold text-[var(--color-gold)]">
+                  <td className="px-5 py-3.5 text-right font-mono font-semibold text-[var(--color-gold)]">
                     {formatMoney((amount * h.halal_weight) / 100)}
                   </td>
                 )}
-                <td className="px-6 py-3 text-right font-mono text-[var(--color-muted-foreground)]/50">
+                <td className="px-5 py-3.5 text-right font-mono text-xs text-[var(--color-muted-foreground)]/40">
                   {h.original_weight.toFixed(2)}%
                 </td>
               </tr>
