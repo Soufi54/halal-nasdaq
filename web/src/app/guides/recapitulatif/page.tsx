@@ -36,7 +36,7 @@ export default function Recapitulatif() {
             </tr>
           </thead>
           <tbody className="text-[var(--color-muted-foreground)]">
-            <tr className="border-b border-white/5">
+            <tr className="border-b border-[var(--border)]">
               <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
                 Actions individuelles halal
               </td>
@@ -47,7 +47,7 @@ export default function Recapitulatif() {
               <td className="py-3 px-4">7-12% /an (historique)</td>
               <td className="py-3 pl-4">Moyenne</td>
             </tr>
-            <tr className="border-b border-white/5">
+            <tr className="border-b border-[var(--border)]">
               <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
                 ETFs halal (SPUS, HLAL)
               </td>
@@ -57,7 +57,7 @@ export default function Recapitulatif() {
               <td className="py-3 px-4">7-10% /an</td>
               <td className="py-3 pl-4">Facile</td>
             </tr>
-            <tr className="border-b border-white/5">
+            <tr className="border-b border-[var(--border)]">
               <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
                 Or physique / ETCs
               </td>
@@ -67,7 +67,7 @@ export default function Recapitulatif() {
               <td className="py-3 px-4">3-8% /an</td>
               <td className="py-3 pl-4">Facile</td>
             </tr>
-            <tr className="border-b border-white/5">
+            <tr className="border-b border-[var(--border)]">
               <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
                 Immobilier (comptant / murabaha)
               </td>
@@ -77,7 +77,7 @@ export default function Recapitulatif() {
               <td className="py-3 px-4">5-8% brut</td>
               <td className="py-3 pl-4">Difficile</td>
             </tr>
-            <tr className="border-b border-white/5">
+            <tr className="border-b border-[var(--border)]">
               <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
                 Crowdfunding immobilier
               </td>
@@ -87,7 +87,7 @@ export default function Recapitulatif() {
               <td className="py-3 px-4">6-12% /an</td>
               <td className="py-3 pl-4">Facile</td>
             </tr>
-            <tr className="border-b border-white/5">
+            <tr className="border-b border-[var(--border)]">
               <td className="py-3 pr-4 font-medium text-[var(--foreground)]">
                 SCPI
               </td>

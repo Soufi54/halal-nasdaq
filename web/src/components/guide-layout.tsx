@@ -9,7 +9,7 @@ export function GuideLayout({
 }) {
   return (
     <div className="min-h-screen">
-      <header className="border-b border-white/5">
+      <header className="border-b border-[var(--border)]">
         <div className="mx-auto max-w-3xl px-6 pt-16 pb-12">
           <Link
             href="/guides"

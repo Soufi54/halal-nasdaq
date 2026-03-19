@@ -48,7 +48,7 @@ export default function NasdaqHalal() {
   return (
     <div className="min-h-screen">
       {/* Hero */}
-      <header className="relative overflow-hidden border-b border-white/5">
+      <header className="relative overflow-hidden border-b border-[var(--border)]">
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-6xl px-6 pt-16 pb-12">
           <div className="flex items-center gap-3 mb-6">
@@ -75,7 +75,7 @@ export default function NasdaqHalal() {
       <main className="mx-auto max-w-6xl px-6 py-12 space-y-12">
         {/* Stats */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
+          <div className="rounded-2xl border border-[var(--border)] bg-white p-6">
             <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
               Actions halal
             </p>
@@ -86,7 +86,7 @@ export default function NasdaqHalal() {
               sur {stats.total_nasdaq100} du NASDAQ 100
             </p>
           </div>
-          <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
+          <div className="rounded-2xl border border-[var(--border)] bg-white p-6">
             <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
               Actions exclues
             </p>
@@ -97,7 +97,7 @@ export default function NasdaqHalal() {
               {stats.excluded_weight_pct}% du poids original
             </p>
           </div>
-          <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
+          <div className="rounded-2xl border border-[var(--border)] bg-white p-6">
             <p className="text-sm font-medium text-[var(--color-muted-foreground)]">
               Dont doubtful
             </p>
@@ -122,10 +122,10 @@ export default function NasdaqHalal() {
               {stats.excluded_weight_pct}% du NASDAQ 100 original
             </p>
           </div>
-          <div className="overflow-hidden rounded-2xl border border-white/5 bg-[var(--card)]">
+          <div className="overflow-hidden rounded-2xl border border-[var(--border)] bg-white">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-white/5">
+                <tr className="border-b border-[var(--border)]">
                   <th className="px-6 py-4 text-left font-medium text-[var(--color-muted-foreground)]">
                     Ticker
                   </th>
@@ -144,8 +144,8 @@ export default function NasdaqHalal() {
                 {excluded.map((h, i) => (
                   <tr
                     key={h.ticker}
-                    className={`border-b border-white/5 last:border-0 transition-colors hover:bg-white/[0.02] ${
-                      i % 2 === 0 ? "" : "bg-white/[0.01]"
+                    className={`border-b border-[var(--border)] last:border-0 transition-colors hover:bg-slate-50 ${
+                      i % 2 === 0 ? "" : "bg-slate-50/50"
                     }`}
                   >
                     <td className="px-6 py-3.5 font-bold">{h.ticker}</td>

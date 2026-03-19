@@ -43,7 +43,7 @@ const guides = [
 export default function Guides() {
   return (
     <div className="min-h-screen">
-      <header className="border-b border-white/5">
+      <header className="border-b border-[var(--border)]">
         <div className="mx-auto max-w-6xl px-6 pt-16 pb-12">
           <h1 className="text-4xl font-extrabold tracking-tight">Guides</h1>
           <p className="mt-4 text-lg text-[var(--color-muted-foreground)] leading-relaxed">
@@ -59,7 +59,7 @@ export default function Guides() {
             <Link
               key={guide.href}
               href={guide.href}
-              className="group rounded-2xl border border-white/5 bg-[var(--card)] p-6 transition-all hover:border-[var(--color-gold)]/20 hover:bg-white/[0.03]"
+              className="group rounded-2xl border border-[var(--border)] bg-white p-6 transition-all hover:border-[var(--color-gold)]/20 hover:bg-slate-50"
             >
               <h2 className="text-lg font-bold mb-2 group-hover:text-[var(--color-gold)] transition-colors">
                 {guide.title}

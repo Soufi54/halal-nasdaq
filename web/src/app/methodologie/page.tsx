@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Methodologie() {
   return (
     <div className="min-h-screen">
-      <header className="border-b border-white/5">
+      <header className="border-b border-[var(--border)]">
         <div className="mx-auto max-w-3xl px-6 pt-16 pb-12">
           <h1 className="text-4xl font-extrabold tracking-tight">
             Methodologie
@@ -24,7 +24,7 @@ export default function Methodologie() {
         <section className="space-y-4">
           <h2 className="text-2xl font-bold">Sources des donnees</h2>
           <div className="space-y-6">
-            <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
+            <div className="rounded-2xl border border-[var(--border)] bg-white p-6">
               <h3 className="font-semibold mb-2">Poids des indices</h3>
               <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
                 Les poids de chaque action sont recuperes par scraping
@@ -35,7 +35,7 @@ export default function Methodologie() {
                 hebdomadairement.
               </p>
             </div>
-            <div className="rounded-2xl border border-white/5 bg-[var(--card)] p-6">
+            <div className="rounded-2xl border border-[var(--border)] bg-white p-6">
               <h3 className="font-semibold mb-2">Screening halal</h3>
               <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
                 Le statut de conformite charia de chaque action est recupere par
