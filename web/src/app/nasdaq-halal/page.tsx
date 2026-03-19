@@ -3,9 +3,9 @@ import data from "@/data.json";
 import { PortfolioTable } from "@/components/portfolio-table";
 
 export const metadata: Metadata = {
-  title: "NASDAQ 100 Halal — Composition filtree AAOIFI",
+  title: "NASDAQ 100 Halal — Composition et simulateur",
   description:
-    "Le NASDAQ 100 sans les actions non conformes a la charia. 67 actions sur 101 passent le screening AAOIFI. Poids redistribues + simulateur de portefeuille. Donnees scraping, pas un conseil financier.",
+    "67 actions du NASDAQ 100 passent le screening AAOIFI. Les 34 autres sont retirees. Entrez un montant, on calcule combien mettre sur chaque ligne. Donnees de Zoya.finance, pas un conseil financier.",
 };
 
 type ExcludedHolding = {
@@ -51,22 +51,23 @@ export default function NasdaqHalal() {
       <header className="relative overflow-hidden border-b border-[var(--border)]">
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-6xl px-6 pt-16 pb-12">
-          <p className="text-sm text-[var(--color-muted-foreground)] mb-4">
-            Donnees indicatives par scraping — pas un conseil financier
+          <p className="inline-block rounded-full bg-[var(--color-navy)]/5 px-4 py-1.5 text-xs font-medium text-[var(--color-muted-foreground)] mb-6">
+            Donnees Zoya.finance · Standard AAOIFI · Mise a jour {data.date}
           </p>
-          <h1 className="text-4xl font-extrabold tracking-tight md:text-5xl text-[var(--color-navy)]">
+          <h1 className="text-4xl font-bold tracking-tight md:text-5xl text-[var(--color-navy)]">
             NASDAQ 100{" "}
-            <span className="text-[var(--color-gold)]">filtre AAOIFI</span>
+            <span className="text-[var(--color-gold)]">version halal</span>
           </h1>
-          <p className="mt-4 max-w-2xl text-lg text-[var(--color-muted-foreground)] leading-relaxed">
-            {stats.included} actions sur {stats.total_nasdaq100} passent le
-            screening Zoya.finance (standard AAOIFI strict). Les {stats.excluded}{" "}
-            actions non conformes ou douteuses sont retirees, les poids
-            redistribues. Entrez un montant pour voir combien investir par action.
+          <p className="mt-4 max-w-2xl text-[1.05rem] text-[var(--color-muted-foreground)] leading-[1.7]">
+            Sur {stats.total_nasdaq100} actions, {stats.included} passent le
+            filtre charia. Les {stats.excluded} autres — telecoms endettees,
+            conglomerats, quelques tech douteuses — sont retirees. Il reste un
+            indice tres concentre en tech, domine par Nvidia et Apple. Entrez
+            un montant ci-dessous pour voir votre repartition.
           </p>
-          <p className="mt-3 text-sm text-[var(--color-muted-foreground)]/70">
-            Mise a jour : {data.date} — Les statuts peuvent changer chaque trimestre.
-            Verifiez par vous-meme.
+          <p className="mt-3 text-sm text-[var(--color-muted-foreground)]/60">
+            Les statuts peuvent changer apres chaque publication de resultats.
+            Verifiez toujours par vous-meme.
           </p>
         </div>
       </header>

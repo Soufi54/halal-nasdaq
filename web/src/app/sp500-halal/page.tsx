@@ -3,9 +3,9 @@ import data from "@/sp500-data.json";
 import { PortfolioTable } from "@/components/portfolio-table";
 
 export const metadata: Metadata = {
-  title: "S&P 500 Halal — Composition filtree AAOIFI",
+  title: "S&P 500 Halal — Composition et simulateur",
   description:
-    "Le S&P 500 sans les actions non conformes a la charia. 223 actions sur 503 passent le screening AAOIFI. Poids redistribues + simulateur de portefeuille. Donnees scraping, pas un conseil financier.",
+    "223 actions du S&P 500 passent le screening AAOIFI. Les 280 autres sont retirees. Simulateur de portefeuille integre. Donnees de Zoya.finance, pas un conseil financier.",
 };
 
 type ExcludedHolding = {
@@ -50,22 +50,24 @@ export default function SP500Halal() {
       <header className="relative overflow-hidden border-b border-[var(--border)]">
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-6xl px-6 pt-16 pb-12">
-          <p className="text-sm text-[var(--color-muted-foreground)] mb-4">
-            Donnees indicatives par scraping — pas un conseil financier
+          <p className="inline-block rounded-full bg-[var(--color-navy)]/5 px-4 py-1.5 text-xs font-medium text-[var(--color-muted-foreground)] mb-6">
+            Donnees Zoya.finance · Standard AAOIFI · Mise a jour {data.date}
           </p>
-          <h1 className="text-4xl font-extrabold tracking-tight md:text-5xl text-[var(--color-navy)]">
+          <h1 className="text-4xl font-bold tracking-tight md:text-5xl text-[var(--color-navy)]">
             S&P 500{" "}
-            <span className="text-[var(--color-gold)]">filtre AAOIFI</span>
+            <span className="text-[var(--color-gold)]">version halal</span>
           </h1>
-          <p className="mt-4 max-w-2xl text-lg text-[var(--color-muted-foreground)] leading-relaxed">
-            {stats.included} actions sur {stats.total_sp500} passent le
-            screening. Plus diversifie que le NASDAQ mais plus de la moitie de
-            l'indice est exclue — les financieres, assurances et utilities
-            pesent lourd. Entrez un montant pour voir votre repartition.
+          <p className="mt-4 max-w-2xl text-[1.05rem] text-[var(--color-muted-foreground)] leading-[1.7]">
+            Le S&P 500 est plus large que le NASDAQ, mais aussi moins
+            compatible : sur {stats.total_sp500} actions, seules {stats.included}{" "}
+            passent. Banques, assureurs, utilities — presque la moitie de
+            l'indice ne passe pas le filtre. Ce qui reste : de la tech, de la
+            sante, de l'energie, de la conso. De Nvidia a Exxon en passant par
+            Visa et Johnson & Johnson.
           </p>
-          <p className="mt-3 text-sm text-[var(--color-muted-foreground)]/70">
-            Mise a jour : {data.date} — Les statuts peuvent changer chaque trimestre.
-            Verifiez par vous-meme.
+          <p className="mt-3 text-sm text-[var(--color-muted-foreground)]/60">
+            Les statuts peuvent changer apres chaque publication de resultats.
+            Verifiez toujours par vous-meme.
           </p>
         </div>
       </header>

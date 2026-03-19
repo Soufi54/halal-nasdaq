@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Sans, JetBrains_Mono } from "next/font/google";
+import { DM_Sans, JetBrains_Mono } from "next/font/google";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import "./globals.css";
 
-const ibmPlex = IBM_Plex_Sans({
+const dmSans = DM_Sans({
   variable: "--font-sans",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
 });
 
 const jetbrains = JetBrains_Mono({
@@ -17,11 +16,11 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "MuslimFinance.net — Les indices US, filtres par la charia",
-    template: "%s | MuslimFinance.net",
+    default: "MuslimFinance — NASDAQ 100 et S&P 500 conformes charia",
+    template: "%s | MuslimFinance",
   },
   description:
-    "NASDAQ 100 et S&P 500 filtres selon le standard AAOIFI. On retire les actions non conformes, on redistribue les poids, vous avez la composition. Donnees par scraping, pas un conseil financier.",
+    "Vous voulez investir en bourse sans compromettre vos convictions ? On a passe chaque action du NASDAQ 100 et du S&P 500 au crible du standard AAOIFI. Resultat : la composition exacte d'un indice halal, avec simulateur de portefeuille. Gratuit, open-source, transparent.",
   metadataBase: new URL("https://muslimfinance.net"),
 };
 
@@ -33,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${ibmPlex.variable} ${jetbrains.variable} antialiased`}
+        className={`${dmSans.variable} ${jetbrains.variable} antialiased`}
       >
         <Nav />
         {children}
