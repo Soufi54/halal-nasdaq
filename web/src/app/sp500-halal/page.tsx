@@ -51,23 +51,40 @@ export default function SP500Halal() {
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-6xl px-6 pt-16 pb-12">
           <p className="inline-block rounded-full bg-[var(--color-navy)]/5 px-4 py-1.5 text-xs font-medium text-[var(--color-muted-foreground)] mb-6">
-            Donnees Zoya.finance · Standard AAOIFI · Mise a jour {data.date}
+            Mise a jour {data.date} · Donnees Zoya.finance · Standard AAOIFI
           </p>
           <h1 className="text-4xl font-bold tracking-tight md:text-5xl text-[var(--color-navy)]">
             S&P 500{" "}
-            <span className="text-[var(--color-gold)]">version halal</span>
+            <span className="text-[var(--color-gold)]">Halal</span>
           </h1>
-          <p className="mt-4 max-w-2xl text-[1.05rem] text-[var(--color-muted-foreground)] leading-[1.7]">
-            Le S&P 500 est plus large que le NASDAQ, mais aussi moins
-            compatible : sur {stats.total_sp500} actions, seules {stats.included}{" "}
-            passent. Banques, assureurs, utilities — presque la moitie de
-            l'indice ne passe pas le filtre. Ce qui reste : de la tech, de la
-            sante, de l'energie, de la conso. De Nvidia a Exxon en passant par
-            Visa et Johnson & Johnson.
-          </p>
+          <div className="mt-6 max-w-2xl space-y-3 text-[0.95rem] text-[var(--color-muted-foreground)] leading-[1.7]">
+            <p>
+              <strong className="text-[var(--foreground)]">Le S&P 500, c'est quoi ?</strong>{" "}
+              L'indice le plus suivi au monde. Il regroupe les 500 plus grosses
+              entreprises americaines, tous secteurs confondus : tech, sante,
+              finance, energie, consommation. Depuis sa creation, il affiche
+              environ <strong className="text-[var(--foreground)]">10% par an</strong> en
+              moyenne. C'est la reference de l'investissement long terme.
+            </p>
+            <p>
+              <strong className="text-[var(--foreground)]">Pourquoi tant d'exclusions ?</strong>{" "}
+              Le S&P 500 contient beaucoup de banques, d'assureurs et de
+              utilities — des secteurs qui, par nature, dependent du systeme de
+              dette classique. Resultat : sur {stats.total_sp500} actions,{" "}
+              <strong className="text-[var(--color-halal)]">{stats.included} sont conformes</strong>.
+              Les {stats.excluded} autres sortent. Ce qui reste : de la tech
+              (Nvidia, Apple), de la sante (Eli Lilly, J&J), de l'energie
+              (Exxon), des paiements (Visa, Mastercard).
+            </p>
+            <p>
+              Entrez un montant pour voir votre repartition. Export CSV
+              disponible.
+            </p>
+          </div>
           <p className="mt-3 text-sm text-[var(--color-muted-foreground)]/60">
-            Les statuts peuvent changer apres chaque publication de resultats.
-            Verifiez toujours par vous-meme.
+            Les performances passees ne presagent pas des performances futures.
+            Les statuts halal peuvent changer chaque trimestre. Verifiez par
+            vous-meme.
           </p>
         </div>
       </header>

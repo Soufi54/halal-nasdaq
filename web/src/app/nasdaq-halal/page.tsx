@@ -52,22 +52,39 @@ export default function NasdaqHalal() {
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-6xl px-6 pt-16 pb-12">
           <p className="inline-block rounded-full bg-[var(--color-navy)]/5 px-4 py-1.5 text-xs font-medium text-[var(--color-muted-foreground)] mb-6">
-            Donnees Zoya.finance · Standard AAOIFI · Mise a jour {data.date}
+            Mise a jour {data.date} · Donnees Zoya.finance · Standard AAOIFI
           </p>
           <h1 className="text-4xl font-bold tracking-tight md:text-5xl text-[var(--color-navy)]">
             NASDAQ 100{" "}
-            <span className="text-[var(--color-gold)]">version halal</span>
+            <span className="text-[var(--color-gold)]">Halal</span>
           </h1>
-          <p className="mt-4 max-w-2xl text-[1.05rem] text-[var(--color-muted-foreground)] leading-[1.7]">
-            Sur {stats.total_nasdaq100} actions, {stats.included} passent le
-            filtre charia. Les {stats.excluded} autres — telecoms endettees,
-            conglomerats, quelques tech douteuses — sont retirees. Il reste un
-            indice tres concentre en tech, domine par Nvidia et Apple. Entrez
-            un montant ci-dessous pour voir votre repartition.
-          </p>
+          <div className="mt-6 max-w-2xl space-y-3 text-[0.95rem] text-[var(--color-muted-foreground)] leading-[1.7]">
+            <p>
+              <strong className="text-[var(--foreground)]">Le NASDAQ 100, c'est quoi ?</strong>{" "}
+              Un indice qui regroupe les 100 plus grosses entreprises
+              technologiques cotees aux Etats-Unis : Apple, Nvidia, Google,
+              Amazon, Tesla... Cree en 1985, il affiche une performance moyenne
+              d'environ <strong className="text-[var(--foreground)]">13% par an</strong> sur
+              toute son histoire (~16% sur les 10 dernieres annees).
+            </p>
+            <p>
+              <strong className="text-[var(--foreground)]">Le probleme :</strong>{" "}
+              certaines de ces entreprises ne passent pas le filtre de la
+              finance islamique (trop de dette, revenus d'interets, activites
+              interdites). On les a toutes verifiees : sur {stats.total_nasdaq100},{" "}
+              <strong className="text-[var(--color-halal)]">{stats.included} sont conformes</strong>.
+              Les {stats.excluded} autres sont retirees. Les poids sont
+              recalcules.
+            </p>
+            <p>
+              Entrez un montant ci-dessous pour voir exactement combien placer
+              sur chaque action. Vous pouvez exporter le resultat en CSV.
+            </p>
+          </div>
           <p className="mt-3 text-sm text-[var(--color-muted-foreground)]/60">
-            Les statuts peuvent changer apres chaque publication de resultats.
-            Verifiez toujours par vous-meme.
+            Les performances passees ne presagent pas des performances futures.
+            Les statuts halal peuvent changer chaque trimestre. Verifiez par
+            vous-meme.
           </p>
         </div>
       </header>
