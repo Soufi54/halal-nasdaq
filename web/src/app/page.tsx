@@ -12,36 +12,36 @@ export default function Home() {
       <section className="relative overflow-hidden border-b border-[var(--border)]">
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-6xl px-6 pt-24 pb-20">
-          <div className="flex items-center gap-3 mb-8">
-            <div className="h-px flex-1 max-w-12 bg-[var(--color-gold)]" />
-            <span className="text-sm font-semibold tracking-widest uppercase text-[var(--color-gold)]">
-              Standard AAOIFI
-            </span>
-          </div>
-          <h1 className="text-5xl font-extrabold tracking-tight leading-[1.1] md:text-7xl max-w-3xl text-[var(--color-navy)]">
-            Investir en
-            <br />
-            <span className="text-[var(--color-gold)]">bourse halal</span>,
-            <br />
-            simplement.
+          <p className="text-sm font-medium text-[var(--color-muted-foreground)] mb-6">
+            Donnees indicatives — pas un conseil financier ni un avis religieux
+          </p>
+          <h1 className="text-4xl font-extrabold tracking-tight leading-[1.15] md:text-6xl max-w-4xl text-[var(--color-navy)]">
+            Les indices US,{" "}
+            <span className="text-[var(--color-gold)]">filtres par la charia</span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg text-[var(--color-muted-foreground)] leading-relaxed">
-            Indices NASDAQ 100 et S&P 500 reconstitues sans les actions non
-            conformes a la charia. Donnees ouvertes, scraping transparent,
-            simulateur de portefeuille integre.
+          <p className="mt-6 max-w-2xl text-lg text-[var(--color-muted-foreground)] leading-relaxed">
+            On prend le NASDAQ 100 et le S&P 500. On retire les actions qui ne
+            passent pas le screening AAOIFI. On redistribue les poids. Vous
+            obtenez la composition d'un indice conforme — avec le montant exact
+            a investir par action selon votre budget.
+          </p>
+          <p className="mt-3 max-w-2xl text-sm text-[var(--color-muted-foreground)]/70">
+            Les statuts halal proviennent de Zoya.finance (standard AAOIFI) et
+            peuvent changer d'un trimestre a l'autre. Verifiez toujours par
+            vous-meme avant d'investir.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
               href="/nasdaq-halal"
               className="cursor-pointer inline-flex h-12 items-center rounded-xl bg-[var(--color-navy)] px-6 text-sm font-semibold text-white transition-colors duration-200 hover:bg-[var(--color-navy-light)]"
             >
-              NASDAQ 100 Halal
+              NASDAQ 100 — {nasdaqStats.included} actions halal
             </Link>
             <Link
               href="/sp500-halal"
               className="cursor-pointer inline-flex h-12 items-center rounded-xl border border-[var(--border)] px-6 text-sm font-semibold text-[var(--color-navy)] transition-colors duration-200 hover:bg-slate-50"
             >
-              S&P 500 Halal
+              S&P 500 — {sp500Stats.included} actions halal
             </Link>
           </div>
         </div>
@@ -49,7 +49,10 @@ export default function Home() {
 
       {/* Indices cards */}
       <section className="mx-auto max-w-6xl px-6 py-16">
-        <h2 className="text-2xl font-bold mb-8 text-[var(--color-navy)]">Nos indices</h2>
+        <h2 className="text-2xl font-bold mb-2 text-[var(--color-navy)]">Deux indices, une methode</h2>
+        <p className="text-sm text-[var(--color-muted-foreground)] mb-8">
+          Meme screening AAOIFI, meme approche stricte. Les "doubtful" sont exclus.
+        </p>
         <div className="grid gap-6 md:grid-cols-2">
           <Link
             href="/nasdaq-halal"
@@ -58,21 +61,23 @@ export default function Home() {
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-xl font-bold text-[var(--color-navy)]">NASDAQ 100 Halal</h3>
               <span className="text-sm text-[var(--color-muted-foreground)] group-hover:text-[var(--color-gold)] transition-colors duration-200">
-                Voir →
+                Voir la composition →
               </span>
             </div>
             <div className="flex gap-8 mb-4">
               <div>
                 <p className="text-3xl font-bold text-[var(--color-halal)]">{nasdaqStats.included}</p>
-                <p className="text-xs text-[var(--color-muted-foreground)]">actions halal</p>
+                <p className="text-xs text-[var(--color-muted-foreground)]">passent le screening</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-[var(--color-haram)]">{nasdaqStats.excluded}</p>
-                <p className="text-xs text-[var(--color-muted-foreground)]">exclues</p>
+                <p className="text-xs text-[var(--color-muted-foreground)]">retirees de l'indice</p>
               </div>
             </div>
             <p className="text-sm text-[var(--color-muted-foreground)]">
-              L'indice NASDAQ 100 filtre selon les criteres AAOIFI. Approche stricte — seules les actions certifiees halal sont incluses.
+              Tech-heavy. {nasdaqStats.excluded_weight_pct}% du poids original
+              est retire — principalement des telecoms, energies et
+              conglomerats industriels.
             </p>
           </Link>
 
@@ -83,56 +88,67 @@ export default function Home() {
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-xl font-bold text-[var(--color-navy)]">S&P 500 Halal</h3>
               <span className="text-sm text-[var(--color-muted-foreground)] group-hover:text-[var(--color-gold)] transition-colors duration-200">
-                Voir →
+                Voir la composition →
               </span>
             </div>
             <div className="flex gap-8 mb-4">
               <div>
                 <p className="text-3xl font-bold text-[var(--color-halal)]">{sp500Stats.included}</p>
-                <p className="text-xs text-[var(--color-muted-foreground)]">actions halal</p>
+                <p className="text-xs text-[var(--color-muted-foreground)]">passent le screening</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-[var(--color-haram)]">{sp500Stats.excluded}</p>
-                <p className="text-xs text-[var(--color-muted-foreground)]">exclues</p>
+                <p className="text-xs text-[var(--color-muted-foreground)]">retirees de l'indice</p>
               </div>
             </div>
             <p className="text-sm text-[var(--color-muted-foreground)]">
-              Le S&P 500 reconstitue selon les memes criteres. {sp500Stats.total_sp500} actions analysees, poids redistribues pro-rata.
+              Plus diversifie. {sp500Stats.excluded_weight_pct}% du poids
+              retire — les financieres, assurances et utilities pesent
+              lourd dans les exclusions.
             </p>
           </Link>
         </div>
       </section>
 
-      {/* Features */}
+      {/* How it works */}
       <section className="border-t border-[var(--border)]">
         <div className="mx-auto max-w-6xl px-6 py-16">
-          <h2 className="text-2xl font-bold mb-8 text-[var(--color-navy)]">Comment ca marche</h2>
+          <h2 className="text-2xl font-bold mb-2 text-[var(--color-navy)]">Ce qu'on fait concretement</h2>
+          <p className="text-sm text-[var(--color-muted-foreground)] mb-8">
+            Pas de magie. Du scraping, un filtre, une regle de trois.
+          </p>
           <div className="grid gap-6 md:grid-cols-3">
             <div className="rounded-2xl border border-[var(--border)] bg-white p-6 shadow-sm">
               <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[var(--color-gold-muted)]">
                 <span className="text-lg font-bold text-[var(--color-gold)]">1</span>
               </div>
-              <h3 className="font-semibold mb-2 text-[var(--color-navy)]">Scraping des poids</h3>
+              <h3 className="font-semibold mb-2 text-[var(--color-navy)]">On recupere les poids</h3>
               <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
-                Les poids de chaque action sont recuperes automatiquement depuis les ETF de reference (QQQ pour le NASDAQ, SPY pour le S&P).
+                Les poids de chaque action dans l'indice sont scraped depuis
+                SlickCharts (source : ETF QQQ et SPY). Ca change avec la
+                capitalisation boursiere.
               </p>
             </div>
             <div className="rounded-2xl border border-[var(--border)] bg-white p-6 shadow-sm">
               <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[var(--color-halal-muted)]">
                 <span className="text-lg font-bold text-[var(--color-halal)]">2</span>
               </div>
-              <h3 className="font-semibold mb-2 text-[var(--color-navy)]">Screening AAOIFI</h3>
+              <h3 className="font-semibold mb-2 text-[var(--color-navy)]">On filtre via AAOIFI</h3>
               <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
-                Chaque action est verifiee sur Zoya.finance selon le standard AAOIFI. Les actions non conformes et douteuses sont exclues.
+                Chaque ticker est verifie sur Zoya.finance (standard AAOIFI :
+                dette, revenus d'interets, activites interdites). Les "Not
+                Halal" et "Doubtful" sont retires.
               </p>
             </div>
             <div className="rounded-2xl border border-[var(--border)] bg-white p-6 shadow-sm">
               <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100">
                 <span className="text-lg font-bold text-[var(--color-navy)]">3</span>
               </div>
-              <h3 className="font-semibold mb-2 text-[var(--color-navy)]">Redistribution pro-rata</h3>
+              <h3 className="font-semibold mb-2 text-[var(--color-navy)]">On redistribue</h3>
               <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
-                Les poids des actions restantes sont redistribues proportionnellement pour reconstituer un indice a 100%. Simulez votre portefeuille en un clic.
+                Les poids des actions restantes sont recalcules pour que le
+                total fasse 100%. Entrez votre budget et vous avez le montant
+                exact par action.
               </p>
             </div>
           </div>
@@ -150,9 +166,9 @@ export default function Home() {
           </div>
           <div className="grid gap-4 md:grid-cols-3">
             {[
-              { href: "/guides/pourquoi-investir", title: "Pourquoi investir ?", desc: "Les bases de l'investissement et pourquoi c'est important pour chaque musulman." },
-              { href: "/guides/actions-boursieres", title: "Actions boursieres", desc: "Comment investir en bourse de maniere halal. Screeners, criteres, plateformes." },
-              { href: "/guides/investir-simplement", title: "Investir sans se prendre la tete", desc: "La strategie passive : ETFs, DCA, et comment commencer avec peu." },
+              { href: "/guides/pourquoi-investir", title: "Pourquoi investir ?", desc: "L'inflation mange votre epargne. La zakat vous incite a faire travailler votre argent. Voici pourquoi." },
+              { href: "/guides/actions-boursieres", title: "Actions boursieres halal", desc: "Screeners, criteres AAOIFI, purification des dividendes, et ou acheter concretement." },
+              { href: "/guides/investir-simplement", title: "Investir sans y passer des heures", desc: "ETFs halal, DCA, et comment demarrer meme avec 50 euros par mois." },
             ].map((guide) => (
               <Link
                 key={guide.href}
@@ -173,10 +189,29 @@ export default function Home() {
       <section className="border-t border-[var(--border)]">
         <div className="mx-auto max-w-6xl px-6 py-12">
           <div className="rounded-2xl border border-[var(--color-haram)]/20 bg-[var(--color-haram-muted)] p-6">
-            <h3 className="font-semibold text-[var(--color-haram)] mb-2">Avertissement</h3>
-            <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
-              Ce site ne fournit <strong>aucun conseil en investissement</strong> ni <strong>aucun avis religieux</strong>. Les donnees sont generees par scraping automatique et peuvent contenir des erreurs. Le statut halal/haram est indicatif — les createurs de ce site ne s'engagent sur rien d'un point de vue ethique ou financier. <strong>Faites vos propres recherches</strong> (DYOR) et consultez un conseiller financier qualifie ainsi qu'un scholar islamique.
-            </p>
+            <h3 className="font-semibold text-[var(--color-haram)] mb-2">A lire avant d'utiliser ce site</h3>
+            <div className="text-sm text-[var(--color-muted-foreground)] leading-relaxed space-y-2">
+              <p>
+                <strong>Ce site ne donne aucun conseil en investissement.</strong>{" "}
+                Les donnees affichees sont generees automatiquement par scraping
+                de sites tiers (SlickCharts, Zoya.finance) et peuvent contenir
+                des erreurs ou des retards.
+              </p>
+              <p>
+                <strong>Ce site ne donne aucun avis religieux.</strong>{" "}
+                Nous ne sommes pas des scholars islamiques. Le statut
+                halal/haram est celui fourni par Zoya.finance (standard AAOIFI)
+                — nous ne l'avons pas verifie independamment. Un statut peut
+                changer d'un trimestre a l'autre.
+              </p>
+              <p>
+                <strong>Faites vos propres recherches.</strong>{" "}
+                Verifiez chaque action aupres de sources fiables avant
+                d'investir. Consultez un conseiller financier qualifie et un
+                scholar islamique de confiance. Nous declinons toute
+                responsabilite.
+              </p>
+            </div>
           </div>
         </div>
       </section>

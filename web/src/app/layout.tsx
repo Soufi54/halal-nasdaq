@@ -17,11 +17,11 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "MuslimFinance.net — Investir halal, simplement",
+    default: "MuslimFinance.net — Les indices US, filtres par la charia",
     template: "%s | MuslimFinance.net",
   },
   description:
-    "Indices boursiers reconstitues conformes a la charia (AAOIFI). NASDAQ 100 Halal, S&P 500 Halal, guides d'investissement. Gratuit et open-source.",
+    "NASDAQ 100 et S&P 500 filtres selon le standard AAOIFI. On retire les actions non conformes, on redistribue les poids, vous avez la composition. Donnees par scraping, pas un conseil financier.",
   metadataBase: new URL("https://muslimfinance.net"),
 };
 

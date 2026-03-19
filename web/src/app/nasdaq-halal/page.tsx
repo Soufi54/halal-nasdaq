@@ -3,9 +3,9 @@ import data from "@/data.json";
 import { PortfolioTable } from "@/components/portfolio-table";
 
 export const metadata: Metadata = {
-  title: "NASDAQ 100 Halal",
+  title: "NASDAQ 100 Halal — Composition filtree AAOIFI",
   description:
-    "Composition du NASDAQ 100 reconstitue selon les criteres AAOIFI. 67 actions halal, poids redistribues, simulateur de portefeuille.",
+    "Le NASDAQ 100 sans les actions non conformes a la charia. 67 actions sur 101 passent le screening AAOIFI. Poids redistribues + simulateur de portefeuille. Donnees scraping, pas un conseil financier.",
 };
 
 type ExcludedHolding = {
@@ -51,23 +51,22 @@ export default function NasdaqHalal() {
       <header className="relative overflow-hidden border-b border-[var(--border)]">
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-6xl px-6 pt-16 pb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="h-8 w-1 rounded-full bg-[var(--color-gold)]" />
-            <span className="text-sm font-medium tracking-widest uppercase text-[var(--color-gold)]">
-              Standard AAOIFI — Approche stricte
-            </span>
-          </div>
-          <h1 className="text-4xl font-extrabold tracking-tight md:text-5xl">
-            NASDAQ 100{" "}
-            <span className="text-[var(--color-gold)]">Halal</span>
-          </h1>
-          <p className="mt-4 max-w-xl text-lg text-[var(--color-muted-foreground)] leading-relaxed">
-            L'indice NASDAQ 100 reconstitue en excluant les actions non
-            conformes et douteuses. Seules les actions certifiees halal sont
-            incluses.
+          <p className="text-sm text-[var(--color-muted-foreground)] mb-4">
+            Donnees indicatives par scraping — pas un conseil financier
           </p>
-          <p className="mt-3 text-sm text-[var(--color-muted-foreground)]/60">
-            Derniere mise a jour : {data.date}
+          <h1 className="text-4xl font-extrabold tracking-tight md:text-5xl text-[var(--color-navy)]">
+            NASDAQ 100{" "}
+            <span className="text-[var(--color-gold)]">filtre AAOIFI</span>
+          </h1>
+          <p className="mt-4 max-w-2xl text-lg text-[var(--color-muted-foreground)] leading-relaxed">
+            {stats.included} actions sur {stats.total_nasdaq100} passent le
+            screening Zoya.finance (standard AAOIFI strict). Les {stats.excluded}{" "}
+            actions non conformes ou douteuses sont retirees, les poids
+            redistribues. Entrez un montant pour voir combien investir par action.
+          </p>
+          <p className="mt-3 text-sm text-[var(--color-muted-foreground)]/70">
+            Mise a jour : {data.date} — Les statuts peuvent changer chaque trimestre.
+            Verifiez par vous-meme.
           </p>
         </div>
       </header>
