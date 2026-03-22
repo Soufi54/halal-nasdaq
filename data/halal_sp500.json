@@ -1,34 +1,34 @@
 {
-  "date": "2026-03-18",
+  "date": "2026-03-22",
   "stats": {
     "total_sp500": 503,
     "included": 223,
     "excluded": 280,
     "halal_count": 223,
     "doubtful_count": 16,
-    "excluded_weight_pct": 48.22
+    "excluded_weight_pct": 48.33
   },
   "holdings": [
     {
       "rank": 1,
       "company": "Nvidia",
       "ticker": "NVDA",
-      "weight": 7.29,
+      "weight": 7.12,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 7.29,
-      "halal_weight": 14.0761,
+      "original_weight": 7.12,
+      "halal_weight": 13.7638,
       "halal_rank": 1
     },
     {
       "rank": 2,
       "company": "Apple Inc.",
       "ticker": "AAPL",
-      "weight": 6.13,
+      "weight": 6.18,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 6.13,
-      "halal_weight": 11.8363,
+      "original_weight": 6.18,
+      "halal_weight": 11.9466,
       "halal_rank": 2
     },
     {
@@ -39,40 +39,40 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 2.5,
-      "halal_weight": 4.8272,
+      "halal_weight": 4.8328,
       "halal_rank": 3
     },
     {
       "rank": 9,
       "company": "Tesla, Inc.",
       "ticker": "TSLA",
-      "weight": 2.46,
+      "weight": 2.34,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 2.46,
-      "halal_weight": 4.75,
+      "original_weight": 2.34,
+      "halal_weight": 4.5235,
       "halal_rank": 4
     },
     {
       "rank": 12,
       "company": "Lilly (Eli)",
       "ticker": "LLY",
-      "weight": 1.36,
+      "weight": 1.37,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 1.36,
-      "halal_weight": 2.626,
+      "original_weight": 1.37,
+      "halal_weight": 2.6484,
       "halal_rank": 5
     },
     {
       "rank": 14,
       "company": "ExxonMobil",
       "ticker": "XOM",
-      "weight": 1.08,
+      "weight": 1.13,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 1.08,
-      "halal_weight": 2.0853,
+      "original_weight": 1.13,
+      "halal_weight": 2.1844,
       "halal_rank": 6
     },
     {
@@ -83,95 +83,95 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.98,
-      "halal_weight": 1.8923,
+      "halal_weight": 1.8945,
       "halal_rank": 7
     },
     {
       "rank": 16,
       "company": "Johnson & Johnson",
       "ticker": "JNJ",
-      "weight": 0.94,
+      "weight": 0.96,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.94,
-      "halal_weight": 1.815,
+      "original_weight": 0.96,
+      "halal_weight": 1.8558,
       "halal_rank": 8
     },
     {
       "rank": 17,
       "company": "Micron Technology",
       "ticker": "MU",
-      "weight": 0.87,
+      "weight": 0.81,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.87,
-      "halal_weight": 1.6799,
+      "original_weight": 0.81,
+      "halal_weight": 1.5658,
       "halal_rank": 9
     },
     {
       "rank": 18,
       "company": "Mastercard",
       "ticker": "MA",
-      "weight": 0.74,
+      "weight": 0.75,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.74,
-      "halal_weight": 1.4288,
+      "original_weight": 0.75,
+      "halal_weight": 1.4498,
       "halal_rank": 10
     },
     {
-      "rank": 19,
+      "rank": 20,
       "company": "Oracle Corporation",
       "ticker": "ORCL",
       "weight": 0.73,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.73,
-      "halal_weight": 1.4095,
+      "halal_weight": 1.4112,
       "halal_rank": 11
     },
     {
-      "rank": 22,
+      "rank": 21,
       "company": "Chevron Corporation",
       "ticker": "CVX",
-      "weight": 0.64,
+      "weight": 0.68,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.64,
-      "halal_weight": 1.2358,
+      "original_weight": 0.68,
+      "halal_weight": 1.3145,
       "halal_rank": 12
     },
     {
       "rank": 23,
       "company": "AbbVie",
       "ticker": "ABBV",
-      "weight": 0.64,
+      "weight": 0.62,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.64,
-      "halal_weight": 1.2358,
+      "original_weight": 0.62,
+      "halal_weight": 1.1985,
       "halal_rank": 13
     },
     {
-      "rank": 25,
+      "rank": 26,
       "company": "Procter & Gamble",
       "ticker": "PG",
-      "weight": 0.58,
+      "weight": 0.57,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.58,
-      "halal_weight": 1.1199,
+      "original_weight": 0.57,
+      "halal_weight": 1.1019,
       "halal_rank": 14
     },
     {
-      "rank": 26,
-      "company": "Home Depot (The)",
-      "ticker": "HD",
+      "rank": 27,
+      "company": "Advanced Micro Devices",
+      "ticker": "AMD",
       "weight": 0.56,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.56,
-      "halal_weight": 1.0813,
+      "halal_weight": 1.0825,
       "halal_rank": 15
     },
     {
@@ -182,293 +182,293 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.55,
-      "halal_weight": 1.062,
+      "halal_weight": 1.0632,
       "halal_rank": 16
     },
     {
       "rank": 29,
+      "company": "Home Depot (The)",
+      "ticker": "HD",
+      "weight": 0.54,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.54,
+      "halal_weight": 1.0439,
+      "halal_rank": 17
+    },
+    {
+      "rank": 30,
       "company": "Caterpillar Inc.",
       "ticker": "CAT",
       "weight": 0.54,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.54,
-      "halal_weight": 1.0427,
-      "halal_rank": 17
-    },
-    {
-      "rank": 30,
-      "company": "Advanced Micro Devices",
-      "ticker": "AMD",
-      "weight": 0.53,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.53,
-      "halal_weight": 1.0234,
+      "halal_weight": 1.0439,
       "halal_rank": 18
     },
     {
-      "rank": 32,
+      "rank": 31,
       "company": "Cisco",
       "ticker": "CSCO",
       "weight": 0.52,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.52,
-      "halal_weight": 1.0041,
+      "halal_weight": 1.0052,
       "halal_rank": 19
     },
     {
       "rank": 33,
-      "company": "Merck & Co.",
-      "ticker": "MRK",
-      "weight": 0.47,
+      "company": "Lam Research",
+      "ticker": "LRCX",
+      "weight": 0.48,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.47,
-      "halal_weight": 0.9075,
+      "original_weight": 0.48,
+      "halal_weight": 0.9279,
       "halal_rank": 20
     },
     {
       "rank": 34,
-      "company": "Lam Research",
-      "ticker": "LRCX",
-      "weight": 0.47,
+      "company": "Applied Materials",
+      "ticker": "AMAT",
+      "weight": 0.48,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.47,
-      "halal_weight": 0.9075,
+      "original_weight": 0.48,
+      "halal_weight": 0.9279,
       "halal_rank": 21
     },
     {
       "rank": 35,
-      "company": "Applied Materials",
-      "ticker": "AMAT",
-      "weight": 0.46,
+      "company": "Merck & Co.",
+      "ticker": "MRK",
+      "weight": 0.48,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.46,
-      "halal_weight": 0.8882,
+      "original_weight": 0.48,
+      "halal_weight": 0.9279,
       "halal_rank": 22
     },
     {
-      "rank": 40,
+      "rank": 43,
+      "company": "GE Vernova",
+      "ticker": "GEV",
+      "weight": 0.39,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.39,
+      "halal_weight": 0.7539,
+      "halal_rank": 23
+    },
+    {
+      "rank": 44,
       "company": "IBM",
       "ticker": "IBM",
       "weight": 0.39,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.39,
-      "halal_weight": 0.753,
-      "halal_rank": 23
-    },
-    {
-      "rank": 45,
-      "company": "GE Vernova",
-      "ticker": "GEV",
-      "weight": 0.38,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.38,
-      "halal_weight": 0.7337,
+      "halal_weight": 0.7539,
       "halal_rank": 24
     },
     {
-      "rank": 46,
+      "rank": 45,
       "company": "Linde plc",
       "ticker": "LIN",
       "weight": 0.38,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.38,
-      "halal_weight": 0.7337,
+      "halal_weight": 0.7346,
       "halal_rank": 25
     },
     {
       "rank": 47,
       "company": "Intel",
       "ticker": "INTC",
-      "weight": 0.36,
+      "weight": 0.37,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.36,
-      "halal_weight": 0.6951,
+      "original_weight": 0.37,
+      "halal_weight": 0.7153,
       "halal_rank": 26
     },
     {
-      "rank": 48,
+      "rank": 49,
       "company": "PepsiCo",
       "ticker": "PEP",
       "weight": 0.35,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.35,
-      "halal_weight": 0.6758,
+      "halal_weight": 0.6766,
       "halal_rank": 27
     },
     {
-      "rank": 51,
+      "rank": 52,
       "company": "KLA Corporation",
       "ticker": "KLAC",
-      "weight": 0.32,
+      "weight": 0.33,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.32,
-      "halal_weight": 0.6179,
+      "original_weight": 0.33,
+      "halal_weight": 0.6379,
       "halal_rank": 28
     },
     {
-      "rank": 55,
+      "rank": 56,
       "company": "Abbott Laboratories",
       "ticker": "ABT",
-      "weight": 0.32,
+      "weight": 0.31,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.32,
-      "halal_weight": 0.6179,
+      "original_weight": 0.31,
+      "halal_weight": 0.5993,
       "halal_rank": 29
     },
     {
       "rank": 57,
-      "company": "Gilead Sciences",
-      "ticker": "GILD",
-      "weight": 0.3,
+      "company": "Salesforce",
+      "ticker": "CRM",
+      "weight": 0.31,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.3,
-      "halal_weight": 0.5793,
+      "original_weight": 0.31,
+      "halal_weight": 0.5993,
       "halal_rank": 30
     },
     {
-      "rank": 58,
-      "company": "Salesforce",
-      "ticker": "CRM",
+      "rank": 59,
+      "company": "Thermo Fisher Scientific",
+      "ticker": "TMO",
       "weight": 0.3,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.3,
-      "halal_weight": 0.5793,
+      "halal_weight": 0.5799,
       "halal_rank": 31
     },
     {
-      "rank": 59,
+      "rank": 60,
+      "company": "TJX Companies",
+      "ticker": "TJX",
+      "weight": 0.29,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.29,
+      "halal_weight": 0.5606,
+      "halal_rank": 32
+    },
+    {
+      "rank": 61,
       "company": "Texas Instruments",
       "ticker": "TXN",
       "weight": 0.29,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.29,
-      "halal_weight": 0.56,
-      "halal_rank": 32
-    },
-    {
-      "rank": 60,
-      "company": "Thermo Fisher Scientific",
-      "ticker": "TMO",
-      "weight": 0.29,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.29,
-      "halal_weight": 0.56,
+      "halal_weight": 0.5606,
       "halal_rank": 33
     },
     {
       "rank": 62,
-      "company": "TJX Companies",
-      "ticker": "TJX",
-      "weight": 0.28,
+      "company": "Gilead Sciences",
+      "ticker": "GILD",
+      "weight": 0.29,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.28,
-      "halal_weight": 0.5406,
+      "original_weight": 0.29,
+      "halal_weight": 0.5606,
       "halal_rank": 34
     },
     {
       "rank": 63,
       "company": "Intuitive Surgical",
       "ticker": "ISRG",
-      "weight": 0.28,
+      "weight": 0.29,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.28,
-      "halal_weight": 0.5406,
+      "original_weight": 0.29,
+      "halal_weight": 0.5606,
       "halal_rank": 35
     },
     {
-      "rank": 64,
+      "rank": 65,
       "company": "Arista Networks",
       "ticker": "ANET",
       "weight": 0.28,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.28,
-      "halal_weight": 0.5406,
+      "halal_weight": 0.5413,
       "halal_rank": 36
     },
     {
-      "rank": 68,
+      "rank": 67,
+      "company": "ConocoPhillips",
+      "ticker": "COP",
+      "weight": 0.26,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.26,
+      "halal_weight": 0.5026,
+      "halal_rank": 37
+    },
+    {
+      "rank": 70,
       "company": "Uber",
       "ticker": "UBER",
       "weight": 0.26,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.26,
-      "halal_weight": 0.502,
-      "halal_rank": 37
-    },
-    {
-      "rank": 70,
-      "company": "AppLovin Corporation",
-      "ticker": "APP",
-      "weight": 0.26,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.26,
-      "halal_weight": 0.502,
+      "halal_weight": 0.5026,
       "halal_rank": 38
     },
     {
       "rank": 72,
       "company": "Analog Devices",
       "ticker": "ADI",
-      "weight": 0.25,
+      "weight": 0.26,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.25,
-      "halal_weight": 0.4827,
+      "original_weight": 0.26,
+      "halal_weight": 0.5026,
       "halal_rank": 39
     },
     {
-      "rank": 74,
-      "company": "ConocoPhillips",
-      "ticker": "COP",
+      "rank": 73,
+      "company": "AppLovin Corporation",
+      "ticker": "APP",
       "weight": 0.25,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.25,
-      "halal_weight": 0.4827,
+      "halal_weight": 0.4833,
       "halal_rank": 40
     },
     {
-      "rank": 75,
-      "company": "Welltower",
-      "ticker": "WELL",
-      "weight": 0.24,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.24,
-      "halal_weight": 0.4634,
-      "halal_rank": 41
-    },
-    {
-      "rank": 78,
+      "rank": 77,
       "company": "Union Pacific Corporation",
       "ticker": "UNP",
       "weight": 0.24,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.24,
-      "halal_weight": 0.4634,
+      "halal_weight": 0.4639,
+      "halal_rank": 41
+    },
+    {
+      "rank": 78,
+      "company": "Qualcomm",
+      "ticker": "QCOM",
+      "weight": 0.24,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.24,
+      "halal_weight": 0.4639,
       "halal_rank": 42
     },
     {
@@ -479,29 +479,29 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.23,
-      "halal_weight": 0.4441,
+      "halal_weight": 0.4446,
       "halal_rank": 43
     },
     {
       "rank": 80,
-      "company": "Qualcomm",
-      "ticker": "QCOM",
-      "weight": 0.23,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.23,
-      "halal_weight": 0.4441,
-      "halal_rank": 44
-    },
-    {
-      "rank": 81,
       "company": "Booking Holdings",
       "ticker": "BKNG",
       "weight": 0.23,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.23,
-      "halal_weight": 0.4441,
+      "halal_weight": 0.4446,
+      "halal_rank": 44
+    },
+    {
+      "rank": 81,
+      "company": "Welltower",
+      "ticker": "WELL",
+      "weight": 0.23,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.23,
+      "halal_weight": 0.4446,
       "halal_rank": 45
     },
     {
@@ -512,205 +512,205 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.23,
-      "halal_weight": 0.4441,
+      "halal_weight": 0.4446,
       "halal_rank": 46
     },
     {
       "rank": 83,
       "company": "Palo Alto Networks",
       "ticker": "PANW",
-      "weight": 0.23,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.23,
-      "halal_weight": 0.4441,
-      "halal_rank": 47
-    },
-    {
-      "rank": 84,
-      "company": "Lowe's",
-      "ticker": "LOW",
       "weight": 0.22,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.22,
-      "halal_weight": 0.4248,
-      "halal_rank": 48
+      "halal_weight": 0.4253,
+      "halal_rank": 47
     },
     {
-      "rank": 85,
+      "rank": 84,
       "company": "Stryker Corporation",
       "ticker": "SYK",
       "weight": 0.22,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.22,
-      "halal_weight": 0.4248,
+      "halal_weight": 0.4253,
+      "halal_rank": 48
+    },
+    {
+      "rank": 85,
+      "company": "S&P Global",
+      "ticker": "SPGI",
+      "weight": 0.22,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.22,
+      "halal_weight": 0.4253,
       "halal_rank": 49
     },
     {
       "rank": 86,
-      "company": "S&P Global",
-      "ticker": "SPGI",
+      "company": "Lowe's",
+      "ticker": "LOW",
       "weight": 0.21,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.21,
-      "halal_weight": 0.4055,
+      "halal_weight": 0.406,
       "halal_rank": 50
     },
     {
-      "rank": 88,
+      "rank": 87,
       "company": "Intuit",
       "ticker": "INTU",
       "weight": 0.21,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.21,
-      "halal_weight": 0.4055,
+      "halal_weight": 0.406,
       "halal_rank": 51
     },
     {
-      "rank": 90,
+      "rank": 89,
       "company": "Accenture",
       "ticker": "ACN",
-      "weight": 0.2,
+      "weight": 0.21,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.2,
-      "halal_weight": 0.3862,
+      "original_weight": 0.21,
+      "halal_weight": 0.406,
       "halal_rank": 52
     },
     {
-      "rank": 92,
+      "rank": 93,
       "company": "ServiceNow",
       "ticker": "NOW",
       "weight": 0.2,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.2,
-      "halal_weight": 0.3862,
+      "halal_weight": 0.3866,
       "halal_rank": 53
     },
     {
       "rank": 94,
-      "company": "Newmont",
-      "ticker": "NEM",
+      "company": "Vertex Pharmaceuticals",
+      "ticker": "VRTX",
       "weight": 0.2,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.2,
-      "halal_weight": 0.3862,
+      "halal_weight": 0.3866,
       "halal_rank": 54
     },
     {
       "rank": 95,
-      "company": "Vertex Pharmaceuticals",
-      "ticker": "VRTX",
-      "weight": 0.19,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.19,
-      "halal_weight": 0.3669,
-      "halal_rank": 55
-    },
-    {
-      "rank": 97,
-      "company": "Corning Inc.",
-      "ticker": "GLW",
-      "weight": 0.19,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.19,
-      "halal_weight": 0.3669,
-      "halal_rank": 56
-    },
-    {
-      "rank": 99,
-      "company": "McKesson Corporation",
-      "ticker": "MCK",
-      "weight": 0.19,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.19,
-      "halal_weight": 0.3669,
-      "halal_rank": 57
-    },
-    {
-      "rank": 100,
-      "company": "Medtronic",
-      "ticker": "MDT",
-      "weight": 0.19,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.19,
-      "halal_weight": 0.3669,
-      "halal_rank": 58
-    },
-    {
-      "rank": 101,
       "company": "Parker Hannifin",
       "ticker": "PH",
       "weight": 0.19,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.19,
-      "halal_weight": 0.3669,
-      "halal_rank": 59
+      "halal_weight": 0.3673,
+      "halal_rank": 55
     },
     {
-      "rank": 102,
-      "company": "Constellation Energy",
-      "ticker": "CEG",
+      "rank": 97,
+      "company": "Medtronic",
+      "ticker": "MDT",
+      "weight": 0.19,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.19,
+      "halal_weight": 0.3673,
+      "halal_rank": 56
+    },
+    {
+      "rank": 100,
+      "company": "McKesson Corporation",
+      "ticker": "MCK",
       "weight": 0.18,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.18,
-      "halal_weight": 0.3476,
-      "halal_rank": 60
+      "halal_weight": 0.348,
+      "halal_rank": 57
     },
     {
-      "rank": 105,
+      "rank": 102,
+      "company": "Corning Inc.",
+      "ticker": "GLW",
+      "weight": 0.18,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.18,
+      "halal_weight": 0.348,
+      "halal_rank": 58
+    },
+    {
+      "rank": 103,
       "company": "Starbucks",
       "ticker": "SBUX",
       "weight": 0.18,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.18,
-      "halal_weight": 0.3476,
-      "halal_rank": 61
+      "halal_weight": 0.348,
+      "halal_rank": 59
     },
     {
       "rank": 107,
+      "company": "Newmont",
+      "ticker": "NEM",
+      "weight": 0.18,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.18,
+      "halal_weight": 0.348,
+      "halal_rank": 60
+    },
+    {
+      "rank": 108,
       "company": "CrowdStrike",
       "ticker": "CRWD",
       "weight": 0.18,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.18,
-      "halal_weight": 0.3476,
-      "halal_rank": 62
+      "halal_weight": 0.348,
+      "halal_rank": 61
     },
     {
-      "rank": 110,
-      "company": "Western Digital",
-      "ticker": "WDC",
+      "rank": 109,
+      "company": "Boston Scientific",
+      "ticker": "BSX",
       "weight": 0.18,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.18,
-      "halal_weight": 0.3476,
-      "halal_rank": 63
+      "halal_weight": 0.348,
+      "halal_rank": 62
     },
     {
-      "rank": 111,
-      "company": "Boston Scientific",
-      "ticker": "BSX",
+      "rank": 110,
+      "company": "Constellation Energy",
+      "ticker": "CEG",
       "weight": 0.17,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.17,
-      "halal_weight": 0.3282,
+      "halal_weight": 0.3286,
+      "halal_rank": 63
+    },
+    {
+      "rank": 111,
+      "company": "Dell Technologies",
+      "ticker": "DELL",
+      "weight": 0.17,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.17,
+      "halal_weight": 0.3286,
       "halal_rank": 64
     },
     {
@@ -721,40 +721,40 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.17,
-      "halal_weight": 0.3282,
+      "halal_weight": 0.3286,
       "halal_rank": 65
     },
     {
-      "rank": 115,
-      "company": "Dell Technologies",
-      "ticker": "DELL",
+      "rank": 114,
+      "company": "Western Digital",
+      "ticker": "WDC",
       "weight": 0.17,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.17,
-      "halal_weight": 0.3282,
+      "halal_weight": 0.3286,
       "halal_rank": 66
     },
     {
-      "rank": 119,
-      "company": "Seagate Technology",
-      "ticker": "STX",
-      "weight": 0.16,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.16,
-      "halal_weight": 0.3089,
-      "halal_rank": 67
-    },
-    {
-      "rank": 121,
+      "rank": 118,
       "company": "Waste Management",
       "ticker": "WM",
       "weight": 0.16,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.16,
-      "halal_weight": 0.3089,
+      "halal_weight": 0.3093,
+      "halal_rank": 67
+    },
+    {
+      "rank": 120,
+      "company": "Seagate Technology",
+      "ticker": "STX",
+      "weight": 0.16,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.16,
+      "halal_weight": 0.3093,
       "halal_rank": 68
     },
     {
@@ -765,19 +765,8 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.15,
-      "halal_weight": 0.2896,
+      "halal_weight": 0.29,
       "halal_rank": 69
-    },
-    {
-      "rank": 128,
-      "company": "Quanta Services",
-      "ticker": "PWR",
-      "weight": 0.14,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.14,
-      "halal_weight": 0.2703,
-      "halal_rank": 70
     },
     {
       "rank": 129,
@@ -787,19 +776,19 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.14,
-      "halal_weight": 0.2703,
-      "halal_rank": 71
+      "halal_weight": 0.2706,
+      "halal_rank": 70
     },
     {
       "rank": 130,
-      "company": "Freeport-McMoRan",
-      "ticker": "FCX",
+      "company": "Quanta Services",
+      "ticker": "PWR",
       "weight": 0.14,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.14,
-      "halal_weight": 0.2703,
-      "halal_rank": 72
+      "halal_weight": 0.2706,
+      "halal_rank": 71
     },
     {
       "rank": 134,
@@ -809,95 +798,106 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.14,
-      "halal_weight": 0.2703,
-      "halal_rank": 73
-    },
-    {
-      "rank": 136,
-      "company": "Nike, Inc.",
-      "ticker": "NKE",
-      "weight": 0.13,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.13,
-      "halal_weight": 0.251,
-      "halal_rank": 74
+      "halal_weight": 0.2706,
+      "halal_rank": 72
     },
     {
       "rank": 137,
-      "company": "Cadence Design Systems",
-      "ticker": "CDNS",
-      "weight": 0.13,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.13,
-      "halal_weight": 0.251,
-      "halal_rank": 75
-    },
-    {
-      "rank": 138,
       "company": "Johnson Controls",
       "ticker": "JCI",
       "weight": 0.13,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.13,
-      "halal_weight": 0.251,
-      "halal_rank": 76
+      "halal_weight": 0.2513,
+      "halal_rank": 73
+    },
+    {
+      "rank": 139,
+      "company": "Cadence Design Systems",
+      "ticker": "CDNS",
+      "weight": 0.13,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.13,
+      "halal_weight": 0.2513,
+      "halal_rank": 74
     },
     {
       "rank": 140,
+      "company": "Nike, Inc.",
+      "ticker": "NKE",
+      "weight": 0.13,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.13,
+      "halal_weight": 0.2513,
+      "halal_rank": 75
+    },
+    {
+      "rank": 141,
       "company": "Regeneron Pharmaceuticals",
       "ticker": "REGN",
       "weight": 0.13,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.13,
-      "halal_weight": 0.251,
-      "halal_rank": 77
+      "halal_weight": 0.2513,
+      "halal_rank": 76
     },
     {
-      "rank": 143,
+      "rank": 144,
       "company": "Sherwin-Williams",
       "ticker": "SHW",
       "weight": 0.13,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.13,
-      "halal_weight": 0.251,
-      "halal_rank": 78
+      "halal_weight": 0.2513,
+      "halal_rank": 77
     },
     {
       "rank": 145,
-      "company": "3M",
-      "ticker": "MMM",
-      "weight": 0.13,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.13,
-      "halal_weight": 0.251,
-      "halal_rank": 79
-    },
-    {
-      "rank": 147,
       "company": "Motorola Solutions",
       "ticker": "MSI",
       "weight": 0.13,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.13,
-      "halal_weight": 0.251,
-      "halal_rank": 80
+      "halal_weight": 0.2513,
+      "halal_rank": 78
     },
     {
-      "rank": 148,
-      "company": "Cintas",
-      "ticker": "CTAS",
+      "rank": 146,
+      "company": "Freeport-McMoRan",
+      "ticker": "FCX",
       "weight": 0.13,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.13,
-      "halal_weight": 0.251,
+      "halal_weight": 0.2513,
+      "halal_rank": 79
+    },
+    {
+      "rank": 147,
+      "company": "EOG Resources",
+      "ticker": "EOG",
+      "weight": 0.13,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.13,
+      "halal_weight": 0.2513,
+      "halal_rank": 80
+    },
+    {
+      "rank": 148,
+      "company": "3M",
+      "ticker": "MMM",
+      "weight": 0.13,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.13,
+      "halal_weight": 0.2513,
       "halal_rank": 81
     },
     {
@@ -908,63 +908,52 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.13,
-      "halal_weight": 0.251,
+      "halal_weight": 0.2513,
       "halal_rank": 82
     },
     {
       "rank": 150,
-      "company": "Ecolab",
-      "ticker": "ECL",
+      "company": "Cummins",
+      "ticker": "CMI",
       "weight": 0.13,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.13,
-      "halal_weight": 0.251,
+      "halal_weight": 0.2513,
       "halal_rank": 83
     },
     {
       "rank": 151,
-      "company": "Cummins",
-      "ticker": "CMI",
-      "weight": 0.12,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.12,
-      "halal_weight": 0.2317,
-      "halal_rank": 84
-    },
-    {
-      "rank": 152,
-      "company": "Monster Beverage",
-      "ticker": "MNST",
-      "weight": 0.12,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.12,
-      "halal_weight": 0.2317,
-      "halal_rank": 85
-    },
-    {
-      "rank": 153,
-      "company": "CSX Corporation",
-      "ticker": "CSX",
-      "weight": 0.12,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.12,
-      "halal_weight": 0.2317,
-      "halal_rank": 86
-    },
-    {
-      "rank": 155,
       "company": "O'Reilly Auto Parts",
       "ticker": "ORLY",
       "weight": 0.12,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.12,
-      "halal_weight": 0.2317,
-      "halal_rank": 87
+      "halal_weight": 0.232,
+      "halal_rank": 84
+    },
+    {
+      "rank": 153,
+      "company": "Ecolab",
+      "ticker": "ECL",
+      "weight": 0.12,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.12,
+      "halal_weight": 0.232,
+      "halal_rank": 85
+    },
+    {
+      "rank": 154,
+      "company": "Monster Beverage",
+      "ticker": "MNST",
+      "weight": 0.12,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.12,
+      "halal_weight": 0.232,
+      "halal_rank": 86
     },
     {
       "rank": 156,
@@ -974,107 +963,107 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.12,
-      "halal_weight": 0.2317,
-      "halal_rank": 88
+      "halal_weight": 0.232,
+      "halal_rank": 87
     },
     {
-      "rank": 158,
-      "company": "DoorDash",
-      "ticker": "DASH",
-      "weight": 0.12,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.12,
-      "halal_weight": 0.2317,
-      "halal_rank": 89
-    },
-    {
-      "rank": 161,
-      "company": "EOG Resources",
-      "ticker": "EOG",
-      "weight": 0.12,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.12,
-      "halal_weight": 0.2317,
-      "halal_rank": 90
-    },
-    {
-      "rank": 162,
-      "company": "Colgate-Palmolive",
-      "ticker": "CL",
-      "weight": 0.12,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.12,
-      "halal_weight": 0.2317,
-      "halal_rank": 91
-    },
-    {
-      "rank": 163,
-      "company": "CRH plc",
-      "ticker": "CRH",
-      "weight": 0.12,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.12,
-      "halal_weight": 0.2317,
-      "halal_rank": 92
-    },
-    {
-      "rank": 164,
+      "rank": 157,
       "company": "Valero Energy",
       "ticker": "VLO",
       "weight": 0.12,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.12,
-      "halal_weight": 0.2317,
-      "halal_rank": 93
+      "halal_weight": 0.232,
+      "halal_rank": 88
+    },
+    {
+      "rank": 158,
+      "company": "Cintas",
+      "ticker": "CTAS",
+      "weight": 0.12,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.12,
+      "halal_weight": 0.232,
+      "halal_rank": 89
+    },
+    {
+      "rank": 160,
+      "company": "CSX Corporation",
+      "ticker": "CSX",
+      "weight": 0.12,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.12,
+      "halal_weight": 0.232,
+      "halal_rank": 90
+    },
+    {
+      "rank": 162,
+      "company": "Schlumberger",
+      "ticker": "SLB",
+      "weight": 0.12,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.12,
+      "halal_weight": 0.232,
+      "halal_rank": 91
     },
     {
       "rank": 166,
+      "company": "Ross Stores",
+      "ticker": "ROST",
+      "weight": 0.12,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.12,
+      "halal_weight": 0.232,
+      "halal_rank": 92
+    },
+    {
+      "rank": 167,
+      "company": "Colgate-Palmolive",
+      "ticker": "CL",
+      "weight": 0.12,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.12,
+      "halal_weight": 0.232,
+      "halal_rank": 93
+    },
+    {
+      "rank": 168,
+      "company": "DoorDash",
+      "ticker": "DASH",
+      "weight": 0.12,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.12,
+      "halal_weight": 0.232,
+      "halal_rank": 94
+    },
+    {
+      "rank": 171,
       "company": "Republic Services",
       "ticker": "RSG",
       "weight": 0.11,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.11,
-      "halal_weight": 0.2124,
-      "halal_rank": 94
-    },
-    {
-      "rank": 171,
-      "company": "Schlumberger",
-      "ticker": "SLB",
-      "weight": 0.11,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.11,
-      "halal_weight": 0.2124,
+      "halal_weight": 0.2126,
       "halal_rank": 95
     },
     {
-      "rank": 176,
-      "company": "Ross Stores",
-      "ticker": "ROST",
+      "rank": 172,
+      "company": "CRH plc",
+      "ticker": "CRH",
       "weight": 0.11,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.11,
-      "halal_weight": 0.2124,
+      "halal_weight": 0.2126,
       "halal_rank": 96
-    },
-    {
-      "rank": 179,
-      "company": "Norfolk Southern Railway",
-      "ticker": "NSC",
-      "weight": 0.11,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.11,
-      "halal_weight": 0.2124,
-      "halal_rank": 97
     },
     {
       "rank": 181,
@@ -1084,95 +1073,106 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.11,
-      "halal_weight": 0.2124,
+      "halal_weight": 0.2126,
+      "halal_rank": 97
+    },
+    {
+      "rank": 182,
+      "company": "Norfolk Southern Railway",
+      "ticker": "NSC",
+      "weight": 0.11,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.11,
+      "halal_weight": 0.2126,
       "halal_rank": 98
     },
     {
-      "rank": 187,
+      "rank": 184,
       "company": "Fortinet",
       "ticker": "FTNT",
       "weight": 0.1,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.1,
-      "halal_weight": 0.1931,
+      "halal_weight": 0.1933,
       "halal_rank": 99
     },
     {
-      "rank": 189,
+      "rank": 188,
+      "company": "Baker Hughes",
+      "ticker": "BKR",
+      "weight": 0.1,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.1,
+      "halal_weight": 0.1933,
+      "halal_rank": 100
+    },
+    {
+      "rank": 191,
       "company": "TE Connectivity",
       "ticker": "TEL",
       "weight": 0.1,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.1,
-      "halal_weight": 0.1931,
-      "halal_rank": 100
-    },
-    {
-      "rank": 191,
-      "company": "AutoZone",
-      "ticker": "AZO",
-      "weight": 0.09,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.09,
-      "halal_weight": 0.1738,
+      "halal_weight": 0.1933,
       "halal_rank": 101
     },
     {
-      "rank": 192,
-      "company": "Baker Hughes",
-      "ticker": "BKR",
-      "weight": 0.09,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.09,
-      "halal_weight": 0.1738,
-      "halal_rank": 102
-    },
-    {
-      "rank": 200,
-      "company": "Corteva",
-      "ticker": "CTVA",
-      "weight": 0.09,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.09,
-      "halal_weight": 0.1738,
-      "halal_rank": 103
-    },
-    {
-      "rank": 203,
+      "rank": 197,
       "company": "Ciena Corporation",
       "ticker": "CIEN",
       "weight": 0.09,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.09,
-      "halal_weight": 0.1738,
-      "halal_rank": 104
+      "halal_weight": 0.174,
+      "halal_rank": 102
     },
     {
-      "rank": 204,
-      "company": "Autodesk",
-      "ticker": "ADSK",
+      "rank": 198,
+      "company": "AutoZone",
+      "ticker": "AZO",
       "weight": 0.09,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.09,
-      "halal_weight": 0.1738,
-      "halal_rank": 105
+      "halal_weight": 0.174,
+      "halal_rank": 103
     },
     {
-      "rank": 205,
+      "rank": 201,
       "company": "Monolithic Power Systems",
       "ticker": "MPWR",
       "weight": 0.09,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.09,
-      "halal_weight": 0.1738,
+      "halal_weight": 0.174,
+      "halal_rank": 104
+    },
+    {
+      "rank": 202,
+      "company": "Autodesk",
+      "ticker": "ADSK",
+      "weight": 0.09,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.09,
+      "halal_weight": 0.174,
+      "halal_rank": 105
+    },
+    {
+      "rank": 205,
+      "company": "Corteva",
+      "ticker": "CTVA",
+      "weight": 0.09,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.09,
+      "halal_weight": 0.174,
       "halal_rank": 106
     },
     {
@@ -1183,19 +1183,30 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.09,
-      "halal_weight": 0.1738,
+      "halal_weight": 0.174,
       "halal_rank": 107
     },
     {
       "rank": 209,
-      "company": "Zoetis",
-      "ticker": "ZTS",
+      "company": "Electronic Arts",
+      "ticker": "EA",
+      "weight": 0.09,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.09,
+      "halal_weight": 0.174,
+      "halal_rank": 108
+    },
+    {
+      "rank": 210,
+      "company": "W. W. Grainger",
+      "ticker": "GWW",
       "weight": 0.08,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.08,
-      "halal_weight": 0.1545,
-      "halal_rank": 108
+      "halal_weight": 0.1546,
+      "halal_rank": 109
     },
     {
       "rank": 213,
@@ -1205,250 +1216,250 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.08,
-      "halal_weight": 0.1545,
-      "halal_rank": 109
-    },
-    {
-      "rank": 214,
-      "company": "Comfort Systems USA, Inc.",
-      "ticker": "FIX",
-      "weight": 0.08,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.08,
-      "halal_weight": 0.1545,
+      "halal_weight": 0.1546,
       "halal_rank": 110
     },
     {
-      "rank": 216,
-      "company": "W. W. Grainger",
-      "ticker": "GWW",
+      "rank": 214,
+      "company": "Zoetis",
+      "ticker": "ZTS",
       "weight": 0.08,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.08,
-      "halal_weight": 0.1545,
+      "halal_weight": 0.1546,
       "halal_rank": 111
     },
     {
-      "rank": 217,
-      "company": "Electronic Arts",
-      "ticker": "EA",
-      "weight": 0.08,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.08,
-      "halal_weight": 0.1545,
-      "halal_rank": 112
-    },
-    {
-      "rank": 218,
-      "company": "Keysight Technologies",
-      "ticker": "KEYS",
-      "weight": 0.08,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.08,
-      "halal_weight": 0.1545,
-      "halal_rank": 113
-    },
-    {
-      "rank": 219,
-      "company": "NXP Semiconductors",
-      "ticker": "NXPI",
-      "weight": 0.08,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.08,
-      "halal_weight": 0.1545,
-      "halal_rank": 114
-    },
-    {
-      "rank": 221,
-      "company": "Ametek",
-      "ticker": "AME",
-      "weight": 0.08,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.08,
-      "halal_weight": 0.1545,
-      "halal_rank": 115
-    },
-    {
-      "rank": 222,
-      "company": "Edwards Lifesciences",
-      "ticker": "EW",
-      "weight": 0.08,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.08,
-      "halal_weight": 0.1545,
-      "halal_rank": 116
-    },
-    {
-      "rank": 223,
-      "company": "Teradyne",
-      "ticker": "TER",
-      "weight": 0.08,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.08,
-      "halal_weight": 0.1545,
-      "halal_rank": 117
-    },
-    {
-      "rank": 226,
+      "rank": 215,
       "company": "Carrier Global",
       "ticker": "CARR",
       "weight": 0.08,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.08,
-      "halal_weight": 0.1545,
-      "halal_rank": 118
+      "halal_weight": 0.1546,
+      "halal_rank": 112
     },
     {
-      "rank": 228,
+      "rank": 216,
+      "company": "NXP Semiconductors",
+      "ticker": "NXPI",
+      "weight": 0.08,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.08,
+      "halal_weight": 0.1546,
+      "halal_rank": 113
+    },
+    {
+      "rank": 217,
+      "company": "Ametek",
+      "ticker": "AME",
+      "weight": 0.08,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.08,
+      "halal_weight": 0.1546,
+      "halal_rank": 114
+    },
+    {
+      "rank": 218,
+      "company": "Edwards Lifesciences",
+      "ticker": "EW",
+      "weight": 0.08,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.08,
+      "halal_weight": 0.1546,
+      "halal_rank": 115
+    },
+    {
+      "rank": 220,
+      "company": "Comfort Systems USA, Inc.",
+      "ticker": "FIX",
+      "weight": 0.08,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.08,
+      "halal_weight": 0.1546,
+      "halal_rank": 116
+    },
+    {
+      "rank": 221,
+      "company": "Keysight Technologies",
+      "ticker": "KEYS",
+      "weight": 0.08,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.08,
+      "halal_weight": 0.1546,
+      "halal_rank": 117
+    },
+    {
+      "rank": 224,
       "company": "Idexx Laboratories",
       "ticker": "IDXX",
       "weight": 0.08,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.08,
-      "halal_weight": 0.1545,
+      "halal_weight": 0.1546,
+      "halal_rank": 118
+    },
+    {
+      "rank": 226,
+      "company": "Teradyne",
+      "ticker": "TER",
+      "weight": 0.08,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.08,
+      "halal_weight": 0.1546,
       "halal_rank": 119
     },
     {
-      "rank": 233,
-      "company": "Carvana Co.",
-      "ticker": "CVNA",
-      "weight": 0.07,
+      "rank": 230,
+      "company": "Garmin",
+      "ticker": "GRMN",
+      "weight": 0.08,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.07,
-      "halal_weight": 0.1352,
+      "original_weight": 0.08,
+      "halal_weight": 0.1546,
       "halal_rank": 120
     },
     {
-      "rank": 235,
-      "company": "Garmin",
-      "ticker": "GRMN",
-      "weight": 0.07,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.07,
-      "halal_weight": 0.1352,
-      "halal_rank": 121
-    },
-    {
-      "rank": 237,
+      "rank": 236,
       "company": "Hershey Company (The)",
       "ticker": "HSY",
       "weight": 0.07,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.07,
-      "halal_weight": 0.1352,
-      "halal_rank": 122
+      "halal_weight": 0.1353,
+      "halal_rank": 121
     },
     {
-      "rank": 242,
-      "company": "eBay",
-      "ticker": "EBAY",
-      "weight": 0.07,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.07,
-      "halal_weight": 0.1352,
-      "halal_rank": 123
-    },
-    {
-      "rank": 244,
+      "rank": 239,
       "company": "MSCI",
       "ticker": "MSCI",
       "weight": 0.07,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.07,
-      "halal_weight": 0.1352,
-      "halal_rank": 124
+      "halal_weight": 0.1353,
+      "halal_rank": 122
     },
     {
-      "rank": 245,
-      "company": "D. R. Horton",
-      "ticker": "DHI",
-      "weight": 0.07,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.07,
-      "halal_weight": 0.1352,
-      "halal_rank": 125
-    },
-    {
-      "rank": 247,
-      "company": "Wabtec",
-      "ticker": "WAB",
-      "weight": 0.07,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.07,
-      "halal_weight": 0.1352,
-      "halal_rank": 126
-    },
-    {
-      "rank": 248,
-      "company": "Axon Enterprise",
-      "ticker": "AXON",
-      "weight": 0.07,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.07,
-      "halal_weight": 0.1352,
-      "halal_rank": 127
-    },
-    {
-      "rank": 250,
-      "company": "Rockwell Automation",
-      "ticker": "ROK",
-      "weight": 0.07,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.07,
-      "halal_weight": 0.1352,
-      "halal_rank": 128
-    },
-    {
-      "rank": 254,
-      "company": "CBRE Group",
-      "ticker": "CBRE",
-      "weight": 0.07,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.07,
-      "halal_weight": 0.1352,
-      "halal_rank": 129
-    },
-    {
-      "rank": 255,
+      "rank": 240,
       "company": "EQT Corporation",
       "ticker": "EQT",
       "weight": 0.07,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.07,
-      "halal_weight": 0.1352,
+      "halal_weight": 0.1353,
+      "halal_rank": 123
+    },
+    {
+      "rank": 241,
+      "company": "Wabtec",
+      "ticker": "WAB",
+      "weight": 0.07,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.07,
+      "halal_weight": 0.1353,
+      "halal_rank": 124
+    },
+    {
+      "rank": 242,
+      "company": "Carvana Co.",
+      "ticker": "CVNA",
+      "weight": 0.07,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.07,
+      "halal_weight": 0.1353,
+      "halal_rank": 125
+    },
+    {
+      "rank": 246,
+      "company": "Rockwell Automation",
+      "ticker": "ROK",
+      "weight": 0.07,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.07,
+      "halal_weight": 0.1353,
+      "halal_rank": 126
+    },
+    {
+      "rank": 247,
+      "company": "Axon Enterprise",
+      "ticker": "AXON",
+      "weight": 0.07,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.07,
+      "halal_weight": 0.1353,
+      "halal_rank": 127
+    },
+    {
+      "rank": 248,
+      "company": "eBay",
+      "ticker": "EBAY",
+      "weight": 0.07,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.07,
+      "halal_weight": 0.1353,
+      "halal_rank": 128
+    },
+    {
+      "rank": 252,
+      "company": "CBRE Group",
+      "ticker": "CBRE",
+      "weight": 0.07,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.07,
+      "halal_weight": 0.1353,
+      "halal_rank": 129
+    },
+    {
+      "rank": 254,
+      "company": "D. R. Horton",
+      "ticker": "DHI",
+      "weight": 0.07,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.07,
+      "halal_weight": 0.1353,
       "halal_rank": 130
     },
     {
-      "rank": 256,
+      "rank": 255,
       "company": "Old Dominion",
       "ticker": "ODFL",
+      "weight": 0.07,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.07,
+      "halal_weight": 0.1353,
+      "halal_rank": 131
+    },
+    {
+      "rank": 260,
+      "company": "Roper Technologies",
+      "ticker": "ROP",
       "weight": 0.06,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.06,
-      "halal_weight": 0.1159,
-      "halal_rank": 131
+      "halal_weight": 0.116,
+      "halal_rank": 132
     },
     {
       "rank": 262,
@@ -1458,29 +1469,18 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.06,
-      "halal_weight": 0.1159,
-      "halal_rank": 132
-    },
-    {
-      "rank": 263,
-      "company": "Roper Technologies",
-      "ticker": "ROP",
-      "weight": 0.06,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.06,
-      "halal_weight": 0.1159,
+      "halal_weight": 0.116,
       "halal_rank": 133
     },
     {
-      "rank": 267,
+      "rank": 264,
       "company": "Texas Pacific Land Corporation",
       "ticker": "TPL",
       "weight": 0.06,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.06,
-      "halal_weight": 0.1159,
+      "halal_weight": 0.116,
       "halal_rank": 134
     },
     {
@@ -1491,7 +1491,7 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.06,
-      "halal_weight": 0.1159,
+      "halal_weight": 0.116,
       "halal_rank": 135
     },
     {
@@ -1502,85 +1502,96 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.06,
-      "halal_weight": 0.1159,
+      "halal_weight": 0.116,
       "halal_rank": 136
     },
     {
       "rank": 271,
-      "company": "Vulcan Materials Company",
-      "ticker": "VMC",
-      "weight": 0.06,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.06,
-      "halal_weight": 0.1159,
-      "halal_rank": 137
-    },
-    {
-      "rank": 272,
       "company": "Martin Marietta Materials",
       "ticker": "MLM",
       "weight": 0.06,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.06,
-      "halal_weight": 0.1159,
-      "halal_rank": 138
+      "halal_weight": 0.116,
+      "halal_rank": 137
     },
     {
-      "rank": 274,
-      "company": "ResMed",
-      "ticker": "RMD",
+      "rank": 272,
+      "company": "Vulcan Materials Company",
+      "ticker": "VMC",
       "weight": 0.06,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.06,
-      "halal_weight": 0.1159,
-      "halal_rank": 139
+      "halal_weight": 0.116,
+      "halal_rank": 138
     },
     {
-      "rank": 276,
+      "rank": 274,
       "company": "Kenvue",
       "ticker": "KVUE",
       "weight": 0.06,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.06,
-      "halal_weight": 0.1159,
+      "halal_weight": 0.116,
+      "halal_rank": 139
+    },
+    {
+      "rank": 275,
+      "company": "Paychex",
+      "ticker": "PAYX",
+      "weight": 0.06,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.06,
+      "halal_weight": 0.116,
       "halal_rank": 140
+    },
+    {
+      "rank": 276,
+      "company": "ResMed",
+      "ticker": "RMD",
+      "weight": 0.06,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.06,
+      "halal_weight": 0.116,
+      "halal_rank": 141
     },
     {
       "rank": 278,
       "company": "Kimberly-Clark",
       "ticker": "KMB",
-      "weight": 0.05,
+      "weight": 0.06,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.05,
-      "halal_weight": 0.0965,
-      "halal_rank": 141
-    },
-    {
-      "rank": 280,
-      "company": "Paychex",
-      "ticker": "PAYX",
-      "weight": 0.05,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.05,
-      "halal_weight": 0.0965,
+      "original_weight": 0.06,
+      "halal_weight": 0.116,
       "halal_rank": 142
     },
     {
-      "rank": 282,
-      "company": "Copart",
-      "ticker": "CPRT",
+      "rank": 280,
+      "company": "EMCOR Group, Inc.",
+      "ticker": "EME",
       "weight": 0.05,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.05,
-      "halal_weight": 0.0965,
+      "halal_weight": 0.0967,
       "halal_rank": 143
+    },
+    {
+      "rank": 281,
+      "company": "Ingersoll Rand",
+      "ticker": "IR",
+      "weight": 0.05,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.05,
+      "halal_weight": 0.0967,
+      "halal_rank": 144
     },
     {
       "rank": 283,
@@ -1590,657 +1601,635 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.05,
-      "halal_weight": 0.0965,
-      "halal_rank": 144
-    },
-    {
-      "rank": 284,
-      "company": "Ingersoll Rand",
-      "ticker": "IR",
-      "weight": 0.05,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.05,
-      "halal_weight": 0.0965,
+      "halal_weight": 0.0967,
       "halal_rank": 145
     },
     {
-      "rank": 285,
-      "company": "Otis Worldwide",
-      "ticker": "OTIS",
+      "rank": 284,
+      "company": "Copart",
+      "ticker": "CPRT",
       "weight": 0.05,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.05,
-      "halal_weight": 0.0965,
+      "halal_weight": 0.0967,
       "halal_rank": 146
     },
     {
-      "rank": 286,
-      "company": "EMCOR Group, Inc.",
-      "ticker": "EME",
-      "weight": 0.05,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.05,
-      "halal_weight": 0.0965,
-      "halal_rank": 147
-    },
-    {
-      "rank": 287,
-      "company": "EstÃ©e Lauder Companies (The)",
-      "ticker": "EL",
-      "weight": 0.05,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.05,
-      "halal_weight": 0.0965,
-      "halal_rank": 148
-    },
-    {
-      "rank": 289,
+      "rank": 285,
       "company": "Agilent Technologies",
       "ticker": "A",
       "weight": 0.05,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.05,
-      "halal_weight": 0.0965,
+      "halal_weight": 0.0967,
+      "halal_rank": 147
+    },
+    {
+      "rank": 286,
+      "company": "EstÃ©e Lauder Companies (The)",
+      "ticker": "EL",
+      "weight": 0.05,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.05,
+      "halal_weight": 0.0967,
+      "halal_rank": 148
+    },
+    {
+      "rank": 288,
+      "company": "Otis Worldwide",
+      "ticker": "OTIS",
+      "weight": 0.05,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.05,
+      "halal_weight": 0.0967,
       "halal_rank": 149
     },
     {
-      "rank": 300,
-      "company": "Expedia Group",
-      "ticker": "EXPE",
-      "weight": 0.05,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.05,
-      "halal_weight": 0.0965,
-      "halal_rank": 150
-    },
-    {
-      "rank": 304,
-      "company": "Xylem Inc.",
-      "ticker": "XYL",
-      "weight": 0.05,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.05,
-      "halal_weight": 0.0965,
-      "halal_rank": 151
-    },
-    {
-      "rank": 305,
+      "rank": 295,
       "company": "Cognizant",
       "ticker": "CTSH",
       "weight": 0.05,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.05,
-      "halal_weight": 0.0965,
-      "halal_rank": 152
+      "halal_weight": 0.0967,
+      "halal_rank": 150
     },
     {
-      "rank": 308,
+      "rank": 299,
       "company": "Waters Corporation",
       "ticker": "WAT",
       "weight": 0.05,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.05,
-      "halal_weight": 0.0965,
+      "halal_weight": 0.0967,
+      "halal_rank": 151
+    },
+    {
+      "rank": 301,
+      "company": "Xylem Inc.",
+      "ticker": "XYL",
+      "weight": 0.05,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.05,
+      "halal_weight": 0.0967,
+      "halal_rank": 152
+    },
+    {
+      "rank": 304,
+      "company": "Expedia Group",
+      "ticker": "EXPE",
+      "weight": 0.05,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.05,
+      "halal_weight": 0.0967,
       "halal_rank": 153
     },
     {
-      "rank": 310,
+      "rank": 308,
       "company": "Tapestry, Inc.",
       "ticker": "TPR",
       "weight": 0.05,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.05,
-      "halal_weight": 0.0965,
+      "halal_weight": 0.0967,
       "halal_rank": 154
     },
     {
-      "rank": 314,
+      "rank": 310,
       "company": "Dover Corporation",
       "ticker": "DOV",
       "weight": 0.05,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.05,
-      "halal_weight": 0.0965,
+      "halal_weight": 0.0967,
       "halal_rank": 155
     },
     {
-      "rank": 315,
-      "company": "Fair Isaac",
-      "ticker": "FICO",
-      "weight": 0.05,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.05,
-      "halal_weight": 0.0965,
-      "halal_rank": 156
-    },
-    {
-      "rank": 317,
+      "rank": 320,
       "company": "Jabil",
       "ticker": "JBL",
       "weight": 0.05,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.05,
-      "halal_weight": 0.0965,
+      "halal_weight": 0.0967,
+      "halal_rank": 156
+    },
+    {
+      "rank": 321,
+      "company": "Fair Isaac",
+      "ticker": "FICO",
+      "weight": 0.05,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.05,
+      "halal_weight": 0.0967,
       "halal_rank": 157
     },
     {
-      "rank": 325,
+      "rank": 322,
       "company": "Biogen",
       "ticker": "BIIB",
-      "weight": 0.04,
+      "weight": 0.05,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.04,
-      "halal_weight": 0.0772,
+      "original_weight": 0.05,
+      "halal_weight": 0.0967,
       "halal_rank": 158
     },
     {
-      "rank": 327,
-      "company": "Rollins, Inc.",
-      "ticker": "ROL",
-      "weight": 0.04,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 159
-    },
-    {
-      "rank": 330,
-      "company": "Dexcom",
-      "ticker": "DXCM",
-      "weight": 0.04,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 160
-    },
-    {
-      "rank": 336,
-      "company": "Steel Dynamics",
-      "ticker": "STLD",
-      "weight": 0.04,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 161
-    },
-    {
-      "rank": 337,
-      "company": "Hubbell Incorporated",
-      "ticker": "HUBB",
-      "weight": 0.04,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 162
-    },
-    {
-      "rank": 338,
-      "company": "Tractor Supply",
-      "ticker": "TSCO",
-      "weight": 0.04,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 163
-    },
-    {
-      "rank": 339,
+      "rank": 328,
       "company": "Coterra",
       "ticker": "CTRA",
       "weight": 0.04,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 164
+      "halal_weight": 0.0773,
+      "halal_rank": 159
     },
     {
-      "rank": 340,
+      "rank": 329,
+      "company": "Dexcom",
+      "ticker": "DXCM",
+      "weight": 0.04,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.04,
+      "halal_weight": 0.0773,
+      "halal_rank": 160
+    },
+    {
+      "rank": 330,
+      "company": "Rollins, Inc.",
+      "ticker": "ROL",
+      "weight": 0.04,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.04,
+      "halal_weight": 0.0773,
+      "halal_rank": 161
+    },
+    {
+      "rank": 333,
+      "company": "Hubbell Incorporated",
+      "ticker": "HUBB",
+      "weight": 0.04,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.04,
+      "halal_weight": 0.0773,
+      "halal_rank": 162
+    },
+    {
+      "rank": 338,
       "company": "Mettler Toledo",
       "ticker": "MTD",
       "weight": 0.04,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 165
+      "halal_weight": 0.0773,
+      "halal_rank": 163
+    },
+    {
+      "rank": 340,
+      "company": "Tractor Supply",
+      "ticker": "TSCO",
+      "weight": 0.04,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.04,
+      "halal_weight": 0.0773,
+      "halal_rank": 164
     },
     {
       "rank": 342,
-      "company": "ON Semiconductor",
-      "ticker": "ON",
+      "company": "Steel Dynamics",
+      "ticker": "STLD",
       "weight": 0.04,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 166
+      "halal_weight": 0.0773,
+      "halal_rank": 165
     },
     {
-      "rank": 352,
-      "company": "PulteGroup",
-      "ticker": "PHM",
-      "weight": 0.04,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 167
-    },
-    {
-      "rank": 353,
+      "rank": 344,
       "company": "Ulta Beauty",
       "ticker": "ULTA",
       "weight": 0.04,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 168
+      "halal_weight": 0.0773,
+      "halal_rank": 166
     },
     {
-      "rank": 357,
+      "rank": 346,
+      "company": "ON Semiconductor",
+      "ticker": "ON",
+      "weight": 0.04,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.04,
+      "halal_weight": 0.0773,
+      "halal_rank": 167
+    },
+    {
+      "rank": 355,
       "company": "Church & Dwight",
       "ticker": "CHD",
       "weight": 0.04,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 169
+      "halal_weight": 0.0773,
+      "halal_rank": 168
     },
     {
-      "rank": 359,
-      "company": "Veralto",
-      "ticker": "VLTO",
-      "weight": 0.04,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 170
-    },
-    {
-      "rank": 360,
-      "company": "Equifax",
-      "ticker": "EFX",
-      "weight": 0.04,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 171
-    },
-    {
-      "rank": 365,
+      "rank": 356,
       "company": "Verisign",
       "ticker": "VRSN",
       "weight": 0.04,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 172
+      "halal_weight": 0.0773,
+      "halal_rank": 169
     },
     {
-      "rank": 368,
+      "rank": 357,
+      "company": "Veralto",
+      "ticker": "VLTO",
+      "weight": 0.04,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.04,
+      "halal_weight": 0.0773,
+      "halal_rank": 170
+    },
+    {
+      "rank": 358,
+      "company": "PulteGroup",
+      "ticker": "PHM",
+      "weight": 0.04,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.04,
+      "halal_weight": 0.0773,
+      "halal_rank": 171
+    },
+    {
+      "rank": 364,
       "company": "Steris",
       "ticker": "STE",
       "weight": 0.04,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 173
+      "halal_weight": 0.0773,
+      "halal_rank": 172
     },
     {
-      "rank": 370,
-      "company": "First Solar",
-      "ticker": "FSLR",
+      "rank": 367,
+      "company": "Equifax",
+      "ticker": "EFX",
       "weight": 0.04,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.04,
-      "halal_weight": 0.0772,
-      "halal_rank": 174
+      "halal_weight": 0.0773,
+      "halal_rank": 173
     },
     {
-      "rank": 371,
+      "rank": 368,
       "company": "Williams-Sonoma",
       "ticker": "WSM",
       "weight": 0.04,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.04,
-      "halal_weight": 0.0772,
+      "halal_weight": 0.0773,
+      "halal_rank": 174
+    },
+    {
+      "rank": 372,
+      "company": "First Solar",
+      "ticker": "FSLR",
+      "weight": 0.04,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.04,
+      "halal_weight": 0.0773,
       "halal_rank": 175
     },
     {
-      "rank": 374,
-      "company": "Ralph Lauren Corporation",
-      "ticker": "RL",
-      "weight": 0.03,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 176
-    },
-    {
-      "rank": 377,
+      "rank": 375,
       "company": "Broadridge Financial Solutions",
       "ticker": "BR",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 177
+      "halal_weight": 0.058,
+      "halal_rank": 176
     },
     {
-      "rank": 381,
+      "rank": 377,
       "company": "C.H. Robinson",
       "ticker": "CHRW",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 178
+      "halal_weight": 0.058,
+      "halal_rank": 177
     },
     {
-      "rank": 382,
-      "company": "Southwest Airlines",
-      "ticker": "LUV",
+      "rank": 378,
+      "company": "Ralph Lauren Corporation",
+      "ticker": "RL",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 179
+      "halal_weight": 0.058,
+      "halal_rank": 178
     },
     {
-      "rank": 384,
+      "rank": 379,
       "company": "NetApp",
       "ticker": "NTAP",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 180
+      "halal_weight": 0.058,
+      "halal_rank": 179
     },
     {
-      "rank": 387,
-      "company": "Albemarle Corporation",
-      "ticker": "ALB",
-      "weight": 0.03,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 181
-    },
-    {
-      "rank": 390,
-      "company": "Packaging Corporation of America",
-      "ticker": "PKG",
-      "weight": 0.03,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 182
-    },
-    {
-      "rank": 392,
-      "company": "Supermicro",
-      "ticker": "SMCI",
-      "weight": 0.03,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 183
-    },
-    {
-      "rank": 394,
+      "rank": 382,
       "company": "Expeditors International",
       "ticker": "EXPD",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 184
+      "halal_weight": 0.058,
+      "halal_rank": 180
     },
     {
-      "rank": 395,
-      "company": "J.B. Hunt",
-      "ticker": "JBHT",
+      "rank": 383,
+      "company": "Southwest Airlines",
+      "ticker": "LUV",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 185
+      "halal_weight": 0.058,
+      "halal_rank": 181
     },
     {
-      "rank": 397,
-      "company": "Incyte",
-      "ticker": "INCY",
-      "weight": 0.03,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 186
-    },
-    {
-      "rank": 398,
-      "company": "DuPont",
-      "ticker": "DD",
-      "weight": 0.03,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 187
-    },
-    {
-      "rank": 402,
+      "rank": 386,
       "company": "Lululemon Athletica",
       "ticker": "LULU",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 188
+      "halal_weight": 0.058,
+      "halal_rank": 182
     },
     {
-      "rank": 403,
-      "company": "NVR, Inc.",
-      "ticker": "NVR",
+      "rank": 388,
+      "company": "J.B. Hunt",
+      "ticker": "JBHT",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 189
+      "halal_weight": 0.058,
+      "halal_rank": 183
     },
     {
-      "rank": 404,
+      "rank": 391,
+      "company": "Albemarle Corporation",
+      "ticker": "ALB",
+      "weight": 0.03,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.03,
+      "halal_weight": 0.058,
+      "halal_rank": 184
+    },
+    {
+      "rank": 395,
+      "company": "Packaging Corporation of America",
+      "ticker": "PKG",
+      "weight": 0.03,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.03,
+      "halal_weight": 0.058,
+      "halal_rank": 185
+    },
+    {
+      "rank": 396,
+      "company": "Incyte",
+      "ticker": "INCY",
+      "weight": 0.03,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.03,
+      "halal_weight": 0.058,
+      "halal_rank": 186
+    },
+    {
+      "rank": 399,
       "company": "PTC Inc.",
       "ticker": "PTC",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 190
+      "halal_weight": 0.058,
+      "halal_rank": 187
     },
     {
-      "rank": 409,
+      "rank": 400,
+      "company": "NVR, Inc.",
+      "ticker": "NVR",
+      "weight": 0.03,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.03,
+      "halal_weight": 0.058,
+      "halal_rank": 188
+    },
+    {
+      "rank": 403,
+      "company": "DuPont",
+      "ticker": "DD",
+      "weight": 0.03,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.03,
+      "halal_weight": 0.058,
+      "halal_rank": 189
+    },
+    {
+      "rank": 405,
       "company": "West Pharmaceutical Services",
       "ticker": "WST",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 191
+      "halal_weight": 0.058,
+      "halal_rank": 190
     },
     {
-      "rank": 411,
+      "rank": 407,
       "company": "Fortive",
       "ticker": "FTV",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 192
+      "halal_weight": 0.058,
+      "halal_rank": 191
     },
     {
-      "rank": 412,
-      "company": "Lennox International",
-      "ticker": "LII",
-      "weight": 0.03,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 193
-    },
-    {
-      "rank": 413,
-      "company": "Insulet Corporation",
-      "ticker": "PODD",
-      "weight": 0.03,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 194
-    },
-    {
-      "rank": 414,
+      "rank": 409,
       "company": "Hologic",
       "ticker": "HOLX",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 195
+      "halal_weight": 0.058,
+      "halal_rank": 192
     },
     {
-      "rank": 417,
+      "rank": 411,
+      "company": "Lennox International",
+      "ticker": "LII",
+      "weight": 0.03,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.03,
+      "halal_weight": 0.058,
+      "halal_rank": 193
+    },
+    {
+      "rank": 413,
       "company": "F5, Inc.",
       "ticker": "FFIV",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 196
+      "halal_weight": 0.058,
+      "halal_rank": 194
     },
     {
-      "rank": 421,
+      "rank": 416,
+      "company": "Insulet Corporation",
+      "ticker": "PODD",
+      "weight": 0.03,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.03,
+      "halal_weight": 0.058,
+      "halal_rank": 195
+    },
+    {
+      "rank": 420,
       "company": "Trimble Inc.",
       "ticker": "TRMB",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 197
+      "halal_weight": 0.058,
+      "halal_rank": 196
     },
     {
-      "rank": 425,
-      "company": "McCormick & Company",
-      "ticker": "MKC",
-      "weight": 0.03,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 198
-    },
-    {
-      "rank": 426,
+      "rank": 423,
       "company": "Jacobs Solutions",
       "ticker": "J",
       "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.03,
-      "halal_weight": 0.0579,
-      "halal_rank": 199
+      "halal_weight": 0.058,
+      "halal_rank": 197
     },
     {
-      "rank": 430,
+      "rank": 425,
       "company": "Tyler Technologies",
       "ticker": "TYL",
-      "weight": 0.02,
+      "weight": 0.03,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 200
+      "original_weight": 0.03,
+      "halal_weight": 0.058,
+      "halal_rank": 198
     },
     {
-      "rank": 431,
+      "rank": 428,
       "company": "Nordson Corporation",
       "ticker": "NDSN",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 201
+      "halal_weight": 0.0387,
+      "halal_rank": 199
     },
     {
-      "rank": 432,
+      "rank": 430,
+      "company": "McCormick & Company",
+      "ticker": "MKC",
+      "weight": 0.02,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.02,
+      "halal_weight": 0.0387,
+      "halal_rank": 200
+    },
+    {
+      "rank": 431,
       "company": "Deckers Brands",
       "ticker": "DECK",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 202
+      "halal_weight": 0.0387,
+      "halal_rank": 201
     },
     {
-      "rank": 434,
+      "rank": 433,
       "company": "Pentair",
       "ticker": "PNR",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 203
+      "halal_weight": 0.0387,
+      "halal_rank": 202
     },
     {
       "rank": 436,
@@ -2250,154 +2239,165 @@
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 204
+      "halal_weight": 0.0387,
+      "halal_rank": 203
     },
     {
-      "rank": 438,
+      "rank": 437,
       "company": "Cooper Companies (The)",
       "ticker": "COO",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 205
+      "halal_weight": 0.0387,
+      "halal_rank": 204
     },
     {
-      "rank": 439,
+      "rank": 440,
       "company": "Clorox",
       "ticker": "CLX",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 206
+      "halal_weight": 0.0387,
+      "halal_rank": 205
     },
     {
-      "rank": 443,
+      "rank": 447,
       "company": "Avery Dennison",
       "ticker": "AVY",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 207
+      "halal_weight": 0.0387,
+      "halal_rank": 206
     },
     {
-      "rank": 450,
-      "company": "Masco",
-      "ticker": "MAS",
-      "weight": 0.02,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 208
-    },
-    {
-      "rank": 451,
-      "company": "Allegion",
-      "ticker": "ALLE",
-      "weight": 0.02,
-      "halal_status": "halal",
-      "interest_pct": null,
-      "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 209
-    },
-    {
-      "rank": 453,
+      "rank": 448,
       "company": "Align Technology",
       "ticker": "ALGN",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 210
+      "halal_weight": 0.0387,
+      "halal_rank": 207
     },
     {
-      "rank": 456,
-      "company": "Generac",
-      "ticker": "GNRC",
+      "rank": 449,
+      "company": "Supermicro",
+      "ticker": "SMCI",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 211
+      "halal_weight": 0.0387,
+      "halal_rank": 208
     },
     {
-      "rank": 458,
+      "rank": 450,
+      "company": "Allegion",
+      "ticker": "ALLE",
+      "weight": 0.02,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.02,
+      "halal_weight": 0.0387,
+      "halal_rank": 209
+    },
+    {
+      "rank": 453,
+      "company": "Masco",
+      "ticker": "MAS",
+      "weight": 0.02,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.02,
+      "halal_weight": 0.0387,
+      "halal_rank": 210
+    },
+    {
+      "rank": 454,
       "company": "Jack Henry & Associates",
       "ticker": "JKHY",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 212
+      "halal_weight": 0.0387,
+      "halal_rank": 211
     },
     {
-      "rank": 463,
-      "company": "Gartner",
-      "ticker": "IT",
+      "rank": 458,
+      "company": "Generac",
+      "ticker": "GNRC",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
-      "halal_rank": 213
+      "halal_weight": 0.0387,
+      "halal_rank": 212
     },
     {
-      "rank": 464,
+      "rank": 460,
       "company": "The Trade Desk, Inc.",
       "ticker": "TTD",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
+      "halal_weight": 0.0387,
+      "halal_rank": 213
+    },
+    {
+      "rank": 462,
+      "company": "Gartner",
+      "ticker": "IT",
+      "weight": 0.02,
+      "halal_status": "halal",
+      "interest_pct": null,
+      "original_weight": 0.02,
+      "halal_weight": 0.0387,
       "halal_rank": 214
     },
     {
-      "rank": 465,
+      "rank": 464,
       "company": "GoDaddy",
       "ticker": "GDDY",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
+      "halal_weight": 0.0387,
       "halal_rank": 215
     },
     {
-      "rank": 474,
+      "rank": 476,
       "company": "Zebra Technologies",
       "ticker": "ZBRA",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
       "original_weight": 0.02,
-      "halal_weight": 0.0386,
+      "halal_weight": 0.0387,
       "halal_rank": 216
     },
     {
-      "rank": 485,
+      "rank": 482,
       "company": "A. O. Smith",
       "ticker": "AOS",
-      "weight": 0.01,
+      "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": null,
-      "original_weight": 0.01,
-      "halal_weight": 0.0193,
+      "original_weight": 0.02,
+      "halal_weight": 0.0387,
       "halal_rank": 217
     },
     {
-      "rank": 490,
+      "rank": 489,
       "company": "Skyworks Solutions",
       "ticker": "SWKS",
       "weight": 0.01,
@@ -2408,7 +2408,7 @@
       "halal_rank": 218
     },
     {
-      "rank": 492,
+      "rank": 490,
       "company": "Bio-Techne",
       "ticker": "TECH",
       "weight": 0.01,
@@ -2419,7 +2419,7 @@
       "halal_rank": 219
     },
     {
-      "rank": 493,
+      "rank": 492,
       "company": "FactSet",
       "ticker": "FDS",
       "weight": 0.01,
@@ -2430,9 +2430,9 @@
       "halal_rank": 220
     },
     {
-      "rank": 494,
-      "company": "Pool Corporation",
-      "ticker": "POOL",
+      "rank": 495,
+      "company": "EPAM Systems",
+      "ticker": "EPAM",
       "weight": 0.01,
       "halal_status": "halal",
       "interest_pct": null,
@@ -2441,9 +2441,9 @@
       "halal_rank": 221
     },
     {
-      "rank": 497,
-      "company": "EPAM Systems",
-      "ticker": "EPAM",
+      "rank": 496,
+      "company": "Pool Corporation",
+      "ticker": "POOL",
       "weight": 0.01,
       "halal_status": "halal",
       "interest_pct": null,
@@ -2468,7 +2468,7 @@
       "rank": 10,
       "company": "Berkshire Hathaway",
       "ticker": "BRK.B",
-      "weight": 1.74,
+      "weight": 1.76,
       "halal_status": "unknown",
       "interest_pct": null
     },
@@ -2476,23 +2476,23 @@
       "rank": 13,
       "company": "JPMorgan Chase",
       "ticker": "JPM",
-      "weight": 1.27,
+      "weight": 1.31,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 27,
+      "rank": 25,
       "company": "Bank of America",
       "ticker": "BAC",
-      "weight": 0.56,
+      "weight": 0.57,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 31,
+      "rank": 32,
       "company": "GE Aerospace",
       "ticker": "GE",
-      "weight": 0.52,
+      "weight": 0.51,
       "halal_status": "not_halal",
       "interest_pct": null
     },
@@ -2506,65 +2506,65 @@
     },
     {
       "rank": 37,
-      "company": "Philip Morris International",
-      "ticker": "PM",
+      "company": "Morgan Stanley",
+      "ticker": "MS",
       "weight": 0.44,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 38,
-      "company": "UnitedHealth Group",
-      "ticker": "UNH",
+      "company": "Philip Morris International",
+      "ticker": "PM",
       "weight": 0.43,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 39,
-      "company": "Morgan Stanley",
-      "ticker": "MS",
+      "company": "UnitedHealth Group",
+      "ticker": "UNH",
+      "weight": 0.42,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 40,
+      "company": "Goldman Sachs",
+      "ticker": "GS",
       "weight": 0.41,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 41,
-      "company": "Goldman Sachs",
-      "ticker": "GS",
-      "weight": 0.39,
+      "company": "Wells Fargo",
+      "ticker": "WFC",
+      "weight": 0.41,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 42,
-      "company": "Wells Fargo",
-      "ticker": "WFC",
+      "company": "T-Mobile US",
+      "ticker": "TMUS",
       "weight": 0.39,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 43,
-      "company": "T-Mobile US",
-      "ticker": "TMUS",
-      "weight": 0.38,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 44,
+      "rank": 46,
       "company": "McDonald's",
       "ticker": "MCD",
-      "weight": 0.38,
+      "weight": 0.37,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 49,
+      "rank": 48,
       "company": "Verizon",
       "ticker": "VZ",
-      "weight": 0.35,
+      "weight": 0.36,
       "halal_status": "not_halal",
       "interest_pct": null
     },
@@ -2577,7 +2577,23 @@
       "interest_pct": null
     },
     {
-      "rank": 52,
+      "rank": 51,
+      "company": "AT&T",
+      "ticker": "T",
+      "weight": 0.34,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 53,
+      "company": "Citigroup",
+      "ticker": "C",
+      "weight": 0.33,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 54,
       "company": "Amgen",
       "ticker": "AMGN",
       "weight": 0.32,
@@ -2585,15 +2601,7 @@
       "interest_pct": null
     },
     {
-      "rank": 53,
-      "company": "AT&T",
-      "ticker": "T",
-      "weight": 0.32,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 54,
+      "rank": 55,
       "company": "NextEra Energy",
       "ticker": "NEE",
       "weight": 0.32,
@@ -2601,49 +2609,41 @@
       "interest_pct": null
     },
     {
-      "rank": 56,
-      "company": "Citigroup",
-      "ticker": "C",
-      "weight": 0.31,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 61,
+      "rank": 58,
       "company": "Walt Disney Company (The)",
       "ticker": "DIS",
-      "weight": 0.29,
+      "weight": 0.3,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 65,
-      "company": "Amphenol",
-      "ticker": "APH",
+      "rank": 64,
+      "company": "Charles Schwab Corporation",
+      "ticker": "SCHW",
       "weight": 0.28,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 66,
-      "company": "Boeing",
-      "ticker": "BA",
-      "weight": 0.27,
+      "company": "Amphenol",
+      "ticker": "APH",
+      "weight": 0.26,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 67,
-      "company": "Charles Schwab Corporation",
-      "ticker": "SCHW",
-      "weight": 0.27,
+      "rank": 68,
+      "company": "Pfizer",
+      "ticker": "PFE",
+      "weight": 0.26,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 69,
-      "company": "Pfizer",
-      "ticker": "PFE",
+      "company": "Boeing",
+      "ticker": "BA",
       "weight": 0.26,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -2657,9 +2657,17 @@
       "interest_pct": null
     },
     {
-      "rank": 73,
+      "rank": 74,
       "company": "BlackRock",
       "ticker": "BLK",
+      "weight": 0.25,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 75,
+      "company": "Lockheed Martin",
+      "ticker": "LMT",
       "weight": 0.25,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -2673,15 +2681,7 @@
       "interest_pct": null
     },
     {
-      "rank": 77,
-      "company": "Lockheed Martin",
-      "ticker": "LMT",
-      "weight": 0.24,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 87,
+      "rank": 88,
       "company": "Chubb Limited",
       "ticker": "CB",
       "weight": 0.21,
@@ -2689,23 +2689,7 @@
       "interest_pct": null
     },
     {
-      "rank": 89,
-      "company": "Prologis",
-      "ticker": "PLD",
-      "weight": 0.2,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 91,
-      "company": "Bristol Myers Squibb",
-      "ticker": "BMY",
-      "weight": 0.2,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 93,
+      "rank": 90,
       "company": "Progressive Corporation",
       "ticker": "PGR",
       "weight": 0.2,
@@ -2713,15 +2697,23 @@
       "interest_pct": null
     },
     {
-      "rank": 96,
-      "company": "HCA Healthcare",
-      "ticker": "HCA",
-      "weight": 0.19,
+      "rank": 91,
+      "company": "Prologis",
+      "ticker": "PLD",
+      "weight": 0.2,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 98,
+      "rank": 92,
+      "company": "Bristol Myers Squibb",
+      "ticker": "BMY",
+      "weight": 0.2,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 96,
       "company": "Capital One",
       "ticker": "COF",
       "weight": 0.19,
@@ -2729,15 +2721,23 @@
       "interest_pct": null
     },
     {
-      "rank": 103,
-      "company": "CME Group",
-      "ticker": "CME",
-      "weight": 0.18,
+      "rank": 98,
+      "company": "HCA Healthcare",
+      "ticker": "HCA",
+      "weight": 0.19,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 104,
+      "rank": 99,
+      "company": "CME Group",
+      "ticker": "CME",
+      "weight": 0.19,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 101,
       "company": "Altria",
       "ticker": "MO",
       "weight": 0.18,
@@ -2745,15 +2745,7 @@
       "interest_pct": null
     },
     {
-      "rank": 106,
-      "company": "Southern Company",
-      "ticker": "SO",
-      "weight": 0.18,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 108,
+      "rank": 104,
       "company": "Sandisk Corporation",
       "ticker": "SNDK",
       "weight": 0.18,
@@ -2761,7 +2753,15 @@
       "interest_pct": null
     },
     {
-      "rank": 109,
+      "rank": 105,
+      "company": "Southern Company",
+      "ticker": "SO",
+      "weight": 0.18,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 106,
       "company": "Comcast",
       "ticker": "CMCSA",
       "weight": 0.18,
@@ -2770,14 +2770,6 @@
     },
     {
       "rank": 113,
-      "company": "Duke Energy",
-      "ticker": "DUK",
-      "weight": 0.17,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 114,
       "company": "Northrop Grumman",
       "ticker": "NOC",
       "weight": 0.17,
@@ -2785,15 +2777,15 @@
       "interest_pct": null
     },
     {
-      "rank": 116,
-      "company": "Howmet Aerospace",
-      "ticker": "HWM",
-      "weight": 0.16,
+      "rank": 115,
+      "company": "Duke Energy",
+      "ticker": "DUK",
+      "weight": 0.17,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 117,
+      "rank": 116,
       "company": "Equinix",
       "ticker": "EQIX",
       "weight": 0.16,
@@ -2801,7 +2793,7 @@
       "interest_pct": null
     },
     {
-      "rank": 118,
+      "rank": 117,
       "company": "General Dynamics",
       "ticker": "GD",
       "weight": 0.16,
@@ -2809,10 +2801,18 @@
       "interest_pct": null
     },
     {
-      "rank": 120,
+      "rank": 119,
+      "company": "Howmet Aerospace",
+      "ticker": "HWM",
+      "weight": 0.16,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 121,
       "company": "CVS Health",
       "ticker": "CVS",
-      "weight": 0.16,
+      "weight": 0.15,
       "halal_status": "not_halal",
       "interest_pct": null
     },
@@ -2836,12 +2836,20 @@
       "rank": 125,
       "company": "Blackstone Inc.",
       "ticker": "BX",
-      "weight": 0.14,
+      "weight": 0.15,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 126,
+      "company": "Marsh & McLennan Companies, Inc.",
+      "ticker": "MRSH",
+      "weight": 0.15,
+      "halal_status": "unknown",
+      "interest_pct": null
+    },
+    {
+      "rank": 127,
       "company": "Marriott International",
       "ticker": "MAR",
       "weight": 0.14,
@@ -2849,17 +2857,17 @@
       "interest_pct": null
     },
     {
-      "rank": 127,
-      "company": "American Tower",
-      "ticker": "AMT",
+      "rank": 128,
+      "company": "FedEx",
+      "ticker": "FDX",
       "weight": 0.14,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 131,
-      "company": "FedEx",
-      "ticker": "FDX",
+      "company": "American Tower",
+      "ticker": "AMT",
       "weight": 0.14,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -2874,30 +2882,30 @@
     },
     {
       "rank": 133,
-      "company": "Marsh & McLennan Companies, Inc.",
-      "ticker": "MRSH",
+      "company": "PNC Financial Services",
+      "ticker": "PNC",
       "weight": 0.14,
-      "halal_status": "unknown",
+      "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 135,
-      "company": "PNC Financial Services",
-      "ticker": "PNC",
-      "weight": 0.13,
+      "company": "KKR",
+      "ticker": "KKR",
+      "weight": 0.14,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 139,
+      "rank": 136,
       "company": "U.S. Bancorp",
       "ticker": "USB",
-      "weight": 0.13,
+      "weight": 0.14,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 141,
+      "rank": 138,
       "company": "BNY Mellon",
       "ticker": "BK",
       "weight": 0.13,
@@ -2906,22 +2914,6 @@
     },
     {
       "rank": 142,
-      "company": "KKR",
-      "ticker": "KKR",
-      "weight": 0.13,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 144,
-      "company": "Airbnb",
-      "ticker": "ABNB",
-      "weight": 0.13,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 146,
       "company": "Moody's Corporation",
       "ticker": "MCO",
       "weight": 0.13,
@@ -2929,15 +2921,23 @@
       "interest_pct": null
     },
     {
-      "rank": 154,
-      "company": "Royal Caribbean Group",
-      "ticker": "RCL",
+      "rank": 143,
+      "company": "Airbnb",
+      "ticker": "ABNB",
+      "weight": 0.13,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 152,
+      "company": "Kinder Morgan",
+      "ticker": "KMI",
       "weight": 0.12,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 157,
+      "rank": 155,
       "company": "Mondelez International",
       "ticker": "MDLZ",
       "weight": 0.12,
@@ -2946,14 +2946,54 @@
     },
     {
       "rank": 159,
-      "company": "Kinder Morgan",
-      "ticker": "KMI",
+      "company": "Royal Caribbean Group",
+      "ticker": "RCL",
       "weight": 0.12,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 160,
+      "rank": 161,
+      "company": "Phillips 66",
+      "ticker": "PSX",
+      "weight": 0.12,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 163,
+      "company": "Aon",
+      "ticker": "AON",
+      "weight": 0.12,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 164,
+      "company": "Cigna",
+      "ticker": "CI",
+      "weight": 0.12,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 165,
+      "company": "Marathon Petroleum",
+      "ticker": "MPC",
+      "weight": 0.12,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 169,
+      "company": "Warner Bros. Discovery",
+      "ticker": "WBD",
+      "weight": 0.12,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 170,
       "company": "American Electric Power",
       "ticker": "AEP",
       "weight": 0.12,
@@ -2961,47 +3001,7 @@
       "interest_pct": null
     },
     {
-      "rank": 165,
-      "company": "TransDigm Group",
-      "ticker": "TDG",
-      "weight": 0.12,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 167,
-      "company": "Robinhood Markets, Inc.",
-      "ticker": "HOOD",
-      "weight": 0.11,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 168,
-      "company": "Cigna",
-      "ticker": "CI",
-      "weight": 0.11,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 169,
-      "company": "Aon",
-      "ticker": "AON",
-      "weight": 0.11,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 170,
-      "company": "L3Harris",
-      "ticker": "LHX",
-      "weight": 0.11,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 172,
+      "rank": 173,
       "company": "Hilton Worldwide",
       "ticker": "HLT",
       "weight": 0.11,
@@ -3009,31 +3009,23 @@
       "interest_pct": null
     },
     {
-      "rank": 173,
-      "company": "Warner Bros. Discovery",
-      "ticker": "WBD",
-      "weight": 0.11,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
       "rank": 174,
-      "company": "Phillips 66",
-      "ticker": "PSX",
+      "company": "TransDigm Group",
+      "ticker": "TDG",
       "weight": 0.11,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 175,
-      "company": "Marathon Petroleum",
-      "ticker": "MPC",
+      "company": "L3Harris",
+      "ticker": "LHX",
       "weight": 0.11,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 177,
+      "rank": 176,
       "company": "General Motors",
       "ticker": "GM",
       "weight": 0.11,
@@ -3041,7 +3033,23 @@
       "interest_pct": null
     },
     {
+      "rank": 177,
+      "company": "Apollo Global Management",
+      "ticker": "APO",
+      "weight": 0.11,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
       "rank": 178,
+      "company": "Elevance Health",
+      "ticker": "ELV",
+      "weight": 0.11,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 179,
       "company": "Travelers Companies (The)",
       "ticker": "TRV",
       "weight": 0.11,
@@ -3050,46 +3058,22 @@
     },
     {
       "rank": 180,
-      "company": "Elevance Health",
-      "ticker": "ELV",
+      "company": "Robinhood Markets, Inc.",
+      "ticker": "HOOD",
       "weight": 0.11,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 182,
+      "rank": 183,
       "company": "Air Products",
       "ticker": "APD",
-      "weight": 0.1,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 183,
-      "company": "Apollo Global Management",
-      "ticker": "APO",
-      "weight": 0.1,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 184,
-      "company": "Sempra",
-      "ticker": "SRE",
-      "weight": 0.1,
+      "weight": 0.11,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 185,
-      "company": "Digital Realty",
-      "ticker": "DLR",
-      "weight": 0.1,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 186,
       "company": "Simon Property Group",
       "ticker": "SPG",
       "weight": 0.1,
@@ -3097,7 +3081,31 @@
       "interest_pct": null
     },
     {
-      "rank": 188,
+      "rank": 186,
+      "company": "Sempra",
+      "ticker": "SRE",
+      "weight": 0.1,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 187,
+      "company": "Occidental Petroleum",
+      "ticker": "OXY",
+      "weight": 0.1,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 189,
+      "company": "Digital Realty",
+      "ticker": "DLR",
+      "weight": 0.1,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 190,
       "company": "Paccar",
       "ticker": "PCAR",
       "weight": 0.1,
@@ -3105,7 +3113,7 @@
       "interest_pct": null
     },
     {
-      "rank": 190,
+      "rank": 192,
       "company": "Realty Income",
       "ticker": "O",
       "weight": 0.1,
@@ -3114,14 +3122,22 @@
     },
     {
       "rank": 193,
-      "company": "Occidental Petroleum",
-      "ticker": "OXY",
-      "weight": 0.09,
+      "company": "ONEOK",
+      "ticker": "OKE",
+      "weight": 0.1,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 194,
+      "company": "Arthur J. Gallagher & Co.",
+      "ticker": "AJG",
+      "weight": 0.09,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 195,
       "company": "Aflac",
       "ticker": "AFL",
       "weight": 0.09,
@@ -3129,7 +3145,7 @@
       "interest_pct": null
     },
     {
-      "rank": 195,
+      "rank": 196,
       "company": "Truist Financial",
       "ticker": "TFC",
       "weight": 0.09,
@@ -3137,39 +3153,15 @@
       "interest_pct": null
     },
     {
-      "rank": 196,
-      "company": "Vistra Corp.",
-      "ticker": "VST",
-      "weight": 0.09,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 197,
-      "company": "Coinbase Global",
-      "ticker": "COIN",
-      "weight": 0.09,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 198,
-      "company": "Dominion Energy",
-      "ticker": "D",
-      "weight": 0.09,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
       "rank": 199,
-      "company": "ONEOK",
-      "ticker": "OKE",
+      "company": "Diamondback Energy",
+      "ticker": "FANG",
       "weight": 0.09,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 201,
+      "rank": 200,
       "company": "Allstate",
       "ticker": "ALL",
       "weight": 0.09,
@@ -3177,9 +3169,17 @@
       "interest_pct": null
     },
     {
-      "rank": 202,
-      "company": "Arthur J. Gallagher & Co.",
-      "ticker": "AJG",
+      "rank": 203,
+      "company": "Dominion Energy",
+      "ticker": "D",
+      "weight": 0.09,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 204,
+      "company": "Coinbase Global",
+      "ticker": "COIN",
       "weight": 0.09,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -3194,46 +3194,22 @@
     },
     {
       "rank": 207,
-      "company": "Diamondback Energy",
-      "ticker": "FANG",
+      "company": "Targa Resources",
+      "ticker": "TRGP",
       "weight": 0.09,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 210,
-      "company": "Exelon",
-      "ticker": "EXC",
-      "weight": 0.08,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
       "rank": 211,
-      "company": "Targa Resources",
-      "ticker": "TRGP",
+      "company": "Vistra Corp.",
+      "ticker": "VST",
       "weight": 0.08,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 212,
-      "company": "Xcel Energy",
-      "ticker": "XEL",
-      "weight": 0.08,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 215,
-      "company": "Public Storage",
-      "ticker": "PSA",
-      "weight": 0.08,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 220,
       "company": "Nasdaq, Inc.",
       "ticker": "NDAQ",
       "weight": 0.08,
@@ -3241,9 +3217,25 @@
       "interest_pct": null
     },
     {
-      "rank": 224,
-      "company": "Entergy",
-      "ticker": "ETR",
+      "rank": 219,
+      "company": "Xcel Energy",
+      "ticker": "XEL",
+      "weight": 0.08,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 222,
+      "company": "Exelon",
+      "ticker": "EXC",
+      "weight": 0.08,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 223,
+      "company": "Public Storage",
+      "ticker": "PSA",
       "weight": 0.08,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -3258,6 +3250,22 @@
     },
     {
       "rank": 227,
+      "company": "Entergy",
+      "ticker": "ETR",
+      "weight": 0.08,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 228,
+      "company": "Kroger",
+      "ticker": "KR",
+      "weight": 0.08,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 229,
       "company": "United Rentals",
       "ticker": "URI",
       "weight": 0.08,
@@ -3265,15 +3273,15 @@
       "interest_pct": null
     },
     {
-      "rank": 229,
-      "company": "Becton Dickinson",
-      "ticker": "BDX",
+      "rank": 231,
+      "company": "MetLife",
+      "ticker": "MET",
       "weight": 0.08,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 230,
+      "rank": 232,
       "company": "Datadog",
       "ticker": "DDOG",
       "weight": 0.08,
@@ -3281,31 +3289,15 @@
       "interest_pct": null
     },
     {
-      "rank": 231,
-      "company": "Kroger",
-      "ticker": "KR",
-      "weight": 0.07,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 232,
-      "company": "MetLife",
-      "ticker": "MET",
+      "rank": 233,
+      "company": "Becton Dickinson",
+      "ticker": "BDX",
       "weight": 0.07,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 234,
-      "company": "Yum! Brands",
-      "ticker": "YUM",
-      "weight": 0.07,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 236,
       "company": "Chipotle Mexican Grill",
       "ticker": "CMG",
       "weight": 0.07,
@@ -3313,7 +3305,15 @@
       "interest_pct": null
     },
     {
-      "rank": 239,
+      "rank": 235,
+      "company": "Yum! Brands",
+      "ticker": "YUM",
+      "weight": 0.07,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 237,
       "company": "Delta Air Lines",
       "ticker": "DAL",
       "weight": 0.07,
@@ -3321,31 +3321,23 @@
       "interest_pct": null
     },
     {
-      "rank": 240,
-      "company": "Public Service Enterprise Group",
-      "ticker": "PEG",
-      "weight": 0.07,
-      "halal_status": "unknown",
-      "interest_pct": null
-    },
-    {
-      "rank": 241,
-      "company": "Consolidated Edison",
-      "ticker": "ED",
-      "weight": 0.07,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
       "rank": 243,
-      "company": "Ventas",
-      "ticker": "VTR",
+      "company": "Ameriprise Financial",
+      "ticker": "AMP",
       "weight": 0.07,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 246,
+      "rank": 244,
+      "company": "Fifth Third Bancorp",
+      "ticker": "FITB",
+      "weight": 0.07,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 245,
       "company": "American International Group",
       "ticker": "AIG",
       "weight": 0.07,
@@ -3354,22 +3346,30 @@
     },
     {
       "rank": 249,
-      "company": "PG&E Corporation",
-      "ticker": "PCG",
+      "company": "Public Service Enterprise Group",
+      "ticker": "PEG",
+      "weight": 0.07,
+      "halal_status": "unknown",
+      "interest_pct": null
+    },
+    {
+      "rank": 250,
+      "company": "Consolidated Edison",
+      "ticker": "ED",
       "weight": 0.07,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 251,
-      "company": "Ameriprise Financial",
-      "ticker": "AMP",
+      "company": "Ventas",
+      "ticker": "VTR",
       "weight": 0.07,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 252,
+      "rank": 253,
       "company": "Sysco",
       "ticker": "SYY",
       "weight": 0.07,
@@ -3377,17 +3377,17 @@
       "interest_pct": null
     },
     {
-      "rank": 253,
-      "company": "Fifth Third Bancorp",
-      "ticker": "FITB",
-      "weight": 0.07,
+      "rank": 256,
+      "company": "PG&E Corporation",
+      "ticker": "PCG",
+      "weight": 0.06,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 258,
-      "company": "Crown Castle",
-      "ticker": "CCI",
+      "company": "Hartford (The)",
+      "ticker": "HIG",
       "weight": 0.06,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -3401,7 +3401,7 @@
       "interest_pct": null
     },
     {
-      "rank": 260,
+      "rank": 261,
       "company": "Keurig Dr Pepper",
       "ticker": "KDP",
       "weight": 0.06,
@@ -3409,15 +3409,15 @@
       "interest_pct": null
     },
     {
-      "rank": 261,
-      "company": "Hartford (The)",
-      "ticker": "HIG",
+      "rank": 263,
+      "company": "Crown Castle",
+      "ticker": "CCI",
       "weight": 0.06,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 264,
+      "rank": 265,
       "company": "Block, Inc.",
       "ticker": "XYZ",
       "weight": 0.06,
@@ -3425,7 +3425,7 @@
       "interest_pct": null
     },
     {
-      "rank": 265,
+      "rank": 266,
       "company": "Las Vegas Sands",
       "ticker": "LVS",
       "weight": 0.06,
@@ -3433,7 +3433,7 @@
       "interest_pct": null
     },
     {
-      "rank": 266,
+      "rank": 267,
       "company": "Live Nation Entertainment",
       "ticker": "LYV",
       "weight": 0.06,
@@ -3442,24 +3442,16 @@
     },
     {
       "rank": 270,
-      "company": "Carnival",
-      "ticker": "CCL",
+      "company": "State Street Corporation",
+      "ticker": "STT",
       "weight": 0.06,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 273,
-      "company": "Archer Daniels Midland",
-      "ticker": "ADM",
-      "weight": 0.06,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 275,
-      "company": "State Street Corporation",
-      "ticker": "STT",
+      "company": "Carnival",
+      "ticker": "CCL",
       "weight": 0.06,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -3474,14 +3466,6 @@
     },
     {
       "rank": 279,
-      "company": "NRG Energy",
-      "ticker": "NRG",
-      "weight": 0.05,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 281,
       "company": "Prudential Financial",
       "ticker": "PRU",
       "weight": 0.05,
@@ -3489,23 +3473,23 @@
       "interest_pct": null
     },
     {
-      "rank": 288,
-      "company": "Iron Mountain",
-      "ticker": "IRM",
+      "rank": 282,
+      "company": "Archer Daniels Midland",
+      "ticker": "ADM",
       "weight": 0.05,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 290,
-      "company": "Fiserv, Inc.",
-      "ticker": "FISV",
+      "rank": 287,
+      "company": "NRG Energy",
+      "ticker": "NRG",
       "weight": 0.05,
-      "halal_status": "unknown",
+      "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 291,
+      "rank": 289,
       "company": "Huntington Bancshares",
       "ticker": "HBAN",
       "weight": 0.05,
@@ -3513,9 +3497,25 @@
       "interest_pct": null
     },
     {
+      "rank": 290,
+      "company": "Halliburton",
+      "ticker": "HAL",
+      "weight": 0.05,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 291,
+      "company": "Fiserv, Inc.",
+      "ticker": "FISV",
+      "weight": 0.05,
+      "halal_status": "unknown",
+      "interest_pct": null
+    },
+    {
       "rank": 292,
-      "company": "DTE Energy",
-      "ticker": "DTE",
+      "company": "Devon Energy",
+      "ticker": "DVN",
       "weight": 0.05,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -3530,22 +3530,6 @@
     },
     {
       "rank": 294,
-      "company": "Interactive Brokers Group",
-      "ticker": "IBKR",
-      "weight": 0.05,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 295,
-      "company": "Ameren",
-      "ticker": "AEE",
-      "weight": 0.05,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 296,
       "company": "Cboe Global Markets",
       "ticker": "CBOE",
       "weight": 0.05,
@@ -3553,39 +3537,23 @@
       "interest_pct": null
     },
     {
+      "rank": 296,
+      "company": "Iron Mountain",
+      "ticker": "IRM",
+      "weight": 0.05,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
       "rank": 297,
-      "company": "Vici Properties",
-      "ticker": "VICI",
+      "company": "DTE Energy",
+      "ticker": "DTE",
       "weight": 0.05,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 298,
-      "company": "United Airlines Holdings",
-      "ticker": "UAL",
-      "weight": 0.05,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 299,
-      "company": "Teledyne Technologies",
-      "ticker": "TDY",
-      "weight": 0.05,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 301,
-      "company": "Halliburton",
-      "ticker": "HAL",
-      "weight": 0.05,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 302,
       "company": "M&T Bank",
       "ticker": "MTB",
       "weight": 0.05,
@@ -3593,31 +3561,31 @@
       "interest_pct": null
     },
     {
+      "rank": 300,
+      "company": "Ameren",
+      "ticker": "AEE",
+      "weight": 0.05,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 302,
+      "company": "Interactive Brokers Group",
+      "ticker": "IBKR",
+      "weight": 0.05,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
       "rank": 303,
-      "company": "FirstEnergy",
-      "ticker": "FE",
+      "company": "United Airlines Holdings",
+      "ticker": "UAL",
       "weight": 0.05,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 306,
-      "company": "Extra Space Storage",
-      "ticker": "EXR",
-      "weight": 0.05,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 307,
-      "company": "Devon Energy",
-      "ticker": "DVN",
-      "weight": 0.05,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 309,
+      "rank": 305,
       "company": "Hewlett Packard Enterprise",
       "ticker": "HPE",
       "weight": 0.05,
@@ -3625,25 +3593,65 @@
       "interest_pct": null
     },
     {
+      "rank": 306,
+      "company": "Vici Properties",
+      "ticker": "VICI",
+      "weight": 0.05,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 307,
+      "company": "Teledyne Technologies",
+      "ticker": "TDY",
+      "weight": 0.05,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 309,
+      "company": "Raymond James Financial",
+      "ticker": "RJF",
+      "weight": 0.05,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
       "rank": 311,
-      "company": "PPL Corporation",
-      "ticker": "PPL",
+      "company": "FirstEnergy",
+      "ticker": "FE",
       "weight": 0.05,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 312,
-      "company": "Dollar General",
-      "ticker": "DG",
+      "company": "IQVIA",
+      "ticker": "IQV",
       "weight": 0.05,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 313,
-      "company": "IQVIA",
-      "ticker": "IQV",
+      "company": "Verisk Analytics",
+      "ticker": "VRSK",
+      "weight": 0.05,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 314,
+      "company": "Willis Towers Watson",
+      "ticker": "WTW",
+      "weight": 0.05,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 315,
+      "company": "Extra Space Storage",
+      "ticker": "EXR",
       "weight": 0.05,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -3657,23 +3665,23 @@
       "interest_pct": null
     },
     {
+      "rank": 317,
+      "company": "PPL Corporation",
+      "ticker": "PPL",
+      "weight": 0.05,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
       "rank": 318,
-      "company": "Raymond James Financial",
-      "ticker": "RJF",
+      "company": "Dollar General",
+      "ticker": "DG",
       "weight": 0.05,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 319,
-      "company": "Charter Communications",
-      "ticker": "CHTR",
-      "weight": 0.05,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 320,
       "company": "Edison International",
       "ticker": "EIX",
       "weight": 0.05,
@@ -3681,26 +3689,10 @@
       "interest_pct": null
     },
     {
-      "rank": 321,
-      "company": "Verisk Analytics",
-      "ticker": "VRSK",
-      "weight": 0.05,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 322,
-      "company": "Willis Towers Watson",
-      "ticker": "WTW",
-      "weight": 0.05,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
       "rank": 323,
-      "company": "Eversource Energy",
-      "ticker": "ES",
-      "weight": 0.04,
+      "company": "Charter Communications",
+      "ticker": "CHTR",
+      "weight": 0.05,
       "halal_status": "not_halal",
       "interest_pct": null
     },
@@ -3713,15 +3705,15 @@
       "interest_pct": null
     },
     {
-      "rank": 326,
-      "company": "Kraft Heinz",
-      "ticker": "KHC",
+      "rank": 325,
+      "company": "Dow Inc.",
+      "ticker": "DOW",
       "weight": 0.04,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 328,
+      "rank": 326,
       "company": "Constellation Brands",
       "ticker": "STZ",
       "weight": 0.04,
@@ -3729,11 +3721,11 @@
       "interest_pct": null
     },
     {
-      "rank": 329,
-      "company": "Dow Inc.",
-      "ticker": "DOW",
+      "rank": 327,
+      "company": "Expand Energy",
+      "ticker": "EXE",
       "weight": 0.04,
-      "halal_status": "not_halal",
+      "halal_status": "unknown",
       "interest_pct": null
     },
     {
@@ -3746,30 +3738,14 @@
     },
     {
       "rank": 332,
-      "company": "W. R. Berkley Corporation",
-      "ticker": "WRB",
-      "weight": 0.04,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 333,
-      "company": "Cincinnati Financial",
-      "ticker": "CINF",
+      "company": "Kraft Heinz",
+      "ticker": "KHC",
       "weight": 0.04,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 334,
-      "company": "Expand Energy",
-      "ticker": "EXE",
-      "weight": 0.04,
-      "halal_status": "unknown",
-      "interest_pct": null
-    },
-    {
-      "rank": 335,
       "company": "Northern Trust",
       "ticker": "NTRS",
       "weight": 0.04,
@@ -3777,23 +3753,31 @@
       "interest_pct": null
     },
     {
-      "rank": 341,
-      "company": "Bunge Global",
-      "ticker": "BG",
+      "rank": 335,
+      "company": "Eversource Energy",
+      "ticker": "ES",
       "weight": 0.04,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 343,
-      "company": "Omnicom Group",
-      "ticker": "OMC",
+      "rank": 336,
+      "company": "Cincinnati Financial",
+      "ticker": "CINF",
       "weight": 0.04,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 344,
+      "rank": 337,
+      "company": "W. R. Berkley Corporation",
+      "ticker": "WRB",
+      "weight": 0.04,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 339,
       "company": "Citizens Financial Group",
       "ticker": "CFG",
       "weight": 0.04,
@@ -3801,23 +3785,7 @@
       "interest_pct": null
     },
     {
-      "rank": 345,
-      "company": "Lennar",
-      "ticker": "LEN",
-      "weight": 0.04,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 346,
-      "company": "CMS Energy",
-      "ticker": "CMS",
-      "weight": 0.04,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 347,
+      "rank": 341,
       "company": "Ares Management Corporation",
       "ticker": "ARES",
       "weight": 0.04,
@@ -3825,17 +3793,41 @@
       "interest_pct": null
     },
     {
-      "rank": 348,
-      "company": "Qnity Electronics",
-      "ticker": "Q",
+      "rank": 343,
+      "company": "LyondellBasell",
+      "ticker": "LYB",
       "weight": 0.04,
-      "halal_status": "unknown",
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 345,
+      "company": "Darden Restaurants",
+      "ticker": "DRI",
+      "weight": 0.04,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 347,
+      "company": "Omnicom Group",
+      "ticker": "OMC",
+      "weight": 0.04,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 348,
+      "company": "Synchrony Financial",
+      "ticker": "SYF",
+      "weight": 0.04,
+      "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 349,
-      "company": "AvalonBay Communities",
-      "ticker": "AVB",
+      "company": "Bunge Global",
+      "ticker": "BG",
       "weight": 0.04,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -3850,22 +3842,46 @@
     },
     {
       "rank": 351,
-      "company": "Darden Restaurants",
-      "ticker": "DRI",
+      "company": "CMS Energy",
+      "ticker": "CMS",
       "weight": 0.04,
       "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 352,
+      "company": "AvalonBay Communities",
+      "ticker": "AVB",
+      "weight": 0.04,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 353,
+      "company": "Qnity Electronics",
+      "ticker": "Q",
+      "weight": 0.04,
+      "halal_status": "unknown",
       "interest_pct": null
     },
     {
       "rank": 354,
-      "company": "PPG Industries",
-      "ticker": "PPG",
+      "company": "Lennar",
+      "ticker": "LEN",
       "weight": 0.04,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 355,
+      "rank": 359,
+      "company": "Regions Financial Corporation",
+      "ticker": "RF",
+      "weight": 0.04,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 360,
       "company": "Equity Residential",
       "ticker": "EQR",
       "weight": 0.04,
@@ -3873,15 +3889,7 @@
       "interest_pct": null
     },
     {
-      "rank": 356,
-      "company": "LyondellBasell",
-      "ticker": "LYB",
-      "weight": 0.04,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 358,
+      "rank": 361,
       "company": "Loews Corporation",
       "ticker": "L",
       "weight": 0.04,
@@ -3889,17 +3897,9 @@
       "interest_pct": null
     },
     {
-      "rank": 361,
-      "company": "Synchrony Financial",
-      "ticker": "SYF",
-      "weight": 0.04,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
       "rank": 362,
-      "company": "NiSource",
-      "ticker": "NI",
+      "company": "PPG Industries",
+      "ticker": "PPG",
       "weight": 0.04,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -3913,31 +3913,15 @@
       "interest_pct": null
     },
     {
-      "rank": 364,
-      "company": "Dollar Tree",
-      "ticker": "DLTR",
+      "rank": 365,
+      "company": "NiSource",
+      "ticker": "NI",
       "weight": 0.04,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 366,
-      "company": "Regions Financial Corporation",
-      "ticker": "RF",
-      "weight": 0.04,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 367,
-      "company": "Tyson Foods",
-      "ticker": "TSN",
-      "weight": 0.04,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 369,
       "company": "Quest Diagnostics",
       "ticker": "DGX",
       "weight": 0.04,
@@ -3945,15 +3929,15 @@
       "interest_pct": null
     },
     {
-      "rank": 372,
-      "company": "Moderna",
-      "ticker": "MRNA",
+      "rank": 369,
+      "company": "KeyCorp",
+      "ticker": "KEY",
       "weight": 0.04,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 373,
+      "rank": 370,
       "company": "Leidos",
       "ticker": "LDOS",
       "weight": 0.04,
@@ -3961,23 +3945,23 @@
       "interest_pct": null
     },
     {
-      "rank": 375,
-      "company": "Smurfit WestRock",
-      "ticker": "SW",
+      "rank": 371,
+      "company": "Dollar Tree",
+      "ticker": "DLTR",
+      "weight": 0.04,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 373,
+      "company": "Tyson Foods",
+      "ticker": "TSN",
       "weight": 0.03,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 376,
-      "company": "KeyCorp",
-      "ticker": "KEY",
-      "weight": 0.03,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 378,
+      "rank": 374,
       "company": "Humana",
       "ticker": "HUM",
       "weight": 0.03,
@@ -3985,9 +3969,9 @@
       "interest_pct": null
     },
     {
-      "rank": 379,
-      "company": "Corpay",
-      "ticker": "CPAY",
+      "rank": 376,
+      "company": "Moderna",
+      "ticker": "MRNA",
       "weight": 0.03,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -4001,7 +3985,23 @@
       "interest_pct": null
     },
     {
-      "rank": 383,
+      "rank": 381,
+      "company": "Corpay",
+      "ticker": "CPAY",
+      "weight": 0.03,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 384,
+      "company": "CF Industries",
+      "ticker": "CF",
+      "weight": 0.03,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 385,
       "company": "Global Payments",
       "ticker": "GPN",
       "weight": 0.03,
@@ -4009,25 +4009,9 @@
       "interest_pct": null
     },
     {
-      "rank": 385,
-      "company": "International Paper",
-      "ticker": "IP",
-      "weight": 0.03,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 386,
-      "company": "SBA Communications",
-      "ticker": "SBAC",
-      "weight": 0.03,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 388,
-      "company": "Principal Financial Group",
-      "ticker": "PFG",
+      "rank": 387,
+      "company": "Smurfit WestRock",
+      "ticker": "SW",
       "weight": 0.03,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -4041,7 +4025,7 @@
       "interest_pct": null
     },
     {
-      "rank": 391,
+      "rank": 390,
       "company": "Snap-on",
       "ticker": "SNA",
       "weight": 0.03,
@@ -4049,7 +4033,23 @@
       "interest_pct": null
     },
     {
+      "rank": 392,
+      "company": "Principal Financial Group",
+      "ticker": "PFG",
+      "weight": 0.03,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
       "rank": 393,
+      "company": "SBA Communications",
+      "ticker": "SBAC",
+      "weight": 0.03,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 394,
       "company": "Evergy",
       "ticker": "EVRG",
       "weight": 0.03,
@@ -4057,15 +4057,7 @@
       "interest_pct": null
     },
     {
-      "rank": 396,
-      "company": "Amcor",
-      "ticker": "AMCR",
-      "weight": 0.03,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 399,
+      "rank": 397,
       "company": "CoStar Group",
       "ticker": "CSGP",
       "weight": 0.03,
@@ -4073,15 +4065,23 @@
       "interest_pct": null
     },
     {
-      "rank": 400,
-      "company": "International Flavors & Fragrances",
-      "ticker": "IFF",
+      "rank": 398,
+      "company": "International Paper",
+      "ticker": "IP",
       "weight": 0.03,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 401,
+      "company": "Amcor",
+      "ticker": "AMCR",
+      "weight": 0.03,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 402,
       "company": "Alliant Energy",
       "ticker": "LNT",
       "weight": 0.03,
@@ -4089,15 +4089,7 @@
       "interest_pct": null
     },
     {
-      "rank": 405,
-      "company": "CF Industries",
-      "ticker": "CF",
-      "weight": 0.03,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 406,
+      "rank": 404,
       "company": "Zimmer Biomet",
       "ticker": "ZBH",
       "weight": 0.03,
@@ -4105,9 +4097,9 @@
       "interest_pct": null
     },
     {
-      "rank": 407,
-      "company": "Weyerhaeuser",
-      "ticker": "WY",
+      "rank": 406,
+      "company": "International Flavors & Fragrances",
+      "ticker": "IFF",
       "weight": 0.03,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -4129,7 +4121,15 @@
       "interest_pct": null
     },
     {
-      "rank": 415,
+      "rank": 412,
+      "company": "Weyerhaeuser",
+      "ticker": "WY",
+      "weight": 0.03,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 414,
       "company": "Huntington Ingalls Industries",
       "ticker": "HII",
       "weight": 0.03,
@@ -4137,9 +4137,17 @@
       "interest_pct": null
     },
     {
-      "rank": 416,
-      "company": "Ball Corporation",
-      "ticker": "BALL",
+      "rank": 415,
+      "company": "Akamai Technologies",
+      "ticker": "AKAM",
+      "weight": 0.03,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 417,
+      "company": "CDW",
+      "ticker": "CDW",
       "weight": 0.03,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -4154,14 +4162,6 @@
     },
     {
       "rank": 419,
-      "company": "Viatris",
-      "ticker": "VTRS",
-      "weight": 0.03,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 420,
       "company": "Textron",
       "ticker": "TXT",
       "weight": 0.03,
@@ -4169,7 +4169,23 @@
       "interest_pct": null
     },
     {
+      "rank": 421,
+      "company": "Viatris",
+      "ticker": "VTRS",
+      "weight": 0.03,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
       "rank": 422,
+      "company": "Ball Corporation",
+      "ticker": "BALL",
+      "weight": 0.03,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 424,
       "company": "Kimco Realty",
       "ticker": "KIM",
       "weight": 0.03,
@@ -4177,15 +4193,7 @@
       "interest_pct": null
     },
     {
-      "rank": 423,
-      "company": "TKO Group Holdings",
-      "ticker": "TKO",
-      "weight": 0.03,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 424,
+      "rank": 426,
       "company": "Invitation Homes",
       "ticker": "INVH",
       "weight": 0.03,
@@ -4194,17 +4202,9 @@
     },
     {
       "rank": 427,
-      "company": "Akamai Technologies",
-      "ticker": "AKAM",
-      "weight": 0.03,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 428,
-      "company": "CDW",
-      "ticker": "CDW",
-      "weight": 0.03,
+      "company": "TKO Group Holdings",
+      "ticker": "TKO",
+      "weight": 0.02,
       "halal_status": "not_halal",
       "interest_pct": null
     },
@@ -4212,12 +4212,12 @@
       "rank": 429,
       "company": "Aptiv",
       "ticker": "APTV",
-      "weight": 0.03,
+      "weight": 0.02,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 433,
+      "rank": 432,
       "company": "Mid-America Apartment Communities",
       "ticker": "MAA",
       "weight": 0.02,
@@ -4225,87 +4225,7 @@
       "interest_pct": null
     },
     {
-      "rank": 435,
-      "company": "Genuine Parts Company",
-      "ticker": "GPC",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 437,
-      "company": "Regency Centers",
-      "ticker": "REG",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 440,
-      "company": "Domino's",
-      "ticker": "DPZ",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 441,
-      "company": "Everest Group",
-      "ticker": "EG",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 442,
-      "company": "Best Buy",
-      "ticker": "BBY",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 445,
-      "company": "Host Hotels & Resorts",
-      "ticker": "HST",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 446,
-      "company": "Erie Indemnity",
-      "ticker": "ERIE",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 447,
-      "company": "Franklin Resources",
-      "ticker": "BEN",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 448,
-      "company": "Gen Digital",
-      "ticker": "GEN",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 449,
-      "company": "Hormel Foods",
-      "ticker": "HRL",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 452,
+      "rank": 434,
       "company": "APA Corporation",
       "ticker": "APA",
       "weight": 0.02,
@@ -4313,9 +4233,81 @@
       "interest_pct": null
     },
     {
-      "rank": 454,
-      "company": "Pinnacle West",
-      "ticker": "PNW",
+      "rank": 435,
+      "company": "Regency Centers",
+      "ticker": "REG",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 438,
+      "company": "Genuine Parts Company",
+      "ticker": "GPC",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 439,
+      "company": "Best Buy",
+      "ticker": "BBY",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 442,
+      "company": "Host Hotels & Resorts",
+      "ticker": "HST",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 443,
+      "company": "Everest Group",
+      "ticker": "EG",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 444,
+      "company": "Gen Digital",
+      "ticker": "GEN",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 445,
+      "company": "Erie Indemnity",
+      "ticker": "ERIE",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 446,
+      "company": "Domino's",
+      "ticker": "DPZ",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 451,
+      "company": "Franklin Resources",
+      "ticker": "BEN",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 452,
+      "company": "Hormel Foods",
+      "ticker": "HRL",
       "weight": 0.02,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -4329,7 +4321,15 @@
       "interest_pct": null
     },
     {
-      "rank": 457,
+      "rank": 456,
+      "company": "Pinnacle West",
+      "ticker": "PNW",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 461,
       "company": "Solventum",
       "ticker": "SOLV",
       "weight": 0.02,
@@ -4337,7 +4337,7 @@
       "interest_pct": null
     },
     {
-      "rank": 460,
+      "rank": 463,
       "company": "Universal Health Services",
       "ticker": "UHS",
       "weight": 0.02,
@@ -4345,7 +4345,7 @@
       "interest_pct": null
     },
     {
-      "rank": 462,
+      "rank": 465,
       "company": "UDR, Inc.",
       "ticker": "UDR",
       "weight": 0.02,
@@ -4354,8 +4354,8 @@
     },
     {
       "rank": 466,
-      "company": "Stanley Black & Decker",
-      "ticker": "SWK",
+      "company": "Globe Life",
+      "ticker": "GL",
       "weight": 0.02,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -4370,22 +4370,6 @@
     },
     {
       "rank": 468,
-      "company": "Globe Life",
-      "ticker": "GL",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 469,
-      "company": "Wynn Resorts",
-      "ticker": "WYNN",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 470,
       "company": "Assurant",
       "ticker": "AIZ",
       "weight": 0.02,
@@ -4393,11 +4377,27 @@
       "interest_pct": null
     },
     {
-      "rank": 471,
+      "rank": 469,
       "company": "BrownâForman",
       "ticker": "BF.B",
       "weight": 0.02,
       "halal_status": "unknown",
+      "interest_pct": null
+    },
+    {
+      "rank": 470,
+      "company": "Stanley Black & Decker",
+      "ticker": "SWK",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 471,
+      "company": "Wynn Resorts",
+      "ticker": "WYNN",
+      "weight": 0.02,
+      "halal_status": "not_halal",
       "interest_pct": null
     },
     {
@@ -4410,6 +4410,14 @@
     },
     {
       "rank": 473,
+      "company": "Paramount Skydance Corp",
+      "ticker": "PSKY",
+      "weight": 0.02,
+      "halal_status": "unknown",
+      "interest_pct": null
+    },
+    {
+      "rank": 474,
       "company": "Camden Property Trust",
       "ticker": "CPT",
       "weight": 0.02,
@@ -4418,22 +4426,6 @@
     },
     {
       "rank": 475,
-      "company": "Paramount Skydance Corp",
-      "ticker": "PSKY",
-      "weight": 0.02,
-      "halal_status": "unknown",
-      "interest_pct": null
-    },
-    {
-      "rank": 476,
-      "company": "Builders FirstSource",
-      "ticker": "BLDR",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 477,
       "company": "AES Corporation",
       "ticker": "AES",
       "weight": 0.02,
@@ -4441,7 +4433,7 @@
       "interest_pct": null
     },
     {
-      "rank": 478,
+      "rank": 477,
       "company": "DaVita",
       "ticker": "DVA",
       "weight": 0.02,
@@ -4449,7 +4441,7 @@
       "interest_pct": null
     },
     {
-      "rank": 479,
+      "rank": 478,
       "company": "Revvity",
       "ticker": "RVTY",
       "weight": 0.02,
@@ -4457,9 +4449,17 @@
       "interest_pct": null
     },
     {
-      "rank": 480,
+      "rank": 479,
       "company": "MGM Resorts",
       "ticker": "MGM",
+      "weight": 0.02,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 480,
+      "company": "Builders FirstSource",
+      "ticker": "BLDR",
       "weight": 0.02,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -4473,23 +4473,15 @@
       "interest_pct": null
     },
     {
-      "rank": 482,
+      "rank": 484,
       "company": "Norwegian Cruise Line Holdings",
       "ticker": "NCLH",
-      "weight": 0.02,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 483,
-      "company": "Mosaic Company (The)",
-      "ticker": "MOS",
       "weight": 0.01,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
-      "rank": 484,
+      "rank": 485,
       "company": "Baxter International",
       "ticker": "BAX",
       "weight": 0.01,
@@ -4497,9 +4489,17 @@
       "interest_pct": null
     },
     {
-      "rank": 487,
+      "rank": 486,
       "company": "Henry Schein",
       "ticker": "HSIC",
+      "weight": 0.01,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 487,
+      "company": "BXP, Inc.",
+      "ticker": "BXP",
       "weight": 0.01,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -4513,14 +4513,6 @@
       "interest_pct": null
     },
     {
-      "rank": 489,
-      "company": "BXP, Inc.",
-      "ticker": "BXP",
-      "weight": 0.01,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
       "rank": 491,
       "company": "Molson Coors Beverage Company",
       "ticker": "TAP",
@@ -4529,15 +4521,7 @@
       "interest_pct": null
     },
     {
-      "rank": 495,
-      "company": "Conagra Brands",
-      "ticker": "CAG",
-      "weight": 0.01,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
-      "rank": 496,
+      "rank": 493,
       "company": "Charles River Laboratories",
       "ticker": "CRL",
       "weight": 0.01,
@@ -4545,17 +4529,33 @@
       "interest_pct": null
     },
     {
+      "rank": 494,
+      "company": "Mosaic Company (The)",
+      "ticker": "MOS",
+      "weight": 0.01,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 497,
+      "company": "Conagra Brands",
+      "ticker": "CAG",
+      "weight": 0.01,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
       "rank": 498,
-      "company": "Molina Healthcare",
-      "ticker": "MOH",
+      "company": "Match Group",
+      "ticker": "MTCH",
       "weight": 0.01,
       "halal_status": "not_halal",
       "interest_pct": null
     },
     {
       "rank": 499,
-      "company": "Match Group",
-      "ticker": "MTCH",
+      "company": "Molina Healthcare",
+      "ticker": "MOH",
       "weight": 0.01,
       "halal_status": "not_halal",
       "interest_pct": null
@@ -4580,7 +4580,7 @@
       "rank": 3,
       "company": "Microsoft",
       "ticker": "MSFT",
-      "weight": 4.86,
+      "weight": 4.81,
       "halal_status": "doubtful",
       "interest_pct": null
     },
@@ -4588,7 +4588,7 @@
       "rank": 4,
       "company": "Amazon",
       "ticker": "AMZN",
-      "weight": 3.78,
+      "weight": 3.74,
       "halal_status": "doubtful",
       "interest_pct": null
     },
@@ -4596,7 +4596,7 @@
       "rank": 5,
       "company": "Alphabet Inc. (Class A)",
       "ticker": "GOOGL",
-      "weight": 3.19,
+      "weight": 3.2,
       "halal_status": "doubtful",
       "interest_pct": null
     },
@@ -4604,7 +4604,7 @@
       "rank": 6,
       "company": "Alphabet Inc. (Class C)",
       "ticker": "GOOG",
-      "weight": 2.97,
+      "weight": 2.96,
       "halal_status": "doubtful",
       "interest_pct": null
     },
@@ -4612,7 +4612,7 @@
       "rank": 7,
       "company": "Meta Platforms",
       "ticker": "META",
-      "weight": 2.58,
+      "weight": 2.55,
       "halal_status": "doubtful",
       "interest_pct": null
     },
@@ -4620,20 +4620,20 @@
       "rank": 11,
       "company": "Walmart",
       "ticker": "WMT",
-      "weight": 1.64,
+      "weight": 1.61,
       "halal_status": "doubtful",
       "interest_pct": null
     },
     {
-      "rank": 20,
+      "rank": 19,
       "company": "Costco",
       "ticker": "COST",
-      "weight": 0.72,
+      "weight": 0.73,
       "halal_status": "doubtful",
       "interest_pct": null
     },
     {
-      "rank": 21,
+      "rank": 22,
       "company": "Netflix",
       "ticker": "NFLX",
       "weight": 0.66,
@@ -4665,7 +4665,7 @@
       "interest_pct": null
     },
     {
-      "rank": 444,
+      "rank": 441,
       "company": "Hasbro",
       "ticker": "HAS",
       "weight": 0.02,
@@ -4673,7 +4673,7 @@
       "interest_pct": null
     },
     {
-      "rank": 459,
+      "rank": 457,
       "company": "Fox Corporation (Class B)",
       "ticker": "FOX",
       "weight": 0.02,
@@ -4681,7 +4681,7 @@
       "interest_pct": null
     },
     {
-      "rank": 461,
+      "rank": 459,
       "company": "Fox Corporation (Class A)",
       "ticker": "FOXA",
       "weight": 0.02,
@@ -4689,10 +4689,10 @@
       "interest_pct": null
     },
     {
-      "rank": 486,
+      "rank": 483,
       "company": "News Corp (Class A)",
       "ticker": "NWSA",
-      "weight": 0.01,
+      "weight": 0.02,
       "halal_status": "doubtful",
       "interest_pct": null
     },
