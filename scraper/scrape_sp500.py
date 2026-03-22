@@ -79,7 +79,7 @@ def main():
     print(f"OK : {len(holdings)} actions, poids total = {total_weight:.2f}%")
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(json.dumps(holdings, indent=2, ensure_ascii=False))
+    OUTPUT.write_text(json.dumps(holdings, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Sauvegarde dans {OUTPUT}")
 
     # Afficher le top 10

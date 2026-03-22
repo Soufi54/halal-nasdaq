@@ -14,8 +14,8 @@ OUTPUT = DATA_DIR / "halal_sp500.json"
 
 
 def main():
-    holdings = json.loads(WEIGHTS_FILE.read_text())
-    halal_data = json.loads(HALAL_FILE.read_text())
+    holdings = json.loads(WEIGHTS_FILE.read_text(encoding="utf-8"))
+    halal_data = json.loads(HALAL_FILE.read_text(encoding="utf-8"))
     status_map = {item["ticker"]: item for item in halal_data}
 
     halal_holdings = []
@@ -65,7 +65,7 @@ def main():
         "excluded": excluded,
     }
 
-    OUTPUT.write_text(json.dumps(result, indent=2, ensure_ascii=False))
+    OUTPUT.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
 
     print(f"S&P 500 Halal — {date.today().isoformat()}")
     print(f"  Incluses : {len(included)} halal")

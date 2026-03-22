@@ -39,7 +39,7 @@ def main():
         print(f"ERREUR : {HALAL_FILE} introuvable", file=sys.stderr)
         sys.exit(1)
 
-    halal_data = json.loads(HALAL_FILE.read_text())
+    halal_data = json.loads(HALAL_FILE.read_text(encoding="utf-8"))
 
     # Echantillon stratifie : prendre des halal, doubtful et not_halal
     by_status = {}

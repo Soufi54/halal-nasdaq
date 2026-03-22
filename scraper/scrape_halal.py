@@ -70,7 +70,7 @@ def main():
         print(f"ERREUR : {INPUT} introuvable. Lance d'abord scrape_nasdaq.py", file=sys.stderr)
         sys.exit(1)
 
-    holdings = json.loads(INPUT.read_text())
+    holdings = json.loads(INPUT.read_text(encoding="utf-8"))
     tickers = [h["ticker"] for h in holdings]
     total = len(tickers)
 
@@ -79,7 +79,7 @@ def main():
     # Charger les resultats existants pour reprendre en cas d'interruption
     existing = {}
     if OUTPUT.exists():
-        for item in json.loads(OUTPUT.read_text()):
+        for item in json.loads(OUTPUT.read_text(encoding="utf-8")):
             existing[item["ticker"]] = item
 
     results = []
@@ -95,7 +95,7 @@ def main():
             print(f"  [{i}/{total}] {ticker} — {result['status']}")
 
             # Sauvegarde incrementale
-            OUTPUT.write_text(json.dumps(results, indent=2, ensure_ascii=False))
+            OUTPUT.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
 
             if i < total:
                 time.sleep(DELAY)

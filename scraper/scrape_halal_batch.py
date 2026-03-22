@@ -77,7 +77,7 @@ def main():
         print(f"ERREUR : {input_path} introuvable", file=sys.stderr)
         sys.exit(1)
 
-    holdings = json.loads(input_path.read_text())
+    holdings = json.loads(input_path.read_text(encoding="utf-8"))
     tickers = [h["ticker"] for h in holdings]
     total = len(tickers)
 
@@ -90,7 +90,7 @@ def main():
     # Charger les resultats existants pour reprendre en cas d'interruption
     existing = {}
     if output_path.exists():
-        for item in json.loads(output_path.read_text()):
+        for item in json.loads(output_path.read_text(encoding="utf-8")):
             existing[item["ticker"]] = item
 
     results = []
@@ -107,7 +107,7 @@ def main():
 
             # Sauvegarde incrementale
             output_path.parent.mkdir(parents=True, exist_ok=True)
-            output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
+            output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
 
             if i < total:
                 time.sleep(DELAY)

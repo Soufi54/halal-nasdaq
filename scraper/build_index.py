@@ -23,8 +23,8 @@ def main():
         print(f"ERREUR : {HALAL_FILE} introuvable", file=sys.stderr)
         sys.exit(1)
 
-    holdings = json.loads(WEIGHTS_FILE.read_text())
-    halal_data = json.loads(HALAL_FILE.read_text())
+    holdings = json.loads(WEIGHTS_FILE.read_text(encoding="utf-8"))
+    halal_data = json.loads(HALAL_FILE.read_text(encoding="utf-8"))
 
     # Index statut par ticker
     status_map = {item["ticker"]: item for item in halal_data}
@@ -90,7 +90,7 @@ def main():
         "excluded": excluded,
     }
 
-    OUTPUT.write_text(json.dumps(result, indent=2, ensure_ascii=False))
+    OUTPUT.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
 
     print(f"NASDAQ 100 Halal — {date.today().isoformat()}")
     print(f"  Actions incluses : {len(included)} ({len(halal_holdings)} halal + {len(doubtful_holdings)} doubtful)")
