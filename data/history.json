@@ -1,0 +1,124 @@
+[
+  {
+    "date": "2026-03-22",
+    "nasdaq100": {
+      "total": 101,
+      "halal": 67,
+      "excluded": 34,
+      "doubtful": 12,
+      "halal_weight_pct": 56.02,
+      "top5": [
+        {
+          "ticker": "NVDA",
+          "weight": 23.44
+        },
+        {
+          "ticker": "AAPL",
+          "weight": 20.33
+        },
+        {
+          "ticker": "AVGO",
+          "weight": 8.21
+        },
+        {
+          "ticker": "TSLA",
+          "weight": 7.71
+        },
+        {
+          "ticker": "ASML",
+          "weight": 2.84
+        }
+      ]
+    },
+    "sp500": {
+      "total": 503,
+      "halal": 223,
+      "excluded": 280,
+      "doubtful": 16,
+      "halal_weight_pct": 51.67,
+      "top5": [
+        {
+          "ticker": "NVDA",
+          "weight": 13.76
+        },
+        {
+          "ticker": "AAPL",
+          "weight": 11.95
+        },
+        {
+          "ticker": "AVGO",
+          "weight": 4.83
+        },
+        {
+          "ticker": "TSLA",
+          "weight": 4.52
+        },
+        {
+          "ticker": "LLY",
+          "weight": 2.65
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-03-28",
+    "nasdaq100": {
+      "total": 101,
+      "halal": 67,
+      "excluded": 34,
+      "doubtful": 12,
+      "halal_weight_pct": 56.76,
+      "top5": [
+        {
+          "ticker": "NVDA",
+          "weight": 23.27
+        },
+        {
+          "ticker": "AAPL",
+          "weight": 20.88
+        },
+        {
+          "ticker": "AVGO",
+          "weight": 8.14
+        },
+        {
+          "ticker": "TSLA",
+          "weight": 7.75
+        },
+        {
+          "ticker": "ASML",
+          "weight": 2.87
+        }
+      ]
+    },
+    "sp500": {
+      "total": 503,
+      "halal": 225,
+      "excluded": 278,
+      "doubtful": 18,
+      "halal_weight_pct": 52.19,
+      "top5": [
+        {
+          "ticker": "NVDA",
+          "weight": 13.48
+        },
+        {
+          "ticker": "AAPL",
+          "weight": 12.1
+        },
+        {
+          "ticker": "AVGO",
+          "weight": 4.71
+        },
+        {
+          "ticker": "TSLA",
+          "weight": 4.5
+        },
+        {
+          "ticker": "LLY",
+          "weight": 2.6
+        }
+      ]
+    }
+  }
+]

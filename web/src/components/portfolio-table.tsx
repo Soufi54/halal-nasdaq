@@ -14,28 +14,35 @@ type Holding = {
   weight: number;
 };
 
-function formatMoney(amount: number): string {
+function formatMoney(amount: number, locale: string = "fr"): string {
+  const loc = locale === "en" ? "en-US" : "fr-FR";
+  const currency = locale === "en" ? "USD" : "EUR";
   if (amount >= 1000) {
     return (
-      amount.toLocaleString("fr-FR", {
+      amount.toLocaleString(loc, {
         minimumFractionDigits: 0,
         maximumFractionDigits: 0,
-      }) + " EUR"
+      }) + ` ${currency}`
     );
   }
   return (
-    amount.toLocaleString("fr-FR", {
+    amount.toLocaleString(loc, {
       minimumFractionDigits: 2,
       maximumFractionDigits: 2,
-    }) + " EUR"
+    }) + ` ${currency}`
   );
 }
 
-function downloadCSV(holdings: Holding[], amount: number) {
+function downloadCSV(holdings: Holding[], amount: number, locale: string = "fr") {
   const sep = ";";
+  const currency = locale === "en" ? "USD" : "EUR";
+  const companyLabel = locale === "en" ? "Company" : "Entreprise";
+  const weightLabel = locale === "en" ? "Weight (%)" : "Poids (%)";
+  const amountLabel = locale === "en" ? `Amount (${currency})` : `Montant (${currency})`;
+  const origLabel = locale === "en" ? "Original weight (%)" : "Poids original (%)";
   const header = amount > 0
-    ? ["#", "Ticker", "Entreprise", "Poids (%)", "Montant (EUR)", "Poids original (%)"]
-    : ["#", "Ticker", "Entreprise", "Poids (%)", "Poids original (%)"];
+    ? ["#", "Ticker", companyLabel, weightLabel, amountLabel, origLabel]
+    : ["#", "Ticker", companyLabel, weightLabel, origLabel];
 
   const rows = holdings.map((h) => {
     const base = [
@@ -63,13 +70,41 @@ function downloadCSV(holdings: Holding[], amount: number) {
   URL.revokeObjectURL(url);
 }
 
+const labels = {
+  fr: {
+    composition: "Composition",
+    actionsRedist: (n: number) => `${n} actions — poids redistribues pro-rata`,
+    simulate: "Simuler un portefeuille",
+    exportCSV: "Exporter CSV",
+    company: "Entreprise",
+    weight: "Poids",
+    amount: "Montant",
+    orig: "Orig.",
+    currency: "EUR",
+  },
+  en: {
+    composition: "Composition",
+    actionsRedist: (n: number) => `${n} stocks — weights redistributed pro-rata`,
+    simulate: "Simulate a portfolio",
+    exportCSV: "Export CSV",
+    company: "Company",
+    weight: "Weight",
+    amount: "Amount",
+    orig: "Orig.",
+    currency: "USD",
+  },
+};
+
 export function PortfolioTable({
   holdings,
   includedCount,
+  locale = "fr",
 }: {
   holdings: Holding[];
   includedCount: number;
+  locale?: "fr" | "en";
 }) {
+  const t = labels[locale];
   const [portfolio, setPortfolio] = useState<string>("");
 
   const amount =
@@ -79,9 +114,9 @@ export function PortfolioTable({
     <section>
       <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <h2 className="text-2xl font-bold text-[var(--color-navy)]">Composition</h2>
+          <h2 className="text-2xl font-bold text-[var(--color-navy)]">{t.composition}</h2>
           <p className="mt-1 text-sm text-[var(--color-muted-foreground)]">
-            {includedCount} actions — poids redistribues pro-rata
+            {t.actionsRedist(includedCount)}
           </p>
         </div>
         <div className="flex items-center gap-3 flex-wrap">
@@ -89,7 +124,7 @@ export function PortfolioTable({
             htmlFor="portfolio"
             className="text-sm font-medium text-[var(--color-muted-foreground)] whitespace-nowrap"
           >
-            Simuler un portefeuille
+            {t.simulate}
           </label>
           <div className="relative">
             <input
@@ -102,18 +137,18 @@ export function PortfolioTable({
               className="h-11 w-44 rounded-xl border border-[var(--border)] bg-white/80 backdrop-blur-sm px-4 pr-14 text-sm font-mono text-[var(--foreground)] placeholder:text-[var(--color-muted-foreground)]/40 focus:border-[var(--color-navy)] focus:outline-none focus:ring-2 focus:ring-[var(--color-navy)]/10 transition-all duration-200"
             />
             <span className="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-semibold text-[var(--color-muted-foreground)]">
-              EUR
+              {t.currency}
             </span>
           </div>
           <button
-            onClick={() => downloadCSV(holdings, amount)}
+            onClick={() => downloadCSV(holdings, amount, locale)}
             className="cursor-pointer h-11 rounded-xl border border-[var(--border)] bg-white/60 px-4 text-sm font-medium text-[var(--color-navy)] transition-all duration-200 hover:bg-white hover:shadow-sm hover:-translate-y-0.5"
           >
             <span className="flex items-center gap-2">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="shrink-0">
                 <path d="M4 12h8M8 2v8m0 0L5 7m3 3l3-3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-              Exporter CSV
+              {t.exportCSV}
             </span>
           </button>
         </div>
@@ -130,18 +165,18 @@ export function PortfolioTable({
                 Ticker
               </th>
               <th className="px-5 py-4 text-left text-xs font-semibold uppercase tracking-wider text-[var(--color-muted-foreground)]">
-                Entreprise
+                {t.company}
               </th>
               <th className="px-5 py-4 text-right text-xs font-semibold uppercase tracking-wider text-[var(--color-muted-foreground)]">
-                Poids
+                {t.weight}
               </th>
               {amount > 0 && (
                 <th className="px-5 py-4 text-right text-xs font-semibold uppercase tracking-wider text-[var(--color-gold)]">
-                  Montant
+                  {t.amount}
                 </th>
               )}
               <th className="px-5 py-4 text-right text-xs font-semibold uppercase tracking-wider text-[var(--color-muted-foreground)]/50">
-                Orig.
+                {t.orig}
               </th>
             </tr>
           </thead>
@@ -167,7 +202,7 @@ export function PortfolioTable({
                 </td>
                 {amount > 0 && (
                   <td className="px-5 py-3.5 text-right font-mono font-semibold text-[var(--color-gold)]">
-                    {formatMoney((amount * h.halal_weight) / 100)}
+                    {formatMoney((amount * h.halal_weight) / 100, locale)}
                   </td>
                 )}
                 <td className="px-5 py-3.5 text-right font-mono text-xs text-[var(--color-muted-foreground)]/40">

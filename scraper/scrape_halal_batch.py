@@ -116,6 +116,10 @@ def main():
             print(f"  [{i}/{total}] {ticker} -- ERREUR : {e}")
             results.append({"ticker": ticker, "status": "error", "source": "zoya", "detail": str(e)})
 
+    # Ecriture finale (meme si tout vient du cache)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
+
     # Stats
     halal = sum(1 for r in results if r["status"] == "halal")
     doubtful = sum(1 for r in results if r["status"] == "doubtful")

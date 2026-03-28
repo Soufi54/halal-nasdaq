@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const links = [
+const linksFr = [
   { href: "/", label: "Accueil" },
   { href: "/nasdaq-halal", label: "NASDAQ 100" },
   { href: "/sp500-halal", label: "S&P 500" },
@@ -11,13 +11,25 @@ const links = [
   { href: "/methodologie", label: "Methodologie" },
 ];
 
+const linksEn = [
+  { href: "/en", label: "Home" },
+  { href: "/en/nasdaq-halal", label: "NASDAQ 100" },
+  { href: "/en/sp500-halal", label: "S&P 500" },
+  { href: "/en/methodology", label: "Methodology" },
+];
+
 export function Nav() {
   const pathname = usePathname();
+  const isEn = pathname === "/en" || pathname.startsWith("/en/");
+  const links = isEn ? linksEn : linksFr;
+  const homeHref = isEn ? "/en" : "/";
+  const switchHref = isEn ? "/" : "/en";
+  const switchLabel = isEn ? "FR" : "EN";
 
   return (
     <nav className="glass-nav sticky top-0 z-50">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <Link href="/" className="flex items-center gap-2.5 cursor-pointer">
+        <Link href={homeHref} className="flex items-center gap-2.5 cursor-pointer">
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--color-navy)] shadow-md">
             <span className="text-sm font-bold text-white">MF</span>
           </div>
@@ -28,8 +40,8 @@ export function Nav() {
         <div className="hidden items-center gap-1 md:flex">
           {links.map((link) => {
             const isActive =
-              link.href === "/"
-                ? pathname === "/"
+              link.href === homeHref
+                ? pathname === homeHref
                 : pathname.startsWith(link.href);
             return (
               <Link
@@ -45,14 +57,21 @@ export function Nav() {
               </Link>
             );
           })}
+          <Link
+            href={switchHref}
+            className="cursor-pointer ml-2 rounded-lg border border-[var(--border)] px-2.5 py-1.5 text-xs font-bold text-[var(--color-muted-foreground)] hover:text-[var(--color-navy)] hover:bg-white/60 transition-all duration-200"
+          >
+            {switchLabel}
+          </Link>
         </div>
-        <MobileMenu pathname={pathname} />
+        <MobileMenu pathname={pathname} links={links} switchHref={switchHref} switchLabel={switchLabel} />
       </div>
     </nav>
   );
 }
 
-function MobileMenu({ pathname }: { pathname: string }) {
+function MobileMenu({ pathname, links, switchHref, switchLabel }: { pathname: string; links: typeof linksFr; switchHref: string; switchLabel: string }) {
+  const homeHref = links[0].href;
   return (
     <details className="relative md:hidden group">
       <summary className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-xl text-[var(--color-muted-foreground)] hover:bg-white/60 list-none transition-colors duration-200">
@@ -63,8 +82,8 @@ function MobileMenu({ pathname }: { pathname: string }) {
       <div className="absolute right-0 top-12 w-48 rounded-2xl glass-card p-2">
         {links.map((link) => {
           const isActive =
-            link.href === "/"
-              ? pathname === "/"
+            link.href === homeHref
+              ? pathname === homeHref
               : pathname.startsWith(link.href);
           return (
             <Link
@@ -80,6 +99,12 @@ function MobileMenu({ pathname }: { pathname: string }) {
             </Link>
           );
         })}
+        <Link
+          href={switchHref}
+          className="block cursor-pointer rounded-lg px-3 py-2.5 text-sm font-bold text-[var(--color-gold)] transition-all duration-200 hover:bg-white/50 mt-1 border-t border-[var(--border)] pt-2"
+        >
+          {switchLabel}
+        </Link>
       </div>
     </details>
   );

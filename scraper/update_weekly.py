@@ -7,6 +7,7 @@ Doit etre lance depuis la racine du repo halal-nasdaq.
 """
 
 import json
+import shutil
 import subprocess
 import sys
 from datetime import date
@@ -15,6 +16,7 @@ from pathlib import Path
 REPO_DIR = Path(__file__).parent.parent
 SCRAPER_DIR = REPO_DIR / "scraper"
 DATA_DIR = REPO_DIR / "data"
+WEB_SRC = REPO_DIR / "web" / "src"
 
 
 def run(description: str, cmd: list[str], cwd: Path = REPO_DIR) -> bool:
@@ -78,18 +80,28 @@ def main():
         print("ARRET : echec build indice S&P 500")
         sys.exit(1)
 
-    # Etape 7 : Verifier s'il y a des changements
+    # Etape 7 : Sauvegarder le snapshot historique
+    if not run("Sauvegarde snapshot historique", [python, str(SCRAPER_DIR / "save_history.py")]):
+        print("WARNING : echec sauvegarde historique — on continue")
+
+    # Etape 8 : Copier les donnees dans web/src pour le build Next.js
+    print("\nCopie des donnees dans web/src...")
+    shutil.copy2(DATA_DIR / "halal_nasdaq100.json", WEB_SRC / "data.json")
+    shutil.copy2(DATA_DIR / "halal_sp500.json", WEB_SRC / "sp500-data.json")
+    print("  OK")
+
+    # Etape 9 : Verifier s'il y a des changements
     result = subprocess.run(
-        ["git", "status", "--porcelain", "data/"],
+        ["git", "status", "--porcelain", "data/", "web/src/data.json", "web/src/sp500-data.json"],
         cwd=str(REPO_DIR), capture_output=True, text=True
     )
     if not result.stdout.strip():
         print("\nAucun changement dans les donnees — rien a pousser.")
         return
 
-    # Etape 8 : Commit + push
+    # Etape 10 : Commit + push
     print(f"\nChangements detectes — commit + push...")
-    subprocess.run(["git", "add", "data/"], cwd=str(REPO_DIR))
+    subprocess.run(["git", "add", "data/", "web/src/data.json", "web/src/sp500-data.json"], cwd=str(REPO_DIR))
 
     # Lire les stats pour le message de commit
     nasdaq = json.loads((DATA_DIR / "halal_nasdaq100.json").read_text(encoding="utf-8"))

@@ -22,6 +22,12 @@ export const metadata: Metadata = {
   description:
     "Vous voulez investir en bourse sans compromettre vos convictions ? On a passe chaque action du NASDAQ 100 et du S&P 500 au crible du standard AAOIFI. Resultat : la composition exacte d'un indice halal, avec simulateur de portefeuille. Gratuit, open-source, transparent.",
   metadataBase: new URL("https://muslimfinance.net"),
+  alternates: {
+    languages: {
+      fr: "https://muslimfinance.net",
+      en: "https://muslimfinance.net/en",
+    },
+  },
 };
 
 export default function RootLayout({
