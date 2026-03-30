@@ -134,6 +134,52 @@ export default function HomeEn() {
         </div>
       </section>
 
+      {/* Guides */}
+      <section className="mx-auto max-w-6xl px-6 pb-20">
+        <h2 className="text-2xl font-bold mb-2 text-[var(--color-navy)]">
+          Learn before you invest
+        </h2>
+        <p className="text-[0.95rem] text-[var(--color-muted-foreground)] mb-8 max-w-2xl leading-relaxed">
+          Free guides covering everything from savings allocation to gold,
+          real estate, and Murabaha.
+        </p>
+        <div className="grid gap-6 md:grid-cols-3">
+          <Link
+            href="/en/guides/allocation"
+            className="cursor-pointer group glass-card rounded-2xl p-6"
+          >
+            <h3 className="text-base font-bold text-[var(--color-navy)] mb-2 group-hover:text-[var(--color-gold)] transition-colors duration-200">
+              Savings allocation
+            </h3>
+            <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+              Emergency fund, short-term goals, investable savings. The framework.
+            </p>
+          </Link>
+          <Link
+            href="/en/guides/buying-stocks"
+            className="cursor-pointer group glass-card rounded-2xl p-6"
+          >
+            <h3 className="text-base font-bold text-[var(--color-navy)] mb-2 group-hover:text-[var(--color-gold)] transition-colors duration-200">
+              Buying halal stocks
+            </h3>
+            <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+              Screeners, AAOIFI criteria, purification, brokers. The complete guide.
+            </p>
+          </Link>
+          <Link
+            href="/en/guides"
+            className="cursor-pointer group glass-card rounded-2xl p-6 border border-[var(--color-gold)]/20"
+          >
+            <h3 className="text-base font-bold text-[var(--color-gold)] mb-2">
+              All guides →
+            </h3>
+            <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+              Gold, real estate, Murabaha, the simple method, and more.
+            </p>
+          </Link>
+        </div>
+      </section>
+
       {/* Methodology + open source */}
       <section className="mx-auto max-w-6xl px-6 pb-20">
         <div className="grid gap-6 md:grid-cols-2">

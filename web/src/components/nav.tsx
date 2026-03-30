@@ -15,6 +15,7 @@ const linksEn = [
   { href: "/en", label: "Home" },
   { href: "/en/nasdaq-halal", label: "NASDAQ 100" },
   { href: "/en/sp500-halal", label: "S&P 500" },
+  { href: "/en/guides", label: "Guides" },
   { href: "/en/methodology", label: "Methodology" },
 ];
 
