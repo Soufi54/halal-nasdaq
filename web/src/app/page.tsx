@@ -162,6 +162,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Evolution des indices */}
+      <section className="mx-auto max-w-6xl px-6 pb-20">
+        <Link
+          href="/evolution"
+          className="cursor-pointer group glass-card rounded-2xl p-7 block border-l-4 border-l-[var(--color-gold)]"
+        >
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="text-lg font-bold text-[var(--color-navy)]">
+              Evolution des indices halal
+            </h3>
+            <span className="text-sm text-[var(--color-muted-foreground)] group-hover:text-[var(--color-gold)] transition-colors duration-200">
+              Voir le graphique →
+            </span>
+          </div>
+          <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+            Suivez semaine apres semaine combien d&apos;actions restent conformes
+            et quel pourcentage de l&apos;indice est halal.
+          </p>
+        </Link>
+      </section>
+
       {/* Tous les guides */}
       <section className="mx-auto max-w-6xl px-6 pb-20">
         <div className="flex items-center justify-between mb-8">

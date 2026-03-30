@@ -88,6 +88,7 @@ def main():
     print("\nCopie des donnees dans web/src...")
     shutil.copy2(DATA_DIR / "halal_nasdaq100.json", WEB_SRC / "data.json")
     shutil.copy2(DATA_DIR / "halal_sp500.json", WEB_SRC / "sp500-data.json")
+    shutil.copy2(DATA_DIR / "history.json", WEB_SRC / "history.json")
     print("  OK")
 
     # Etape 9 : Verifier s'il y a des changements
@@ -101,7 +102,7 @@ def main():
 
     # Etape 10 : Commit + push
     print(f"\nChangements detectes — commit + push...")
-    subprocess.run(["git", "add", "data/", "web/src/data.json", "web/src/sp500-data.json"], cwd=str(REPO_DIR))
+    subprocess.run(["git", "add", "data/", "web/src/data.json", "web/src/sp500-data.json", "web/src/history.json"], cwd=str(REPO_DIR))
 
     # Lire les stats pour le message de commit
     nasdaq = json.loads((DATA_DIR / "halal_nasdaq100.json").read_text(encoding="utf-8"))
