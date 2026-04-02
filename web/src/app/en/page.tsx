@@ -201,6 +201,27 @@ export default function HomeEn() {
         </Link>
       </section>
 
+      {/* Halal vs full index comparison */}
+      <section className="mx-auto max-w-6xl px-6 pb-20">
+        <Link
+          href="/en/comparison"
+          className="cursor-pointer group glass-card rounded-2xl p-7 block border-l-4 border-l-[var(--color-halal)]"
+        >
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="text-lg font-bold text-[var(--color-navy)]">
+              Halal vs Full Index
+            </h3>
+            <span className="text-sm text-[var(--color-muted-foreground)] group-hover:text-[var(--color-gold)] transition-colors duration-200">
+              View analysis →
+            </span>
+          </div>
+          <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+            Sector concentration, top 10 weights, key metrics: compare the
+            halal version to the original index.
+          </p>
+        </Link>
+      </section>
+
       {/* Methodology + open source */}
       <section className="mx-auto max-w-6xl px-6 pb-20">
         <div className="grid gap-6 md:grid-cols-2">
