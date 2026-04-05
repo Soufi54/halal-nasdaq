@@ -9,6 +9,7 @@ const linksFr = [
   { href: "/sp500-halal", label: "S&P 500" },
   { href: "/evolution", label: "Evolution" },
   { href: "/comparaison", label: "Comparaison" },
+  { href: "/backtest", label: "Backtest" },
   { href: "/guides", label: "Guides" },
   { href: "/methodologie", label: "Methodologie" },
 ];
@@ -19,6 +20,7 @@ const linksEn = [
   { href: "/en/sp500-halal", label: "S&P 500" },
   { href: "/en/evolution", label: "Evolution" },
   { href: "/en/comparison", label: "Comparison" },
+  { href: "/en/backtest", label: "Backtest" },
   { href: "/en/guides", label: "Guides" },
   { href: "/en/methodology", label: "Methodology" },
 ];

@@ -204,6 +204,27 @@ export default function Home() {
         </Link>
       </section>
 
+      {/* Backtest — performance historique */}
+      <section className="mx-auto max-w-6xl px-6 pb-20">
+        <Link
+          href="/backtest"
+          className="cursor-pointer group glass-card rounded-2xl p-7 block border-l-4 border-l-[var(--color-navy)]"
+        >
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="text-lg font-bold text-[var(--color-navy)]">
+              Performance historique
+            </h3>
+            <span className="text-sm text-[var(--color-muted-foreground)] group-hover:text-[var(--color-gold)] transition-colors duration-200">
+              Voir le backtest →
+            </span>
+          </div>
+          <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+            Et si vous aviez investi halal il y a 5 ans ? Comparez la
+            performance reelle des indices halal vs les indices complets.
+          </p>
+        </Link>
+      </section>
+
       {/* Tous les guides */}
       <section className="mx-auto max-w-6xl px-6 pb-20">
         <div className="flex items-center justify-between mb-8">

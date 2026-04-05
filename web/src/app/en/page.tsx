@@ -222,6 +222,27 @@ export default function HomeEn() {
         </Link>
       </section>
 
+      {/* Backtest — historical performance */}
+      <section className="mx-auto max-w-6xl px-6 pb-20">
+        <Link
+          href="/en/backtest"
+          className="cursor-pointer group glass-card rounded-2xl p-7 block border-l-4 border-l-[var(--color-navy)]"
+        >
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="text-lg font-bold text-[var(--color-navy)]">
+              Historical Performance
+            </h3>
+            <span className="text-sm text-[var(--color-muted-foreground)] group-hover:text-[var(--color-gold)] transition-colors duration-200">
+              View backtest →
+            </span>
+          </div>
+          <p className="text-sm text-[var(--color-muted-foreground)] leading-relaxed">
+            What if you had invested halal 5 years ago? Compare the real
+            performance of halal indices vs full indices.
+          </p>
+        </Link>
+      </section>
+
       {/* Methodology + open source */}
       <section className="mx-auto max-w-6xl px-6 pb-20">
         <div className="grid gap-6 md:grid-cols-2">
