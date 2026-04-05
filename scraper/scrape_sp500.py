@@ -8,7 +8,7 @@ import re
 import sys
 from pathlib import Path
 
-import requests
+from curl_cffi import requests as curl_requests
 from bs4 import BeautifulSoup
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -16,14 +16,10 @@ OUTPUT = DATA_DIR / "sp500_weights.json"
 
 URL = "https://www.slickcharts.com/sp500"
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-}
-
 
 def scrape_sp500() -> list[dict]:
     """Scrape les poids du S&P 500 depuis SlickCharts."""
-    resp = requests.get(URL, headers=HEADERS, timeout=30)
+    resp = curl_requests.get(URL, impersonate="chrome", timeout=30)
     resp.raise_for_status()
 
     soup = BeautifulSoup(resp.text, "html.parser")
