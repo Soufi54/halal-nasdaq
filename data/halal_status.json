@@ -42,14 +42,14 @@
     "source": "zoya"
   },
   {
-    "ticker": "TSLA",
-    "status": "halal",
+    "ticker": "META",
+    "status": "doubtful",
     "interest_pct": null,
     "source": "zoya"
   },
   {
-    "ticker": "META",
-    "status": "doubtful",
+    "ticker": "TSLA",
+    "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
@@ -72,14 +72,14 @@
     "source": "zoya"
   },
   {
-    "ticker": "MU",
-    "status": "halal",
+    "ticker": "NFLX",
+    "status": "doubtful",
     "interest_pct": null,
     "source": "zoya"
   },
   {
-    "ticker": "NFLX",
-    "status": "doubtful",
+    "ticker": "MU",
+    "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
@@ -114,8 +114,8 @@
     "source": "zoya"
   },
   {
-    "ticker": "TMUS",
-    "status": "not_halal",
+    "ticker": "INTC",
+    "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
@@ -126,8 +126,8 @@
     "source": "zoya"
   },
   {
-    "ticker": "INTC",
-    "status": "halal",
+    "ticker": "TMUS",
+    "status": "not_halal",
     "interest_pct": null,
     "source": "zoya"
   },
@@ -210,13 +210,13 @@
     "source": "zoya"
   },
   {
-    "ticker": "APP",
+    "ticker": "PANW",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
   {
-    "ticker": "PANW",
+    "ticker": "APP",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
@@ -234,25 +234,7 @@
     "source": "zoya"
   },
   {
-    "ticker": "CEG",
-    "status": "halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
-    "ticker": "CMCSA",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
     "ticker": "SBUX",
-    "status": "halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
-    "ticker": "ADBE",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
@@ -264,7 +246,25 @@
     "source": "zoya"
   },
   {
+    "ticker": "CMCSA",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
     "ticker": "WDC",
+    "status": "halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
+    "ticker": "CEG",
+    "status": "halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
+    "ticker": "ADBE",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
@@ -276,14 +276,14 @@
     "source": "zoya"
   },
   {
-    "ticker": "MAR",
-    "status": "not_halal",
+    "ticker": "MRVL",
+    "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
   {
-    "ticker": "MRVL",
-    "status": "halal",
+    "ticker": "MAR",
+    "status": "not_halal",
     "interest_pct": null,
     "source": "zoya"
   },
@@ -306,25 +306,25 @@
     "source": "zoya"
   },
   {
-    "ticker": "ORLY",
-    "status": "halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
     "ticker": "CDNS",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
   {
-    "ticker": "MDLZ",
-    "status": "not_halal",
+    "ticker": "CSX",
+    "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
   {
-    "ticker": "CSX",
+    "ticker": "ORLY",
+    "status": "halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
+    "ticker": "SNPS",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
@@ -336,8 +336,8 @@
     "source": "zoya"
   },
   {
-    "ticker": "SNPS",
-    "status": "halal",
+    "ticker": "MDLZ",
+    "status": "not_halal",
     "interest_pct": null,
     "source": "zoya"
   },
@@ -348,13 +348,19 @@
     "source": "zoya"
   },
   {
+    "ticker": "ROST",
+    "status": "halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
     "ticker": "MNST",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
   {
-    "ticker": "ROST",
+    "ticker": "CTAS",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
@@ -366,19 +372,7 @@
     "source": "zoya"
   },
   {
-    "ticker": "CTAS",
-    "status": "halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
     "ticker": "DASH",
-    "status": "halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
-    "ticker": "BKR",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
@@ -396,14 +390,20 @@
     "source": "zoya"
   },
   {
-    "ticker": "FANG",
-    "status": "not_halal",
+    "ticker": "BKR",
+    "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
   {
     "ticker": "MPWR",
     "status": "halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
+    "ticker": "FANG",
+    "status": "not_halal",
     "interest_pct": null,
     "source": "zoya"
   },
@@ -456,13 +456,31 @@
     "source": "zoya"
   },
   {
+    "ticker": "DDOG",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
+    "ticker": "ALNY",
+    "status": "halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
+    "ticker": "PYPL",
+    "status": "doubtful",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
     "ticker": "MSTR",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
   {
-    "ticker": "ALNY",
+    "ticker": "ODFL",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
@@ -474,38 +492,8 @@
     "source": "zoya"
   },
   {
-    "ticker": "DDOG",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
-    "ticker": "PYPL",
-    "status": "doubtful",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
     "ticker": "TRI",
     "status": "doubtful",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
-    "ticker": "ODFL",
-    "status": "halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
-    "ticker": "KDP",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
-    "ticker": "ROP",
-    "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
@@ -516,7 +504,7 @@
     "source": "zoya"
   },
   {
-    "ticker": "AXON",
+    "ticker": "ROP",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
@@ -528,8 +516,14 @@
     "source": "zoya"
   },
   {
-    "ticker": "PAYX",
-    "status": "halal",
+    "ticker": "INSM",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
+    "ticker": "KDP",
+    "status": "not_halal",
     "interest_pct": null,
     "source": "zoya"
   },
@@ -540,19 +534,25 @@
     "source": "zoya"
   },
   {
-    "ticker": "GEHC",
+    "ticker": "AXON",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
   {
-    "ticker": "INSM",
-    "status": "not_halal",
+    "ticker": "PAYX",
+    "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
   {
     "ticker": "CPRT",
+    "status": "halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
+    "ticker": "GEHC",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
