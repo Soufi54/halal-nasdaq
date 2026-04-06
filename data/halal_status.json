@@ -12,6 +12,12 @@
     "source": "zoya"
   },
   {
+    "ticker": "BKNG",
+    "status": "halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
     "ticker": "MSFT",
     "status": "doubtful",
     "interest_pct": null,
@@ -199,12 +205,6 @@
   },
   {
     "ticker": "QCOM",
-    "status": "halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
-    "ticker": "BKNG",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
