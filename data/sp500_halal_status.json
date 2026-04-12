@@ -1962,6 +1962,12 @@
     "source": "zoya"
   },
   {
+    "ticker": "CASY",
+    "status": "unknown",
+    "source": "zoya",
+    "detail": "page introuvable"
+  },
+  {
     "ticker": "CHTR",
     "status": "not_halal",
     "interest_pct": null,
@@ -2467,12 +2473,6 @@
   },
   {
     "ticker": "LII",
-    "status": "halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
-    "ticker": "HOLX",
     "status": "halal",
     "interest_pct": null,
     "source": "zoya"
