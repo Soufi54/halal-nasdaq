@@ -81,7 +81,7 @@
     "rank": 14,
     "company": "ExxonMobil",
     "ticker": "XOM",
-    "weight": 1.03
+    "weight": 1.02
   },
   {
     "rank": 15,
@@ -213,7 +213,7 @@
     "rank": 36,
     "company": "Merck & Co.",
     "ticker": "MRK",
-    "weight": 0.49
+    "weight": 0.48
   },
   {
     "rank": 37,
@@ -1333,14 +1333,14 @@
   },
   {
     "rank": 223,
-    "company": "Zoetis",
-    "ticker": "ZTS",
+    "company": "Exelon",
+    "ticker": "EXC",
     "weight": 0.08
   },
   {
     "rank": 224,
-    "company": "Exelon",
-    "ticker": "EXC",
+    "company": "Zoetis",
+    "ticker": "ZTS",
     "weight": 0.08
   },
   {
@@ -1417,26 +1417,26 @@
   },
   {
     "rank": 237,
+    "company": "Delta Air Lines",
+    "ticker": "DAL",
+    "weight": 0.07
+  },
+  {
+    "rank": 238,
     "company": "Rockwell Automation",
     "ticker": "ROK",
     "weight": 0.07
   },
   {
-    "rank": 238,
+    "rank": 239,
     "company": "Chipotle Mexican Grill",
     "ticker": "CMG",
     "weight": 0.07
   },
   {
-    "rank": 239,
+    "rank": 240,
     "company": "Coinbase Global",
     "ticker": "COIN",
-    "weight": 0.07
-  },
-  {
-    "rank": 240,
-    "company": "Delta Air Lines",
-    "ticker": "DAL",
     "weight": 0.07
   },
   {
@@ -1465,38 +1465,38 @@
   },
   {
     "rank": 245,
+    "company": "Consolidated Edison",
+    "ticker": "ED",
+    "weight": 0.07
+  },
+  {
+    "rank": 246,
     "company": "Kroger",
     "ticker": "KR",
     "weight": 0.07
   },
   {
-    "rank": 246,
+    "rank": 247,
     "company": "Public Service Enterprise Group",
     "ticker": "PEG",
     "weight": 0.07
   },
   {
-    "rank": 247,
+    "rank": 248,
     "company": "CBRE Group",
     "ticker": "CBRE",
     "weight": 0.07
   },
   {
-    "rank": 248,
+    "rank": 249,
     "company": "D. R. Horton",
     "ticker": "DHI",
     "weight": 0.07
   },
   {
-    "rank": 249,
+    "rank": 250,
     "company": "American International Group",
     "ticker": "AIG",
-    "weight": 0.07
-  },
-  {
-    "rank": 250,
-    "company": "Consolidated Edison",
-    "ticker": "ED",
     "weight": 0.07
   },
   {
@@ -1537,20 +1537,20 @@
   },
   {
     "rank": 257,
-    "company": "State Street Corporation",
-    "ticker": "STT",
-    "weight": 0.06
-  },
-  {
-    "rank": 258,
     "company": "Carnival",
     "ticker": "CCL",
     "weight": 0.06
   },
   {
-    "rank": 259,
+    "rank": 258,
     "company": "Microchip Technology",
     "ticker": "MCHP",
+    "weight": 0.06
+  },
+  {
+    "rank": 259,
+    "company": "State Street Corporation",
+    "ticker": "STT",
     "weight": 0.06
   },
   {
@@ -2221,14 +2221,14 @@
   },
   {
     "rank": 371,
-    "company": "Lennar",
-    "ticker": "LEN",
+    "company": "Veralto",
+    "ticker": "VLTO",
     "weight": 0.04
   },
   {
     "rank": 372,
-    "company": "Veralto",
-    "ticker": "VLTO",
+    "company": "Lennar",
+    "ticker": "LEN",
     "weight": 0.04
   },
   {

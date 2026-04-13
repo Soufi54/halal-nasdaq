@@ -1332,14 +1332,14 @@
     "source": "zoya"
   },
   {
-    "ticker": "ZTS",
-    "status": "halal",
+    "ticker": "EXC",
+    "status": "not_halal",
     "interest_pct": null,
     "source": "zoya"
   },
   {
-    "ticker": "EXC",
-    "status": "not_halal",
+    "ticker": "ZTS",
+    "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
@@ -1416,6 +1416,12 @@
     "source": "zoya"
   },
   {
+    "ticker": "DAL",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
     "ticker": "ROK",
     "status": "halal",
     "interest_pct": null,
@@ -1429,12 +1435,6 @@
   },
   {
     "ticker": "COIN",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
-    "ticker": "DAL",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya"
@@ -1464,6 +1464,12 @@
     "source": "zoya"
   },
   {
+    "ticker": "ED",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
     "ticker": "KR",
     "status": "not_halal",
     "interest_pct": null,
@@ -1489,12 +1495,6 @@
   },
   {
     "ticker": "AIG",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
-    "ticker": "ED",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya"
@@ -1536,12 +1536,6 @@
     "source": "zoya"
   },
   {
-    "ticker": "STT",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya"
-  },
-  {
     "ticker": "CCL",
     "status": "not_halal",
     "interest_pct": null,
@@ -1550,6 +1544,12 @@
   {
     "ticker": "MCHP",
     "status": "halal",
+    "interest_pct": null,
+    "source": "zoya"
+  },
+  {
+    "ticker": "STT",
+    "status": "not_halal",
     "interest_pct": null,
     "source": "zoya"
   },
@@ -2220,14 +2220,14 @@
     "source": "zoya"
   },
   {
-    "ticker": "LEN",
-    "status": "not_halal",
+    "ticker": "VLTO",
+    "status": "halal",
     "interest_pct": null,
     "source": "zoya"
   },
   {
-    "ticker": "VLTO",
-    "status": "halal",
+    "ticker": "LEN",
+    "status": "not_halal",
     "interest_pct": null,
     "source": "zoya"
   },
