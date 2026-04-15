@@ -1,0 +1,13 @@
+{
+  "_comment": "Tickers flagges manuellement par Chaker. Respectes meme si Zoya dit autre chose. Format: {ticker: {status, reason, date}}",
+  "APP": {
+    "status": "doubtful",
+    "reason": "Chaker override: interest_pct=5.0% au seuil AAOIFI, source plus stricte que Zoya flag doubtful",
+    "date": "2026-04-15"
+  },
+  "MSFT": {
+    "status": "doubtful",
+    "reason": "Confirme Zoya et conservatisme muslimfinance",
+    "date": "2026-04-13"
+  }
+}

@@ -30,7 +30,7 @@ DELAY = 1.5
 
 def get_halal_status(ticker: str) -> dict:
     """Recupere le statut halal d'un ticker depuis Zoya.finance."""
-    url = f"{BASE_URL}/{ticker}"
+    url = f"{BASE_URL}/{ticker.lower()}"
     resp = requests.get(url, headers=HEADERS, timeout=30)
 
     if resp.status_code == 404:
