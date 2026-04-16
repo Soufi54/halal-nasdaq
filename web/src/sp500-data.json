@@ -6,7 +6,18 @@
     "excluded": 282,
     "halal_count": 221,
     "doubtful_count": 19,
-    "excluded_weight_pct": 49.26
+    "excluded_weight_pct": 49.26,
+    "data_quality": {
+      "total": 503,
+      "errors": 11,
+      "error_pct": 2.2,
+      "missing_dates": 11,
+      "date_source": "scraped_at",
+      "most_common_date": "2026-04-16",
+      "oldest_entry": "2026-04-16",
+      "oldest_age_days": 0,
+      "stale": false
+    }
   },
   "holdings": [
     {

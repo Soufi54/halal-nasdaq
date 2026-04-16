@@ -50,8 +50,14 @@ export default function SP500Halal() {
       <header className="relative overflow-hidden border-b border-[var(--border)]">
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-6xl px-6 pt-16 pb-12">
-          <p className="inline-block rounded-full bg-[var(--color-navy)]/5 px-4 py-1.5 text-xs font-medium text-[var(--color-muted-foreground)] mb-6">
-            Mise a jour {data.date} · Donnees Zoya.finance · Standard AAOIFI
+          <p className={`inline-block rounded-full px-4 py-1.5 text-xs font-medium mb-6 ${
+            data.stats.data_quality?.stale
+              ? "bg-red-100 text-red-700 border border-red-300"
+              : "bg-[var(--color-navy)]/5 text-[var(--color-muted-foreground)]"
+          }`}>
+            {data.stats.data_quality?.stale
+              ? `⚠️ Donnees du ${data.date} — mise a jour en retard`
+              : `Mise a jour ${data.date}`} · Donnees Zoya.finance · Standard AAOIFI
           </p>
           <h1 className="text-4xl font-bold tracking-tight md:text-5xl text-[var(--color-navy)]">
             S&P 500{" "}
