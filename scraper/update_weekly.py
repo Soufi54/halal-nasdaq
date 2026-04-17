@@ -61,12 +61,14 @@ def main():
     # Etape 3 : Scrape halal status NASDAQ via Playwright (JS-rendered, Zoya SPA)
     # Remplace scrape_halal.py qui ne marche plus depuis que Zoya est devenu SPA.
     # Respecte data/manual_overrides.json pour les tickers flagges manuellement.
+    scrape_ok = True
     if not run("Scrape statut halal NASDAQ 100 (Zoya, Playwright)", [
         python, str(SCRAPER_DIR / "scrape_halal_playwright.py"),
         str(DATA_DIR / "nasdaq100_weights.json"),
         str(DATA_DIR / "halal_status.json"),
     ]):
-        print("WARNING : echec scrape halal NASDAQ — on continue avec les donnees existantes")
+        print("ERREUR : echec scrape halal NASDAQ")
+        scrape_ok = False
 
     # Etape 4 : Scrape halal status S&P 500 via Playwright
     if not run("Scrape statut halal S&P 500 (Zoya, Playwright)", [
@@ -74,7 +76,13 @@ def main():
         str(DATA_DIR / "sp500_weights.json"),
         str(DATA_DIR / "sp500_halal_status.json"),
     ]):
-        print("WARNING : echec scrape halal S&P 500 — on continue avec les donnees existantes")
+        print("ERREUR : echec scrape halal S&P 500")
+        scrape_ok = False
+
+    if not scrape_ok:
+        print("\nARRET : le scraping halal a echoue. On ne publie PAS de donnees potentiellement perimees.")
+        print("Les donnees existantes restent en place avec leur date originale.")
+        sys.exit(1)
 
     # Etape 5 : Build index NASDAQ 100
     if not run("Build indice NASDAQ 100 Halal", [python, str(SCRAPER_DIR / "build_index.py")]):

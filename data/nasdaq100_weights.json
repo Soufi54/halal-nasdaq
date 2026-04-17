@@ -3,55 +3,55 @@
     "rank": 1,
     "company": "Nvidia",
     "ticker": "NVDA",
-    "weight": 13.61
+    "weight": 13.54
   },
   {
     "rank": 2,
     "company": "Apple Inc.",
     "ticker": "AAPL",
-    "weight": 11.02
+    "weight": 10.87
   },
   {
     "rank": 3,
     "company": "Microsoft",
     "ticker": "MSFT",
-    "weight": 8.6
+    "weight": 8.77
   },
   {
     "rank": 4,
     "company": "Amazon",
     "ticker": "AMZN",
-    "weight": 7.53
+    "weight": 7.55
   },
   {
     "rank": 5,
     "company": "Alphabet Inc. (Class A)",
     "ticker": "GOOGL",
-    "weight": 5.94
+    "weight": 5.91
   },
   {
     "rank": 6,
     "company": "Alphabet Inc. (Class C)",
     "ticker": "GOOG",
-    "weight": 5.5
+    "weight": 5.46
   },
   {
     "rank": 7,
     "company": "Broadcom Inc.",
     "ticker": "AVGO",
-    "weight": 5.29
+    "weight": 5.3
   },
   {
     "rank": 8,
     "company": "Meta Platforms",
     "ticker": "META",
-    "weight": 4.79
+    "weight": 4.81
   },
   {
     "rank": 9,
     "company": "Tesla, Inc.",
     "ticker": "TSLA",
-    "weight": 4.14
+    "weight": 4.1
   },
   {
     "rank": 10,
@@ -63,7 +63,7 @@
     "rank": 11,
     "company": "ASML Holding",
     "ticker": "ASML",
-    "weight": 1.61
+    "weight": 1.53
   },
   {
     "rank": 12,
@@ -79,45 +79,45 @@
   },
   {
     "rank": 14,
+    "company": "Advanced Micro Devices Inc.",
+    "ticker": "AMD",
+    "weight": 1.27
+  },
+  {
+    "rank": 15,
     "company": "Costco",
     "ticker": "COST",
     "weight": 1.23
   },
   {
-    "rank": 15,
-    "company": "Advanced Micro Devices Inc.",
-    "ticker": "AMD",
-    "weight": 1.19
+    "rank": 16,
+    "company": "Intel",
+    "ticker": "INTC",
+    "weight": 0.97
   },
   {
-    "rank": 16,
+    "rank": 17,
     "company": "Palantir Technologies",
     "ticker": "PLTR",
     "weight": 0.96
   },
   {
-    "rank": 17,
-    "company": "Lam Research",
-    "ticker": "LRCX",
-    "weight": 0.93
-  },
-  {
     "rank": 18,
-    "company": "Intel",
-    "ticker": "INTC",
-    "weight": 0.92
+    "company": "Cisco",
+    "ticker": "CSCO",
+    "weight": 0.94
   },
   {
     "rank": 19,
-    "company": "Cisco",
-    "ticker": "CSCO",
+    "company": "Lam Research",
+    "ticker": "LRCX",
     "weight": 0.92
   },
   {
     "rank": 20,
     "company": "Applied Materials",
     "ticker": "AMAT",
-    "weight": 0.88
+    "weight": 0.87
   },
   {
     "rank": 21,
@@ -129,25 +129,25 @@
     "rank": 22,
     "company": "KLA Corporation",
     "ticker": "KLAC",
-    "weight": 0.65
+    "weight": 0.64
   },
   {
     "rank": 23,
-    "company": "PepsiCo",
-    "ticker": "PEP",
-    "weight": 0.6
+    "company": "T-Mobile US",
+    "ticker": "TMUS",
+    "weight": 0.61
   },
   {
     "rank": 24,
-    "company": "T-Mobile US",
-    "ticker": "TMUS",
-    "weight": 0.59
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "weight": 0.61
   },
   {
     "rank": 25,
     "company": "Texas Instruments",
     "ticker": "TXN",
-    "weight": 0.55
+    "weight": 0.57
   },
   {
     "rank": 26,
@@ -157,33 +157,33 @@
   },
   {
     "rank": 27,
-    "company": "Gilead Sciences",
-    "ticker": "GILD",
+    "company": "Analog Devices",
+    "ticker": "ADI",
     "weight": 0.49
   },
   {
     "rank": 28,
-    "company": "Analog Devices",
-    "ticker": "ADI",
-    "weight": 0.48
-  },
-  {
-    "rank": 29,
     "company": "Arm Holdings",
     "ticker": "ARM",
     "weight": 0.48
   },
   {
+    "rank": 29,
+    "company": "Gilead Sciences",
+    "ticker": "GILD",
+    "weight": 0.48
+  },
+  {
     "rank": 30,
-    "company": "Intuitive Surgical",
-    "ticker": "ISRG",
-    "weight": 0.47
+    "company": "Shopify",
+    "ticker": "SHOP",
+    "weight": 0.46
   },
   {
     "rank": 31,
-    "company": "Shopify",
-    "ticker": "SHOP",
-    "weight": 0.47
+    "company": "Intuitive Surgical",
+    "ticker": "ISRG",
+    "weight": 0.46
   },
   {
     "rank": 32,
@@ -193,9 +193,9 @@
   },
   {
     "rank": 33,
-    "company": "Honeywell",
-    "ticker": "HON",
-    "weight": 0.42
+    "company": "PDD Holdings",
+    "ticker": "PDD",
+    "weight": 0.41
   },
   {
     "rank": 34,
@@ -205,8 +205,8 @@
   },
   {
     "rank": 35,
-    "company": "PDD Holdings",
-    "ticker": "PDD",
+    "company": "Honeywell",
+    "ticker": "HON",
     "weight": 0.41
   },
   {
@@ -219,61 +219,61 @@
     "rank": 37,
     "company": "Palo Alto Networks",
     "ticker": "PANW",
-    "weight": 0.37
+    "weight": 0.38
   },
   {
     "rank": 38,
     "company": "Western Digital",
     "ticker": "WDC",
-    "weight": 0.35
+    "weight": 0.34
   },
   {
     "rank": 39,
-    "company": "Marvell Technology",
-    "ticker": "MRVL",
-    "weight": 0.33
-  },
-  {
-    "rank": 40,
     "company": "Seagate Technology Holdings",
     "ticker": "STX",
     "weight": 0.33
   },
   {
+    "rank": 40,
+    "company": "Marvell Technology",
+    "ticker": "MRVL",
+    "weight": 0.33
+  },
+  {
     "rank": 41,
-    "company": "Vertex Pharmaceuticals",
-    "ticker": "VRTX",
-    "weight": 0.32
+    "company": "Starbucks",
+    "ticker": "SBUX",
+    "weight": 0.31
   },
   {
     "rank": 42,
-    "company": "Starbucks",
-    "ticker": "SBUX",
-    "weight": 0.32
+    "company": "Vertex Pharmaceuticals",
+    "ticker": "VRTX",
+    "weight": 0.31
   },
   {
     "rank": 43,
-    "company": "Intuit",
-    "ticker": "INTU",
+    "company": "Constellation Energy",
+    "ticker": "CEG",
     "weight": 0.3
   },
   {
     "rank": 44,
-    "company": "Constellation Energy",
-    "ticker": "CEG",
+    "company": "Intuit",
+    "ticker": "INTU",
     "weight": 0.3
   },
   {
     "rank": 45,
     "company": "CrowdStrike",
     "ticker": "CRWD",
-    "weight": 0.29
+    "weight": 0.3
   },
   {
     "rank": 46,
     "company": "Comcast",
     "ticker": "CMCSA",
-    "weight": 0.29
+    "weight": 0.3
   },
   {
     "rank": 47,
@@ -291,18 +291,18 @@
     "rank": 49,
     "company": "MercadoLibre",
     "ticker": "MELI",
-    "weight": 0.27
+    "weight": 0.26
   },
   {
     "rank": 50,
-    "company": "Synopsys",
-    "ticker": "SNPS",
+    "company": "Cadence Design Systems",
+    "ticker": "CDNS",
     "weight": 0.24
   },
   {
     "rank": 51,
-    "company": "Cadence Design Systems",
-    "ticker": "CDNS",
+    "company": "Synopsys",
+    "ticker": "SNPS",
     "weight": 0.24
   },
   {
@@ -313,32 +313,32 @@
   },
   {
     "rank": 53,
-    "company": "Regeneron Pharmaceuticals",
-    "ticker": "REGN",
-    "weight": 0.22
+    "company": "ADP",
+    "ticker": "ADP",
+    "weight": 0.23
   },
   {
     "rank": 54,
-    "company": "ADP",
-    "ticker": "ADP",
-    "weight": 0.22
-  },
-  {
-    "rank": 55,
-    "company": "O'Reilly Automotive",
-    "ticker": "ORLY",
-    "weight": 0.22
-  },
-  {
-    "rank": 56,
     "company": "CSX Corporation",
     "ticker": "CSX",
     "weight": 0.22
   },
   {
-    "rank": 57,
+    "rank": 55,
+    "company": "Regeneron Pharmaceuticals",
+    "ticker": "REGN",
+    "weight": 0.22
+  },
+  {
+    "rank": 56,
     "company": "DoorDash",
     "ticker": "DASH",
+    "weight": 0.22
+  },
+  {
+    "rank": 57,
+    "company": "O'Reilly Automotive",
+    "ticker": "ORLY",
     "weight": 0.22
   },
   {
@@ -349,15 +349,15 @@
   },
   {
     "rank": 59,
-    "company": "American Electric Power",
-    "ticker": "AEP",
+    "company": "Mondelez International",
+    "ticker": "MDLZ",
     "weight": 0.21
   },
   {
     "rank": 60,
-    "company": "Mondelez International",
-    "ticker": "MDLZ",
-    "weight": 0.2
+    "company": "American Electric Power",
+    "ticker": "AEP",
+    "weight": 0.21
   },
   {
     "rank": 61,
@@ -373,14 +373,14 @@
   },
   {
     "rank": 63,
-    "company": "Warner Bros. Discovery",
-    "ticker": "WBD",
+    "company": "Monolithic Power Systems",
+    "ticker": "MPWR",
     "weight": 0.19
   },
   {
     "rank": 64,
-    "company": "Monolithic Power Systems",
-    "ticker": "MPWR",
+    "company": "Warner Bros. Discovery",
+    "ticker": "WBD",
     "weight": 0.19
   },
   {
@@ -391,14 +391,14 @@
   },
   {
     "rank": 66,
-    "company": "Baker Hughes",
-    "ticker": "BKR",
+    "company": "Fortinet",
+    "ticker": "FTNT",
     "weight": 0.17
   },
   {
     "rank": 67,
-    "company": "Fortinet",
-    "ticker": "FTNT",
+    "company": "Baker Hughes",
+    "ticker": "BKR",
     "weight": 0.17
   },
   {
@@ -415,9 +415,9 @@
   },
   {
     "rank": 70,
-    "company": "Ferrovial SE",
-    "ticker": "FER",
-    "weight": 0.14
+    "company": "MicroStrategy Inc.",
+    "ticker": "MSTR",
+    "weight": 0.15
   },
   {
     "rank": 71,
@@ -427,26 +427,26 @@
   },
   {
     "rank": 72,
-    "company": "Electronic Arts",
-    "ticker": "EA",
-    "weight": 0.14
-  },
-  {
-    "rank": 73,
     "company": "Autodesk",
     "ticker": "ADSK",
     "weight": 0.14
   },
   {
+    "rank": 73,
+    "company": "Electronic Arts",
+    "ticker": "EA",
+    "weight": 0.14
+  },
+  {
     "rank": 74,
-    "company": "MicroStrategy Inc.",
-    "ticker": "MSTR",
+    "company": "Xcel Energy",
+    "ticker": "XEL",
     "weight": 0.14
   },
   {
     "rank": 75,
-    "company": "Xcel Energy",
-    "ticker": "XEL",
+    "company": "Ferrovial SE",
+    "ticker": "FER",
     "weight": 0.14
   },
   {
@@ -469,39 +469,39 @@
   },
   {
     "rank": 79,
-    "company": "Alnylam Pharmaceuticals",
-    "ticker": "ALNY",
+    "company": "Old Dominion Freight Line",
+    "ticker": "ODFL",
     "weight": 0.13
   },
   {
     "rank": 80,
-    "company": "Coca-Cola Europacific Partners",
-    "ticker": "CCEP",
-    "weight": 0.12
-  },
-  {
-    "rank": 81,
     "company": "Datadog",
     "ticker": "DDOG",
     "weight": 0.12
   },
   {
+    "rank": 81,
+    "company": "Coca-Cola Europacific Partners",
+    "ticker": "CCEP",
+    "weight": 0.12
+  },
+  {
     "rank": 82,
-    "company": "Old Dominion Freight Line",
-    "ticker": "ODFL",
+    "company": "Alnylam Pharmaceuticals",
+    "ticker": "ALNY",
     "weight": 0.12
   },
   {
     "rank": 83,
-    "company": "Thomson Reuters Corporation",
-    "ticker": "TRI",
+    "company": "Microchip Technology",
+    "ticker": "MCHP",
     "weight": 0.12
   },
   {
     "rank": 84,
-    "company": "Microchip Technology",
-    "ticker": "MCHP",
-    "weight": 0.11
+    "company": "Thomson Reuters Corporation",
+    "ticker": "TRI",
+    "weight": 0.12
   },
   {
     "rank": 85,
@@ -535,8 +535,8 @@
   },
   {
     "rank": 90,
-    "company": "Axon Enterprise Inc.",
-    "ticker": "AXON",
+    "company": "Workday, Inc.",
+    "ticker": "WDAY",
     "weight": 0.09
   },
   {
@@ -547,8 +547,8 @@
   },
   {
     "rank": 92,
-    "company": "Workday, Inc.",
-    "ticker": "WDAY",
+    "company": "Axon Enterprise Inc.",
+    "ticker": "AXON",
     "weight": 0.09
   },
   {
@@ -559,21 +559,21 @@
   },
   {
     "rank": 94,
-    "company": "Cognizant",
-    "ticker": "CTSH",
+    "company": "Charter Communications",
+    "ticker": "CHTR",
     "weight": 0.08
   },
   {
     "rank": 95,
-    "company": "Charter Communications",
-    "ticker": "CHTR",
+    "company": "Cognizant",
+    "ticker": "CTSH",
     "weight": 0.08
   },
   {
     "rank": 96,
     "company": "Kraft Heinz",
     "ticker": "KHC",
-    "weight": 0.07
+    "weight": 0.08
   },
   {
     "rank": 97,
