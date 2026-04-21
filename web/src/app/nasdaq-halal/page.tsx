@@ -44,9 +44,44 @@ function StatusBadge({ status }: { status: string }) {
   );
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quelles actions du NASDAQ 100 sont halal ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Sur les ${stats.total_nasdaq100} actions du NASDAQ 100, ${stats.halal_count} sont conformes au standard AAOIFI (source : Zoya.finance). Les ${stats.excluded} autres sont exclues (non conformes ou douteuses). Les poids sont redistribues au prorata. Consultez la composition complete sur muslimfinance.net/nasdaq-halal.`,
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Comment investir dans le NASDAQ 100 halal ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Utilisez notre simulateur de portefeuille : entrez un montant et obtenez la repartition exacte par action. Exportez en CSV pour votre courtier. Les poids sont recalcules chaque semaine. Ce n'est pas un conseil financier.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Pourquoi Microsoft, Amazon et Meta sont exclus du NASDAQ 100 Halal ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ces entreprises sont classees 'Doubtful' (douteuses) par Zoya.finance selon le standard AAOIFI, en raison de ratios financiers limites (revenus d'interets, niveau de dette). Dans notre approche stricte, les actions douteuses sont exclues.",
+      },
+    },
+  ],
+};
+
 export default function NasdaqHalal() {
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <header className="relative overflow-hidden border-b border-[var(--border)]">
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />

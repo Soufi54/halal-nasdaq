@@ -44,9 +44,44 @@ function StatusBadge({ status }: { status: string }) {
   );
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quelles actions du S&P 500 sont halal ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Sur les ${stats.total_sp500} actions du S&P 500, ${stats.halal_count} sont conformes au standard AAOIFI (source : Zoya.finance). Les ${stats.excluded} autres sont exclues (non conformes ou douteuses). Les poids sont redistribues au prorata. Consultez la composition complete sur muslimfinance.net/sp500-halal.`,
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Comment investir dans le S&P 500 halal ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Utilisez notre simulateur de portefeuille : entrez un montant et obtenez la repartition exacte par action. Exportez en CSV pour votre courtier. Les poids sont recalcules chaque semaine. Ce n'est pas un conseil financier.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Quelle est la difference entre un ETF halal (SPUS) et l'indice S&P 500 Halal reconstitue ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les ETFs halal comme SPUS ont des frais de gestion (0.49%) et leur composition n'est pas toujours transparente. Notre indice reconstitue est gratuit, open-source, et vous pouvez repliquer la composition exacte chez votre courtier en achetant les actions individuellement.",
+      },
+    },
+  ],
+};
+
 export default function SP500Halal() {
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="relative overflow-hidden border-b border-[var(--border)]">
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />
         <div className="relative mx-auto max-w-6xl px-6 pt-16 pb-12">

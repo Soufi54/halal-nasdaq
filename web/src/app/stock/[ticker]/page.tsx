@@ -128,8 +128,44 @@ export default function StockPage({ params }: { params: { ticker: string } }) {
 
   const isHalal = stock.halal_status === "halal";
 
+  const statusText = isHalal ? "Halal (conforme)" : stock.halal_status === "doubtful" ? "Douteuse (doubtful)" : "Non conforme (not halal)";
+  const indices = [stock.in_nasdaq ? "NASDAQ 100" : null, stock.in_sp500 ? "S&P 500" : null].filter(Boolean).join(" et ");
+  const weightInfo = isHalal
+    ? [
+        stock.halal_weight_nasdaq ? `NASDAQ 100 Halal : ${stock.halal_weight_nasdaq.toFixed(2)}%` : null,
+        stock.halal_weight_sp500 ? `S&P 500 Halal : ${stock.halal_weight_sp500.toFixed(2)}%` : null,
+      ].filter(Boolean).join(". ")
+    : "";
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `Est-ce que ${stock.company} (${stock.ticker}) est halal ?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Selon Zoya.finance (standard AAOIFI), ${stock.company} (${stock.ticker}) est classee ${statusText}.${isHalal ? ` Elle est incluse dans nos indices reconstitues.${weightInfo ? ` Poids : ${weightInfo}.` : ""}` : ` Elle est exclue de nos indices reconstitues halal.`} Verifiez par vous-meme aupres de sources fiables.`,
+        },
+      },
+      {
+        "@type": "Question",
+        "name": `${stock.ticker} fait partie de quel indice ?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `${stock.company} (${stock.ticker}) fait partie du ${indices}.${isHalal ? ` Elle est incluse dans ${indices === "NASDAQ 100 et S&P 500" ? "les deux indices halal reconstitues" : `l'indice ${indices} Halal reconstitue`} sur muslimfinance.net.` : ""}`,
+        },
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="border-b border-[var(--border)]">
         <div className="mx-auto max-w-3xl px-6 pt-16 pb-12">
           <Link

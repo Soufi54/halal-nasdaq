@@ -43,9 +43,44 @@ function StatusBadge({ status }: { status: string }) {
   );
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which NASDAQ 100 stocks are halal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Out of ${stats.total_nasdaq100} stocks in the NASDAQ 100, ${stats.halal_count} are compliant with the AAOIFI standard (source: Zoya.finance). The other ${stats.excluded} are excluded (non-compliant or doubtful). Weights are redistributed pro-rata. See the full composition at muslimfinance.net/en/nasdaq-halal.`,
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "How to invest in a halal NASDAQ 100?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use our free portfolio simulator: enter an amount and get the exact allocation per stock. Export to CSV for your broker. Weights are recalculated weekly. This is not financial advice.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Why are Microsoft, Amazon and Meta excluded from the Halal NASDAQ 100?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "These companies are classified as 'Doubtful' by Zoya.finance under the AAOIFI standard, due to borderline financial ratios (interest income, debt levels). In our strict approach, doubtful stocks are excluded.",
+      },
+    },
+  ],
+};
+
 export default function NasdaqHalalEn() {
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <header className="relative overflow-hidden border-b border-[var(--border)]">
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-gold)]/5 via-transparent to-transparent" />
