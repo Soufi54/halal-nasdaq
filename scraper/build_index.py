@@ -107,8 +107,9 @@ def main():
               f"(seuil {MAX_STALE_DAYS}j) — donnees perimees, arret.", file=sys.stderr)
         sys.exit(1)
 
-    # Marquer les donnees comme stale si > 3 jours (visible sur le frontend)
-    if quality.get("oldest_age_days", 0) > 3:
+    # Marquer les donnees comme stale si > 8 jours (visible sur le frontend)
+    # Le scraper rafraichit tous les 7 jours (REFRESH_MAX_AGE_DAYS), donc seuil = 8j
+    if quality.get("oldest_age_days", 0) > 8:
         quality["stale"] = True
     else:
         quality["stale"] = False

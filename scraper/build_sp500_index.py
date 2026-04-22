@@ -35,8 +35,8 @@ def main():
         print(f"ERREUR : donnees perimees ({quality['oldest_age_days']}j > seuil {MAX_STALE_DAYS}j) — arret.", file=sys.stderr)
         sys.exit(1)
 
-    # Marquer stale si > 3 jours
-    if quality.get("oldest_age_days", 0) > 3:
+    # Marquer stale si > 8 jours (scraper rafraichit tous les 7j)
+    if quality.get("oldest_age_days", 0) > 8:
         quality["stale"] = True
     else:
         quality["stale"] = False

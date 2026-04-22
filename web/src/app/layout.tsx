@@ -28,6 +28,31 @@ export const metadata: Metadata = {
       en: "https://muslimfinance.net/en",
     },
   },
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    alternateLocale: "en_US",
+    siteName: "MuslimFinance",
+    title: "MuslimFinance — Indices NASDAQ 100 & S&P 500 halal",
+    description:
+      "NASDAQ 100 Halal : 66 actions, S&P 500 Halal : 221 actions. Screening AAOIFI, simulateur de portefeuille, backtest historique. Gratuit et open-source.",
+    url: "https://muslimfinance.net",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "MuslimFinance — NASDAQ 100 & S&P 500 halal",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "MuslimFinance — Indices NASDAQ 100 & S&P 500 halal",
+    description:
+      "NASDAQ 100 Halal : 66 actions, S&P 500 Halal : 221 actions. Screening AAOIFI, backtest historique. Gratuit et open-source.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
