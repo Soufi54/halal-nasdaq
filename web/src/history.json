@@ -1096,5 +1096,66 @@
         }
       ]
     }
+  },
+  {
+    "date": "2026-04-26",
+    "nasdaq100": {
+      "total": 101,
+      "halal": 65,
+      "excluded": 36,
+      "doubtful": 15,
+      "halal_weight_pct": 56.41,
+      "top5": [
+        {
+          "ticker": "NVDA",
+          "weight": 24.25
+        },
+        {
+          "ticker": "AAPL",
+          "weight": 19.07
+        },
+        {
+          "ticker": "AVGO",
+          "weight": 9.59
+        },
+        {
+          "ticker": "TSLA",
+          "weight": 6.77
+        },
+        {
+          "ticker": "AMD",
+          "weight": 2.71
+        }
+      ]
+    },
+    "sp500": {
+      "total": 503,
+      "halal": 221,
+      "excluded": 282,
+      "doubtful": 19,
+      "halal_weight_pct": 51.21,
+      "top5": [
+        {
+          "ticker": "NVDA",
+          "weight": 15.19
+        },
+        {
+          "ticker": "AAPL",
+          "weight": 11.95
+        },
+        {
+          "ticker": "AVGO",
+          "weight": 6.01
+        },
+        {
+          "ticker": "TSLA",
+          "weight": 4.24
+        },
+        {
+          "ticker": "LLY",
+          "weight": 2.36
+        }
+      ]
+    }
   }
 ]
