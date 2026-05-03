@@ -7,6 +7,7 @@ Doit etre lance depuis la racine du repo halal-nasdaq.
 """
 
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -111,26 +112,43 @@ def main():
         shutil.copy2(DATA_DIR / "backtest.json", WEB_SRC / "backtest.json")
     print("  OK")
 
-    # Etape 10 : Verifier s'il y a des changements
+    # Etape 10 : Mettre a jour les meta descriptions (OG/Twitter) avec les vrais chiffres
+    nasdaq_data = json.loads((DATA_DIR / "halal_nasdaq100.json").read_text(encoding="utf-8"))
+    sp500_data = json.loads((DATA_DIR / "halal_sp500.json").read_text(encoding="utf-8"))
+    n_count = nasdaq_data["stats"]["included"]
+    s_count = sp500_data["stats"]["included"]
+
+    layout_fr = WEB_SRC / "app" / "layout.tsx"
+    layout_en = WEB_SRC / "app" / "en" / "layout.tsx"
+
+    for layout_path in [layout_fr, layout_en]:
+        if layout_path.exists():
+            content = layout_path.read_text(encoding="utf-8")
+            content = re.sub(r"NASDAQ 100 Halal\s*:\s*\d+ actions", f"NASDAQ 100 Halal : {n_count} actions", content)
+            content = re.sub(r"S&P 500 Halal\s*:\s*\d+ actions", f"S&P 500 Halal : {s_count} actions", content)
+            content = re.sub(r"NASDAQ 100 Halal:\s*\d+ stocks", f"NASDAQ 100 Halal: {n_count} stocks", content)
+            content = re.sub(r"S&P 500 Halal:\s*\d+ stocks", f"S&P 500 Halal: {s_count} stocks", content)
+            layout_path.write_text(content, encoding="utf-8")
+    print(f"  Meta descriptions mises a jour : NASDAQ {n_count}, S&P {s_count}")
+
+    # Etape 11 : Verifier s'il y a des changements
     result = subprocess.run(
-        ["git", "status", "--porcelain", "data/", "web/src/data.json", "web/src/sp500-data.json", "web/src/backtest.json"],
+        ["git", "status", "--porcelain", "data/", "web/src/data.json", "web/src/sp500-data.json", "web/src/backtest.json", "web/src/app/layout.tsx", "web/src/app/en/layout.tsx"],
         cwd=str(REPO_DIR), capture_output=True, text=True
     )
     if not result.stdout.strip():
         print("\nAucun changement dans les donnees — rien a pousser.")
         return
 
-    # Etape 11 : Commit + push
+    # Etape 12 : Commit + push
     print(f"\nChangements detectes — commit + push...")
-    subprocess.run(["git", "add", "data/", "web/src/data.json", "web/src/sp500-data.json", "web/src/history.json", "web/src/backtest.json"], cwd=str(REPO_DIR))
+    subprocess.run(["git", "add", "data/", "web/src/data.json", "web/src/sp500-data.json", "web/src/history.json", "web/src/backtest.json", "web/src/app/layout.tsx", "web/src/app/en/layout.tsx"], cwd=str(REPO_DIR))
 
-    # Lire les stats pour le message de commit
-    nasdaq = json.loads((DATA_DIR / "halal_nasdaq100.json").read_text(encoding="utf-8"))
-    sp500 = json.loads((DATA_DIR / "halal_sp500.json").read_text(encoding="utf-8"))
+    # Message de commit avec les stats
     msg = (
         f"Mise a jour hebdo {today} — "
-        f"NASDAQ {nasdaq['stats']['included']}/{nasdaq['stats']['total_nasdaq100']} halal, "
-        f"S&P {sp500['stats']['included']}/{sp500['stats']['total_sp500']} halal"
+        f"NASDAQ {nasdaq_data['stats']['included']}/{nasdaq_data['stats']['total_nasdaq100']} halal, "
+        f"S&P {sp500_data['stats']['included']}/{sp500_data['stats']['total_sp500']} halal"
     )
 
     if not run("Git commit", ["git", "commit", "-m", msg]):
