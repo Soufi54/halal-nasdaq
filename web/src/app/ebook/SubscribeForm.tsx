@@ -9,7 +9,7 @@ declare global {
 }
 
 export function SubscribeForm({
-  ctaLabel = "Recevoir le guide en avant-premiere",
+  ctaLabel = "Recevoir le guide en avant-première",
   source = "ebook_landing",
 }: {
   ctaLabel?: string;
@@ -35,7 +35,7 @@ export function SubscribeForm({
 
       if (data.ok) {
         setStatus("ok");
-        setMsg("C'est note. Tu recevras un apercu de 10 pages la semaine prochaine.");
+        setMsg("C’est noté. Tu recevras un aperçu de 10 pages la semaine prochaine.");
         try {
           window.fbq?.("track", "Lead", {
             content_name: "ebook_halal_patrimoine",
@@ -45,11 +45,11 @@ export function SubscribeForm({
         } catch {}
       } else {
         setStatus("err");
-        setMsg(data.error ?? "Erreur, reessaie.");
+        setMsg(data.error ?? "Erreur, réessaie.");
       }
     } catch {
       setStatus("err");
-      setMsg("Erreur reseau, reessaie.");
+      setMsg("Erreur réseau, réessaie.");
     }
   }
 
@@ -84,7 +84,7 @@ export function SubscribeForm({
         </p>
       )}
       <p className="mt-3 text-xs text-stone-500">
-        0 paiement maintenant. Tarif lancement <strong>14€</strong> communique a la sortie (15 juin 2026).
+        0 paiement maintenant. Tarif lancement <strong>14 €</strong> à la sortie (15 juin 2026).
       </p>
     </form>
   );
