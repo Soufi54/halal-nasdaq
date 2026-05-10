@@ -26,10 +26,17 @@ export function SubscribeForm({
     const email = String(fd.get("email") ?? "");
 
     try {
-      const res = await fetch("/api/subscribe", {
+      const url = new URL(window.location.href);
+      const res = await fetch("https://muslimfinance-subscribe.backwatcherdev.workers.dev/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, source }),
+        body: JSON.stringify({
+          email,
+          source,
+          utm_source: url.searchParams.get("utm_source") ?? undefined,
+          utm_campaign: url.searchParams.get("utm_campaign") ?? undefined,
+          utm_content: url.searchParams.get("utm_content") ?? undefined,
+        }),
       });
       const data = (await res.json()) as { ok: boolean; error?: string };
 
