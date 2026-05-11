@@ -1,22 +1,22 @@
 {
-  "date": "2026-05-04",
+  "date": "2026-05-11",
   "stats": {
     "total_nasdaq100": 101,
-    "included": 65,
-    "excluded": 36,
-    "halal_count": 65,
+    "included": 66,
+    "excluded": 35,
+    "halal_count": 66,
     "doubtful_count": 15,
-    "excluded_weight_pct": 42.54,
-    "included_weight_pct": 57.45,
+    "excluded_weight_pct": 42.27,
+    "included_weight_pct": 57.72,
     "data_quality": {
       "total": 101,
       "errors": 1,
       "error_pct": 1.0,
       "missing_dates": 1,
       "date_source": "scraped_at",
-      "most_common_date": "2026-05-04",
-      "oldest_entry": "2026-05-04",
-      "oldest_age_days": 6,
+      "most_common_date": "2026-05-11",
+      "oldest_entry": "2026-05-11",
+      "oldest_age_days": 0,
       "stale": false
     }
   },
@@ -27,9 +27,9 @@
       "ticker": "NVDA",
       "weight": 13.32,
       "halal_status": "halal",
-      "interest_pct": 1.06,
+      "interest_pct": 1.07,
       "original_weight": 13.32,
-      "halal_weight": 23.1854,
+      "halal_weight": 23.0769,
       "halal_rank": 1
     },
     {
@@ -40,7 +40,7 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 10.97,
-      "halal_weight": 19.0949,
+      "halal_weight": 19.0055,
       "halal_rank": 2
     },
     {
@@ -51,7 +51,7 @@
       "halal_status": "halal",
       "interest_pct": 0.54,
       "original_weight": 5.18,
-      "halal_weight": 9.0165,
+      "halal_weight": 8.9744,
       "halal_rank": 3
     },
     {
@@ -62,7 +62,7 @@
       "halal_status": "halal",
       "interest_pct": 1.77,
       "original_weight": 4.1,
-      "halal_weight": 7.1366,
+      "halal_weight": 7.1033,
       "halal_rank": 4
     },
     {
@@ -73,7 +73,7 @@
       "halal_status": "halal",
       "interest_pct": 1.33,
       "original_weight": 2.14,
-      "halal_weight": 3.725,
+      "halal_weight": 3.7076,
       "halal_rank": 5
     },
     {
@@ -84,7 +84,7 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 1.89,
-      "halal_weight": 3.2898,
+      "halal_weight": 3.2744,
       "halal_rank": 6
     },
     {
@@ -95,7 +95,7 @@
       "halal_status": "halal",
       "interest_pct": 1.91,
       "original_weight": 1.6,
-      "halal_weight": 2.785,
+      "halal_weight": 2.772,
       "halal_rank": 7
     },
     {
@@ -106,7 +106,7 @@
       "halal_status": "halal",
       "interest_pct": 0.32,
       "original_weight": 1.56,
-      "halal_weight": 2.7154,
+      "halal_weight": 2.7027,
       "halal_rank": 8
     },
     {
@@ -117,7 +117,7 @@
       "halal_status": "halal",
       "interest_pct": 1.77,
       "original_weight": 0.97,
-      "halal_weight": 1.6884,
+      "halal_weight": 1.6805,
       "halal_rank": 9
     },
     {
@@ -128,7 +128,7 @@
       "halal_status": "halal",
       "interest_pct": 1.25,
       "original_weight": 0.94,
-      "halal_weight": 1.6362,
+      "halal_weight": 1.6286,
       "halal_rank": 10
     },
     {
@@ -139,7 +139,7 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.88,
-      "halal_weight": 1.5318,
+      "halal_weight": 1.5246,
       "halal_rank": 11
     },
     {
@@ -150,7 +150,7 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.67,
-      "halal_weight": 1.1662,
+      "halal_weight": 1.1608,
       "halal_rank": 12
     },
     {
@@ -161,7 +161,7 @@
       "halal_status": "halal",
       "interest_pct": 1.48,
       "original_weight": 0.62,
-      "halal_weight": 1.0792,
+      "halal_weight": 1.0742,
       "halal_rank": 13
     },
     {
@@ -172,7 +172,7 @@
       "halal_status": "halal",
       "interest_pct": 1.44,
       "original_weight": 0.59,
-      "halal_weight": 1.027,
+      "halal_weight": 1.0222,
       "halal_rank": 14
     },
     {
@@ -183,7 +183,7 @@
       "halal_status": "halal",
       "interest_pct": 0.09,
       "original_weight": 0.58,
-      "halal_weight": 1.0096,
+      "halal_weight": 1.0049,
       "halal_rank": 15
     },
     {
@@ -194,7 +194,7 @@
       "halal_status": "halal",
       "interest_pct": 2.89,
       "original_weight": 0.58,
-      "halal_weight": 1.0096,
+      "halal_weight": 1.0049,
       "halal_rank": 16
     },
     {
@@ -205,7 +205,7 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.54,
-      "halal_weight": 0.9399,
+      "halal_weight": 0.9356,
       "halal_rank": 17
     },
     {
@@ -216,7 +216,7 @@
       "halal_status": "halal",
       "interest_pct": 0.96,
       "original_weight": 0.52,
-      "halal_weight": 0.9051,
+      "halal_weight": 0.9009,
       "halal_rank": 18
     },
     {
@@ -227,7 +227,7 @@
       "halal_status": "halal",
       "interest_pct": 0.27,
       "original_weight": 0.45,
-      "halal_weight": 0.7833,
+      "halal_weight": 0.7796,
       "halal_rank": 19
     },
     {
@@ -238,7 +238,7 @@
       "halal_status": "halal",
       "interest_pct": 3.94,
       "original_weight": 0.43,
-      "halal_weight": 0.7485,
+      "halal_weight": 0.745,
       "halal_rank": 20
     },
     {
@@ -249,7 +249,7 @@
       "halal_status": "halal",
       "interest_pct": 0.47,
       "original_weight": 0.42,
-      "halal_weight": 0.7311,
+      "halal_weight": 0.7277,
       "halal_rank": 21
     },
     {
@@ -260,7 +260,7 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.42,
-      "halal_weight": 0.7311,
+      "halal_weight": 0.7277,
       "halal_rank": 22
     },
     {
@@ -271,7 +271,7 @@
       "halal_status": "halal",
       "interest_pct": 3.64,
       "original_weight": 0.41,
-      "halal_weight": 0.7137,
+      "halal_weight": 0.7103,
       "halal_rank": 23
     },
     {
@@ -282,7 +282,7 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.38,
-      "halal_weight": 0.6614,
+      "halal_weight": 0.6584,
       "halal_rank": 24
     },
     {
@@ -293,7 +293,7 @@
       "halal_status": "halal",
       "interest_pct": 2.86,
       "original_weight": 0.36,
-      "halal_weight": 0.6266,
+      "halal_weight": 0.6237,
       "halal_rank": 25
     },
     {
@@ -304,7 +304,7 @@
       "halal_status": "halal",
       "interest_pct": 4.05,
       "original_weight": 0.34,
-      "halal_weight": 0.5918,
+      "halal_weight": 0.5891,
       "halal_rank": 26
     },
     {
@@ -315,7 +315,7 @@
       "halal_status": "halal",
       "interest_pct": 3.42,
       "original_weight": 0.33,
-      "halal_weight": 0.5744,
+      "halal_weight": 0.5717,
       "halal_rank": 27
     },
     {
@@ -326,7 +326,7 @@
       "halal_status": "halal",
       "interest_pct": 0.3,
       "original_weight": 0.3,
-      "halal_weight": 0.5222,
+      "halal_weight": 0.5198,
       "halal_rank": 28
     },
     {
@@ -337,7 +337,7 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.28,
-      "halal_weight": 0.4874,
+      "halal_weight": 0.4851,
       "halal_rank": 29
     },
     {
@@ -348,7 +348,7 @@
       "halal_status": "halal",
       "interest_pct": 0.93,
       "original_weight": 0.28,
-      "halal_weight": 0.4874,
+      "halal_weight": 0.4851,
       "halal_rank": 30
     },
     {
@@ -359,7 +359,7 @@
       "halal_status": "halal",
       "interest_pct": 4.07,
       "original_weight": 0.28,
-      "halal_weight": 0.4874,
+      "halal_weight": 0.4851,
       "halal_rank": 31
     },
     {
@@ -370,7 +370,7 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.26,
-      "halal_weight": 0.4526,
+      "halal_weight": 0.4505,
       "halal_rank": 32
     },
     {
@@ -379,9 +379,9 @@
       "ticker": "CDNS",
       "weight": 0.25,
       "halal_status": "halal",
-      "interest_pct": 5.0,
+      "interest_pct": 1.92,
       "original_weight": 0.25,
-      "halal_weight": 0.4352,
+      "halal_weight": 0.4331,
       "halal_rank": 33
     },
     {
@@ -392,7 +392,7 @@
       "halal_status": "halal",
       "interest_pct": 3.94,
       "original_weight": 0.25,
-      "halal_weight": 0.4352,
+      "halal_weight": 0.4331,
       "halal_rank": 34
     },
     {
@@ -403,7 +403,7 @@
       "halal_status": "halal",
       "interest_pct": 1.55,
       "original_weight": 0.22,
-      "halal_weight": 0.3829,
+      "halal_weight": 0.3812,
       "halal_rank": 35
     },
     {
@@ -412,9 +412,9 @@
       "ticker": "MNST",
       "weight": 0.21,
       "halal_status": "halal",
-      "interest_pct": 5.0,
+      "interest_pct": 1.03,
       "original_weight": 0.21,
-      "halal_weight": 0.3655,
+      "halal_weight": 0.3638,
       "halal_rank": 36
     },
     {
@@ -425,7 +425,7 @@
       "halal_status": "halal",
       "interest_pct": 2.39,
       "original_weight": 0.21,
-      "halal_weight": 0.3655,
+      "halal_weight": 0.3638,
       "halal_rank": 37
     },
     {
@@ -436,7 +436,7 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.21,
-      "halal_weight": 0.3655,
+      "halal_weight": 0.3638,
       "halal_rank": 38
     },
     {
@@ -447,8 +447,19 @@
       "halal_status": "halal",
       "interest_pct": 0.48,
       "original_weight": 0.21,
-      "halal_weight": 0.3655,
+      "halal_weight": 0.3638,
       "halal_rank": 39
+    },
+    {
+      "rank": 58,
+      "company": "Mondelez International, Inc. Class A",
+      "ticker": "MDLZ",
+      "weight": 0.2,
+      "halal_status": "halal",
+      "interest_pct": 5.0,
+      "original_weight": 0.2,
+      "halal_weight": 0.3465,
+      "halal_rank": 40
     },
     {
       "rank": 59,
@@ -458,8 +469,8 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.2,
-      "halal_weight": 0.3481,
-      "halal_rank": 40
+      "halal_weight": 0.3465,
+      "halal_rank": 41
     },
     {
       "rank": 60,
@@ -469,8 +480,8 @@
       "halal_status": "halal",
       "interest_pct": 0.04,
       "original_weight": 0.2,
-      "halal_weight": 0.3481,
-      "halal_rank": 41
+      "halal_weight": 0.3465,
+      "halal_rank": 42
     },
     {
       "rank": 61,
@@ -480,8 +491,8 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.19,
-      "halal_weight": 0.3307,
-      "halal_rank": 42
+      "halal_weight": 0.3292,
+      "halal_rank": 43
     },
     {
       "rank": 62,
@@ -491,8 +502,8 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.19,
-      "halal_weight": 0.3307,
-      "halal_rank": 43
+      "halal_weight": 0.3292,
+      "halal_rank": 44
     },
     {
       "rank": 63,
@@ -502,8 +513,8 @@
       "halal_status": "halal",
       "interest_pct": 0.88,
       "original_weight": 0.19,
-      "halal_weight": 0.3307,
-      "halal_rank": 44
+      "halal_weight": 0.3292,
+      "halal_rank": 45
     },
     {
       "rank": 64,
@@ -513,8 +524,8 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.18,
-      "halal_weight": 0.3133,
-      "halal_rank": 45
+      "halal_weight": 0.3119,
+      "halal_rank": 46
     },
     {
       "rank": 68,
@@ -524,8 +535,8 @@
       "halal_status": "halal",
       "interest_pct": 0.05,
       "original_weight": 0.17,
-      "halal_weight": 0.2959,
-      "halal_rank": 46
+      "halal_weight": 0.2945,
+      "halal_rank": 47
     },
     {
       "rank": 69,
@@ -535,8 +546,8 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.17,
-      "halal_weight": 0.2959,
-      "halal_rank": 47
+      "halal_weight": 0.2945,
+      "halal_rank": 48
     },
     {
       "rank": 70,
@@ -546,8 +557,8 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.16,
-      "halal_weight": 0.2785,
-      "halal_rank": 48
+      "halal_weight": 0.2772,
+      "halal_rank": 49
     },
     {
       "rank": 72,
@@ -557,8 +568,19 @@
       "halal_status": "halal",
       "interest_pct": 0.21,
       "original_weight": 0.14,
-      "halal_weight": 0.2437,
-      "halal_rank": 49
+      "halal_weight": 0.2426,
+      "halal_rank": 50
+    },
+    {
+      "rank": 73,
+      "company": "Diamondback Energy, Inc.",
+      "ticker": "FANG",
+      "weight": 0.14,
+      "halal_status": "halal",
+      "interest_pct": 5.0,
+      "original_weight": 0.14,
+      "halal_weight": 0.2426,
+      "halal_rank": 51
     },
     {
       "rank": 74,
@@ -566,10 +588,10 @@
       "ticker": "ADSK",
       "weight": 0.13,
       "halal_status": "halal",
-      "interest_pct": 5.0,
+      "interest_pct": 0.35,
       "original_weight": 0.13,
-      "halal_weight": 0.2263,
-      "halal_rank": 50
+      "halal_weight": 0.2252,
+      "halal_rank": 52
     },
     {
       "rank": 75,
@@ -579,8 +601,8 @@
       "halal_status": "halal",
       "interest_pct": 0.07,
       "original_weight": 0.13,
-      "halal_weight": 0.2263,
-      "halal_rank": 51
+      "halal_weight": 0.2252,
+      "halal_rank": 53
     },
     {
       "rank": 76,
@@ -590,8 +612,8 @@
       "halal_status": "halal",
       "interest_pct": 1.53,
       "original_weight": 0.13,
-      "halal_weight": 0.2263,
-      "halal_rank": 52
+      "halal_weight": 0.2252,
+      "halal_rank": 54
     },
     {
       "rank": 77,
@@ -599,10 +621,10 @@
       "ticker": "EA",
       "weight": 0.13,
       "halal_status": "halal",
-      "interest_pct": 1.67,
+      "interest_pct": 5.0,
       "original_weight": 0.13,
-      "halal_weight": 0.2263,
-      "halal_rank": 53
+      "halal_weight": 0.2252,
+      "halal_rank": 55
     },
     {
       "rank": 80,
@@ -612,8 +634,8 @@
       "halal_status": "halal",
       "interest_pct": 0.06,
       "original_weight": 0.11,
-      "halal_weight": 0.1915,
-      "halal_rank": 54
+      "halal_weight": 0.1906,
+      "halal_rank": 56
     },
     {
       "rank": 82,
@@ -623,8 +645,8 @@
       "halal_status": "halal",
       "interest_pct": 0.08,
       "original_weight": 0.11,
-      "halal_weight": 0.1915,
-      "halal_rank": 55
+      "halal_weight": 0.1906,
+      "halal_rank": 57
     },
     {
       "rank": 86,
@@ -634,8 +656,8 @@
       "halal_status": "halal",
       "interest_pct": 3.0,
       "original_weight": 0.1,
-      "halal_weight": 0.1741,
-      "halal_rank": 56
+      "halal_weight": 0.1733,
+      "halal_rank": 58
     },
     {
       "rank": 88,
@@ -645,8 +667,8 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.09,
-      "halal_weight": 0.1567,
-      "halal_rank": 57
+      "halal_weight": 0.1559,
+      "halal_rank": 59
     },
     {
       "rank": 89,
@@ -656,8 +678,8 @@
       "halal_status": "halal",
       "interest_pct": 1.31,
       "original_weight": 0.09,
-      "halal_weight": 0.1567,
-      "halal_rank": 58
+      "halal_weight": 0.1559,
+      "halal_rank": 60
     },
     {
       "rank": 90,
@@ -667,8 +689,8 @@
       "halal_status": "halal",
       "interest_pct": 3.85,
       "original_weight": 0.08,
-      "halal_weight": 0.1393,
-      "halal_rank": 59
+      "halal_weight": 0.1386,
+      "halal_rank": 61
     },
     {
       "rank": 91,
@@ -678,8 +700,8 @@
       "halal_status": "halal",
       "interest_pct": 2.71,
       "original_weight": 0.08,
-      "halal_weight": 0.1393,
-      "halal_rank": 60
+      "halal_weight": 0.1386,
+      "halal_rank": 62
     },
     {
       "rank": 92,
@@ -689,19 +711,8 @@
       "halal_status": "halal",
       "interest_pct": 5.0,
       "original_weight": 0.08,
-      "halal_weight": 0.1393,
-      "halal_rank": 61
-    },
-    {
-      "rank": 93,
-      "company": "GE HealthCare Technologies Inc. Common Stock",
-      "ticker": "GEHC",
-      "weight": 0.07,
-      "halal_status": "halal",
-      "interest_pct": 5.0,
-      "original_weight": 0.07,
-      "halal_weight": 0.1218,
-      "halal_rank": 62
+      "halal_weight": 0.1386,
+      "halal_rank": 63
     },
     {
       "rank": 95,
@@ -711,8 +722,8 @@
       "halal_status": "halal",
       "interest_pct": 4.69,
       "original_weight": 0.06,
-      "halal_weight": 0.1044,
-      "halal_rank": 63
+      "halal_weight": 0.104,
+      "halal_rank": 64
     },
     {
       "rank": 96,
@@ -722,8 +733,8 @@
       "halal_status": "halal",
       "interest_pct": 0.5,
       "original_weight": 0.06,
-      "halal_weight": 0.1044,
-      "halal_rank": 64
+      "halal_weight": 0.104,
+      "halal_rank": 65
     },
     {
       "rank": 97,
@@ -731,10 +742,10 @@
       "ticker": "DXCM",
       "weight": 0.06,
       "halal_status": "halal",
-      "interest_pct": 5.0,
+      "interest_pct": 2.42,
       "original_weight": 0.06,
-      "halal_weight": 0.1044,
-      "halal_rank": 65
+      "halal_weight": 0.104,
+      "halal_rank": 66
     }
   ],
   "excluded": [
@@ -768,7 +779,7 @@
       "ticker": "PDD",
       "weight": 0.36,
       "halal_status": "not_halal",
-      "interest_pct": 5.22
+      "interest_pct": 5.92
     },
     {
       "rank": 40,
@@ -776,7 +787,7 @@
       "ticker": "HON",
       "weight": 0.34,
       "halal_status": "not_halal",
-      "interest_pct": null
+      "interest_pct": 0.99
     },
     {
       "rank": 50,
@@ -801,14 +812,6 @@
       "weight": 0.21,
       "halal_status": "not_halal",
       "interest_pct": 5.76
-    },
-    {
-      "rank": 58,
-      "company": "Mondelez International, Inc. Class A",
-      "ticker": "MDLZ",
-      "weight": 0.2,
-      "halal_status": "not_halal",
-      "interest_pct": null
     },
     {
       "rank": 65,
@@ -843,14 +846,6 @@
       "interest_pct": 0.91
     },
     {
-      "rank": 73,
-      "company": "Diamondback Energy, Inc.",
-      "ticker": "FANG",
-      "weight": 0.14,
-      "halal_status": "not_halal",
-      "interest_pct": null
-    },
-    {
       "rank": 78,
       "company": "Xcel Energy, Inc.",
       "ticker": "XEL",
@@ -872,13 +867,21 @@
       "ticker": "CCEP",
       "weight": 0.11,
       "halal_status": "not_halal",
-      "interest_pct": 0.49
+      "interest_pct": 0.47
     },
     {
       "rank": 87,
       "company": "Keurig Dr Pepper Inc.",
       "ticker": "KDP",
       "weight": 0.1,
+      "halal_status": "not_halal",
+      "interest_pct": null
+    },
+    {
+      "rank": 93,
+      "company": "GE HealthCare Technologies Inc. Common Stock",
+      "ticker": "GEHC",
+      "weight": 0.07,
       "halal_status": "not_halal",
       "interest_pct": null
     },
@@ -952,7 +955,7 @@
       "ticker": "WMT",
       "weight": 2.65,
       "halal_status": "doubtful",
-      "interest_pct": 5.0
+      "interest_pct": 0.05
     },
     {
       "rank": 15,
@@ -1008,7 +1011,7 @@
       "ticker": "PYPL",
       "weight": 0.1,
       "halal_status": "doubtful",
-      "interest_pct": 1.55
+      "interest_pct": 1.56
     },
     {
       "rank": 98,
