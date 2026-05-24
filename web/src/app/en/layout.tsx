@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "MuslimFinance",
     title: "MuslimFinance — Halal NASDAQ 100 & S&P 500 Index",
     description:
-      "NASDAQ 100 Halal: 66 stocks, S&P 500 Halal: 222 stocks. AAOIFI screening, portfolio simulator, historical backtest. Free and open-source.",
+      "NASDAQ 100 Halal: 67 stocks, S&P 500 Halal: 222 stocks. AAOIFI screening, portfolio simulator, historical backtest. Free and open-source.",
     url: "https://muslimfinance.net/en",
     images: [
       {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "MuslimFinance — Halal NASDAQ 100 & S&P 500 Index",
     description:
-      "NASDAQ 100 Halal: 66 stocks, S&P 500 Halal: 222 stocks. AAOIFI screening, historical backtest. Free and open-source.",
+      "NASDAQ 100 Halal: 67 stocks, S&P 500 Halal: 222 stocks. AAOIFI screening, historical backtest. Free and open-source.",
     images: ["/og-image-en.png"],
   },
 };
