@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-24",
+  "date": "2026-06-01",
   "stats": {
     "total_nasdaq100": 101,
     "included": 67,
@@ -14,9 +14,9 @@
       "error_pct": 1.0,
       "missing_dates": 1,
       "date_source": "scraped_at",
-      "most_common_date": "2026-05-24",
-      "oldest_entry": "2026-05-24",
-      "oldest_age_days": 7,
+      "most_common_date": "2026-06-01",
+      "oldest_entry": "2026-06-01",
+      "oldest_age_days": 0,
       "stale": false
     }
   },
@@ -137,7 +137,7 @@
       "ticker": "ARM",
       "weight": 0.93,
       "halal_status": "halal",
-      "interest_pct": 2.89,
+      "interest_pct": 2.26,
       "original_weight": 0.93,
       "halal_weight": 1.5787,
       "halal_rank": 11
@@ -588,7 +588,7 @@
       "ticker": "MCHP",
       "weight": 0.13,
       "halal_status": "halal",
-      "interest_pct": 0.21,
+      "interest_pct": 0.24,
       "original_weight": 0.13,
       "halal_weight": 0.2207,
       "halal_rank": 52
@@ -1006,7 +1006,7 @@
       "ticker": "TTWO",
       "weight": 0.1,
       "halal_status": "doubtful",
-      "interest_pct": 1.75
+      "interest_pct": 1.28
     },
     {
       "rank": 87,
