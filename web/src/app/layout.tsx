@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "MuslimFinance",
     title: "MuslimFinance — Indices NASDAQ 100 & S&P 500 halal",
     description:
-      "NASDAQ 100 Halal : 67 actions, S&P 500 Halal : 220 actions. Screening AAOIFI, simulateur de portefeuille, backtest historique. Gratuit et open-source.",
+      "NASDAQ 100 Halal : 67 actions, S&P 500 Halal : 219 actions. Screening AAOIFI, simulateur de portefeuille, backtest historique. Gratuit et open-source.",
     url: "https://muslimfinance.net",
     images: [
       {
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "MuslimFinance — Indices NASDAQ 100 & S&P 500 halal",
     description:
-      "NASDAQ 100 Halal : 67 actions, S&P 500 Halal : 220 actions. Screening AAOIFI, backtest historique. Gratuit et open-source.",
+      "NASDAQ 100 Halal : 67 actions, S&P 500 Halal : 219 actions. Screening AAOIFI, backtest historique. Gratuit et open-source.",
     images: ["/og-image.png"],
   },
 };
