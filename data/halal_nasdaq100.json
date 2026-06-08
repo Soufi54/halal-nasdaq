@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-01",
+  "date": "2026-06-08",
   "stats": {
     "total_nasdaq100": 101,
     "included": 67,
@@ -14,9 +14,9 @@
       "error_pct": 1.0,
       "missing_dates": 1,
       "date_source": "scraped_at",
-      "most_common_date": "2026-06-01",
-      "oldest_entry": "2026-06-01",
-      "oldest_age_days": 6,
+      "most_common_date": "2026-06-08",
+      "oldest_entry": "2026-06-08",
+      "oldest_age_days": 0,
       "stale": false
     }
   },

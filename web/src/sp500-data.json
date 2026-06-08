@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-01",
+  "date": "2026-06-08",
   "stats": {
     "total_sp500": 503,
     "included": 219,
@@ -13,9 +13,9 @@
       "error_pct": 2.6,
       "missing_dates": 13,
       "date_source": "scraped_at",
-      "most_common_date": "2026-06-01",
-      "oldest_entry": "2026-06-01",
-      "oldest_age_days": 6,
+      "most_common_date": "2026-06-08",
+      "oldest_entry": "2026-06-08",
+      "oldest_age_days": 0,
       "stale": false
     }
   },
@@ -1676,7 +1676,7 @@
       "ticker": "NTAP",
       "weight": 0.05,
       "halal_status": "halal",
-      "interest_pct": 1.7,
+      "interest_pct": 5.0,
       "original_weight": 0.05,
       "halal_weight": 0.0958,
       "halal_rank": 151
@@ -2232,9 +2232,9 @@
       "halal_rank": 201
     },
     {
-      "rank": 442,
-      "company": "Lululemon Athletica Inc",
-      "ticker": "LULU",
+      "rank": 447,
+      "company": "Cooper Cos Inc/The",
+      "ticker": "COO",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": 5.0,
@@ -2243,9 +2243,9 @@
       "halal_rank": 202
     },
     {
-      "rank": 448,
-      "company": "Cooper Cos Inc/The",
-      "ticker": "COO",
+      "rank": 449,
+      "company": "Lululemon Athletica Inc",
+      "ticker": "LULU",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": 5.0,
@@ -4240,7 +4240,7 @@
       "interest_pct": null
     },
     {
-      "rank": 443,
+      "rank": 442,
       "company": "Healthpeak Properties Inc",
       "ticker": "DOC",
       "weight": 0.02,
@@ -4248,7 +4248,7 @@
       "interest_pct": null
     },
     {
-      "rank": 444,
+      "rank": 443,
       "company": "Genuine Parts Co",
       "ticker": "GPC",
       "weight": 0.02,
@@ -4256,7 +4256,7 @@
       "interest_pct": null
     },
     {
-      "rank": 445,
+      "rank": 444,
       "company": "Fox Corp",
       "ticker": "FOXA",
       "weight": 0.02,
@@ -4264,7 +4264,7 @@
       "interest_pct": 1.08
     },
     {
-      "rank": 446,
+      "rank": 445,
       "company": "Everest Group Ltd",
       "ticker": "EG",
       "weight": 0.02,
@@ -4272,7 +4272,7 @@
       "interest_pct": 0.12
     },
     {
-      "rank": 447,
+      "rank": 446,
       "company": "Fox Corp",
       "ticker": "FOX",
       "weight": 0.02,
@@ -4280,7 +4280,7 @@
       "interest_pct": 1.08
     },
     {
-      "rank": 449,
+      "rank": 448,
       "company": "Hormel Foods Corp",
       "ticker": "HRL",
       "weight": 0.02,
