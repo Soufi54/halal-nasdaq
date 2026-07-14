@@ -1,0 +1,136 @@
+Campaign,Campaign Status,Budget,Bid Strategy Type,Target CPA,Campaign Type,Networks,Languages,Locations,Location Exclusions,Ad Rotation
+Investissement Halal,Paused,4,Target CPA,15,Search,Google search,French,France,,Optimize
+Actions Bourse Halal,Paused,4,Target CPA,15,Search,Google search,French,France,,Optimize
+Fiscal Halal PEA CTO,Paused,2,Target CPA,15,Search,Google search,French,France,,Optimize
+
+Campaign,Ad Group,Ad Group Status,Max CPC,Ad Group Type
+Investissement Halal,Investissement Halal Core,Paused,3.00,Standard
+Investissement Halal,Finance Halal Islamique,Paused,2.50,Standard
+Actions Bourse Halal,Actions Halal,Paused,2.50,Standard
+Actions Bourse Halal,ETF Halal,Paused,3.00,Standard
+Fiscal Halal PEA CTO,PEA CTO Halal,Paused,2.00,Standard
+
+Campaign,Ad Group,Keyword,Criterion Type,Status,Max CPC
+Investissement Halal,Investissement Halal Core,investissement halal,Exact,Paused,3.00
+Investissement Halal,Investissement Halal Core,investir halal,Exact,Paused,3.00
+Investissement Halal,Investissement Halal Core,investissement islamique,Exact,Paused,2.50
+Investissement Halal,Investissement Halal Core,investissement halal,Phrase,Paused,2.50
+Investissement Halal,Investissement Halal Core,investir halal,Phrase,Paused,2.50
+Investissement Halal,Investissement Halal Core,investissement islamique,Phrase,Paused,2.00
+Investissement Halal,Investissement Halal Core,comment investir halal,Phrase,Paused,2.50
+Investissement Halal,Investissement Halal Core,investir en islam,Phrase,Paused,2.00
+Investissement Halal,Finance Halal Islamique,finance halal,Exact,Paused,2.50
+Investissement Halal,Finance Halal Islamique,finance islamique,Exact,Paused,2.00
+Investissement Halal,Finance Halal Islamique,finance halal france,Phrase,Paused,2.00
+Investissement Halal,Finance Halal Islamique,finance islamique france,Phrase,Paused,2.00
+Investissement Halal,Finance Halal Islamique,gestion patrimoine halal,Phrase,Paused,2.50
+Investissement Halal,Finance Halal Islamique,patrimoine halal,Phrase,Paused,2.00
+Actions Bourse Halal,Actions Halal,actions halal,Exact,Paused,2.50
+Actions Bourse Halal,Actions Halal,bourse halal,Exact,Paused,2.50
+Actions Bourse Halal,Actions Halal,actions islamiques,Exact,Paused,2.00
+Actions Bourse Halal,Actions Halal,actions halal 2026,Phrase,Paused,2.00
+Actions Bourse Halal,Actions Halal,actions halal watchlist,Phrase,Paused,2.00
+Actions Bourse Halal,Actions Halal,NASDAQ halal,Phrase,Paused,2.50
+Actions Bourse Halal,Actions Halal,S&P 500 halal,Phrase,Paused,2.00
+Actions Bourse Halal,Actions Halal,portefeuille halal actions,Phrase,Paused,2.00
+Actions Bourse Halal,ETF Halal,ETF halal,Exact,Paused,3.00
+Actions Bourse Halal,ETF Halal,ETF islamique,Exact,Paused,2.50
+Actions Bourse Halal,ETF Halal,ETF halal 2026,Phrase,Paused,2.50
+Actions Bourse Halal,ETF Halal,ETF halal france,Phrase,Paused,2.50
+Actions Bourse Halal,ETF Halal,ETF halal PEA,Phrase,Paused,2.00
+Actions Bourse Halal,ETF Halal,ETF islamique CTO,Phrase,Paused,2.00
+Actions Bourse Halal,ETF Halal,ETF SPWI,Phrase,Paused,1.50
+Actions Bourse Halal,ETF Halal,ETF DEEN,Phrase,Paused,1.50
+Actions Bourse Halal,ETF Halal,iShares MSCI Islamic,Phrase,Paused,1.80
+Actions Bourse Halal,ETF Halal,HSBC Islamic,Phrase,Paused,1.80
+Fiscal Halal PEA CTO,PEA CTO Halal,PEA halal,Exact,Paused,2.00
+Fiscal Halal PEA CTO,PEA CTO Halal,CTO halal,Exact,Paused,2.00
+Fiscal Halal PEA CTO,PEA CTO Halal,PEA halal 2026,Phrase,Paused,2.00
+Fiscal Halal PEA CTO,PEA CTO Halal,PEA ETF halal,Phrase,Paused,2.00
+Fiscal Halal PEA CTO,PEA CTO Halal,CTO ETF halal,Phrase,Paused,2.00
+Fiscal Halal PEA CTO,PEA CTO Halal,quel PEA pour halal,Phrase,Paused,1.80
+Fiscal Halal PEA CTO,PEA CTO Halal,CTO Trade Republic halal,Phrase,Paused,1.80
+Fiscal Halal PEA CTO,PEA CTO Halal,CTO DEGIRO halal,Phrase,Paused,1.80
+
+Campaign,Keyword,Criterion Type,Match Type,Level
+Investissement Halal,credit,Negative,Broad,Campaign
+Investissement Halal,credit halal,Negative,Broad,Campaign
+Investissement Halal,credit immobilier,Negative,Broad,Campaign
+Investissement Halal,credit conso,Negative,Broad,Campaign
+Investissement Halal,credit auto,Negative,Broad,Campaign
+Investissement Halal,mourabaha,Negative,Broad,Campaign
+Investissement Halal,achat immobilier,Negative,Broad,Campaign
+Investissement Halal,achat maison,Negative,Broad,Campaign
+Investissement Halal,maison halal,Negative,Broad,Campaign
+Investissement Halal,assurance,Negative,Broad,Campaign
+Investissement Halal,assurance vie,Negative,Broad,Campaign
+Investissement Halal,assurance auto,Negative,Broad,Campaign
+Investissement Halal,assurance sante,Negative,Broad,Campaign
+Investissement Halal,mutuelle,Negative,Broad,Campaign
+Investissement Halal,banque,Negative,Broad,Campaign
+Investissement Halal,banque halal,Negative,Broad,Campaign
+Investissement Halal,compte halal,Negative,Broad,Campaign
+Investissement Halal,compte courant,Negative,Broad,Campaign
+Investissement Halal,carte bancaire,Negative,Broad,Campaign
+Investissement Halal,neobanque,Negative,Broad,Campaign
+Investissement Halal,Mizen,Negative,Broad,Campaign
+Investissement Halal,Musc Pay,Negative,Broad,Campaign
+Investissement Halal,Laymoon,Negative,Broad,Campaign
+Investissement Halal,Chaabi,Negative,Broad,Campaign
+Investissement Halal,Wahed,Negative,Broad,Campaign
+Investissement Halal,Lina Finance,Negative,Broad,Campaign
+Investissement Halal,Perenys,Negative,Broad,Campaign
+Investissement Halal,formation gratuite,Negative,Broad,Campaign
+Investissement Halal,gratuit,Negative,Broad,Campaign
+Investissement Halal,telecharger gratuit,Negative,Broad,Campaign
+Investissement Halal,pdf gratuit,Negative,Broad,Campaign
+Investissement Halal,telecharger ebook gratuit,Negative,Broad,Campaign
+Actions Bourse Halal,credit,Negative,Broad,Campaign
+Actions Bourse Halal,assurance,Negative,Broad,Campaign
+Actions Bourse Halal,banque,Negative,Broad,Campaign
+Actions Bourse Halal,Wahed,Negative,Broad,Campaign
+Actions Bourse Halal,gratuit,Negative,Broad,Campaign
+Actions Bourse Halal,telecharger gratuit,Negative,Broad,Campaign
+Fiscal Halal PEA CTO,credit,Negative,Broad,Campaign
+Fiscal Halal PEA CTO,assurance vie,Negative,Broad,Campaign
+Fiscal Halal PEA CTO,banque,Negative,Broad,Campaign
+Fiscal Halal PEA CTO,gratuit,Negative,Broad,Campaign
+
+Campaign,Ad Group,Ad Type,Ad Status,Final URL,Headline 1,Headline 2,Headline 3,Headline 4,Headline 5,Headline 6,Headline 7,Headline 8,Headline 9,Headline 10,Headline 11,Headline 12,Headline 13,Headline 14,Headline 15,Description 1,Description 2,Description 3,Description 4,Path 1,Path 2
+Investissement Halal,Investissement Halal Core,Responsive search ad,Paused,https://muslimfinance.net/ebook?utm_source=google&utm_medium=cpc&utm_campaign=investissement_halal&utm_content=core,Investir Halal - Guide Complet,Investissement Halal AAOIFI,Portefeuille Halal +18K EUR,Guide Investissement Halal 14 EUR,Investir Sans Riba - Methode,Ebook Investissement Halal,Comment Investir Halal en 2026,Portefeuille Halal Realise,Investissement Islamique FR,Bourse Halal - Cas Concret,Trade Republic Halal,Actions Halal AAOIFI,Backtest Halal +85% vs QQQ,Ebook Halal 47 pages PDF,Livraison Immediate PDF,Cas concret d'un portefeuille personnel : +18 728 EUR de plus-value latente. 100% halal AAOIFI. Ebook PDF 14 EUR.,Ni CGP, ni conseil personnalise. La methode DIY pour construire un patrimoine halal sans banque islamique.,Screening AAOIFI, actions halal, or physique, SCPI, hadj, mariage : le guide complet francophone.,47 pages actionnables. Trade Republic, DEGIRO, IBKR : quels courtiers, quelle allocation, quels ETF halal.,guide,14-eur
+Investissement Halal,Finance Halal Islamique,Responsive search ad,Paused,https://muslimfinance.net/ebook?utm_source=google&utm_medium=cpc&utm_campaign=investissement_halal&utm_content=finance,Finance Halal - Guide 2026,Finance Islamique FR,Patrimoine Halal +18K EUR,Guide Finance Halal 14 EUR,Construire Sans Riba,Ebook Finance Halal AAOIFI,Comment Faire Grandir Halal,Patrimoine Halal Realise,Finance Islamique Ebook,Investir Halal - Cas Concret,Trade Republic + Halal,Actions Halal Fiches,Backtest +85% Halal,47 Pages PDF Halal,Livraison Immediate,Cas concret : mon portefeuille perso Trade Republic +18 728 EUR PV latente 100% halal AAOIFI.,Guide DIY. Zero conseil personnalise. Zero rendez-vous. 14 EUR livraison PDF immediate.,Screening AAOIFI + backtest 5 ans + methode courtiers + or, SCPI, hadj, mariage.,Le seul guide francophone complet avec chiffres reels et methode etape par etape.,guide,14-eur
+Actions Bourse Halal,Actions Halal,Responsive search ad,Paused,https://muslimfinance.net/ebook?utm_source=google&utm_medium=cpc&utm_campaign=actions_bourse_halal&utm_content=actions,Actions Halal 2026 - Watchlist,NASDAQ Halal - 66 Actions,S&P 500 Halal - 226 Actions,Actions AAOIFI Verifiees,Portefeuille NASDAQ Halal +85%,Bourse Halal - Cas Concret,Backtest Actions Halal 5 Ans,Nvidia ASML ARM Halal,Portefeuille Halal +18K EUR,Ebook Actions Halal 14 EUR,Ma Preuve : Trade Republic Halal,Screener Actions Halal Live,Guide Bourse Halal 47p,Comment Choisir Actions Halal,Actions Halal Sans Riba,Le screener AAOIFI de muslimfinance.net + ma preuve personnelle : +18 728 EUR de plus-value latente.,NVIDIA ARM ASML TSMC AMD : les valeurs IA halal-compatibles avec leurs poids AAOIFI.,Ebook 14 EUR - livraison PDF immediate - 47 pages actionnables sans conseil personnalise.,Backtest 5 ans : +85% surperformance vs NASDAQ 100 complet. Methode exacte dans le guide.,actions,14-eur
+Actions Bourse Halal,ETF Halal,Responsive search ad,Paused,https://muslimfinance.net/ebook?utm_source=google&utm_medium=cpc&utm_campaign=actions_bourse_halal&utm_content=etf,ETF Halal 2026 - Guide,SPWI + DEEN - Allocation,ETF AAOIFI Compatible,ETF Halal via Trade Republic,iShares MSCI Islamic - Avis,HSBC Islamic ETF - France,ETF Halal PEA ou CTO ?,Meilleur ETF Halal 2026,ETF Islamique Nouveaux 2026,Guide ETF Halal 47 Pages,Portefeuille ETF Halal Perso,TER Moyen 0.55% Halal,Ebook ETF Halal 14 EUR,Allocation 60/40 ETF Halal,ETF Halal Livre Immediate,Guide complet ETF halal 2026 : SPWI DEEN HSBC Islamic - allocation TER courtiers. Ebook 14 EUR.,Cas concret : mon portefeuille halal 100% AAOIFI +18 728 EUR PV latente. Methode dans le guide.,Trade Republic DEGIRO IBKR : quel courtier pour quel ETF halal. Comparatif frais.,Livraison PDF immediate. Pas de conseil personnalise. Education DIY.,ETF,14-eur
+Fiscal Halal PEA CTO,PEA CTO Halal,Responsive search ad,Paused,https://muslimfinance.net/ebook?utm_source=google&utm_medium=cpc&utm_campaign=fiscal_halal&utm_content=pea_cto,PEA Halal - Guide 2026,CTO Halal Trade Republic,PEA vs CTO pour ETF Halal,PEA Halal - Est-ce Possible ?,Meilleur PEA Halal 2026,ETF Halal en PEA - Guide,CTO Halal DEGIRO - Avis,Fiscalite ETF Halal FR,PEA Halal 14 EUR Ebook,Guide PEA + CTO Halal,Impots Actions Halal France,ETF Halal - Enveloppe Optimale,CTO Halal Sans Frais,PEA Halal Ecole du Riba,Ebook PEA Halal 47 Pages,PEA ou CTO pour ETF halal ? Guide complet : fiscalite courtiers allocation. Ebook 14 EUR.,Cas concret : mon CTO Trade Republic 100% halal +18 728 EUR PV latente en 2 ans.,Comparatif complet PEA vs CTO pour investir halal. Livraison PDF immediate.,Pas de conseil personnalise. Guide DIY 47 pages actionnables.,PEA,CTO
+
+Campaign,Ad Group,Sitelink Text,Description Line 1,Description Line 2,Final URL,Status
+Investissement Halal,,NASDAQ 100 Halal,66 actions filtrees AAOIFI,Poids et backtests affiches,https://muslimfinance.net/nasdaq-halal,Enabled
+Investissement Halal,,S&P 500 Halal,226 actions AAOIFI,Backtest 5 ans complet,https://muslimfinance.net/sp500-halal,Enabled
+Investissement Halal,,Backtest Halal,Performance historique,Halal vs indices complets,https://muslimfinance.net/backtest,Enabled
+Investissement Halal,,Checklist Arnaque,Detecter Validus & MLM,En 30 secondes - gratuit,https://muslimfinance.net/checklist,Enabled
+Actions Bourse Halal,,NASDAQ 100 Halal,66 actions filtrees AAOIFI,Poids et backtests affiches,https://muslimfinance.net/nasdaq-halal,Enabled
+Actions Bourse Halal,,S&P 500 Halal,226 actions AAOIFI,Backtest 5 ans complet,https://muslimfinance.net/sp500-halal,Enabled
+Actions Bourse Halal,,Backtest Halal,Performance historique,Halal vs indices complets,https://muslimfinance.net/backtest,Enabled
+Actions Bourse Halal,,Checklist Arnaque,Detecter Validus & MLM,En 30 secondes - gratuit,https://muslimfinance.net/checklist,Enabled
+Fiscal Halal PEA CTO,,NASDAQ 100 Halal,66 actions filtrees AAOIFI,Poids et backtests affiches,https://muslimfinance.net/nasdaq-halal,Enabled
+Fiscal Halal PEA CTO,,S&P 500 Halal,226 actions AAOIFI,Backtest 5 ans complet,https://muslimfinance.net/sp500-halal,Enabled
+
+Campaign,Ad Group,Callout Text,Status
+Investissement Halal,,Livraison PDF immediate,Enabled
+Investissement Halal,,47 pages actionnables,Enabled
+Investissement Halal,,100% halal AAOIFI,Enabled
+Investissement Halal,,0 conseil personnalise,Enabled
+Investissement Halal,,Trade Republic compatible,Enabled
+Investissement Halal,,Backtest +85% surperformance,Enabled
+Actions Bourse Halal,,Livraison PDF immediate,Enabled
+Actions Bourse Halal,,47 pages actionnables,Enabled
+Actions Bourse Halal,,100% halal AAOIFI,Enabled
+Actions Bourse Halal,,0 conseil personnalise,Enabled
+Actions Bourse Halal,,Trade Republic compatible,Enabled
+Actions Bourse Halal,,Backtest +85% surperformance,Enabled
+Fiscal Halal PEA CTO,,Livraison PDF immediate,Enabled
+Fiscal Halal PEA CTO,,47 pages actionnables,Enabled
+Fiscal Halal PEA CTO,,100% halal AAOIFI,Enabled
+Fiscal Halal PEA CTO,,0 conseil personnalise,Enabled
+Fiscal Halal PEA CTO,,Trade Republic compatible,Enabled
+Fiscal Halal PEA CTO,,Backtest +85% surperformance,Enabled
