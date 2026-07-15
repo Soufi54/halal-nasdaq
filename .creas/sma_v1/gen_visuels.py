@@ -104,7 +104,7 @@ def brand_footer(draw, y=None):
     f_brand = load_font(28, bold=True)
     f_url = load_font(24)
     draw.text((80, y+20), "MUSLIMFINANCE.NET", font=f_brand, fill=GOLD)
-    draw.text((80, y+56), "Ebook \"Halal & patrimoine\" — 29 EUR precommande", font=f_url, fill=IVORY)
+    draw.text((80, y+56), "Ebook \"Halal & patrimoine\" — sortie 22 juillet 2026", font=f_url, fill=IVORY)
 
 
 # ── Visuel 1 — Peur / Livret A ────────────────────────────────────────────
@@ -155,7 +155,7 @@ def build_visuel_1():
     draw.rounded_rectangle([(btn_x, btn_y), (btn_x+btn_w, btn_y+btn_h)],
                            radius=12, fill=GOLD)
     f_cta = load_font(34, bold=True)
-    txt = "Precommande 29 EUR (au lieu de 63)"
+    txt = "Je reserve ma place - 29 EUR sortie"
     bbox = draw.textbbox((0, 0), txt, font=f_cta)
     tw = bbox[2] - bbox[0]
     draw.text((btn_x + (btn_w-tw)//2, btn_y+24), txt, font=f_cta, fill=DARK)

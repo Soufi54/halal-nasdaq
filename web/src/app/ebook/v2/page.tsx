@@ -3,7 +3,6 @@ import Script from "next/script";
 import Image from "next/image";
 import { Playfair_Display } from "next/font/google";
 import { SubscribeForm } from "../SubscribeForm";
-import { BuyButton } from "./BuyButton";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -15,14 +14,14 @@ const playfair = Playfair_Display({
 const PIXEL_ID = "1986901548880799";
 
 export const metadata: Metadata = {
-  title: "Halal & patrimoine v2 — Comment j'ai construit +18 728 EUR de plus-value latente sur un portefeuille conforme AAOIFI",
+  title: "Halal & patrimoine v2 — Réserve ta place. Ebook 29 EUR à la sortie (au lieu de 63 EUR)",
   description:
-    "Cas concret d'un portefeuille Trade Republic — titres filtrés AAOIFI + protocole de conformité 4 règles. +18 728 EUR de plus-value latente en 2 ans. Le guide complet (29 EUR précommande jusqu'au 21 juillet, ensuite 63 EUR).",
+    "Cas concret d'un portefeuille Trade Republic — titres filtrés AAOIFI + protocole de conformité 4 règles. +18 728 EUR de plus-value latente en 2 ans. Inscris-toi pour l'ebook à 29 EUR à la sortie (au lieu de 63 EUR prix public).",
   alternates: { canonical: "https://muslimfinance.net/ebook/v2" },
   openGraph: {
     title: "+18 728 EUR de plus-value latente — portefeuille halal AAOIFI (protocole complet)",
     description:
-      "Le guide complet : screening AAOIFI, actions halal, financer hadj/mariage/maison sans crédit riba. 29 EUR précommande jusqu'au 21 juillet (ensuite 63 EUR).",
+      "Le guide complet : screening AAOIFI, actions halal, financer hadj/mariage/maison sans crédit riba. Réserve ta place — 29 EUR à la sortie (au lieu de 63 EUR).",
     url: "https://muslimfinance.net/ebook/v2",
     siteName: "MuslimFinance",
     type: "website",
@@ -40,7 +39,7 @@ export const metadata: Metadata = {
 
 const PRICE_LAUNCH = 29;
 const PRICE_REGULAR = 63;
-const DEADLINE_STR = "21 juillet 2026";
+const LAUNCH_STR = "22 juillet 2026";
 
 export default function EbookV2Page() {
   return (
@@ -91,18 +90,15 @@ export default function EbookV2Page() {
 
               <p className="text-base sm:text-lg text-stone-300 leading-relaxed mb-6 max-w-xl">
                 Portefeuille personnel Trade Republic. Titres filtrés AAOIFI +
-                protocole 4 règles (interêts cash désactivés, zéro margin, zéro
+                protocole 4 règles (intérêts cash désactivés, zéro margin, zéro
                 securities lending, screener AAOIFI). Voici la méthode
-                complète — 47 pages, PDF livré immédiatement.
+                complète — 47 pages. Sortie le {LAUNCH_STR}.
               </p>
 
               <div className="bg-white text-stone-900 rounded-xl p-5 border-2 border-amber-400 shadow-2xl">
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="inline-block bg-red-600 text-white text-[10px] uppercase tracking-widest font-bold px-2 py-1 rounded">
-                    Précommande
-                  </span>
-                  <span className="text-xs text-stone-500">
-                    jusqu&apos;au {DEADLINE_STR}
+                  <span className="inline-block bg-amber-500 text-stone-900 text-[10px] uppercase tracking-widest font-bold px-2 py-1 rounded">
+                    Sortie le {LAUNCH_STR}
                   </span>
                 </div>
                 <div className="flex items-baseline gap-3 mb-3">
@@ -114,16 +110,17 @@ export default function EbookV2Page() {
                     -54 %
                   </span>
                 </div>
-                <p className="text-xs text-stone-600 mb-3">
-                  PDF · 47 pages · livraison immédiate après paiement
+                <p className="text-xs text-stone-600 mb-4">
+                  Inscris-toi pour être prévenu à la sortie et recevoir le tarif
+                  préférentiel de <strong>29 EUR</strong> (au lieu de 63 EUR
+                  après). Aucun paiement maintenant.
                 </p>
-                <BuyButton
-                  ctaLabel={`Précommander maintenant — ${PRICE_LAUNCH} EUR`}
-                  contentName="ebook_halal_patrimoine_v2"
+                <SubscribeForm
+                  source="v2_hero"
+                  ctaLabel="Je réserve ma place"
+                  successMsg="Tu es sur la liste. Tu recevras l'ebook et le lien de commande à 29 EUR à la sortie."
+                  hint="Aucun paiement maintenant. Un email de confirmation arrive dans les 2 minutes."
                 />
-                <p className="mt-3 text-xs text-stone-500">
-                  Paiement sécurisé Stripe · CB / Apple Pay / Google Pay
-                </p>
               </div>
             </div>
 
@@ -292,14 +289,12 @@ export default function EbookV2Page() {
             </div>
 
             <div className="mt-8 max-w-md">
-              <BuyButton
-                ctaLabel={`Précommander maintenant — ${PRICE_LAUNCH} EUR`}
-                contentName="ebook_halal_patrimoine_v2_roi"
-                variant="light"
+              <SubscribeForm
+                source="v2_roi"
+                ctaLabel="Je réserve ma place — 29 EUR à la sortie"
+                successMsg="Tu es sur la liste. On te prévient à la sortie."
+                hint={`Aucun paiement maintenant. Sortie le ${LAUNCH_STR}. Tarif préférentiel 29 EUR (au lieu de 63 EUR).`}
               />
-              <p className="mt-3 text-xs text-stone-400">
-                Précommande {PRICE_LAUNCH} EUR jusqu&apos;au {DEADLINE_STR}. Ensuite {PRICE_REGULAR} EUR.
-              </p>
             </div>
           </div>
         </section>
@@ -464,11 +459,8 @@ export default function EbookV2Page() {
           {/* CTA milieu */}
           <div className="mt-10 bg-stone-900 text-stone-50 p-6 rounded-xl">
             <div className="flex items-center gap-2 mb-2">
-              <span className="inline-block bg-red-600 text-white text-[10px] uppercase tracking-widest font-bold px-2 py-1 rounded">
-                Précommande
-              </span>
-              <span className="text-xs text-stone-400">
-                jusqu&apos;au {DEADLINE_STR}
+              <span className="inline-block bg-amber-500 text-stone-900 text-[10px] uppercase tracking-widest font-bold px-2 py-1 rounded">
+                Sortie le {LAUNCH_STR}
               </span>
             </div>
             <div className="flex items-baseline gap-3 mb-1">
@@ -476,12 +468,14 @@ export default function EbookV2Page() {
               <p className="text-stone-400 line-through text-lg">{PRICE_REGULAR} EUR</p>
             </div>
             <p className="text-sm text-stone-300 mb-4">
-              PDF · 47 pages · livraison immédiate après paiement
+              Inscris-toi maintenant, tu recevras le PDF et le lien de commande
+              à 29 EUR à la sortie (au lieu de 63 EUR pour le public).
             </p>
-            <BuyButton
-              ctaLabel={`Précommander maintenant — ${PRICE_LAUNCH} EUR`}
-              contentName="ebook_halal_patrimoine_v2_mid"
-              variant="light"
+            <SubscribeForm
+              source="v2_mid"
+              ctaLabel="Je réserve ma place"
+              successMsg="Tu es sur la liste. Confirmation email dans 2 min."
+              hint="Aucun paiement maintenant."
             />
           </div>
         </section>
@@ -500,12 +494,12 @@ export default function EbookV2Page() {
             <div className="space-y-5">
               {[
                 [
-                  "Je paye maintenant, je reçois quand ?",
-                  "Immédiatement. Après paiement Stripe, tu reçois un email avec le PDF (47 pages) en pièce jointe. Livraison < 2 minutes.",
+                  "Je paye maintenant ?",
+                  `Non. Tu inscris juste ton email. À la sortie officielle (${LAUNCH_STR}), tu reçois le PDF + un lien de commande à 29 EUR (au lieu de 63 EUR pour les non-inscrits). Aucun engagement.`,
                 ],
                 [
-                  `Pourquoi ${PRICE_LAUNCH} EUR et pas plus tard ?`,
-                  `Le tarif précommande est ${PRICE_LAUNCH} EUR jusqu'au ${DEADLINE_STR}. Ensuite, prix plein ${PRICE_REGULAR} EUR. C'est la seule fenêtre à ce prix.`,
+                  `Pourquoi 29 EUR pour les inscrits et pas plus tard ?`,
+                  `L'inscription à cette liste garantit le tarif préférentiel 29 EUR. Après la sortie, prix public 63 EUR. Ceux qui s'inscrivent maintenant paient 54 % moins cher.`,
                 ],
                 [
                   "Je n'y connais rien en finance.",
@@ -517,7 +511,7 @@ export default function EbookV2Page() {
                 ],
                 [
                   "Il y a des affiliations cachées ?",
-                  `Non. Aucune affiliation broker ou fintech. Le guide est vendu ${PRICE_LAUNCH} EUR (précommande) puis ${PRICE_REGULAR} EUR, c'est le seul revenu.`,
+                  `Non. Aucune affiliation broker ou fintech. Le guide est vendu 29 EUR (inscrits) puis 63 EUR (public), c'est le seul revenu.`,
                 ],
               ].map(([q, a], i) => (
                 <div key={i}>
@@ -542,10 +536,10 @@ export default function EbookV2Page() {
             Ta banque gagne de l&apos;argent sur ton ignorance.
           </h2>
           <p className="text-stone-300 text-sm sm:text-base mb-6 max-w-md mx-auto">
-            Le guide qui change les règles. PDF livré immédiatement.
+            Le guide qui change les règles. Sortie le {LAUNCH_STR}.
           </p>
           <div className="max-w-md mx-auto">
-            <div className="flex items-baseline justify-center gap-3 mb-4">
+            <div className="flex items-baseline justify-center gap-3 mb-2">
               <span className="text-4xl font-black text-amber-400">
                 {PRICE_LAUNCH} EUR
               </span>
@@ -553,26 +547,16 @@ export default function EbookV2Page() {
                 {PRICE_REGULAR} EUR
               </span>
             </div>
-            <p className="text-xs text-stone-400 mb-4">
-              Précommande jusqu&apos;au {DEADLINE_STR}
+            <p className="text-xs text-stone-400 mb-5">
+              Tarif liste d&apos;inscription · Prix public {PRICE_REGULAR} EUR à
+              la sortie
             </p>
-            <BuyButton
-              ctaLabel={`Précommander maintenant — ${PRICE_LAUNCH} EUR`}
-              contentName="ebook_halal_patrimoine_v2_final"
-              variant="light"
+            <SubscribeForm
+              source="v2_final"
+              ctaLabel="Je réserve ma place"
+              successMsg="Tu es sur la liste. On se retrouve à la sortie."
+              hint="Aucun paiement maintenant. Un email de confirmation arrive dans les 2 min."
             />
-          </div>
-
-          {/* Fallback : email si pas prêt à acheter */}
-          <div className="mt-10 pt-8 border-t border-stone-700 max-w-md mx-auto">
-            <p className="text-xs uppercase tracking-widest text-amber-400 mb-3">
-              Pas prêt à acheter ?
-            </p>
-            <p className="text-sm text-stone-300 mb-3">
-              Reçois la checklist gratuite pour détecter une arnaque type
-              Validus en 30 secondes.
-            </p>
-            <SubscribeForm source="v2_final_fallback" ctaLabel="Recevoir la checklist gratuite" />
           </div>
         </section>
 

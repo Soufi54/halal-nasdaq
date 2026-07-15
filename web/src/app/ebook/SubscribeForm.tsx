@@ -59,13 +59,16 @@ export function SubscribeForm({
     } catch {}
 
     try {
-      // 2. Save au KV (Cloudflare Function locale)
+      // Save au KV + welcome email + Meta CAPI Lead (tout dans /api/subscribe)
       const kvRes = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           email,
           source,
+          eventId,
+          fbclid: fbclid || undefined,
+          fbp: fbp || undefined,
           utm_source: url.searchParams.get("utm_source") ?? undefined,
           utm_campaign: url.searchParams.get("utm_campaign") ?? undefined,
           utm_content: url.searchParams.get("utm_content") ?? undefined,
@@ -76,19 +79,6 @@ export function SubscribeForm({
       if (data.ok) {
         setStatus("ok");
         setMsg(successMsg);
-
-        // 3. Meta CAPI Lead server-side (fire and forget)
-        fetch("/api/meta/lead", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            email,
-            eventId,
-            fbclid: fbclid || undefined,
-            fbp: fbp || undefined,
-            source,
-          }),
-        }).catch(() => {});
       } else {
         setStatus("err");
         setMsg(data.error ?? "Erreur, réessaie.");
