@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import Image from "next/image";
 import { Playfair_Display } from "next/font/google";
 import { SubscribeForm } from "../SubscribeForm";
-import { StickyEmailBar } from "./StickyEmailBar";
+import { BuyButton } from "./BuyButton";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -14,17 +15,25 @@ const playfair = Playfair_Display({
 const PIXEL_ID = "1986901548880799";
 
 export const metadata: Metadata = {
-  title: "Halal et patrimoine — Le guide d’investissement pour le musulman qui veut construire pour ses enfants",
+  title: "Halal & patrimoine v2 — Comment j'ai construit +18 728 EUR de plus-value latente sur un portefeuille 100 % halal",
   description:
-    "Tu as refusé le riba. Tu as évité les arnaques. Mais ton argent dort. Le guide pour construire un patrimoine halal — voiture, maison, retraite, études des enfants, aider tes parents.",
+    "Cas concret d'un portefeuille Trade Republic 100 % halal AAOIFI : +18 728 EUR de plus-value latente en 2 ans. Le guide complet (14 EUR, 47 pages, PDF livré immédiatement).",
   alternates: { canonical: "https://muslimfinance.net/ebook/v2" },
   openGraph: {
-    title: "Refuser le riba, ce n’est pas être condamné à être pauvre.",
+    title: "+18 728 EUR de plus-value latente sur un portefeuille 100 % halal",
     description:
-      "Le guide d’investissement halal pour le musulman qui veut construire pour ses enfants.",
+      "Le guide complet : screening AAOIFI, actions halal, financer hadj/mariage/maison sans crédit riba. 14 EUR PDF livré immédiatement.",
     url: "https://muslimfinance.net/ebook/v2",
     siteName: "MuslimFinance",
     type: "website",
+    images: [
+      {
+        url: "https://muslimfinance.net/img/sma/visuel_2_perf.png",
+        width: 1080,
+        height: 1350,
+        alt: "Portefeuille halal +18 728 EUR PV latente",
+      },
+    ],
   },
   robots: { index: false, follow: false },
 };
@@ -43,159 +52,410 @@ export default function EbookV2Page() {
       `}</Script>
       <noscript>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img height="1" width="1" style={{ display: "none" }} alt=""
-          src={`https://www.facebook.com/tr?id=${PIXEL_ID}&ev=PageView&noscript=1`} />
+        <img
+          height="1"
+          width="1"
+          style={{ display: "none" }}
+          alt=""
+          src={`https://www.facebook.com/tr?id=${PIXEL_ID}&ev=PageView&noscript=1`}
+        />
       </noscript>
 
       <main
-        className={`${playfair.variable} min-h-screen bg-stone-50 text-stone-900 antialiased pb-28 sm:pb-0`}
+        className={`${playfair.variable} min-h-screen bg-stone-50 text-stone-900 antialiased pb-32 sm:pb-0`}
       >
-        {/* HERO — email-first, tout au-dessus du fold */}
-        <section className="relative px-5 pt-10 pb-12 sm:pt-16 sm:pb-16 max-w-3xl mx-auto">
-          <p className="text-[10px] uppercase tracking-[0.25em] text-amber-800 mb-5">
-            muslimfinance.net
-          </p>
+        {/* ═════════════════════════════════════════════════════════
+            HERO — social proof screenshot + achat direct
+        ═════════════════════════════════════════════════════════ */}
+        <section className="relative bg-stone-900 text-stone-50 px-5 py-14 sm:py-20">
+          <div className="max-w-4xl mx-auto grid sm:grid-cols-2 gap-10 items-center">
+            <div>
+              <p className="text-[10px] uppercase tracking-[0.25em] text-amber-400 mb-4">
+                muslimfinance.net · Edition 2026
+              </p>
 
-          <h1
-            className="text-[2rem] sm:text-5xl font-black leading-[1.05] tracking-tight mb-4"
+              <h1
+                className="text-[2.2rem] sm:text-5xl font-black leading-[1.05] tracking-tight mb-5"
+                style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+              >
+                +18 728 EUR
+                <br />
+                <span className="text-amber-400">
+                  de plus-value latente en 2 ans.
+                </span>
+              </h1>
+
+              <p className="text-base sm:text-lg text-stone-300 leading-relaxed mb-6 max-w-xl">
+                Portefeuille personnel Trade Republic. 100 % halal AAOIFI. Sans
+                banque islamique, sans conseiller, sans crédit riba. Voici la
+                méthode complète — 47 pages, 14 EUR, PDF livré immédiatement.
+              </p>
+
+              <div className="bg-white text-stone-900 rounded-xl p-5 border-2 border-amber-400 shadow-2xl">
+                <div className="flex items-baseline gap-3 mb-3">
+                  <span className="text-4xl font-black">14 EUR</span>
+                  <span className="text-sm text-stone-500">
+                    PDF · 47 pages · livraison en 2 minutes
+                  </span>
+                </div>
+                <BuyButton
+                  ctaLabel="Acheter maintenant — 14 EUR"
+                  contentName="ebook_halal_patrimoine_v2"
+                />
+                <p className="mt-3 text-xs text-stone-500">
+                  Paiement sécurisé Stripe · CB / Apple Pay / Google Pay
+                </p>
+              </div>
+            </div>
+
+            {/* Screenshot portefeuille preuve */}
+            <div className="relative aspect-[3/4] max-w-xs mx-auto">
+              <Image
+                src="/img/portfolio-proof/portfolio-proof-graph.png"
+                alt="Portefeuille Trade Republic +18 728 EUR PV latente 100 % halal AAOIFI"
+                width={400}
+                height={500}
+                className="rounded-2xl shadow-2xl ring-2 ring-amber-400/40"
+                priority
+              />
+              <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-amber-400 text-stone-900 px-4 py-2 rounded-full text-xs font-bold shadow-lg whitespace-nowrap">
+                Compte perso — vérifiable
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ═════════════════════════════════════════════════════════
+            ANGLE NVIDIA — social proof top holdings
+        ═════════════════════════════════════════════════════════ */}
+        <section className="px-5 py-16 max-w-4xl mx-auto">
+          <p className="text-[10px] uppercase tracking-[0.25em] text-amber-800 mb-3">
+            Ma preuve
+          </p>
+          <h2
+            className="text-3xl sm:text-4xl font-black leading-tight mb-6 max-w-2xl"
             style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
           >
-            Refuser le riba,
-            <br />
-            <span className="text-amber-900">ce n’est pas être condamné à être pauvre.</span>
-          </h1>
+            Nvidia va remplacer beaucoup d&apos;emplois qualifiés.{" "}
+            <span className="text-amber-800">
+              Autant en devenir actionnaire.
+            </span>
+          </h2>
 
-          <p className="text-base sm:text-lg text-stone-700 leading-relaxed mb-7 max-w-xl">
-            Le guide d’investissement halal pour bâtir un patrimoine — études des enfants,
-            retraite, aider tes parents, voiture, maison.
+          <p className="text-base sm:text-lg text-stone-700 leading-relaxed mb-8 max-w-2xl">
+            Les entreprises qui construisent les puces d&apos;IA sont dans le
+            NASDAQ halal AAOIFI. Toutes accessibles depuis Trade Republic ou
+            DEGIRO. Voici ce qu&apos;elles ont donné sur mon compte.
           </p>
 
-          {/* Bloc offre + email AU-DESSUS DU FOLD */}
-          <div className="bg-white border-2 border-amber-300 rounded-xl p-5 sm:p-6 shadow-lg">
-            <div className="flex flex-wrap items-baseline gap-2 mb-1">
-              <span className="text-[10px] uppercase tracking-[0.2em] text-amber-800 font-bold">
-                Tarif lancement
-              </span>
-              <span className="text-stone-400 line-through text-lg ml-auto">29 €</span>
-              <span className="text-3xl font-black text-stone-900">14 €</span>
+          <div className="grid sm:grid-cols-2 gap-6 items-center">
+            <div className="bg-white border border-stone-200 rounded-xl overflow-hidden shadow-md">
+              <table className="w-full text-sm">
+                <thead className="bg-stone-900 text-amber-100 text-left">
+                  <tr>
+                    <th className="px-4 py-3 font-bold">Position</th>
+                    <th className="px-4 py-3 font-bold text-right">
+                      Plus-value
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="text-stone-800">
+                  {[
+                    ["NVIDIA", "+2 492 EUR"],
+                    ["ARM (ADR)", "+2 821 EUR"],
+                    ["ASML", "+1 764 EUR"],
+                    ["AMD", "+1 985 EUR"],
+                    ["TSMC (ADR)", "+1 421 EUR"],
+                    ["Micron Technology", "+1 792 EUR"],
+                    ["Broadcom", "+1 095 EUR"],
+                    ["Advantest", "+1 425 EUR"],
+                  ].map(([name, gain]) => (
+                    <tr key={name} className="border-t border-stone-100">
+                      <td className="px-4 py-3 font-medium">{name}</td>
+                      <td className="px-4 py-3 text-right font-bold text-amber-800">
+                        {gain}
+                      </td>
+                    </tr>
+                  ))}
+                  <tr className="bg-stone-900 text-amber-300 font-black">
+                    <td className="px-4 py-3">Total tech halal</td>
+                    <td className="px-4 py-3 text-right">+15 795 EUR</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <p className="text-xs text-stone-500 mb-4">
-              100 premiers inscrits • Payable à la sortie (15 juin 2026)
-            </p>
-            <SubscribeForm source="v2_hero" ctaLabel="Réserver — 14 €" />
+
+            <div className="relative aspect-[3/4] max-w-xs mx-auto sm:mx-0">
+              <Image
+                src="/img/portfolio-proof/portfolio-proof-top.png"
+                alt="Screenshot Trade Republic top holdings halal"
+                width={400}
+                height={500}
+                className="rounded-2xl shadow-xl ring-1 ring-stone-200"
+              />
+            </div>
           </div>
 
-          <p className="mt-5 text-xs text-stone-500">
-            Aperçu de 10 pages envoyé dès la semaine prochaine. Aucun paiement maintenant.
+          <p className="mt-6 text-xs text-stone-500 max-w-2xl">
+            Performances passées non garanties. Ces positions ont bénéficié
+            d&apos;un cycle haussier semi-conducteurs exceptionnel 2023-2026.
+            Ne place pas ce dont tu as besoin dans les 3 prochaines années.
           </p>
         </section>
 
-        {/* PAIN — 3 lignes max, lisibles en 5s */}
-        <section className="bg-stone-900 text-stone-100 px-5 py-12 sm:py-14">
-          <div className="max-w-2xl mx-auto">
-            <p
-              className="text-xl sm:text-2xl font-bold leading-snug mb-6"
+        {/* ═════════════════════════════════════════════════════════
+            ANGLE HADJ / MARIAGE
+        ═════════════════════════════════════════════════════════ */}
+        <section className="bg-stone-100 px-5 py-16">
+          <div className="max-w-4xl mx-auto">
+            <p className="text-[10px] uppercase tracking-[0.25em] text-amber-800 mb-3">
+              3 objectifs concrets
+            </p>
+            <h2
+              className="text-3xl sm:text-4xl font-black leading-tight mb-6 max-w-2xl"
               style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
             >
-              Tu as refusé le riba.<br />
-              Tu as ignoré le copy trading et les MLM type Validus.<br />
-              <span className="text-amber-400">Tu n’as toujours rien construit.</span>
+              Financer ton hadj, ton mariage,{" "}
+              <span className="text-amber-800">
+                ta maison — sans crédit riba.
+              </span>
+            </h2>
+
+            <p className="text-base sm:text-lg text-stone-700 leading-relaxed mb-8 max-w-2xl">
+              Un portefeuille halal, c&apos;est aussi un outil pour financer
+              des objectifs personnels. Le guide donne le plan précis pour
+              chaque cas — mensualités, durée, allocation ETF.
             </p>
-            <p className="text-stone-300 text-base leading-relaxed mb-5">
-              À 32 ans, ton argent dort sur ton compte. Tu ne sais pas comment tu vas financer
-              les études de tes enfants, ta retraite, ou aider tes parents.
-            </p>
-            <p className="text-amber-300 font-semibold">
-              Tu as eu raison sur tout. Il te manque la suite.
+
+            <div className="grid sm:grid-cols-3 gap-4">
+              {[
+                {
+                  title: "Hadj",
+                  cost: "8-16K EUR",
+                  duration: "3-5 ans",
+                  mens: "115-400 EUR/mois",
+                },
+                {
+                  title: "Mariage",
+                  cost: "12-25K EUR",
+                  duration: "3-5 ans",
+                  mens: "170-620 EUR/mois",
+                },
+                {
+                  title: "Apport 30 %",
+                  cost: "45-120K EUR",
+                  duration: "5-7 ans",
+                  mens: "600-1600 EUR/mois",
+                },
+              ].map((p) => (
+                <div
+                  key={p.title}
+                  className="bg-white p-5 rounded-lg border border-amber-200 shadow-sm"
+                >
+                  <p className="text-xs uppercase tracking-wider text-amber-800 font-bold mb-2">
+                    {p.title}
+                  </p>
+                  <p className="text-2xl font-black text-stone-900 mb-1">
+                    {p.cost}
+                  </p>
+                  <p className="text-sm text-stone-600 mb-1">
+                    Sur {p.duration}
+                  </p>
+                  <p className="text-sm text-amber-900 font-bold">{p.mens}</p>
+                </div>
+              ))}
+            </div>
+
+            <p className="mt-6 text-xs text-stone-500 max-w-2xl">
+              Calculs base rendement 10 %/an conservateur, ETF halal AAOIFI
+              (SPWI + DEEN). Performances passées non garanties.
             </p>
           </div>
         </section>
 
-        {/* CE QUE TU OBTIENS — 3 cartes courtes */}
-        <section className="px-5 py-12 max-w-3xl mx-auto">
-          <p className="text-[10px] uppercase tracking-[0.25em] text-amber-800 mb-3">Inclus</p>
+        {/* ═════════════════════════════════════════════════════════
+            CE QUE TU OBTIENS
+        ═════════════════════════════════════════════════════════ */}
+        <section className="px-5 py-16 max-w-3xl mx-auto">
+          <p className="text-[10px] uppercase tracking-[0.25em] text-amber-800 mb-3">
+            Contenu du guide
+          </p>
           <h2
-            className="text-2xl sm:text-3xl font-bold mb-8"
+            className="text-3xl sm:text-4xl font-black mb-8"
             style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
           >
-            Le guide + 2 outils prêts à l’emploi.
+            11 chapitres · 47 pages · actionnable.
           </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white p-5 rounded-lg border border-stone-200 shadow-sm">
-              <p className="text-[10px] uppercase tracking-wider text-amber-800 font-bold mb-1">
-                Guide principal
-              </p>
-              <h3 className="text-lg font-bold mb-1">
-                Halal et patrimoine — 10 chapitres
-              </h3>
-              <p className="text-sm text-stone-600 leading-relaxed">
-                Screening AAOIFI, actions halal, or physique, immobilier sans crédit,
-                détecter Validus en 30 secondes, transmettre proprement.
-              </p>
-            </div>
-            <div className="bg-white p-5 rounded-lg border border-stone-200 shadow-sm">
-              <p className="text-[10px] uppercase tracking-wider text-amber-800 font-bold mb-1">
-                Bonus 1
-              </p>
-              <h3 className="text-lg font-bold mb-1">Tracker portefeuille halal (Google Sheets)</h3>
-              <p className="text-sm text-stone-600">Positions, dividendes, calcul zakat auto. Valeur 19 €.</p>
-            </div>
-            <div className="bg-white p-5 rounded-lg border border-stone-200 shadow-sm">
-              <p className="text-[10px] uppercase tracking-wider text-amber-800 font-bold mb-1">
-                Bonus 2
-              </p>
-              <h3 className="text-lg font-bold mb-1">Watchlist actions halal AAOIFI</h3>
-              <p className="text-sm text-stone-600">
-                30 actions screenées + maj trimestrielles 1 an par email. Valeur 29 €.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* OBJECTIONS — 3 questions clés, format compact */}
-        <section className="bg-stone-100 px-5 py-12 max-w-3xl mx-auto sm:rounded-xl sm:my-6">
-          <h2
-            className="text-2xl font-bold mb-6"
-            style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
-          >
-            En 3 questions.
-          </h2>
-          <div className="space-y-5">
+          <div className="space-y-3">
             {[
-              ["Je paye maintenant ?", "Non. Tu inscris ton email, tu réserves au tarif 14 € (au lieu de 29 €). Paiement à la sortie le 15 juin 2026."],
-              ["Je n’y connais rien en finance.", "Le guide part de zéro. Si tu sais ce qu’est un compte bancaire, tu peux suivre."],
-              ["Pourquoi pas YouTube halal gratuit ?", "Parce que YouTube halal francophone est dominé par des comptes affiliés à des courtiers ou des « formations » à 1 500 €. Aucune affiliation ici."],
-            ].map(([q, a], i) => (
-              <div key={i}>
-                <p className="font-bold text-stone-900 text-base">— {q}</p>
-                <p className="text-sm text-stone-700 leading-relaxed mt-1">{a}</p>
+              [
+                "1",
+                "Pourquoi 90 % des musulmans n'ont aucun patrimoine",
+                "Diagnostic et 3 blocages structurels",
+              ],
+              [
+                "2",
+                "Le screening AAOIFI expliqué simplement",
+                "4 critères, 4 exclusions, autres normes islamiques",
+              ],
+              [
+                "3",
+                "Les 30 actions halal — watchlist 2026",
+                "Top NASDAQ + S&P 500 avec justifications",
+              ],
+              [
+                "4",
+                "Nvidia va remplacer ton travail — deviens actionnaire",
+                "Cas concret positions perso IA (NVDA, ARM, ASML...)",
+              ],
+              [
+                "5",
+                "L'or physique — combien, où, comment",
+                "4 conditions islamiques, zakat or, fiscalité FR",
+              ],
+              [
+                "6",
+                "L'immobilier nu + SCPI halal",
+                "Cash, mourabaha, SCI, SCPI sharia compliant",
+              ],
+              [
+                "7",
+                "Détecter une arnaque en 30 secondes",
+                "Validus, OneCoin, MLM crypto — 5 cas réels",
+              ],
+              [
+                "8",
+                "Les courtiers 100 % compatibles",
+                "Trade Republic, IBKR, DEGIRO, BoursoBank — frais réels",
+              ],
+              [
+                "9",
+                "Le rebalancing trimestriel en 30 minutes",
+                "Routine simple + calcul zakat portefeuille",
+              ],
+              [
+                "10",
+                "Financer hadj, mariage, maison sans crédit riba",
+                "Plans 3, 5 et 7 ans avec tableaux d'épargne",
+              ],
+              [
+                "11",
+                "Transmettre — héritage, donation, zakat",
+                "Calculs concrets, cas famille FR",
+              ],
+            ].map(([n, t, s]) => (
+              <div
+                key={n}
+                className="flex gap-4 bg-white p-4 rounded-lg border border-stone-200"
+              >
+                <div className="shrink-0 w-10 h-10 rounded-full bg-amber-100 text-amber-900 font-black flex items-center justify-center">
+                  {n}
+                </div>
+                <div>
+                  <p className="font-bold text-stone-900">{t}</p>
+                  <p className="text-sm text-stone-600 mt-1">{s}</p>
+                </div>
               </div>
             ))}
           </div>
+
+          {/* CTA milieu */}
+          <div className="mt-10 bg-stone-900 text-stone-50 p-6 rounded-xl">
+            <p className="text-3xl font-black mb-1">14 EUR</p>
+            <p className="text-sm text-stone-300 mb-4">
+              PDF · 47 pages · livraison en 2 minutes après paiement
+            </p>
+            <BuyButton
+              ctaLabel="Acheter maintenant — 14 EUR"
+              contentName="ebook_halal_patrimoine_v2_mid"
+            />
+          </div>
         </section>
 
-        {/* FINAL CTA */}
-        <section className="bg-stone-900 text-stone-50 px-5 py-14 text-center">
+        {/* ═════════════════════════════════════════════════════════
+            OBJECTIONS
+        ═════════════════════════════════════════════════════════ */}
+        <section className="bg-stone-100 px-5 py-14">
+          <div className="max-w-3xl mx-auto">
+            <h2
+              className="text-2xl sm:text-3xl font-bold mb-6"
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+            >
+              En 4 questions.
+            </h2>
+            <div className="space-y-5">
+              {[
+                [
+                  "Je paye maintenant, je reçois quand ?",
+                  "Immédiatement. Après paiement Stripe, tu reçois un email avec le PDF (47 pages) en pièce jointe. Livraison < 2 minutes.",
+                ],
+                [
+                  "Je n'y connais rien en finance.",
+                  "Le guide part de zéro. Si tu sais ce qu'est un compte bancaire, tu peux suivre. Chaque chapitre a des tableaux concrets et une conclusion actionnable.",
+                ],
+                [
+                  "C'est un conseil en investissement personnalisé ?",
+                  "Non. C'est un guide d'éducation financière. Il ne remplace pas un CGP ORIAS. Tu restes seul responsable de tes décisions.",
+                ],
+                [
+                  "Il y a des affiliations cachées ?",
+                  "Non. Aucune affiliation broker ou fintech. Le guide est vendu 14 EUR, c'est le seul revenu.",
+                ],
+              ].map(([q, a], i) => (
+                <div key={i}>
+                  <p className="font-bold text-stone-900 text-base">— {q}</p>
+                  <p className="text-sm text-stone-700 leading-relaxed mt-1">
+                    {a}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ═════════════════════════════════════════════════════════
+            FINAL CTA
+        ═════════════════════════════════════════════════════════ */}
+        <section className="bg-stone-900 text-stone-50 px-5 py-16 text-center">
           <h2
-            className="text-2xl sm:text-4xl font-bold mb-3 max-w-xl mx-auto"
+            className="text-3xl sm:text-4xl font-bold mb-3 max-w-xl mx-auto"
             style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
           >
-            Tes enfants comptent sur toi.
+            Ta banque gagne de l&apos;argent sur ton ignorance.
           </h2>
           <p className="text-stone-300 text-sm sm:text-base mb-8 max-w-md mx-auto">
-            14 € à la sortie le 15 juin. Aucun paiement aujourd’hui.
+            Le guide qui change les règles. 14 EUR. PDF livré immédiatement.
           </p>
-          <SubscribeForm source="v2_final" ctaLabel="Je réserve mon exemplaire — 14 €" />
+          <div className="max-w-md mx-auto">
+            <BuyButton
+              ctaLabel="Acheter maintenant — 14 EUR"
+              contentName="ebook_halal_patrimoine_v2_final"
+              variant="light"
+            />
+          </div>
+
+          {/* Fallback : email si pas prêt à acheter */}
+          <div className="mt-10 pt-8 border-t border-stone-700 max-w-md mx-auto">
+            <p className="text-xs uppercase tracking-widest text-amber-400 mb-3">
+              Pas prêt à acheter ?
+            </p>
+            <p className="text-sm text-stone-300 mb-3">
+              Reçois la checklist gratuite pour détecter une arnaque type
+              Validus en 30 secondes.
+            </p>
+            <SubscribeForm source="v2_final_fallback" ctaLabel="Recevoir la checklist gratuite" />
+          </div>
         </section>
 
-        {/* FOOTER */}
-        <footer className="border-t border-stone-200 px-6 py-8 text-center text-xs text-stone-500">
-          <p>muslimfinance.net — © 2026 • Par l’équipe muslimfinance.net</p>
+        <footer className="border-t border-stone-200 px-6 py-8 text-center text-xs text-stone-500 bg-stone-50">
+          <p className="mb-2">muslimfinance.net — © 2026 · Édition 2026 · Usage personnel uniquement</p>
+          <p>
+            Ce guide est un outil d&apos;éducation financière. Il ne constitue
+            pas un conseil en investissement personnalisé au sens de la
+            directive MIF II.
+          </p>
         </footer>
-
-        {/* STICKY EMAIL BAR MOBILE (toujours visible, pas un bouton scroll) */}
-        <StickyEmailBar />
       </main>
     </>
   );

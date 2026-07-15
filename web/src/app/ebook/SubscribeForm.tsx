@@ -8,12 +8,24 @@ declare global {
   }
 }
 
+function getCookie(name: string): string {
+  if (typeof document === "undefined") return "";
+  const match = document.cookie.match(
+    new RegExp("(^| )" + name + "=([^;]+)"),
+  );
+  return match ? decodeURIComponent(match[2]) : "";
+}
+
 export function SubscribeForm({
-  ctaLabel = "Recevoir le guide en avant-première",
+  ctaLabel = "Recevoir la checklist",
   source = "ebook_landing",
+  successMsg = "C'est noté. Tu vas recevoir la checklist par email.",
+  hint = "0 paiement. Checklist gratuite (Detecter Validus en 30s + watchlist actions halal).",
 }: {
   ctaLabel?: string;
   source?: string;
+  successMsg?: string;
+  hint?: string;
 }) {
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "err">("idle");
   const [msg, setMsg] = useState<string>("");
@@ -24,10 +36,31 @@ export function SubscribeForm({
 
     const fd = new FormData(e.currentTarget);
     const email = String(fd.get("email") ?? "");
+    const eventId =
+      globalThis.crypto?.randomUUID?.() ??
+      String(Date.now()) + Math.random().toString(36).slice(2);
+
+    const url = new URL(window.location.href);
+    const fbclid = url.searchParams.get("fbclid") ?? "";
+    const fbp = getCookie("_fbp");
+
+    // 1. Pixel client Lead event (dedup avec CAPI via eventID)
+    try {
+      window.fbq?.(
+        "track",
+        "Lead",
+        {
+          content_name: source,
+          value: 14,
+          currency: "EUR",
+        },
+        { eventID: eventId },
+      );
+    } catch {}
 
     try {
-      const url = new URL(window.location.href);
-      const res = await fetch("https://muslimfinance-subscribe.backwatcherdev.workers.dev/api/subscribe", {
+      // 2. Save au KV (Cloudflare Function locale)
+      const kvRes = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -38,18 +71,24 @@ export function SubscribeForm({
           utm_content: url.searchParams.get("utm_content") ?? undefined,
         }),
       });
-      const data = (await res.json()) as { ok: boolean; error?: string };
+      const data = (await kvRes.json()) as { ok: boolean; error?: string };
 
       if (data.ok) {
         setStatus("ok");
-        setMsg("C’est noté. Tu recevras un aperçu de 10 pages la semaine prochaine.");
-        try {
-          window.fbq?.("track", "Lead", {
-            content_name: "ebook_halal_patrimoine",
-            value: 14,
-            currency: "EUR",
-          });
-        } catch {}
+        setMsg(successMsg);
+
+        // 3. Meta CAPI Lead server-side (fire and forget)
+        fetch("/api/meta/lead", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            email,
+            eventId,
+            fbclid: fbclid || undefined,
+            fbp: fbp || undefined,
+            source,
+          }),
+        }).catch(() => {});
       } else {
         setStatus("err");
         setMsg(data.error ?? "Erreur, réessaie.");
@@ -90,9 +129,7 @@ export function SubscribeForm({
           {msg}
         </p>
       )}
-      <p className="mt-3 text-xs text-stone-500">
-        0 paiement maintenant. Tarif lancement <strong>14 €</strong> à la sortie (15 juin 2026).
-      </p>
+      <p className="mt-3 text-xs text-stone-500">{hint}</p>
     </form>
   );
 }
