@@ -7,10 +7,12 @@ Chaque etape doit etre validee avant unpause des campagnes.
 
 ---
 
-## 1. Stripe — passer en LIVE
+## 1. Stripe — passer en LIVE (nouveau prix 29 EUR precommande)
 
-- [ ] Stripe Dashboard > Products > **creer produit** "Halal & patrimoine v2" (14 EUR one-shot)
-- [ ] Copier le **Price ID** (`price_...`) live
+- [ ] Stripe Dashboard > Products > **creer produit** "Halal & patrimoine v2 — Precommande" (**29 EUR** one-shot EUR)
+- [ ] Description produit : "Precommande jusqu'au 21 juillet 2026. Ensuite 63 EUR."
+- [ ] Copier le **Price ID** (`price_...`) live du prix 29 EUR
+- [ ] (Optionnel) Creer un 2eme price a 63 EUR sur le meme produit pour la bascule automatique post-21 juillet
 - [ ] Aller dans Developers > **API keys** > copier `sk_live_...` (jamais commit !)
 - [ ] Developers > **Webhooks** > Add endpoint
     - URL : `https://muslimfinance.net/api/stripe/webhook`
@@ -132,7 +134,10 @@ Une fois 1-9 valides :
 - SMA : 500 EUR / 14 jours
 - **Total : 800 EUR** pour valider le funnel v2
 
-Objectif ROAS : > 1x (57 ventes ebook a 14 EUR = 798 EUR) pour break-even. Realiste sur marche vierge SEA + SMA.
+Objectif ROAS : > 1x. Avec le nouveau prix 29 EUR precommande :
+- Break-even : **28 ventes** (au lieu de 57 avec l'ancien prix 14 EUR)
+- Realiste sur marche vierge SEA + SMA + effet urgency deadline 21 juillet
+- Si ROAS = 2x (56 ventes precommande) : CA brut = 1624 EUR
 
 ---
 

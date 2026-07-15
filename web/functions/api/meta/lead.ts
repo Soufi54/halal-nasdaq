@@ -74,7 +74,7 @@ export const onRequestPost: PagesFunction<Env> = async (ctx) => {
         },
         custom_data: {
           currency: body.currency ?? "EUR",
-          value: body.value ?? 14,
+          value: body.value ?? 29,
           content_name: body.source ?? "ebook_halal_patrimoine_v2",
         },
       },

@@ -62,7 +62,7 @@ export function BuyButton({
         "InitiateCheckout",
         {
           content_name: contentName,
-          value: 14,
+          value: 29,
           currency: "EUR",
         },
         { eventID: eventId },

@@ -20,7 +20,7 @@ export function SubscribeForm({
   ctaLabel = "Recevoir la checklist",
   source = "ebook_landing",
   successMsg = "C'est noté. Tu vas recevoir la checklist par email.",
-  hint = "0 paiement. Checklist gratuite (Detecter Validus en 30s + watchlist actions halal).",
+  hint = "0 paiement. Checklist gratuite (Détecter Validus en 30s + watchlist actions halal).",
 }: {
   ctaLabel?: string;
   source?: string;
@@ -51,7 +51,7 @@ export function SubscribeForm({
         "Lead",
         {
           content_name: source,
-          value: 14,
+          value: 29,
           currency: "EUR",
         },
         { eventID: eventId },

@@ -17,12 +17,12 @@ const PIXEL_ID = "1986901548880799";
 export const metadata: Metadata = {
   title: "Halal & patrimoine v2 — Comment j'ai construit +18 728 EUR de plus-value latente sur un portefeuille 100 % halal",
   description:
-    "Cas concret d'un portefeuille Trade Republic 100 % halal AAOIFI : +18 728 EUR de plus-value latente en 2 ans. Le guide complet (14 EUR, 47 pages, PDF livré immédiatement).",
+    "Cas concret d'un portefeuille Trade Republic 100 % halal AAOIFI : +18 728 EUR de plus-value latente en 2 ans. Le guide complet (29 EUR précommande jusqu'au 21 juillet, ensuite 63 EUR).",
   alternates: { canonical: "https://muslimfinance.net/ebook/v2" },
   openGraph: {
     title: "+18 728 EUR de plus-value latente sur un portefeuille 100 % halal",
     description:
-      "Le guide complet : screening AAOIFI, actions halal, financer hadj/mariage/maison sans crédit riba. 14 EUR PDF livré immédiatement.",
+      "Le guide complet : screening AAOIFI, actions halal, financer hadj/mariage/maison sans crédit riba. 29 EUR précommande jusqu'au 21 juillet (ensuite 63 EUR).",
     url: "https://muslimfinance.net/ebook/v2",
     siteName: "MuslimFinance",
     type: "website",
@@ -37,6 +37,10 @@ export const metadata: Metadata = {
   },
   robots: { index: false, follow: false },
 };
+
+const PRICE_LAUNCH = 29;
+const PRICE_REGULAR = 63;
+const DEADLINE_STR = "21 juillet 2026";
 
 export default function EbookV2Page() {
   return (
@@ -92,14 +96,28 @@ export default function EbookV2Page() {
               </p>
 
               <div className="bg-white text-stone-900 rounded-xl p-5 border-2 border-amber-400 shadow-2xl">
-                <div className="flex items-baseline gap-3 mb-3">
-                  <span className="text-4xl font-black">14 EUR</span>
-                  <span className="text-sm text-stone-500">
-                    PDF · 47 pages · livraison en 2 minutes
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="inline-block bg-red-600 text-white text-[10px] uppercase tracking-widest font-bold px-2 py-1 rounded">
+                    Précommande
+                  </span>
+                  <span className="text-xs text-stone-500">
+                    jusqu&apos;au {DEADLINE_STR}
                   </span>
                 </div>
+                <div className="flex items-baseline gap-3 mb-3">
+                  <span className="text-4xl font-black">{PRICE_LAUNCH} EUR</span>
+                  <span className="text-stone-400 line-through text-lg">
+                    {PRICE_REGULAR} EUR
+                  </span>
+                  <span className="ml-auto text-xs bg-amber-100 text-amber-900 px-2 py-1 rounded font-bold">
+                    -54 %
+                  </span>
+                </div>
+                <p className="text-xs text-stone-600 mb-3">
+                  PDF · 47 pages · livraison immédiate après paiement
+                </p>
                 <BuyButton
-                  ctaLabel="Acheter maintenant — 14 EUR"
+                  ctaLabel={`Précommander maintenant — ${PRICE_LAUNCH} EUR`}
                   contentName="ebook_halal_patrimoine_v2"
                 />
                 <p className="mt-3 text-xs text-stone-500">
@@ -201,6 +219,88 @@ export default function EbookV2Page() {
             d&apos;un cycle haussier semi-conducteurs exceptionnel 2023-2026.
             Ne place pas ce dont tu as besoin dans les 3 prochaines années.
           </p>
+        </section>
+
+        {/* ═════════════════════════════════════════════════════════
+            PERSPECTIVE ROI — 29€ face aux gains
+        ═════════════════════════════════════════════════════════ */}
+        <section className="bg-stone-900 text-stone-50 px-5 py-16">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-[10px] uppercase tracking-[0.25em] text-amber-400 mb-4">
+              Mise en perspective
+            </p>
+            <h2
+              className="text-3xl sm:text-4xl font-black leading-tight mb-8"
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+            >
+              {PRICE_LAUNCH} EUR pour un guide,{" "}
+              <span className="text-amber-400">
+                face à +18 728 EUR déjà générés sur mon compte.
+              </span>
+            </h2>
+
+            <div className="grid sm:grid-cols-3 gap-5 mb-8">
+              <div className="bg-stone-800/60 border border-amber-400/30 p-5 rounded-lg">
+                <p className="text-xs uppercase tracking-widest text-amber-400 mb-2">
+                  Ratio
+                </p>
+                <p className="text-3xl font-black text-stone-50 mb-1">
+                  0,15 %
+                </p>
+                <p className="text-sm text-stone-300 leading-snug">
+                  du gain personnel que tu peux répliquer si tu appliques la
+                  même méthode.
+                </p>
+              </div>
+              <div className="bg-stone-800/60 border border-amber-400/30 p-5 rounded-lg">
+                <p className="text-xs uppercase tracking-widest text-amber-400 mb-2">
+                  Break-even
+                </p>
+                <p className="text-3xl font-black text-stone-50 mb-1">
+                  1 jour
+                </p>
+                <p className="text-sm text-stone-300 leading-snug">
+                  de gains moyens sur mon portefeuille suffit à rembourser
+                  l&apos;ebook (25 EUR/jour moyennés).
+                </p>
+              </div>
+              <div className="bg-stone-800/60 border border-amber-400/30 p-5 rounded-lg">
+                <p className="text-xs uppercase tracking-widest text-amber-400 mb-2">
+                  Ne pas acheter
+                </p>
+                <p className="text-3xl font-black text-stone-50 mb-1">
+                  = 645×
+                </p>
+                <p className="text-sm text-stone-300 leading-snug">
+                  moins cher qu&apos;économiser 29 EUR pour laisser 18 728 EUR
+                  sur la table.
+                </p>
+              </div>
+            </div>
+
+            <div className="border-l-4 border-amber-400 pl-5 py-2">
+              <p className="text-sm sm:text-base text-stone-200 leading-relaxed">
+                <strong className="text-amber-300">Fais le calcul honnêtement.</strong>{" "}
+                Si l&apos;ebook te fait construire un portefeuille qui te
+                rapporte 500 EUR sur 12 mois, il t&apos;a rapporté 17×. S&apos;il
+                te fait éviter une seule arnaque Validus/MLM (moyenne : 5 000
+                EUR par cas), il t&apos;a rapporté 172×. Si tu suis la même
+                méthode que le portefeuille perso ci-dessus, on parle de
+                +18 728 EUR. Ratio réel : 645×.
+              </p>
+            </div>
+
+            <div className="mt-8 max-w-md">
+              <BuyButton
+                ctaLabel={`Précommander maintenant — ${PRICE_LAUNCH} EUR`}
+                contentName="ebook_halal_patrimoine_v2_roi"
+                variant="light"
+              />
+              <p className="mt-3 text-xs text-stone-400">
+                Précommande {PRICE_LAUNCH} EUR jusqu&apos;au {DEADLINE_STR}. Ensuite {PRICE_REGULAR} EUR.
+              </p>
+            </div>
+          </div>
         </section>
 
         {/* ═════════════════════════════════════════════════════════
@@ -362,13 +462,25 @@ export default function EbookV2Page() {
 
           {/* CTA milieu */}
           <div className="mt-10 bg-stone-900 text-stone-50 p-6 rounded-xl">
-            <p className="text-3xl font-black mb-1">14 EUR</p>
+            <div className="flex items-center gap-2 mb-2">
+              <span className="inline-block bg-red-600 text-white text-[10px] uppercase tracking-widest font-bold px-2 py-1 rounded">
+                Précommande
+              </span>
+              <span className="text-xs text-stone-400">
+                jusqu&apos;au {DEADLINE_STR}
+              </span>
+            </div>
+            <div className="flex items-baseline gap-3 mb-1">
+              <p className="text-3xl font-black">{PRICE_LAUNCH} EUR</p>
+              <p className="text-stone-400 line-through text-lg">{PRICE_REGULAR} EUR</p>
+            </div>
             <p className="text-sm text-stone-300 mb-4">
-              PDF · 47 pages · livraison en 2 minutes après paiement
+              PDF · 47 pages · livraison immédiate après paiement
             </p>
             <BuyButton
-              ctaLabel="Acheter maintenant — 14 EUR"
+              ctaLabel={`Précommander maintenant — ${PRICE_LAUNCH} EUR`}
               contentName="ebook_halal_patrimoine_v2_mid"
+              variant="light"
             />
           </div>
         </section>
@@ -391,6 +503,10 @@ export default function EbookV2Page() {
                   "Immédiatement. Après paiement Stripe, tu reçois un email avec le PDF (47 pages) en pièce jointe. Livraison < 2 minutes.",
                 ],
                 [
+                  `Pourquoi ${PRICE_LAUNCH} EUR et pas plus tard ?`,
+                  `Le tarif précommande est ${PRICE_LAUNCH} EUR jusqu'au ${DEADLINE_STR}. Ensuite, prix plein ${PRICE_REGULAR} EUR. C'est la seule fenêtre à ce prix.`,
+                ],
+                [
                   "Je n'y connais rien en finance.",
                   "Le guide part de zéro. Si tu sais ce qu'est un compte bancaire, tu peux suivre. Chaque chapitre a des tableaux concrets et une conclusion actionnable.",
                 ],
@@ -400,7 +516,7 @@ export default function EbookV2Page() {
                 ],
                 [
                   "Il y a des affiliations cachées ?",
-                  "Non. Aucune affiliation broker ou fintech. Le guide est vendu 14 EUR, c'est le seul revenu.",
+                  `Non. Aucune affiliation broker ou fintech. Le guide est vendu ${PRICE_LAUNCH} EUR (précommande) puis ${PRICE_REGULAR} EUR, c'est le seul revenu.`,
                 ],
               ].map(([q, a], i) => (
                 <div key={i}>
@@ -424,12 +540,23 @@ export default function EbookV2Page() {
           >
             Ta banque gagne de l&apos;argent sur ton ignorance.
           </h2>
-          <p className="text-stone-300 text-sm sm:text-base mb-8 max-w-md mx-auto">
-            Le guide qui change les règles. 14 EUR. PDF livré immédiatement.
+          <p className="text-stone-300 text-sm sm:text-base mb-6 max-w-md mx-auto">
+            Le guide qui change les règles. PDF livré immédiatement.
           </p>
           <div className="max-w-md mx-auto">
+            <div className="flex items-baseline justify-center gap-3 mb-4">
+              <span className="text-4xl font-black text-amber-400">
+                {PRICE_LAUNCH} EUR
+              </span>
+              <span className="text-stone-500 line-through text-lg">
+                {PRICE_REGULAR} EUR
+              </span>
+            </div>
+            <p className="text-xs text-stone-400 mb-4">
+              Précommande jusqu&apos;au {DEADLINE_STR}
+            </p>
             <BuyButton
-              ctaLabel="Acheter maintenant — 14 EUR"
+              ctaLabel={`Précommander maintenant — ${PRICE_LAUNCH} EUR`}
               contentName="ebook_halal_patrimoine_v2_final"
               variant="light"
             />

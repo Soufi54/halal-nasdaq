@@ -103,7 +103,7 @@ def brand_footer(draw, y=None):
     f_brand = load_font(26, bold=True)
     f_url = load_font(22)
     draw.text((80, y+18), "MUSLIMFINANCE.NET", font=f_brand, fill=GOLD)
-    draw.text((80, y+52), "Ebook 14 EUR — PDF livre immediatement", font=f_url, fill=IVORY)
+    draw.text((80, y+52), "Ebook 29 EUR precommande (au lieu de 63) - PDF livre", font=f_url, fill=IVORY)
 
 
 def slide_number(draw, num, total):
@@ -120,7 +120,7 @@ def slide_number(draw, num, total):
     draw.text((pill_x + 15, pill_y + 6), txt, font=f, fill=DARK)
 
 
-def cta_button(draw, y, text="Voir l'ebook — 14 EUR"):
+def cta_button(draw, y, text="Precommander 29 EUR (au lieu de 63)"):
     btn_x, btn_w, btn_h = 80, W - 160, 90
     draw.rounded_rectangle(
         [(btn_x, y), (btn_x + btn_w, y + btn_h)],
@@ -454,11 +454,14 @@ def carousel_nvidia_6():
 
     # Big price
     f_price = load_font(56, bold=True)
-    draw.text((80, 780), "14 EUR", font=f_price, fill=GOLD)
-    f_price_s = load_font(24)
-    draw.text((80, 850), "PDF livre en 2 minutes", font=f_price_s, fill=LIGHT)
+    draw.text((80, 780), "29 EUR", font=f_price, fill=GOLD)
+    f_price_ok = load_font(28)
+    draw.text((300, 800), "au lieu de 63 EUR", font=f_price_ok, fill=LIGHT)
+    f_price_s = load_font(22)
+    draw.text((80, 855), "Precommande jusqu'au 21 juillet 2026", font=f_price_s, fill=LIGHT)
+    draw.text((80, 885), "PDF livre en 2 minutes apres paiement", font=f_price_s, fill=LIGHT)
 
-    cta_button(draw, H - 260, "Voir l'ebook - 14 EUR")
+    cta_button(draw, H - 260, "Precommander 29 EUR (au lieu de 63)")
     brand_footer(draw)
     return img
 
@@ -673,7 +676,7 @@ def carousel_hadj_6():
     f_price_s = load_font(24)
     draw.text((80, 850), "PDF livre en 2 minutes", font=f_price_s, fill=LIGHT)
 
-    cta_button(draw, H - 260, "Voir l'ebook - 14 EUR")
+    cta_button(draw, H - 260, "Precommander 29 EUR (au lieu de 63)")
     brand_footer(draw)
     return img
 

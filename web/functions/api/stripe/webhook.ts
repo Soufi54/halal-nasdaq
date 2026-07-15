@@ -221,7 +221,7 @@ async function sendEbookEmail(args: {
       body: JSON.stringify({
         from: args.from,
         to: args.to,
-        subject: "Ton ebook Halal & patrimoine (v2) — telechargement",
+        subject: "Ta précommande Halal & patrimoine v2 — télécharge le PDF",
         html,
         text,
       }),
@@ -241,7 +241,11 @@ function ebookEmailHtml(ebookUrl: string, siteUrl: string): string {
   <div style="max-width: 560px; margin: 0 auto; background: white; padding: 40px 32px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <p style="font-size: 11px; letter-spacing: 2px; color: #c9a662; text-transform: uppercase; margin: 0 0 16px;">MUSLIMFINANCE.NET</p>
 
-    <h1 style="font-size: 26px; margin: 0 0 12px; color: #1c1917;">Merci pour ton achat.</h1>
+    <h1 style="font-size: 26px; margin: 0 0 12px; color: #1c1917;">Merci pour ta précommande.</h1>
+    <p style="color: #57534e; line-height: 1.6; margin: 0 0 12px;">
+      Tu fais partie des personnes qui ont pris le tarif précommande à
+      <strong>29 EUR</strong> (au lieu de 63 EUR après le 21 juillet 2026).
+    </p>
     <p style="color: #57534e; line-height: 1.6; margin: 0 0 24px;">
       Ton exemplaire de <strong>Halal &amp; patrimoine v2</strong> est prêt.
       Clique sur le bouton pour télécharger le PDF (47 pages).
@@ -282,7 +286,9 @@ function ebookEmailHtml(ebookUrl: string, siteUrl: string): string {
 }
 
 function ebookEmailText(ebookUrl: string, siteUrl: string): string {
-  return `Merci pour ton achat.
+  return `Merci pour ta précommande.
+
+Tu fais partie des personnes qui ont pris le tarif précommande à 29 EUR (au lieu de 63 EUR après le 21 juillet 2026).
 
 Ton exemplaire de "Halal & patrimoine v2" est prêt :
 
