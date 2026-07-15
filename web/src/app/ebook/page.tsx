@@ -189,7 +189,7 @@ export default function EbookPage() {
               "L’or physique : combien, où, comment — et pourquoi pas l’or papier",
               "L’immobilier nu sans crédit — les montages possibles",
               "Détecter une arnaque type Validus en 30 secondes — la checklist en 8 questions",
-              "Les courtiers et plateformes 100 % compatibles — comparatif sans affiliation",
+              "Courtiers utilisables — le protocole de conformité en 4 règles (intérêts cash, securities lending, margin, screener AAOIFI)",
               "Le rebalancing trimestriel en 30 minutes — la routine qui suffit",
               "Transmettre — héritage, donation, zakat — calculs et cas pratiques",
             ].map((title, i) => (

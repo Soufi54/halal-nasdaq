@@ -354,8 +354,8 @@ def build():
                "Cash, murabaha, SCI — SCPI sharia compliant — pièges à éviter"),
         ("7", "Détecter une arnaque en 30 secondes",
                "Validus, OneCoin, MLM crypto — 5 cas réels"),
-        ("8", "Les courtiers 100 % compatibles",
-               "Trade Republic, IBKR, DEGIRO, BoursoBank — frais réels"),
+        ("8", "Courtiers utilisables — le protocole de conformité en 4 règles",
+               "Aucun broker occidental n'est \"100 % halal\". Voici comment les utiliser proprement quand même."),
         ("9", "Le rebalancing trimestriel en 30 minutes",
                "Routine simple — calcul zakat sur portefeuille"),
         ("10","Financer ton hadj, ton mariage, ta maison sans crédit riba",
@@ -1247,19 +1247,69 @@ def build():
     story.append(PageBreak())
 
     # ══════════════════════════════════════════════════════════════════════════
-    # CHAPITRE 8 — Courtiers et plateformes 100 % compatibles
+    # CHAPITRE 8 — Courtiers utilisables — protocole de conformite
     # ══════════════════════════════════════════════════════════════════════════
     chapter_header("8",
-        "Les courtiers et plateformes 100 % compatibles",
-        "Pas d'affiliation. Frais réels. Comment ouvrir un compte et acheter une action halal.",
+        "Courtiers utilisables — le protocole de conformité en 4 règles",
+        "Aucun broker occidental n'est \"100 % halal\". Voici comment les utiliser proprement.",
         story)
 
     story.append(Paragraph(
-        "Un courtier est un intermédiaire régulé qui permet d'acheter des actions sur les marchés. "
-        "Le courtier lui-même n'a pas besoin d'être \"halal\" — tu n'investis pas dans le courtier, "
-        "tu investis dans les entreprises via lui. Ce qui compte : qu'il ne te propose pas "
-        "de produits à intérêt comme les obligations ou les SRD à crédit.",
+        "<b>Le message important d'abord.</b> Aucun courtier occidental grand public "
+        "(Trade Republic, DEGIRO, Interactive Brokers, BoursoBank, Fortuneo, Bourse Direct) "
+        "n'est \"100 % halal\". Chacun a au moins un point de friction sharia : intérêts versés "
+        "sur le cash, prêt automatique de titres, offre de margin, structure bancaire dont le "
+        "business model repose sur le riba. Nier ça reviendrait à te vendre du confort au lieu "
+        "de la vérité.",
         body))
+    story.append(Paragraph(
+        "<b>La bonne nouvelle.</b> Aucune alternative islamique n'existe pour un investisseur "
+        "particulier français en 2026 (Wahed Invest n'est pas dispo France, Al Rayan et KFH sont UK "
+        "uniquement, Chaabi Bank ne propose pas de brokerage actions). La position majoritaire "
+        "des scholars contemporains (IFG, Mufti Faraz Adam, Musaffa, Zoya) est claire : ces "
+        "courtiers restent utilisables comme <b>agents d'exécution</b>, à condition d'appliquer un "
+        "protocole précis. Le broker n'est pas ton partenaire — c'est ton canal. Son business "
+        "model riba ne contamine pas ta transaction si tu n'utilises pas ses produits riba.",
+        body))
+
+    story.append(Paragraph("Le protocole de conformité — 4 règles non négociables", section_head))
+    protocole = [
+        ("Règle 1 — Désactiver les intérêts sur cash",
+         "Trade Republic verse actuellement 2 à 4 % sur le cash non investi. IBKR verse ~3,8 % "
+         "sur les soldes USD > 10 000 $. Saxo verse des intérêts. Ces montants sont du riba direct. "
+         "Aller dans les paramètres du compte et désactiver la fonction. Si tu as déjà reçu des "
+         "intérêts avant de désactiver, les donner en sadaqa (pas en zakat)."),
+        ("Règle 2 — Décliner le prêt de titres (securities lending)",
+         "DEGIRO le pratiquait automatiquement avant 2022, puis passé en opt-in en octobre 2025. "
+         "IBKR propose son Stock Yield Enhancement Program. Trade Republic a une option similaire. "
+         "Tes titres peuvent être prêtés à des vendeurs à découvert — interdit selon la position "
+         "majoritaire des scholars (Mufti Taqi Usmani). Décocher explicitement dans chaque broker. "
+         "Chez DEGIRO, choisir le compte Custody à l'ouverture (compte Basic = securities lending "
+         "activé par défaut jusqu'en 2025)."),
+        ("Règle 3 — Zéro margin, zéro SRD, zéro dérivé",
+         "Le levier avec intérêt (margin loans, SRD français, options, CFD, futures) est du riba "
+         "direct et sans ambiguïté. Ne jamais l'activer, même quand le broker le propose en "
+         "\"une seconde\". Chez IBKR le margin peut être activé par défaut — le désactiver dans "
+         "les paramètres du compte. Les fractional shares de Trade Republic et IBKR sont OK "
+         "(vraie propriété fractionnelle, custody HSBC pour Trade Republic), pas des CFD."),
+        ("Règle 4 — N'investir que dans des titres passés au screener AAOIFI",
+         "Sans filtre, tu vas t'acheter des banques, de l'assurance-vie conventionnelle, de "
+         "l'alcool ou du porc via l'indice complet. Utiliser muslimfinance.net (gratuit, "
+         "AAOIFI, mis à jour hebdomadairement), Musaffa ou Zoya avant chaque achat. "
+         "Vérifier à chaque rebalancing trimestriel qu'aucune ligne n'est passée en non-conforme."),
+    ]
+    for titre, detail in protocole:
+        story.append(KeepTogether([
+            Paragraph(f"<b>{titre}</b>", bold_body),
+            Paragraph(detail, body_grey),
+            Spacer(1, 8),
+        ]))
+    story.append(callout_box(
+        "Ces 4 règles ne rendent pas le broker \"halal\". Elles rendent ton utilisation du broker "
+        "conforme. C'est la position IFG / Mufti Faraz Adam / Musaffa / Zoya. Si tu veux plus "
+        "strict (école qui refuse même l'agent d'exécution non-halal), il faudra attendre "
+        "que Wahed Invest ouvre en France ou passer par un compte UK Al Rayan."
+    ))
 
     story.append(Paragraph("Comparatif des 4 courtiers recommandés", section_head))
     _tb2 = ps("_tb2", fontName="Helvetica", fontSize=9, leading=13, textColor=DARK)
@@ -1289,17 +1339,24 @@ def build():
     brokers = [
         ("Trade Republic",
          "Compte ouvert en 10 min sur smartphone. Interface simple, adaptée aux débutants. "
-         "Inconvénient : pas de PEA. "
-         "Intérêts sur cash : proposés mais optionnels (désactiver si souhaité)."),
+         "Pas de PEA. Intérêts sur cash 2-4 % à désactiver dans Paramètres > Épargne. "
+         "Securities lending optionnel à décliner. Fractional shares = vraie propriété "
+         "(custody HSBC), pas CFD. Structure banque BaFin (business model riba côté broker, "
+         "n'affecte pas ta transaction propre)."),
         ("Interactive Brokers (IBKR)",
-         "Accès à toutes les bourses mondiales — NASDAQ, NYSE, Euronext. "
-         "Interface plus complexe mais la plus complète. Pour portefeuilles > 10 000 €."),
-        ("DEGIRO — compte Custody",
-         "DEGIRO pratique le \"securities lending\" par défaut (prêt de tes titres). "
-         "Passer en compte Custody pour éviter ça — tes actions restent les tiennes et ne sont pas prêtées."),
+         "Accès à toutes les bourses mondiales — NASDAQ, NYSE, Euronext. Pour portefeuilles > 10 K€. "
+         "40,78 % des revenus IBKR proviennent d'intérêts (l'action IBKR elle-même est haram selon "
+         "Musaffa). Intérêts versés au client sur cash > 10 000 $ : à désactiver. "
+         "Margin activable par défaut : à désactiver. Stock Yield Enhancement Program : à décliner."),
+        ("DEGIRO",
+         "Depuis octobre 2025, choix Basic (securities lending activé) vs Custody "
+         "(securities lending désactivé, +2,50 € frais annuels). "
+         "DEGIRO ne verse pas d'intérêts au client mais empoche ~49 M€/trim en intérêts "
+         "sur les fonds clients au niveau broker (structure banque flatexDEGIRO)."),
         ("BoursoBank (ex-Boursorama)",
-         "Avantage : banque + courtier dans la même app, virement instantané. "
-         "Inconvénient : accès aux marchés US plus limité que IBKR."),
+         "Avantage : banque + courtier dans la même app, virement instantané, éligible PEA. "
+         "Ne verse pas d'intérêts sur compte-titres standard. Attention : SRD proposé par "
+         "défaut sur certains comptes — le désactiver dans les préférences."),
     ]
 
     for nom, detail in brokers:
@@ -1321,10 +1378,20 @@ def build():
         story.append(Paragraph(f"- {a}", bullet))
 
     story.append(callout_box(
-        "Ouvrir un compte chez un courtier régulé et y acheter des actions halal n'est pas haram. "
-        "Ce n'est pas une banque islamique — mais c'est un canal d'accès transparent "
-        "à des actifs que tu choisis toi-même selon les critères AAOIFI."
+        "Ouvrir un compte chez un courtier régulé et y acheter des actions passées au filtre "
+        "AAOIFI n'est pas haram — à condition d'appliquer le protocole 4 règles ci-dessus. "
+        "Le broker est un agent d'exécution, pas ton partenaire. Ce sont tes choix "
+        "(quels titres, quels paramètres, quelle allocation) qui déterminent la conformité."
     ))
+    story.append(Paragraph("Purifier les revenus non conformes reçus par erreur", section_head))
+    story.append(Paragraph(
+        "Si tu découvres que tu as reçu des intérêts sur ton solde cash (Trade Republic, IBKR, "
+        "Saxo) avant d'avoir désactivé la fonction, ces montants doivent être <b>purifiés</b>. "
+        "Règle standard : donner ces montants en sadaqa (pas en zakat, qui a un statut différent). "
+        "Ne pas les consommer, ne pas les investir. Cette purification est reconnue par la "
+        "majorité des comités sharia contemporains (IFG, Mufti Faraz Adam, IFAAS). Documenter "
+        "le calcul dans un fichier annuel de purification.",
+        body))
     story.append(PageBreak())
 
     # ══════════════════════════════════════════════════════════════════════════

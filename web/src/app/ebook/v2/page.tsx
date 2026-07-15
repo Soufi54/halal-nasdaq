@@ -15,12 +15,12 @@ const playfair = Playfair_Display({
 const PIXEL_ID = "1986901548880799";
 
 export const metadata: Metadata = {
-  title: "Halal & patrimoine v2 — Comment j'ai construit +18 728 EUR de plus-value latente sur un portefeuille 100 % halal",
+  title: "Halal & patrimoine v2 — Comment j'ai construit +18 728 EUR de plus-value latente sur un portefeuille conforme AAOIFI",
   description:
-    "Cas concret d'un portefeuille Trade Republic 100 % halal AAOIFI : +18 728 EUR de plus-value latente en 2 ans. Le guide complet (29 EUR précommande jusqu'au 21 juillet, ensuite 63 EUR).",
+    "Cas concret d'un portefeuille Trade Republic — titres filtrés AAOIFI + protocole de conformité 4 règles. +18 728 EUR de plus-value latente en 2 ans. Le guide complet (29 EUR précommande jusqu'au 21 juillet, ensuite 63 EUR).",
   alternates: { canonical: "https://muslimfinance.net/ebook/v2" },
   openGraph: {
-    title: "+18 728 EUR de plus-value latente sur un portefeuille 100 % halal",
+    title: "+18 728 EUR de plus-value latente — portefeuille halal AAOIFI (protocole complet)",
     description:
       "Le guide complet : screening AAOIFI, actions halal, financer hadj/mariage/maison sans crédit riba. 29 EUR précommande jusqu'au 21 juillet (ensuite 63 EUR).",
     url: "https://muslimfinance.net/ebook/v2",
@@ -90,9 +90,10 @@ export default function EbookV2Page() {
               </h1>
 
               <p className="text-base sm:text-lg text-stone-300 leading-relaxed mb-6 max-w-xl">
-                Portefeuille personnel Trade Republic. 100 % halal AAOIFI. Sans
-                banque islamique, sans conseiller, sans crédit riba. Voici la
-                méthode complète — 47 pages, 14 EUR, PDF livré immédiatement.
+                Portefeuille personnel Trade Republic. Titres filtrés AAOIFI +
+                protocole 4 règles (interêts cash désactivés, zéro margin, zéro
+                securities lending, screener AAOIFI). Voici la méthode
+                complète — 47 pages, PDF livré immédiatement.
               </p>
 
               <div className="bg-white text-stone-900 rounded-xl p-5 border-2 border-amber-400 shadow-2xl">
@@ -130,7 +131,7 @@ export default function EbookV2Page() {
             <div className="relative aspect-[3/4] max-w-xs mx-auto">
               <Image
                 src="/img/portfolio-proof/portfolio-proof-graph.png"
-                alt="Portefeuille Trade Republic +18 728 EUR PV latente 100 % halal AAOIFI"
+                alt="Portefeuille Trade Republic +18 728 EUR PV latente — titres AAOIFI + protocole conformité"
                 width={400}
                 height={500}
                 className="rounded-2xl shadow-2xl ring-2 ring-amber-400/40"
@@ -426,8 +427,8 @@ export default function EbookV2Page() {
               ],
               [
                 "8",
-                "Les courtiers 100 % compatibles",
-                "Trade Republic, IBKR, DEGIRO, BoursoBank — frais réels",
+                "Courtiers utilisables — le protocole de conformité en 4 règles",
+                "Trade Republic, IBKR, DEGIRO, BoursoBank — intérêts cash, securities lending, margin, screener",
               ],
               [
                 "9",
