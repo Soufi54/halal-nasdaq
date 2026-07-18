@@ -1,0 +1,20 @@
+name = "muslimfinance"
+compatibility_date = "2026-07-16"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "./out"
+
+# ── Variables non-secretes ──────────────────────────────────────────────
+# Les secrets (RESEND_API_KEY, META_CAPI_ACCESS_TOKEN) sont setup via
+# `wrangler pages secret put <KEY> --project-name=muslimfinance`
+# ou dashboard Cloudflare > Pages > muslimfinance > Settings > Environment variables (Encrypt)
+[vars]
+META_PIXEL_ID = "1986901548880799"
+SITE_URL = "https://muslimfinance.net"
+RESEND_FROM_EMAIL = "guide@backwatcher.app"
+META_TEST_EVENT_CODE = ""
+
+# ── KV namespaces ───────────────────────────────────────────────────────
+# muslimfinance-subscribers (id existant, deja peuple)
+[[kv_namespaces]]
+binding = "SUBSCRIBERS_KV"
+id = "6dc023e7db1540cf81bd2ad201413928"
