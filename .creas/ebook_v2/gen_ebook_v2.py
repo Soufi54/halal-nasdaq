@@ -296,13 +296,13 @@ def build():
         "Cette version 2 du guide est différente de la première. La v1 disait quoi faire. "
         "La v2 <b>montre</b> ce que ça donne, avec un portefeuille personnel réel : "
         "<b>+18 728 EUR de plus-value latente</b> sur un compte-titres construit en 2 ans, "
-        "100 % halal AAOIFI, sans banque islamique, sans conseiller, sans crédit.",
+        "en titres filtrés AAOIFI, sans banque islamique, sans conseiller, sans crédit.",
         body))
     story.append(Paragraph(
         "Deux prises de conscience ont motivé cette v2.",
         body))
     story.append(Paragraph(
-        "<b>Un.</b> Nvidia, ASML, TSMC construisent les puces qui vont remplacer beaucoup "
+        "<b>Un.</b> Nvidia, ASML, TSMC construisent les puces qui risquent de remplacer beaucoup "
         "d'emplois qualifiés dans les 10 prochaines années. Si ton travail est menacé par l'IA, "
         "autant en devenir <b>actionnaire</b> pendant qu'elle monte — et récupérer par "
         "les dividendes et la plus-value ce que tu perdras en salaire.",
@@ -346,7 +346,7 @@ def build():
                "La norme qui fait foi — les 4 critères — autres indices islamiques — BDS/ESG"),
         ("3", "Les 30 actions halal de la watchlist 2026",
                "Top NASDAQ + S&P 500 avec justifications"),
-        ("4", "Nvidia va remplacer ton travail — deviens actionnaire",
+        ("4", "Nvidia pourrait remplacer ton travail — deviens actionnaire",
                "Cas concret : mes positions IA (NVDA +2492, ARM +2821, ASML +1764, AMD +1985 EUR PV latente)"),
         ("5", "L'or physique : combien, où, comment",
                "4 conditions islamiques — or papier vs physique — zakat or — fiscalité FR"),
@@ -439,13 +439,13 @@ def build():
         ["Scénario", "Investi", "Rendement", "Valeur à 10 ans"],
         ["Compte courant (inaction)", "36 000 €", "0 %", "36 000 €"],
         ["Livret A", "36 000 €", "3 % / an", "41 900 €"],
-        ["NASDAQ halal — base conservative", "36 000 €", "12 % / an*", "69 600 €"],
+        ["NASDAQ halal — hypothèse basse", "36 000 €", "12 % / an*", "69 600 €"],
         ["NASDAQ halal — base optimiste", "36 000 €", "18 % / an*", "94 200 €"],
     ]
     story.append(table_styled(sim_data,
         [6*cm, 2.5*cm, 3*cm, 4*cm]))
     story.append(Paragraph(
-        "* Hypothèse conservative fondée sur la performance historique 5 ans du portefeuille NASDAQ halal "
+        "* Hypothèse de rendement non garantie, fondée sur la performance historique 5 ans du portefeuille NASDAQ halal "
         "(+497 % sur 5 ans backtestés, soit ~43 % annualisé — délibérément divisé par 3 pour un scénario prudent). "
         "Les performances passées ne garantissent pas les performances futures.",
         ps("note", fontName="Helvetica", fontSize=8.5, leading=12,
@@ -733,11 +733,11 @@ def build():
     story.append(PageBreak())
 
     # ══════════════════════════════════════════════════════════════════════════
-    # CHAPITRE 4 — Nvidia va remplacer ton travail — deviens actionnaire
+    # CHAPITRE 4 — Nvidia pourrait remplacer ton travail — deviens actionnaire
     # ══════════════════════════════════════════════════════════════════════════
     chapter_header("4",
-        "Nvidia va remplacer ton travail — deviens actionnaire",
-        "L'IA va supprimer des postes qualifiés. Autant en profiter cote actif.",
+        "Nvidia pourrait remplacer ton travail — deviens actionnaire",
+        "L'IA risque de supprimer des postes qualifiés. Autant en profiter cote actif.",
         story)
 
     story.append(Paragraph(
@@ -798,7 +798,7 @@ def build():
         "depuis le début des achats en 2024.",
         body))
     story.append(callout_box(
-        "Message clé : les puces qui remplaceront des emplois qualifiés (juniors dev, "
+        "Message clé : les puces qui risquent de remplacer des emplois qualifiés (juniors dev, "
         "analystes juniors, rédacteurs, comptables juniors) sont produites par une "
         "poignée d'entreprises — toutes cotées, toutes accessibles depuis Trade Republic "
         "ou DEGIRO, toutes conformes AAOIFI. Le hedge le plus rationnel contre "
@@ -1528,7 +1528,7 @@ def build():
     ]))
     story.append(t_hadj)
     story.append(Paragraph(
-        "Calcul avec rendement annuel moyen 10 % (base conservative NASDAQ halal, "
+        "Calcul avec rendement annuel moyen 10 % (hypothèse non garantie, NASDAQ halal, "
         "diviseur 4 sur les 43 % annualisés backtestés). "
         "Support recommandé : ETF SPWI ou DEEN via Trade Republic, virement mensuel automatique.",
         body_grey))
