@@ -120,7 +120,7 @@ def slide_number(draw, num, total):
     draw.text((pill_x + 15, pill_y + 6), txt, font=f, fill=DARK)
 
 
-def cta_button(draw, y, text="Je reserve ma place - 29 EUR sortie"):
+def cta_button(draw, y, text="Je réserve ma place - 29 EUR sortie"):
     btn_x, btn_w, btn_h = 80, W - 160, 90
     draw.rounded_rectangle(
         [(btn_x, y), (btn_x + btn_w, y + btn_h)],
@@ -201,7 +201,7 @@ def build_statique_hadj():
     f_hook = load_font(60, bold=True)
     draw.text((80, 150), "Financer ton hadj", font=f_hook, fill=IVORY)
     draw.text((80, 220), "sans grever ton", font=f_hook, fill=IVORY)
-    draw.text((80, 290), "epargne.", font=f_hook, fill=GOLD)
+    draw.text((80, 290), "épargne.", font=f_hook, fill=GOLD)
 
     # Divider
     draw.line([(80, 390), (W-80, 390)], fill=GOLD, width=2)
@@ -209,8 +209,8 @@ def build_statique_hadj():
     # Body
     f_body = load_font(30)
     y = draw_wrapped(draw, (80, 425),
-        "Cout moyen hadj (formule standard) : 8 000 EUR / personne. "
-        "Voici comment le financer sur 3 a 5 ans, halal, sans credit.",
+        "Coût moyen hadj (formule standard) : 8 000 EUR / personne. "
+        "Voici comment le financer sur 3 à 5 ans, halal, sans crédit.",
         f_body, LIGHT, W-160, line_height=44)
 
     # Table
@@ -221,7 +221,7 @@ def build_statique_hadj():
     # Headers
     col1_x, col2_x, col3_x = 80, 480, 800
     draw.text((col1_x, y), "SUR", font=f_th, fill=GOLD)
-    draw.text((col2_x, y), "MENSUALITE", font=f_th, fill=GOLD)
+    draw.text((col2_x, y), "MENSUALITÉ", font=f_th, fill=GOLD)
     draw.text((col3_x, y), "OBJECTIF", font=f_th, fill=GOLD)
     y += 40
     draw.line([(80, y), (W-80, y)], fill=GOLD, width=1)
@@ -242,7 +242,7 @@ def build_statique_hadj():
     # Note
     f_note = load_font(18)
     y = draw_wrapped(draw, (80, y + 20),
-        "Calcul sur hypothese de rendement 10 %/an, non garanti "
+        "Calcul sur hypothèse de rendement 10 %/an, non garanti "
         "(portefeuille ETF halal AAOIFI type SPWI + DEEN).",
         f_note, LIGHT, W-160, line_height=26)
 
@@ -266,7 +266,7 @@ def carousel_nvidia_1():
     f_hook = load_font(80, bold=True)
     draw.text((80, 350), "Dans 5 ans,", font=f_hook, fill=IVORY)
     draw.text((80, 440), "ton travail risque", font=f_hook, fill=IVORY)
-    draw.text((80, 530), "d'etre remplace.", font=f_hook, fill=GOLD)
+    draw.text((80, 530), "d'être remplacé.", font=f_hook, fill=GOLD)
 
     f_sub = load_font(30)
     draw.text((80, 680), "Par une IA.", font=f_sub, fill=LIGHT)
@@ -288,14 +288,14 @@ def carousel_nvidia_2():
     slide_number(draw, 2, 6)
 
     f_title = load_font(48, bold=True)
-    draw.text((80, 180), "Qui est concerne ?", font=f_title, fill=GOLD)
+    draw.text((80, 180), "Qui est concerné ?", font=f_title, fill=GOLD)
 
     draw.line([(80, 260), (W-80, 260)], fill=GOLD, width=2)
 
     jobs = [
-        "Developpeurs juniors",
+        "Développeurs juniors",
         "Analystes financiers",
-        "Redacteurs, journalistes",
+        "Rédacteurs, journalistes",
         "Comptables juniors",
         "Avocats juniors",
         "Chefs de projet",
@@ -329,11 +329,11 @@ def carousel_nvidia_3():
     draw.text((80, 280), "Autant devenir", font=f_hook, fill=IVORY)
     draw.text((80, 360), "actionnaire de", font=f_hook, fill=IVORY)
     draw.text((80, 440), "l'entreprise qui", font=f_hook, fill=IVORY)
-    draw.text((80, 520), "va te remplacer.", font=f_hook, fill=GOLD)
+    draw.text((80, 520), "risque de te remplacer.", font=f_hook, fill=GOLD)
 
     f_body = load_font(28)
     y = draw_wrapped(draw, (80, 700),
-        "Recuperer par les dividendes et la plus-value "
+        "Récupérer par les dividendes et la plus-value "
         "ce que tu risques de perdre en salaire.",
         f_body, LIGHT, W-160, line_height=42)
 
@@ -353,7 +353,7 @@ def carousel_nvidia_4():
     f_title = load_font(40, bold=True)
     draw.text((80, 180), "Mon portefeuille perso", font=f_title, fill=GOLD)
     f_sub = load_font(24)
-    draw.text((80, 230), "Trade Republic — titres filtres AAOIFI (resultat perso, non garanti)", font=f_sub, fill=LIGHT)
+    draw.text((80, 230), "Trade Republic — titres filtrés AAOIFI (résultat perso, non garanti)", font=f_sub, fill=LIGHT)
 
     holdings = [
         ("NVIDIA",     "+2 492 EUR"),
@@ -382,7 +382,7 @@ def carousel_nvidia_4():
     draw.text((W-80-370, y), "+18 728 EUR", font=f_total_n, fill=GOLD)
 
     f_swipe = load_font(24, bold=True)
-    draw.text((80, H - 210), "→ La methode, etape par etape", font=f_swipe, fill=GOLD)
+    draw.text((80, H - 210), "→ La méthode, étape par étape", font=f_swipe, fill=GOLD)
     brand_footer(draw)
     return img
 
@@ -395,14 +395,14 @@ def carousel_nvidia_5():
     slide_number(draw, 5, 6)
 
     f_title = load_font(46, bold=True)
-    draw.text((80, 180), "En 3 etapes :", font=f_title, fill=GOLD)
+    draw.text((80, 180), "En 3 étapes :", font=f_title, fill=GOLD)
 
     draw.line([(80, 260), (W-80, 260)], fill=GOLD, width=2)
 
     steps = [
         ("1", "Ouvre un compte Trade Republic", "0 EUR, 3 minutes"),
         ("2", "Filtre AAOIFI (norme finance islamique)", "muslimfinance.net gratuit"),
-        ("3", "Construis ton portefeuille filtre AAOIFI", "methode complete dans le guide"),
+        ("3", "Construis ton portefeuille filtré AAOIFI", "méthode complète dans le guide"),
     ]
     y = 340
     f_num_bg = load_font(52, bold=True)
@@ -421,7 +421,7 @@ def carousel_nvidia_5():
         y += 110
 
     f_swipe = load_font(24, bold=True)
-    draw.text((80, H - 210), "→ La methode complete ci-dessous", font=f_swipe, fill=GOLD)
+    draw.text((80, H - 210), "→ La méthode complète ci-dessous", font=f_swipe, fill=GOLD)
     brand_footer(draw)
     return img
 
@@ -459,7 +459,7 @@ def carousel_nvidia_6():
     draw.text((300, 800), "au lieu de 63 EUR", font=f_price_ok, fill=LIGHT)
     f_price_s = load_font(22)
     draw.text((80, 855), "Sortie le 5 août 2026", font=f_price_s, fill=LIGHT)
-    draw.text((80, 885), "Inscris-toi pour recevoir l'ebook a la sortie", font=f_price_s, fill=LIGHT)
+    draw.text((80, 885), "Inscris-toi pour recevoir l'ebook à la sortie", font=f_price_s, fill=LIGHT)
 
     cta_button(draw, H - 260, "Je reserve ma place - 29 EUR sortie")
     brand_footer(draw)
@@ -639,7 +639,7 @@ def carousel_hadj_5():
         y += 175
 
     f_swipe = load_font(24, bold=True)
-    draw.text((80, H - 210), "→ La methode complete ci-dessous", font=f_swipe, fill=GOLD)
+    draw.text((80, H - 210), "→ La méthode complète ci-dessous", font=f_swipe, fill=GOLD)
     brand_footer(draw)
     return img
 

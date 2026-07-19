@@ -57,15 +57,15 @@ draw.text((80, 270), "sans te le dire.", font=f_hook, fill=IVORY)
 
 f_body = load_font(28)
 draw_wrapped(draw, (80, 380),
-             "Interets sur le cash non investi, pret de tes titres, margin "
-             "active par defaut. Le protocole en 4 regles pour investir chez "
+             "Intérêts sur le cash non investi, prêt de tes titres, margin "
+             "activée par défaut. Le protocole en 4 règles pour investir chez "
              "un courtier classique en restant conforme :",
              f_body, LIGHT, W - 160, 42)
 
 rules = [
-    ("1", "Desactiver les interets sur le cash"),
-    ("2", "Zero achat sur marge (margin)"),
-    ("3", "Zero pret de titres (securities lending)"),
+    ("1", "Désactiver les intérêts sur le cash"),
+    ("2", "Zéro achat sur marge (margin)"),
+    ("3", "Zéro prêt de titres (securities lending)"),
     ("4", "Screening AAOIFI avant chaque achat"),
 ]
 y = 600
@@ -80,13 +80,13 @@ for n, t in rules:
     y += 105
 
 f_note = load_font(22)
-draw.text((80, y + 15), "Applicable sur Trade Republic, DEGIRO, IBKR — detaille dans le guide.",
+draw.text((80, y + 15), "Applicable sur Trade Republic, DEGIRO, IBKR — détaillé dans le guide.",
           font=f_note, fill=LIGHT)
 
 btn_y = H - 260
 draw.rounded_rectangle([(80, btn_y), (W - 80, btn_y + 90)], radius=14, fill=GOLD)
 f_cta = load_font(36, bold=True)
-txt = "Je reserve ma place - 29 EUR sortie"
+txt = "Je réserve ma place - 29 EUR sortie"
 bbox = draw.textbbox((0, 0), txt, font=f_cta)
 draw.text((80 + (W - 160 - (bbox[2] - bbox[0])) // 2, btn_y + 25), txt, font=f_cta, fill=DARK)
 

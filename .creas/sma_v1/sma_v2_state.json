@@ -11,7 +11,15 @@
     "carousel_nvidia_6": "c46e75fe58eb73d1a7041ea5bb7beb7b",
     "static_protocole": "8ec0f4e6fa97c9306f1c36f2f14feb83",
     "static_hadj": "0141ac27f383cabd9ab9bb9d32533507",
-    "static_patrimoine": "420def975e457f7b6b6eec22b405d036"
+    "static_patrimoine": "420def975e457f7b6b6eec22b405d036",
+    "static_protocole_v2": "3ffc385f25d1d5bd13d01df55e1ab8fd",
+    "static_hadj_v2": "ec96f1e8b9e4536bdf55900a6a93a809",
+    "carousel_nvidia_v2_1": "c622de3efac9a592a28ed566042e7dda",
+    "carousel_nvidia_v2_2": "857fec1dde2fd0df90ffbfc7d2b619b4",
+    "carousel_nvidia_v2_3": "3792919ffd78dbeca18eda42d9038632",
+    "carousel_nvidia_v2_4": "eb61eb6e58e6ef27c5bd8596482b2cc7",
+    "carousel_nvidia_v2_5": "5ea08164fac7014af402359492971d64",
+    "carousel_nvidia_v2_6": "ffb25bd0f1b1b18df279ada08c810fce"
   },
   "ad_ids": {
     "ad_static_livret_a": "120251674528070589",
@@ -20,7 +28,10 @@
     "ad_carousel_nvidia": "120251674531080589",
     "ad_static_protocole": "120251675752490589",
     "ad_static_hadj": "120251676294720589",
-    "ad_static_patrimoine": "120251677129960589"
+    "ad_static_patrimoine": "120251677129960589",
+    "ad_static_protocole_v2": "120251677724940589",
+    "ad_static_hadj_v2": "120251677725740589",
+    "ad_carousel_nvidia_v2": "120251677727710589"
   },
   "campaign_id": "120251674526980589",
   "adset_id": "120251674527170589",
@@ -30,5 +41,8 @@
   "creative_carousel_nvidia": "2256036718565131",
   "creative_static_protocole": "1337965378494823",
   "creative_static_hadj": "1394309312540676",
-  "creative_static_patrimoine": "784807018019630"
+  "creative_static_patrimoine": "784807018019630",
+  "creative_static_protocole_v2": "1810963383401775",
+  "creative_static_hadj_v2": "1694271195381812",
+  "creative_carousel_nvidia_v2": "2931064563896215"
 }
