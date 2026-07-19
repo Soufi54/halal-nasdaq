@@ -47,19 +47,43 @@ interface Env {
 const DEFAULT_FROM = "guide@muslimfinance.net";
 const DEFAULT_SITE = "https://muslimfinance.net";
 
+// CORS : le site prod est servi par GitHub Pages (muslimfinance.net) et
+// poste vers cette function hébergée sur muslimfinance.pages.dev.
+const ALLOWED_ORIGINS = [
+  "https://muslimfinance.net",
+  "https://www.muslimfinance.net",
+  "https://muslimfinance.pages.dev",
+];
+
+function corsHeaders(request: Request): Record<string, string> {
+  const origin = request.headers.get("origin") ?? "";
+  if (!ALLOWED_ORIGINS.includes(origin)) return {};
+  return {
+    "Access-Control-Allow-Origin": origin,
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Max-Age": "86400",
+  };
+}
+
+export const onRequestOptions: PagesFunction<Env> = async (ctx) =>
+  new Response(null, { status: 204, headers: corsHeaders(ctx.request) });
+
 export const onRequestPost: PagesFunction<Env> = async (ctx) => {
   const { request, env } = ctx;
+
+  const cors = corsHeaders(request);
 
   let body: Body = {};
   try {
     body = (await request.json()) as Body;
   } catch {
-    return json({ ok: false, error: "Body invalide" }, 400);
+    return json({ ok: false, error: "Body invalide" }, 400, cors);
   }
 
   const email = String(body.email ?? "").trim().toLowerCase();
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    return json({ ok: false, error: "Email invalide" }, 400);
+    return json({ ok: false, error: "Email invalide" }, 400, cors);
   }
 
   const sub: Subscriber = {
@@ -83,13 +107,13 @@ export const onRequestPost: PagesFunction<Env> = async (ctx) => {
   // 1. Save KV
   if (!env.SUBSCRIBERS_KV) {
     console.error("SUBSCRIBERS_KV binding manquant");
-    return json({ ok: false, error: "Storage indisponible" }, 503);
+    return json({ ok: false, error: "Storage indisponible" }, 503, cors);
   }
   try {
     await env.SUBSCRIBERS_KV.put(`email:${email}`, JSON.stringify(sub));
   } catch (e) {
     console.error("kv_put_error", e);
-    return json({ ok: false, error: "Storage erreur" }, 500);
+    return json({ ok: false, error: "Storage erreur" }, 500, cors);
   }
 
   // 2. Welcome email Resend (fire and forget - ne bloque pas la réponse)
@@ -124,7 +148,7 @@ export const onRequestPost: PagesFunction<Env> = async (ctx) => {
     );
   }
 
-  return json({ ok: true });
+  return json({ ok: true }, 200, cors);
 };
 
 // ── Welcome email via Resend ───────────────────────────────────────────
@@ -181,10 +205,11 @@ function welcomeEmailHtml(siteUrl: string): string {
     <div style="background: #f7f3eb; border-left: 4px solid #c9a662; padding: 16px 20px; margin: 24px 0;">
       <p style="margin: 0 0 8px; font-weight: bold; color: #1c1917;">Ce que contient le guide :</p>
       <p style="margin: 0; color: #57534e; font-size: 14px; line-height: 1.6;">
-        Cas concret du portefeuille perso (+18 728 EUR PV latente, 100 %
-        AAOIFI), méthode Nvidia/ARM/ASML halal, plans hadj/mariage/apport
-        maison, courtiers utilisables + protocole 4 règles, or physique,
-        détection arnaques type Validus.
+        Cas concret du portefeuille perso (+18 728 EUR PV latente, titres
+        filtrés AAOIFI — résultat personnel, non garanti), méthode
+        Nvidia/ARM/ASML halal, plans hadj/mariage/apport maison, courtiers
+        utilisables + protocole 4 règles, or physique, détection arnaques
+        type Validus.
       </p>
     </div>
 
@@ -211,6 +236,12 @@ function welcomeEmailHtml(siteUrl: string): string {
       Tu restes seul responsable de tes décisions.
     </p>
 
+    <p style="color: #a8a29e; font-size: 12px; line-height: 1.5; margin: 0 0 12px;">
+      Tu reçois cet email parce que tu t'es inscrit sur ${siteUrl.replace(/^https?:\/\//, "")}.
+      Pour te désinscrire à tout moment, réponds simplement STOP à cet email.
+      <a href="${siteUrl}/confidentialite" style="color: #a8a29e;">Politique de confidentialité</a>.
+    </p>
+
     <p style="color: #a8a29e; font-size: 12px; text-align: center; margin: 24px 0 0;">
       <a href="${siteUrl}" style="color: #a8a29e;">${siteUrl.replace(/^https?:\/\//, "")}</a>
     </p>
@@ -228,7 +259,7 @@ Ton email est inscrit sur la liste. À la sortie officielle, tu recevras :
 - Un accès en avant-première 48h avant la sortie publique
 
 Ce que contient le guide :
-Cas concret du portefeuille perso (+18 728 EUR PV latente, 100 % AAOIFI), méthode Nvidia/ARM/ASML halal, plans hadj/mariage/apport maison, courtiers utilisables + protocole 4 règles, or physique, détection arnaques type Validus.
+Cas concret du portefeuille perso (+18 728 EUR PV latente, titres filtrés AAOIFI — résultat personnel, non garanti), méthode Nvidia/ARM/ASML halal, plans hadj/mariage/apport maison, courtiers utilisables + protocole 4 règles, or physique, détection arnaques type Validus.
 
 En attendant :
 Suis @muslimfinance_ sur X : https://x.com/muslimfinance_
@@ -240,6 +271,8 @@ Explore les outils gratuits déjà disponibles :
 
 ---
 Ce guide est un outil d'éducation financière. Il ne constitue pas un conseil en investissement personnalisé au sens de la directive MIF II. Tu restes seul responsable de tes décisions.
+
+Tu reçois cet email parce que tu t'es inscrit sur ${siteUrl.replace(/^https?:\/\//, "")}. Pour te désinscrire à tout moment, réponds simplement STOP à cet email. Politique de confidentialité : ${siteUrl}/confidentialite
 
 ${siteUrl}`;
 }
@@ -310,12 +343,17 @@ async function sha256(text: string): Promise<string> {
     .join("");
 }
 
-function json(data: unknown, status = 200): Response {
+function json(
+  data: unknown,
+  status = 200,
+  extraHeaders: Record<string, string> = {},
+): Response {
   return new Response(JSON.stringify(data), {
     status,
     headers: {
       "Content-Type": "application/json",
       "Cache-Control": "no-store",
+      ...extraHeaders,
     },
   });
 }

@@ -104,7 +104,7 @@ def brand_footer(draw, y=None):
     f_brand = load_font(28, bold=True)
     f_url = load_font(24)
     draw.text((80, y+20), "MUSLIMFINANCE.NET", font=f_brand, fill=GOLD)
-    draw.text((80, y+56), "Ebook \"Halal & patrimoine\" — sortie 22 juillet 2026", font=f_url, fill=IVORY)
+    draw.text((80, y+56), "Ebook \"Halal & patrimoine\" — sortie 5 août 2026", font=f_url, fill=IVORY)
 
 
 # ── Visuel 1 — Peur / Livret A ────────────────────────────────────────────
@@ -119,20 +119,20 @@ def build_visuel_1():
     f_brand_top = load_font(24, bold=True)
     draw.text((80, 40), "MUSLIMFINANCE.NET", font=f_brand_top, fill=GOLD)
 
-    # Big number: -4.5 %
+    # Big number : perte reelle Livret A 2023 (rendement 3 %, inflation 4,9 % INSEE)
     f_huge = load_font(220, bold=True)
-    draw.text((80, 140), "-4,5 %", font=f_huge, fill=RED)
+    draw.text((80, 140), "-1,9 %", font=f_huge, fill=RED)
 
     # Subtext
     f_sub = load_font(38, bold=True)
     draw.text((80, 400), "Ce que ton Livret A", font=f_sub, fill=IVORY)
-    draw.text((80, 450), "t'a fait perdre en 2024.", font=f_sub, fill=IVORY)
+    draw.text((80, 450), "t'a fait perdre en 2023.", font=f_sub, fill=IVORY)
 
     # Explanation
     f_body = load_font(30)
     y = draw_wrapped(draw, (80, 540),
-        "Rendement : +3,0 %. Inflation : +4,5 %. "
-        "Perte reelle de pouvoir d'achat : -1,5 % / an.",
+        "Rendement : +3,0 %. Inflation 2023 : +4,9 % (INSEE). "
+        "Perte reelle de pouvoir d'achat : -1,9 %.",
         f_body, LIGHT, W-160)
 
     # Divider
@@ -144,8 +144,8 @@ def build_visuel_1():
 
     f_call = load_font(28)
     y = draw_wrapped(draw, (80, 820),
-        "Le guide muslimfinance.net (14 EUR) explique la "
-        "methode pour transformer 300 EUR/mois en portefeuille "
+        "Le guide muslimfinance.net (29 EUR a la sortie) explique "
+        "la methode pour investir 300 EUR/mois en portefeuille "
         "halal AAOIFI. Sans banque islamique. Sans conseiller. "
         "Sans credit.",
         f_call, IVORY, W-160, line_height=42)
@@ -178,7 +178,7 @@ def build_visuel_2():
 
     # Small subtitle
     f_kicker = load_font(28)
-    draw.text((80, 110), "Portefeuille Trade Republic — 100 % halal AAOIFI", font=f_kicker, fill=LIGHT)
+    draw.text((80, 110), "Portefeuille Trade Republic — titres filtres AAOIFI (perso, non garanti)", font=f_kicker, fill=LIGHT)
 
     # Huge number
     f_huge = load_font(150, bold=True)
@@ -247,8 +247,8 @@ def build_visuel_3():
     # 3 points
     y = 340
     points = [
-        ("1", "Les 40 % du CAC 40 sont dans des secteurs qui vont ralentir : banques, petrole, alcool."),
-        ("2", "Les 66 actions halal du NASDAQ ont battu l'indice de +85 % sur 5 ans (backtest)."),
+        ("1", "Une grande partie du CAC 40 est incompatible AAOIFI : banques, assurance, alcool."),
+        ("2", "Les 66 actions halal du NASDAQ ont battu l'indice de +85 % sur 5 ans (backtest — le passe ne garantit pas le futur)."),
         ("3", "Tu peux acheter NVIDIA, ASML, TSMC via Trade Republic en 3 clics. Sans CGP a 1 %/an."),
     ]
     f_num = load_font(60, bold=True)
@@ -273,8 +273,8 @@ def build_visuel_3():
     # CTA
     y += 40
     f_cta_h = load_font(34, bold=True)
-    draw.text((80, y), "Guide complet 14 EUR.", font=f_cta_h, fill=GOLD)
-    draw.text((80, y+46), "PDF livre immediatement.", font=f_cta_h, fill=IVORY)
+    draw.text((80, y), "Guide complet — 29 EUR a la sortie.", font=f_cta_h, fill=GOLD)
+    draw.text((80, y+46), "Inscris-toi pour le recevoir le 5 août.", font=f_cta_h, fill=IVORY)
 
     # Footer
     brand_footer(draw, y=H-140)

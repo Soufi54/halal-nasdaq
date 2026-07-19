@@ -8,6 +8,15 @@ declare global {
   }
 }
 
+// Le domaine prod (muslimfinance.net) est servi par GitHub Pages, sans
+// backend : on poste alors vers les Pages Functions Cloudflare en absolu.
+function apiBase(): string {
+  if (typeof window === "undefined") return "";
+  return window.location.hostname.endsWith("pages.dev")
+    ? ""
+    : "https://muslimfinance.pages.dev";
+}
+
 function getCookie(name: string): string {
   if (typeof document === "undefined") return "";
   const match = document.cookie.match(
@@ -60,7 +69,7 @@ export function SubscribeForm({
 
     try {
       // Save au KV + welcome email + Meta CAPI Lead (tout dans /api/subscribe)
-      const kvRes = await fetch("/api/subscribe", {
+      const kvRes = await fetch(`${apiBase()}/api/subscribe`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -120,6 +129,13 @@ export function SubscribeForm({
         </p>
       )}
       <p className="mt-3 text-xs text-stone-500">{hint}</p>
+      <p className="mt-2 text-[11px] text-stone-400">
+        En t&apos;inscrivant, tu acceptes de recevoir des emails liés à la
+        sortie du guide. Désinscription à tout moment (réponds STOP).{" "}
+        <a href="/confidentialite" className="underline">
+          Confidentialité
+        </a>
+      </p>
     </form>
   );
 }

@@ -103,7 +103,7 @@ def brand_footer(draw, y=None):
     f_brand = load_font(26, bold=True)
     f_url = load_font(22)
     draw.text((80, y+18), "MUSLIMFINANCE.NET", font=f_brand, fill=GOLD)
-    draw.text((80, y+52), "Ebook - sortie 22 juillet 2026 - 29 EUR (au lieu de 63)", font=f_url, fill=IVORY)
+    draw.text((80, y+52), "Ebook - sortie 5 août 2026 - 29 EUR (au lieu de 63)", font=f_url, fill=IVORY)
 
 
 def slide_number(draw, num, total):
@@ -144,7 +144,7 @@ def build_statique_nvidia():
     # Big hook
     f_hook = load_font(66, bold=True)
     draw.text((80, 150), "Nvidia va remplacer", font=f_hook, fill=IVORY)
-    draw.text((80, 226), "ton travail.", font=f_hook, fill=GOLD)
+    draw.text((80, 226), "des emplois qualifies.", font=f_hook, fill=GOLD)
 
     # Divider
     draw.line([(80, 320), (W-80, 320)], fill=GOLD, width=2)
@@ -182,7 +182,7 @@ def build_statique_nvidia():
     # Note
     f_note = load_font(20)
     draw.text((80, y_proof + 220),
-              "Portefeuille personnel Trade Republic — 100 % halal AAOIFI",
+              "Portefeuille perso Trade Republic — titres filtres AAOIFI. Non garanti.",
               font=f_note, fill=LIGHT)
 
     # CTA
@@ -242,8 +242,8 @@ def build_statique_hadj():
     # Note
     f_note = load_font(18)
     y = draw_wrapped(draw, (80, y + 20),
-        "Calcul base rendement 10 % / an (conservateur, portefeuille "
-        "ETF halal AAOIFI type SPWI + DEEN).",
+        "Calcul sur hypothese de rendement 10 %/an, non garanti "
+        "(portefeuille ETF halal AAOIFI type SPWI + DEEN).",
         f_note, LIGHT, W-160, line_height=26)
 
     # CTA
@@ -265,8 +265,8 @@ def carousel_nvidia_1():
 
     f_hook = load_font(80, bold=True)
     draw.text((80, 350), "Dans 5 ans,", font=f_hook, fill=IVORY)
-    draw.text((80, 440), "ton travail", font=f_hook, fill=IVORY)
-    draw.text((80, 530), "sera remplace.", font=f_hook, fill=GOLD)
+    draw.text((80, 440), "ton travail risque", font=f_hook, fill=IVORY)
+    draw.text((80, 530), "d'etre remplace.", font=f_hook, fill=GOLD)
 
     f_sub = load_font(30)
     draw.text((80, 680), "Par une IA.", font=f_sub, fill=LIGHT)
@@ -353,7 +353,7 @@ def carousel_nvidia_4():
     f_title = load_font(40, bold=True)
     draw.text((80, 180), "Mon portefeuille perso", font=f_title, fill=GOLD)
     f_sub = load_font(24)
-    draw.text((80, 230), "Trade Republic — 100 % halal AAOIFI", font=f_sub, fill=LIGHT)
+    draw.text((80, 230), "Trade Republic — titres filtres AAOIFI (resultat perso, non garanti)", font=f_sub, fill=LIGHT)
 
     holdings = [
         ("NVIDIA",     "+2 492 EUR"),
@@ -382,7 +382,7 @@ def carousel_nvidia_4():
     draw.text((W-80-370, y), "+18 728 EUR", font=f_total_n, fill=GOLD)
 
     f_swipe = load_font(24, bold=True)
-    draw.text((80, H - 210), "→ Comment tu fais pareil ?", font=f_swipe, fill=GOLD)
+    draw.text((80, H - 210), "→ La methode, etape par etape", font=f_swipe, fill=GOLD)
     brand_footer(draw)
     return img
 
@@ -402,7 +402,7 @@ def carousel_nvidia_5():
     steps = [
         ("1", "Ouvre un compte Trade Republic", "0 EUR, 3 minutes"),
         ("2", "Filtre AAOIFI (norme finance islamique)", "muslimfinance.net gratuit"),
-        ("3", "Achete les 8 valeurs semi-conducteurs halal", "NVDA, ARM, ASML, AMD..."),
+        ("3", "Construis ton portefeuille filtre AAOIFI", "methode complete dans le guide"),
     ]
     y = 340
     f_num_bg = load_font(52, bold=True)
@@ -458,7 +458,7 @@ def carousel_nvidia_6():
     f_price_ok = load_font(28)
     draw.text((300, 800), "au lieu de 63 EUR", font=f_price_ok, fill=LIGHT)
     f_price_s = load_font(22)
-    draw.text((80, 855), "Sortie le 22 juillet 2026", font=f_price_s, fill=LIGHT)
+    draw.text((80, 855), "Sortie le 5 août 2026", font=f_price_s, fill=LIGHT)
     draw.text((80, 885), "Inscris-toi pour recevoir l'ebook a la sortie", font=f_price_s, fill=LIGHT)
 
     cta_button(draw, H - 260, "Je reserve ma place - 29 EUR sortie")
@@ -524,8 +524,8 @@ def carousel_hadj_2():
     # Callout
     f_call = load_font(24)
     y = draw_wrapped(draw, (80, y+30),
-        "En moyenne, une famille attend 8-12 ans avant de partir. "
-        "Souvent parce que personne ne leur montre comment epargner intelligemment.",
+        "Beaucoup de familles attendent des annees avant de partir. "
+        "Souvent parce que personne ne leur montre comment epargner methodiquement.",
         f_call, LIGHT, W-160, line_height=34)
 
     f_swipe = load_font(24, bold=True)
@@ -550,7 +550,7 @@ def carousel_hadj_3():
         "Le 5 du mois, virement automatique du compte-cheque "
         "vers un compte-titres Trade Republic dedie \"hadj\". "
         "Investi automatiquement en ETF halal AAOIFI (SPWI + DEEN). "
-        "TER moyen : 0,55 %. Rendement conservateur : 10 %/an.",
+        "TER moyen : 0,55 %. Hypothese de rendement : 10 %/an, non garanti.",
         f_body, IVORY, W-160, line_height=42)
 
     y += 30
@@ -573,7 +573,7 @@ def carousel_hadj_4():
     f_h = load_font(38, bold=True)
     draw.text((80, 180), "Mensualite pour hadj couple", font=f_h, fill=GOLD)
     f_s = load_font(22)
-    draw.text((80, 230), "16 000 EUR, ETF halal AAOIFI, rendement 10 %/an", font=f_s, fill=LIGHT)
+    draw.text((80, 230), "16 000 EUR, ETF halal AAOIFI, hypothese 10 %/an", font=f_s, fill=LIGHT)
 
     draw.line([(80, 290), (W-80, 290)], fill=GOLD, width=2)
 
@@ -599,9 +599,8 @@ def carousel_hadj_4():
 
     f_note = load_font(18)
     y = draw_wrapped(draw, (80, y+20),
-        "Hypothese conservative : 10 %/an compose. "
-        "Portefeuille NASDAQ halal a fait +43 %/an backteste sur 5 ans, "
-        "divise par 4 pour prudence.",
+        "Hypothese : 10 %/an compose, proche de la moyenne historique "
+        "long terme des actions. Aucun rendement n'est garanti.",
         f_note, LIGHT, W-160, line_height=26)
 
     f_swipe = load_font(24, bold=True)
@@ -672,9 +671,11 @@ def carousel_hadj_6():
         y += 42
 
     f_price = load_font(56, bold=True)
-    draw.text((80, 780), "14 EUR", font=f_price, fill=GOLD)
+    draw.text((80, 780), "29 EUR", font=f_price, fill=GOLD)
+    f_price_ok = load_font(28)
+    draw.text((300, 800), "au lieu de 63 EUR", font=f_price_ok, fill=LIGHT)
     f_price_s = load_font(24)
-    draw.text((80, 850), "PDF livre en 2 minutes", font=f_price_s, fill=LIGHT)
+    draw.text((80, 850), "Sortie le 5 août 2026 — inscris-toi pour le recevoir", font=f_price_s, fill=LIGHT)
 
     cta_button(draw, H - 260, "Je reserve ma place - 29 EUR sortie")
     brand_footer(draw)

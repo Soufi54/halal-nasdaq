@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 
 const PRICE_LAUNCH = 29;
 const PRICE_REGULAR = 63;
-const LAUNCH_STR = "22 juillet 2026";
+const LAUNCH_STR = "5 août 2026";
 
 export default function EbookV2Page() {
   return (
@@ -94,6 +94,11 @@ export default function EbookV2Page() {
                 securities lending, screener AAOIFI). Voici la méthode
                 complète — 47 pages. Sortie le {LAUNCH_STR}.
               </p>
+              <p className="text-xs text-stone-400 leading-relaxed mb-6 max-w-xl">
+                Résultat personnel sur un marché haussier 2024-2026. Ce n&apos;est
+                pas une promesse de gains — personne ne peut te garantir un
+                rendement.
+              </p>
 
               <div className="bg-white text-stone-900 rounded-xl p-5 border-2 border-amber-400 shadow-2xl">
                 <div className="flex items-center gap-2 mb-1">
@@ -105,9 +110,6 @@ export default function EbookV2Page() {
                   <span className="text-4xl font-black">{PRICE_LAUNCH} EUR</span>
                   <span className="text-stone-400 line-through text-lg">
                     {PRICE_REGULAR} EUR
-                  </span>
-                  <span className="ml-auto text-xs bg-amber-100 text-amber-900 px-2 py-1 rounded font-bold">
-                    -54 %
                   </span>
                 </div>
                 <p className="text-xs text-stone-600 mb-4">
@@ -135,7 +137,7 @@ export default function EbookV2Page() {
                 priority
               />
               <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-amber-400 text-stone-900 px-4 py-2 rounded-full text-xs font-bold shadow-lg whitespace-nowrap">
-                Compte perso — vérifiable
+                Compte perso — captures anonymisées
               </div>
             </div>
           </div>
@@ -231,60 +233,61 @@ export default function EbookV2Page() {
               className="text-3xl sm:text-4xl font-black leading-tight mb-8"
               style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
             >
-              {PRICE_LAUNCH} EUR pour un guide,{" "}
+              {PRICE_LAUNCH} EUR pour un guide.{" "}
               <span className="text-amber-400">
-                face à +18 728 EUR déjà générés sur mon compte.
+                Sans te promettre que tu feras pareil.
               </span>
             </h2>
 
             <div className="grid sm:grid-cols-3 gap-5 mb-8">
               <div className="bg-stone-800/60 border border-amber-400/30 p-5 rounded-lg">
                 <p className="text-xs uppercase tracking-widest text-amber-400 mb-2">
-                  Ratio
+                  Ce que tu paies
                 </p>
                 <p className="text-3xl font-black text-stone-50 mb-1">
-                  0,15 %
+                  {PRICE_LAUNCH} EUR
                 </p>
                 <p className="text-sm text-stone-300 leading-snug">
-                  du gain personnel que tu peux répliquer si tu appliques la
-                  même méthode.
+                  une fois. Pas d&apos;abonnement, pas d&apos;upsell, pas
+                  d&apos;affiliation courtier derrière.
                 </p>
               </div>
               <div className="bg-stone-800/60 border border-amber-400/30 p-5 rounded-lg">
                 <p className="text-xs uppercase tracking-widest text-amber-400 mb-2">
-                  Break-even
+                  Ce que tu évites
                 </p>
                 <p className="text-3xl font-black text-stone-50 mb-1">
-                  1 jour
+                  Les pièges
                 </p>
                 <p className="text-sm text-stone-300 leading-snug">
-                  de gains moyens sur mon portefeuille suffit à rembourser
-                  l&apos;ebook (25 EUR/jour moyennés).
+                  arnaques type Validus/MLM (souvent plusieurs milliers
+                  d&apos;euros perdus par victime) et riba caché des courtiers.
                 </p>
               </div>
               <div className="bg-stone-800/60 border border-amber-400/30 p-5 rounded-lg">
                 <p className="text-xs uppercase tracking-widest text-amber-400 mb-2">
-                  Ne pas acheter
+                  Ce qu&apos;on ne te vend pas
                 </p>
                 <p className="text-3xl font-black text-stone-50 mb-1">
-                  = 645×
+                  Un rêve
                 </p>
                 <p className="text-sm text-stone-300 leading-snug">
-                  moins cher qu&apos;économiser 29 EUR pour laisser 18 728 EUR
-                  sur la table.
+                  mes +18 728 EUR sont mon résultat, dans un marché haussier.
+                  Aucun gain ne t&apos;est promis ni garanti.
                 </p>
               </div>
             </div>
 
             <div className="border-l-4 border-amber-400 pl-5 py-2">
               <p className="text-sm sm:text-base text-stone-200 leading-relaxed">
-                <strong className="text-amber-300">Fais le calcul honnêtement.</strong>{" "}
-                Si l&apos;ebook te fait construire un portefeuille qui te
-                rapporte 500 EUR sur 12 mois, il t&apos;a rapporté 17×. S&apos;il
-                te fait éviter une seule arnaque Validus/MLM (moyenne : 5 000
-                EUR par cas), il t&apos;a rapporté 172×. Si tu suis la même
-                méthode que le portefeuille perso ci-dessus, on parle de
-                +18 728 EUR. Ratio réel : 645×.
+                <strong className="text-amber-300">Soyons honnêtes.</strong>{" "}
+                Personne ne peut te garantir un rendement — et te le promettre
+                serait te mentir. Ce que le guide te donne, c&apos;est la
+                méthode complète que j&apos;applique : le screening AAOIFI, le
+                protocole de conformité courtier en 4 règles, les plans
+                d&apos;épargne hadj/mariage/maison, et les réflexes pour ne
+                jamais tomber dans une arnaque. Le résultat dépendra du marché
+                et de ta régularité, pas d&apos;une formule magique.
               </p>
             </div>
 
@@ -363,8 +366,9 @@ export default function EbookV2Page() {
             </div>
 
             <p className="mt-6 text-xs text-stone-500 max-w-2xl">
-              Calculs base rendement 10 %/an conservateur, ETF halal AAOIFI
-              (SPWI + DEEN). Performances passées non garanties.
+              Calculs sur hypothèse de rendement 10 %/an (proche de la moyenne
+              historique long terme des actions — aucun rendement n&apos;est
+              garanti), ETF halal AAOIFI (SPWI + DEEN).
             </p>
           </div>
         </section>
@@ -562,10 +566,15 @@ export default function EbookV2Page() {
 
         <footer className="border-t border-stone-200 px-6 py-8 text-center text-xs text-stone-500 bg-stone-50">
           <p className="mb-2">muslimfinance.net — © 2026 · Édition 2026 · Usage personnel uniquement</p>
-          <p>
+          <p className="mb-2">
             Ce guide est un outil d&apos;éducation financière. Il ne constitue
             pas un conseil en investissement personnalisé au sens de la
             directive MIF II.
+          </p>
+          <p>
+            <a href="/confidentialite" className="underline">
+              Politique de confidentialité
+            </a>
           </p>
         </footer>
       </main>
