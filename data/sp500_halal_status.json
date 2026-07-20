@@ -1192,13 +1192,6 @@
     "scraped_at": "2026-07-19T00:17:38+00:00"
   },
   {
-    "ticker": "AVB",
-    "status": "not_halal",
-    "interest_pct": 0.9,
-    "source": "zoya",
-    "scraped_at": "2026-07-19T05:00:47+00:00"
-  },
-  {
     "ticker": "AEP",
     "status": "not_halal",
     "interest_pct": null,
@@ -2372,6 +2365,13 @@
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-07-19T00:26:39+00:00"
+  },
+  {
+    "ticker": "AVB",
+    "status": "not_halal",
+    "interest_pct": 0.9,
+    "source": "zoya",
+    "scraped_at": "2026-07-19T05:00:47+00:00"
   },
   {
     "ticker": "NRG",
