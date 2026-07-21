@@ -81,23 +81,23 @@ export default function EbookV2Page() {
                 className="text-[2.2rem] sm:text-5xl font-black leading-[1.05] tracking-tight mb-5"
                 style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
               >
-                +18 728 EUR
+                Tu as refusé le riba.
                 <br />
                 <span className="text-amber-400">
-                  de plus-value latente en 2 ans.
+                  Pas de bâtir un patrimoine.
                 </span>
               </h1>
 
               <p className="text-base sm:text-lg text-stone-300 leading-relaxed mb-6 max-w-xl">
-                Portefeuille personnel Trade Republic. Titres filtrés AAOIFI +
-                protocole 4 règles (intérêts cash désactivés, zéro margin, zéro
-                securities lending, screener AAOIFI). Voici la méthode
-                complète — 47 pages. Sortie le {LAUNCH_STR}.
+                La méthode complète pour construire un patrimoine halal :
+                actions filtrées AAOIFI, or, immobilier, plans d&apos;épargne
+                hadj/mariage/maison — sans crédit riba, sans banque islamique.
+                47 pages. Sortie le {LAUNCH_STR}.
               </p>
               <p className="text-xs text-stone-400 leading-relaxed mb-6 max-w-xl">
-                Résultat personnel sur un marché haussier 2024-2026. Ce n&apos;est
-                pas une promesse de gains — personne ne peut te garantir un
-                rendement.
+                Preuve à l&apos;appui : +18 728 EUR de plus-value latente en 2 ans
+                sur mon portefeuille perso (marché haussier 2024-2026 — résultat
+                personnel, aucun gain ne t&apos;est promis ni garanti).
               </p>
 
               <div className="bg-white text-stone-900 rounded-xl p-5 border-2 border-amber-400 shadow-2xl">
@@ -140,6 +140,77 @@ export default function EbookV2Page() {
                 Compte perso — captures anonymisées
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* ═════════════════════════════════════════════════════════
+            ANGLE HADJ / MARIAGE
+        ═════════════════════════════════════════════════════════ */}
+        <section className="bg-stone-100 px-5 py-16">
+          <div className="max-w-4xl mx-auto">
+            <p className="text-[10px] uppercase tracking-[0.25em] text-amber-800 mb-3">
+              3 objectifs concrets
+            </p>
+            <h2
+              className="text-3xl sm:text-4xl font-black leading-tight mb-6 max-w-2xl"
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+            >
+              Financer ton hadj, ton mariage,{" "}
+              <span className="text-amber-800">
+                ta maison — sans crédit riba.
+              </span>
+            </h2>
+
+            <p className="text-base sm:text-lg text-stone-700 leading-relaxed mb-8 max-w-2xl">
+              Un portefeuille halal, c&apos;est aussi un outil pour financer
+              des objectifs personnels. Le guide donne le plan précis pour
+              chaque cas — mensualités, durée, allocation ETF.
+            </p>
+
+            <div className="grid sm:grid-cols-3 gap-4">
+              {[
+                {
+                  title: "Hadj",
+                  cost: "8-16K EUR",
+                  duration: "3-5 ans",
+                  mens: "115-400 EUR/mois",
+                },
+                {
+                  title: "Mariage",
+                  cost: "12-25K EUR",
+                  duration: "3-5 ans",
+                  mens: "170-620 EUR/mois",
+                },
+                {
+                  title: "Apport 30 %",
+                  cost: "45-120K EUR",
+                  duration: "5-7 ans",
+                  mens: "600-1600 EUR/mois",
+                },
+              ].map((p) => (
+                <div
+                  key={p.title}
+                  className="bg-white p-5 rounded-lg border border-amber-200 shadow-sm"
+                >
+                  <p className="text-xs uppercase tracking-wider text-amber-800 font-bold mb-2">
+                    {p.title}
+                  </p>
+                  <p className="text-2xl font-black text-stone-900 mb-1">
+                    {p.cost}
+                  </p>
+                  <p className="text-sm text-stone-600 mb-1">
+                    Sur {p.duration}
+                  </p>
+                  <p className="text-sm text-amber-900 font-bold">{p.mens}</p>
+                </div>
+              ))}
+            </div>
+
+            <p className="mt-6 text-xs text-stone-500 max-w-2xl">
+              Calculs sur hypothèse de rendement 10 %/an (proche de la moyenne
+              historique long terme des actions — aucun rendement n&apos;est
+              garanti), ETF halal AAOIFI (SPWI + DEEN).
+            </p>
           </div>
         </section>
 
@@ -299,77 +370,6 @@ export default function EbookV2Page() {
                 hint={`Aucun paiement maintenant. Sortie le ${LAUNCH_STR}. Tarif préférentiel 29 EUR (au lieu de 63 EUR).`}
               />
             </div>
-          </div>
-        </section>
-
-        {/* ═════════════════════════════════════════════════════════
-            ANGLE HADJ / MARIAGE
-        ═════════════════════════════════════════════════════════ */}
-        <section className="bg-stone-100 px-5 py-16">
-          <div className="max-w-4xl mx-auto">
-            <p className="text-[10px] uppercase tracking-[0.25em] text-amber-800 mb-3">
-              3 objectifs concrets
-            </p>
-            <h2
-              className="text-3xl sm:text-4xl font-black leading-tight mb-6 max-w-2xl"
-              style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
-            >
-              Financer ton hadj, ton mariage,{" "}
-              <span className="text-amber-800">
-                ta maison — sans crédit riba.
-              </span>
-            </h2>
-
-            <p className="text-base sm:text-lg text-stone-700 leading-relaxed mb-8 max-w-2xl">
-              Un portefeuille halal, c&apos;est aussi un outil pour financer
-              des objectifs personnels. Le guide donne le plan précis pour
-              chaque cas — mensualités, durée, allocation ETF.
-            </p>
-
-            <div className="grid sm:grid-cols-3 gap-4">
-              {[
-                {
-                  title: "Hadj",
-                  cost: "8-16K EUR",
-                  duration: "3-5 ans",
-                  mens: "115-400 EUR/mois",
-                },
-                {
-                  title: "Mariage",
-                  cost: "12-25K EUR",
-                  duration: "3-5 ans",
-                  mens: "170-620 EUR/mois",
-                },
-                {
-                  title: "Apport 30 %",
-                  cost: "45-120K EUR",
-                  duration: "5-7 ans",
-                  mens: "600-1600 EUR/mois",
-                },
-              ].map((p) => (
-                <div
-                  key={p.title}
-                  className="bg-white p-5 rounded-lg border border-amber-200 shadow-sm"
-                >
-                  <p className="text-xs uppercase tracking-wider text-amber-800 font-bold mb-2">
-                    {p.title}
-                  </p>
-                  <p className="text-2xl font-black text-stone-900 mb-1">
-                    {p.cost}
-                  </p>
-                  <p className="text-sm text-stone-600 mb-1">
-                    Sur {p.duration}
-                  </p>
-                  <p className="text-sm text-amber-900 font-bold">{p.mens}</p>
-                </div>
-              ))}
-            </div>
-
-            <p className="mt-6 text-xs text-stone-500 max-w-2xl">
-              Calculs sur hypothèse de rendement 10 %/an (proche de la moyenne
-              historique long terme des actions — aucun rendement n&apos;est
-              garanti), ETF halal AAOIFI (SPWI + DEEN).
-            </p>
           </div>
         </section>
 
