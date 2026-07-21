@@ -53,6 +53,26 @@ export default function EbookV2Page() {
         fbq('init','${PIXEL_ID}');
         fbq('track','PageView');
       `}</Script>
+      <Script id="scroll-tracking-ebook-v2" strategy="afterInteractive">{`
+        (function(){
+          var fired = {};
+          function depth(){
+            var h = document.documentElement.scrollHeight - window.innerHeight;
+            if (h <= 0) return 100;
+            return Math.round(100 * window.scrollY / h);
+          }
+          function check(){
+            var d = depth();
+            [50, 90].forEach(function(t){
+              if (d >= t && !fired[t]) {
+                fired[t] = true;
+                try { window.fbq && window.fbq('trackCustom', 'Scroll' + t); } catch(e){}
+              }
+            });
+          }
+          window.addEventListener('scroll', check, { passive: true });
+        })();
+      `}</Script>
       <noscript>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img

@@ -38,6 +38,15 @@ export function SubscribeForm({
 }) {
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "err">("idle");
   const [msg, setMsg] = useState<string>("");
+  const [formStarted, setFormStarted] = useState(false);
+
+  function onEmailFocus() {
+    if (formStarted) return;
+    setFormStarted(true);
+    try {
+      window.fbq?.("trackCustom", "FormStart", { content_name: source });
+    } catch {}
+  }
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -106,6 +115,7 @@ export function SubscribeForm({
           type="email"
           required
           autoComplete="email"
+          onFocus={onEmailFocus}
           placeholder="ton.email@exemple.com"
           className="flex-1 px-4 py-3 rounded-md bg-white/95 border border-stone-300 text-stone-900 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-600"
           disabled={status === "loading" || status === "ok"}
