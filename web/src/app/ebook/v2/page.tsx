@@ -326,16 +326,16 @@ export default function EbookV2Page() {
               className="text-3xl sm:text-4xl font-black leading-tight mb-8"
               style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
             >
-              {PRICE_LAUNCH} EUR pour un guide.{" "}
+              {PRICE_LAUNCH} EUR une fois.{" "}
               <span className="text-amber-400">
-                Sans te promettre que tu feras pareil.
+                L&apos;inflation, elle, te prélève tous les mois.
               </span>
             </h2>
 
             <div className="grid sm:grid-cols-3 gap-5 mb-8">
               <div className="bg-stone-800/60 border border-amber-400/30 p-5 rounded-lg">
                 <p className="text-xs uppercase tracking-widest text-amber-400 mb-2">
-                  Ce que tu paies
+                  Le guide
                 </p>
                 <p className="text-3xl font-black text-stone-50 mb-1">
                   {PRICE_LAUNCH} EUR
@@ -347,40 +347,44 @@ export default function EbookV2Page() {
               </div>
               <div className="bg-stone-800/60 border border-amber-400/30 p-5 rounded-lg">
                 <p className="text-xs uppercase tracking-widest text-amber-400 mb-2">
-                  Ce que tu évites
+                  Ne rien faire
                 </p>
                 <p className="text-3xl font-black text-stone-50 mb-1">
-                  Les pièges
+                  -200 EUR/an
                 </p>
                 <p className="text-sm text-stone-300 leading-snug">
-                  arnaques type Validus/MLM (souvent plusieurs milliers
-                  d&apos;euros perdus par victime) et riba caché des courtiers.
+                  de pouvoir d&apos;achat perdu sur 10 000 EUR qui dorment sur
+                  un compte courant, à 2 % d&apos;inflation. Chaque année. En
+                  silence.
                 </p>
               </div>
               <div className="bg-stone-800/60 border border-amber-400/30 p-5 rounded-lg">
                 <p className="text-xs uppercase tracking-widest text-amber-400 mb-2">
-                  Ce qu&apos;on ne te vend pas
+                  Une seule erreur évitée
                 </p>
                 <p className="text-3xl font-black text-stone-50 mb-1">
-                  Un rêve
+                  Des milliers
                 </p>
                 <p className="text-sm text-stone-300 leading-snug">
-                  mes +18 728 EUR sont mon résultat, dans un marché haussier.
-                  Aucun gain ne t&apos;est promis ni garanti.
+                  d&apos;euros : une arnaque type Validus, un courtier qui te
+                  fait toucher du riba, des années à côté du marché. Le guide
+                  coûte moins qu&apos;une seule de ces erreurs.
                 </p>
               </div>
             </div>
 
             <div className="border-l-4 border-amber-400 pl-5 py-2">
               <p className="text-sm sm:text-base text-stone-200 leading-relaxed">
-                <strong className="text-amber-300">Soyons honnêtes.</strong>{" "}
-                Personne ne peut te garantir un rendement — et te le promettre
-                serait te mentir. Ce que le guide te donne, c&apos;est la
-                méthode complète que j&apos;applique : le screening AAOIFI, le
-                protocole de conformité courtier en 4 règles, les plans
-                d&apos;épargne hadj/mariage/maison, et les réflexes pour ne
-                jamais tomber dans une arnaque. Le résultat dépendra du marché
-                et de ta régularité, pas d&apos;une formule magique.
+                <strong className="text-amber-300">Fais le calcul.</strong>{" "}
+                Ne rien faire n&apos;est pas gratuit : une épargne qui dort
+                perd du pouvoir d&apos;achat tous les ans — ça, c&apos;est
+                certain. Les gains d&apos;un portefeuille construit
+                sérieusement, eux, se jouent en milliers d&apos;euros sur des
+                années (mes +18 728 EUR en 2 ans en sont un exemple réel — pas
+                une garantie). Face à ça, {PRICE_LAUNCH} EUR, c&apos;est
+                moins que ce que l&apos;inflation prend chaque mois à 15 000
+                EUR d&apos;épargne immobile. Le seul scénario perdant à coup
+                sûr, c&apos;est de laisser ton argent fondre sans méthode.
               </p>
             </div>
 
