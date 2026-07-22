@@ -133,15 +133,17 @@ export default function EbookV2Page() {
                   </span>
                 </div>
                 <p className="text-xs text-stone-600 mb-4">
-                  Inscris-toi pour être prévenu à la sortie et recevoir le tarif
-                  préférentiel de <strong>29 EUR</strong> (au lieu de 63 EUR
-                  après). Aucun paiement maintenant.
+                  Inscris-toi : tu reçois <strong>tout de suite</strong> la
+                  checklist anti-arnaque par email (PDF — démasquer un
+                  placement &laquo;&nbsp;halal&nbsp;&raquo; douteux en 30
+                  secondes) + le tarif préférentiel de <strong>29 EUR</strong>{" "}
+                  à la sortie (au lieu de 63 EUR). Aucun paiement.
                 </p>
                 <SubscribeForm
                   source="v2_hero"
-                  ctaLabel="Je réserve ma place"
-                  successMsg="Tu es sur la liste. Tu recevras l'ebook et le lien de commande à 29 EUR à la sortie."
-                  hint="Aucun paiement maintenant. Un email de confirmation arrive dans les 2 minutes."
+                  ctaLabel="Recevoir la checklist + ma place"
+                  successMsg="C'est fait. La checklist arrive dans ta boîte mail d'ici 2 minutes."
+                  hint="Aucun paiement. Checklist anti-arnaque offerte immédiatement par email."
                 />
               </div>
             </div>
@@ -385,9 +387,9 @@ export default function EbookV2Page() {
             <div className="mt-8 max-w-md">
               <SubscribeForm
                 source="v2_roi"
-                ctaLabel="Je réserve ma place — 29 EUR à la sortie"
-                successMsg="Tu es sur la liste. On te prévient à la sortie."
-                hint={`Aucun paiement maintenant. Sortie le ${LAUNCH_STR}. Tarif préférentiel 29 EUR (au lieu de 63 EUR).`}
+                ctaLabel="Recevoir la checklist + ma place"
+                successMsg="C'est fait. La checklist arrive dans ta boîte mail d'ici 2 minutes."
+                hint={`Checklist anti-arnaque offerte immédiatement. Sortie le ${LAUNCH_STR} — tarif inscrit 29 EUR (au lieu de 63 EUR). Aucun paiement.`}
               />
             </div>
           </div>
@@ -492,14 +494,15 @@ export default function EbookV2Page() {
               <p className="text-stone-400 line-through text-lg">{PRICE_REGULAR} EUR</p>
             </div>
             <p className="text-sm text-stone-300 mb-4">
-              Inscris-toi maintenant, tu recevras le PDF et le lien de commande
-              à 29 EUR à la sortie (au lieu de 63 EUR pour le public).
+              Inscris-toi maintenant : la checklist anti-arnaque arrive tout de
+              suite par email, et à la sortie tu reçois le PDF complet + le
+              lien de commande à 29 EUR (au lieu de 63 EUR pour le public).
             </p>
             <SubscribeForm
               source="v2_mid"
-              ctaLabel="Je réserve ma place"
-              successMsg="Tu es sur la liste. Confirmation email dans 2 min."
-              hint="Aucun paiement maintenant."
+              ctaLabel="Recevoir la checklist + ma place"
+              successMsg="C'est fait. La checklist arrive dans ta boîte mail d'ici 2 minutes."
+              hint="Aucun paiement. Checklist offerte immédiatement."
             />
           </div>
         </section>
@@ -577,9 +580,9 @@ export default function EbookV2Page() {
             </p>
             <SubscribeForm
               source="v2_final"
-              ctaLabel="Je réserve ma place"
-              successMsg="Tu es sur la liste. On se retrouve à la sortie."
-              hint="Aucun paiement maintenant. Un email de confirmation arrive dans les 2 min."
+              ctaLabel="Recevoir la checklist + ma place"
+              successMsg="C'est fait. La checklist arrive dans ta boîte mail d'ici 2 minutes."
+              hint="Aucun paiement. Checklist anti-arnaque offerte immédiatement par email."
             />
           </div>
         </section>

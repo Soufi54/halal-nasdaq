@@ -171,7 +171,7 @@ async function sendWelcomeEmail(args: {
       body: JSON.stringify({
         from: args.from,
         to: args.to,
-        subject: "Ton exemplaire de Halal & patrimoine v2 est réservé",
+        subject: "Ta checklist anti-arnaque + ta place pour Halal & patrimoine v2",
         html,
         text,
       }),
@@ -191,9 +191,22 @@ function welcomeEmailHtml(siteUrl: string): string {
   <div style="max-width: 560px; margin: 0 auto; background: white; padding: 40px 32px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <p style="font-size: 11px; letter-spacing: 2px; color: #c9a662; text-transform: uppercase; margin: 0 0 16px;">MUSLIMFINANCE.NET</p>
 
-    <h1 style="font-size: 26px; margin: 0 0 12px; color: #1c1917;">C'est noté.</h1>
+    <h1 style="font-size: 26px; margin: 0 0 12px; color: #1c1917;">C'est noté. Voici ta checklist.</h1>
     <p style="color: #57534e; line-height: 1.6; margin: 0 0 16px;">
-      Ton email est inscrit sur la liste. À la sortie officielle, tu recevras :
+      Comme promis, ta checklist anti-arnaque est prête : 8 questions pour
+      démasquer un placement &laquo;&nbsp;halal&nbsp;&raquo; douteux (type
+      Validus) en 30 secondes, + une watchlist de 10 actions filtrées AAOIFI.
+    </p>
+
+    <p style="text-align: center; margin: 24px 0;">
+      <a href="${siteUrl}/lead-magnets/checklist-validus.pdf"
+         style="display: inline-block; background: #c9a662; color: #1c1917; font-weight: bold; padding: 14px 28px; border-radius: 8px; text-decoration: none;">
+        Télécharger la checklist (PDF)
+      </a>
+    </p>
+
+    <p style="color: #57534e; line-height: 1.6; margin: 0 0 16px;">
+      Et ta place est réservée : à la sortie officielle, tu recevras :
     </p>
 
     <ul style="color: #57534e; line-height: 1.7; margin: 0 0 24px; padding-left: 20px;">
@@ -251,9 +264,13 @@ function welcomeEmailHtml(siteUrl: string): string {
 }
 
 function welcomeEmailText(siteUrl: string): string {
-  return `C'est noté.
+  return `C'est noté. Voici ta checklist.
 
-Ton email est inscrit sur la liste. À la sortie officielle, tu recevras :
+Comme promis, ta checklist anti-arnaque : 8 questions pour démasquer un placement « halal » douteux (type Validus) en 30 secondes, + une watchlist de 10 actions filtrées AAOIFI.
+
+Télécharge-la ici : ${siteUrl}/lead-magnets/checklist-validus.pdf
+
+Et ta place est réservée : à la sortie officielle, tu recevras :
 - L'ebook Halal & patrimoine v2 (47 pages PDF)
 - Un lien de commande à 29 EUR (au lieu de 63 EUR pour le public)
 - Un accès en avant-première 48h avant la sortie publique
