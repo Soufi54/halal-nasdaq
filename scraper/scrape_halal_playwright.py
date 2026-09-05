@@ -97,6 +97,17 @@ def needs_refresh(entry: dict, force: bool) -> bool:
     return age_days >= REFRESH_MAX_AGE_DAYS
 
 
+def _save_partial(output_path: Path, done: list[dict], existing: dict, remaining_tickers: list[str], overrides: dict):
+    """Save partial results + keep existing data for remaining tickers."""
+    merged = list(done)
+    for t in remaining_tickers:
+        prev = existing.get(t)
+        if prev:
+            merged.append(apply_override(prev, overrides))
+    output_path.write_text(json.dumps(merged, indent=2, ensure_ascii=False))
+    print(f"  [checkpoint] Saved {len(done)} done + {len(remaining_tickers)} kept from cache")
+
+
 async def run_batch(input_path: Path, output_path: Path, force: bool):
     holdings = json.loads(input_path.read_text())
     tickers = [h["ticker"] for h in holdings]
@@ -141,6 +152,9 @@ async def run_batch(input_path: Path, output_path: Path, force: bool):
             except Exception as e:
                 print(f"  [{i}/{total}] {ticker} -- ERROR {e}")
                 results.append(apply_override(prev or {"ticker": ticker, "status": "error", "detail": str(e)[:120]}, overrides))
+            # Save incrementally every 50 tickers so partial progress survives timeout
+            if n_refreshed > 0 and n_refreshed % 50 == 0:
+                _save_partial(output_path, results, existing_by_ticker, tickers[i:], overrides)
             await asyncio.sleep(DELAY_SEC)
 
         await browser.close()

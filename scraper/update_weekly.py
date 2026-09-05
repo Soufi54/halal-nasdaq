@@ -20,12 +20,16 @@ DATA_DIR = REPO_DIR / "data"
 WEB_SRC = REPO_DIR / "web" / "src"
 
 
-def run(description: str, cmd: list[str], cwd: Path = REPO_DIR) -> bool:
+def run(description: str, cmd: list[str], cwd: Path = REPO_DIR, timeout: int | None = None) -> bool:
     """Execute une commande et affiche le resultat."""
     print(f"\n{'='*60}")
     print(f"  {description}")
     print(f"{'='*60}")
-    result = subprocess.run(cmd, cwd=str(cwd), capture_output=True, text=True)
+    try:
+        result = subprocess.run(cmd, cwd=str(cwd), capture_output=True, text=True, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        print(f"  TIMEOUT apres {timeout}s — commande tuee")
+        return False
     if result.stdout:
         # Limiter la sortie pour les logs
         lines = result.stdout.strip().split("\n")
@@ -62,21 +66,23 @@ def main():
     # Etape 3 : Scrape halal status NASDAQ via Playwright (JS-rendered, Zoya SPA)
     # Remplace scrape_halal.py qui ne marche plus depuis que Zoya est devenu SPA.
     # Respecte data/manual_overrides.json pour les tickers flagges manuellement.
+    # Timeout 15min NASDAQ / 40min S&P pour eviter que Playwright bloque le pipeline (bug 26/07).
     scrape_ok = True
     if not run("Scrape statut halal NASDAQ 100 (Zoya, Playwright)", [
         python, str(SCRAPER_DIR / "scrape_halal_playwright.py"),
         str(DATA_DIR / "nasdaq100_weights.json"),
         str(DATA_DIR / "halal_status.json"),
-    ]):
+    ], timeout=900):
         print("ERREUR : echec scrape halal NASDAQ")
         scrape_ok = False
 
     # Etape 4 : Scrape halal status S&P 500 via Playwright
+    # Timeout 40min : 503 tickers x ~3s = ~1500s si refresh complet
     if not run("Scrape statut halal S&P 500 (Zoya, Playwright)", [
         python, str(SCRAPER_DIR / "scrape_halal_playwright.py"),
         str(DATA_DIR / "sp500_weights.json"),
         str(DATA_DIR / "sp500_halal_status.json"),
-    ]):
+    ], timeout=2400):
         print("ERREUR : echec scrape halal S&P 500")
         scrape_ok = False
 
