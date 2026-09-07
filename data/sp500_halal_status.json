@@ -1750,18 +1750,18 @@
     "scraped_at": "2026-09-04T05:22:11+00:00"
   },
   {
-    "ticker": "CIEN",
-    "status": "halal",
-    "interest_pct": 1.15,
-    "source": "zoya",
-    "scraped_at": "2026-09-04T05:22:21+00:00"
-  },
-  {
     "ticker": "ADSK",
     "status": "halal",
     "interest_pct": 0.35,
     "source": "zoya",
     "scraped_at": "2026-09-04T05:21:30+00:00"
+  },
+  {
+    "ticker": "CIEN",
+    "status": "halal",
+    "interest_pct": 1.15,
+    "source": "zoya",
+    "scraped_at": "2026-09-04T05:22:21+00:00"
   },
   {
     "ticker": "EXC",
@@ -3321,13 +3321,6 @@
     "scraped_at": "2026-09-04T05:34:19+00:00"
   },
   {
-    "ticker": "LULU",
-    "status": "halal",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-04T05:33:11+00:00"
-  },
-  {
     "ticker": "TECH",
     "status": "halal",
     "interest_pct": 5.0,
@@ -3361,6 +3354,13 @@
     "interest_pct": 0.12,
     "source": "zoya",
     "scraped_at": "2026-09-04T05:34:38+00:00"
+  },
+  {
+    "ticker": "LULU",
+    "status": "halal",
+    "interest_pct": 5.0,
+    "source": "zoya",
+    "scraped_at": "2026-09-04T05:33:11+00:00"
   },
   {
     "ticker": "SWKS",

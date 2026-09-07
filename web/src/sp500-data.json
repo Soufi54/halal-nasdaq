@@ -15,7 +15,7 @@
       "date_source": "scraped_at",
       "most_common_date": "2026-09-04",
       "oldest_entry": "2026-09-04",
-      "oldest_age_days": 2,
+      "oldest_age_days": 3,
       "stale": false
     }
   },
@@ -1474,22 +1474,22 @@
     },
     {
       "rank": 251,
-      "company": "Ciena Corporation",
-      "ticker": "CIEN",
+      "company": "Autodesk Inc",
+      "ticker": "ADSK",
       "weight": 0.06,
       "halal_status": "halal",
-      "interest_pct": 1.15,
+      "interest_pct": 0.35,
       "original_weight": 0.06,
       "halal_weight": 0.1099,
       "halal_rank": 133
     },
     {
       "rank": 252,
-      "company": "Autodesk Inc",
-      "ticker": "ADSK",
+      "company": "Ciena Corporation",
+      "ticker": "CIEN",
       "weight": 0.06,
       "halal_status": "halal",
-      "interest_pct": 0.35,
+      "interest_pct": 1.15,
       "original_weight": 0.06,
       "halal_weight": 0.1099,
       "halal_rank": 134
@@ -2420,8 +2420,8 @@
     },
     {
       "rank": 476,
-      "company": "lululemon athletica inc.",
-      "ticker": "LULU",
+      "company": "Bio-Techne Corp.",
+      "ticker": "TECH",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": 5.0,
@@ -2430,23 +2430,23 @@
       "halal_rank": 219
     },
     {
-      "rank": 477,
-      "company": "Bio-Techne Corp.",
-      "ticker": "TECH",
-      "weight": 0.02,
-      "halal_status": "halal",
-      "interest_pct": 5.0,
-      "original_weight": 0.02,
-      "halal_weight": 0.0366,
-      "halal_rank": 220
-    },
-    {
-      "rank": 479,
+      "rank": 478,
       "company": "Align Technology Inc",
       "ticker": "ALGN",
       "weight": 0.02,
       "halal_status": "halal",
       "interest_pct": 0.4,
+      "original_weight": 0.02,
+      "halal_weight": 0.0366,
+      "halal_rank": 220
+    },
+    {
+      "rank": 481,
+      "company": "lululemon athletica inc.",
+      "ticker": "LULU",
+      "weight": 0.02,
+      "halal_status": "halal",
+      "interest_pct": 5.0,
       "original_weight": 0.02,
       "halal_weight": 0.0366,
       "halal_rank": 221
@@ -4467,7 +4467,7 @@
       "interest_pct": null
     },
     {
-      "rank": 478,
+      "rank": 477,
       "company": "Domino's Pizza Inc.",
       "ticker": "DPZ",
       "weight": 0.02,
@@ -4475,7 +4475,7 @@
       "interest_pct": 0.3
     },
     {
-      "rank": 480,
+      "rank": 479,
       "company": "Huntington Ingalls Industries, Inc.",
       "ticker": "HII",
       "weight": 0.02,
@@ -4483,7 +4483,7 @@
       "interest_pct": null
     },
     {
-      "rank": 481,
+      "rank": 480,
       "company": "Clorox Company",
       "ticker": "CLX",
       "weight": 0.02,
