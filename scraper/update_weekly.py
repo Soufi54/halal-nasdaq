@@ -40,7 +40,7 @@ def run(description: str, cmd: list[str], cwd: Path = REPO_DIR, timeout: int | N
     if result.returncode != 0:
         print(f"  ERREUR (code {result.returncode})")
         if result.stderr:
-            print(f"  {result.stderr[:500]}")
+            print(f"  {result.stderr[:2000]}")
         return False
     print(f"  OK")
     return True
