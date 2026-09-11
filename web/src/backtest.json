@@ -1,2386 +1,2396 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-11",
   "methodology": "Static composition backtest using current halal screening applied historically. Weights redistributed pro-rata. Weekly resampling.",
   "disclaimer": "Past performance does not guarantee future results. This backtest uses current composition, not historical screening.",
   "nasdaq100": {
     "1y": {
       "start_date": "2025-09-12",
-      "end_date": "2026-09-04",
-      "data_points": 52,
+      "end_date": "2026-09-11",
+      "data_points": 53,
       "available_tickers": 66,
       "total_tickers": 66,
-      "halal_return_pct": 69.63,
-      "index_return_pct": 24.8,
-      "outperformance_pct": 44.83,
+      "halal_return_pct": 63.76,
+      "index_return_pct": 21.92,
+      "outperformance_pct": 41.84,
       "series": [
         {
           "date": "2025-09-12",
-          "halal": 103.57,
-          "index": 101.35
+          "halal": 100.93,
+          "index": 100.44
         },
         {
           "date": "2025-09-19",
-          "halal": 106.91,
-          "index": 103.54
+          "halal": 104.24,
+          "index": 102.61
         },
         {
           "date": "2025-09-26",
-          "halal": 108.33,
-          "index": 103.07
+          "halal": 105.71,
+          "index": 102.15
         },
         {
           "date": "2025-10-03",
-          "halal": 112.53,
-          "index": 104.32
+          "halal": 109.71,
+          "index": 103.39
         },
         {
           "date": "2025-10-10",
-          "halal": 109.54,
-          "index": 101.95
+          "halal": 106.86,
+          "index": 101.04
         },
         {
           "date": "2025-10-17",
-          "halal": 113.58,
-          "index": 104.45
+          "halal": 110.86,
+          "index": 103.52
         },
         {
           "date": "2025-10-24",
-          "halal": 116.71,
-          "index": 106.73
+          "halal": 113.93,
+          "index": 105.78
         },
         {
           "date": "2025-10-31",
-          "halal": 121.29,
-          "index": 108.8
+          "halal": 118.37,
+          "index": 107.83
         },
         {
           "date": "2025-11-07",
-          "halal": 117.38,
-          "index": 105.45
+          "halal": 114.58,
+          "index": 104.51
         },
         {
           "date": "2025-11-14",
-          "halal": 117.46,
-          "index": 105.3
+          "halal": 114.64,
+          "index": 104.36
         },
         {
           "date": "2025-11-21",
-          "halal": 112.65,
-          "index": 102.05
+          "halal": 109.98,
+          "index": 101.14
         },
         {
           "date": "2025-11-28",
-          "halal": 118.64,
-          "index": 107.1
+          "halal": 115.92,
+          "index": 106.14
         },
         {
           "date": "2025-12-05",
-          "halal": 120.91,
-          "index": 108.18
+          "halal": 118.13,
+          "index": 107.21
         },
         {
           "date": "2025-12-12",
-          "halal": 118.49,
-          "index": 106.13
+          "halal": 115.77,
+          "index": 105.18
         },
         {
           "date": "2025-12-19",
-          "halal": 119.59,
-          "index": 106.72
+          "halal": 116.76,
+          "index": 105.77
         },
         {
           "date": "2025-12-26",
-          "halal": 121.9,
-          "index": 108.04
+          "halal": 118.95,
+          "index": 107.08
         },
         {
           "date": "2026-01-02",
-          "halal": 121.71,
-          "index": 106.18
+          "halal": 118.76,
+          "index": 105.23
         },
         {
           "date": "2026-01-09",
-          "halal": 122.46,
-          "index": 108.52
+          "halal": 119.44,
+          "index": 107.55
         },
         {
           "date": "2026-01-16",
-          "halal": 123.51,
-          "index": 107.59
+          "halal": 120.47,
+          "index": 106.63
         },
         {
           "date": "2026-01-23",
-          "halal": 123.73,
-          "index": 107.84
+          "halal": 120.67,
+          "index": 106.88
         },
         {
           "date": "2026-01-30",
-          "halal": 125.62,
-          "index": 107.69
+          "halal": 122.52,
+          "index": 106.73
         },
         {
           "date": "2026-02-06",
-          "halal": 126.21,
-          "index": 105.58
+          "halal": 123.19,
+          "index": 104.63
         },
         {
           "date": "2026-02-13",
-          "halal": 123.92,
-          "index": 104.24
+          "halal": 120.91,
+          "index": 103.31
         },
         {
           "date": "2026-02-20",
-          "halal": 126.39,
-          "index": 105.43
+          "halal": 123.26,
+          "index": 104.49
         },
         {
           "date": "2026-02-27",
-          "halal": 123.82,
-          "index": 105.17
+          "halal": 120.83,
+          "index": 104.23
         },
         {
           "date": "2026-03-06",
-          "halal": 121.04,
-          "index": 103.86
+          "halal": 118.09,
+          "index": 102.93
         },
         {
           "date": "2026-03-13",
-          "halal": 121.47,
-          "index": 102.82
+          "halal": 118.46,
+          "index": 101.9
         },
         {
           "date": "2026-03-20",
-          "halal": 119.4,
-          "index": 100.8
+          "halal": 116.48,
+          "index": 99.9
         },
         {
           "date": "2026-03-27",
-          "halal": 116.5,
-          "index": 97.55
+          "halal": 113.73,
+          "index": 96.68
         },
         {
           "date": "2026-04-03",
-          "halal": 121.44,
-          "index": 101.43
+          "halal": 118.56,
+          "index": 100.53
         },
         {
           "date": "2026-04-10",
-          "halal": 128.92,
-          "index": 105.95
+          "halal": 125.87,
+          "index": 105.01
         },
         {
           "date": "2026-04-17",
-          "halal": 137.5,
-          "index": 112.51
+          "halal": 134.26,
+          "index": 111.5
         },
         {
           "date": "2026-04-24",
-          "halal": 142.88,
-          "index": 115.11
+          "halal": 139.59,
+          "index": 114.08
         },
         {
           "date": "2026-05-01",
-          "halal": 144.14,
-          "index": 116.89
+          "halal": 140.98,
+          "index": 115.85
         },
         {
           "date": "2026-05-08",
-          "halal": 156.27,
-          "index": 123.32
+          "halal": 152.91,
+          "index": 122.22
         },
         {
           "date": "2026-05-15",
-          "halal": 157.83,
-          "index": 122.92
+          "halal": 154.39,
+          "index": 121.83
         },
         {
           "date": "2026-05-22",
-          "halal": 160.79,
-          "index": 124.42
+          "halal": 157.44,
+          "index": 123.31
         },
         {
           "date": "2026-05-29",
-          "halal": 165.36,
-          "index": 128.02
+          "halal": 161.93,
+          "index": 126.88
         },
         {
           "date": "2026-06-05",
-          "halal": 159.07,
-          "index": 122.25
+          "halal": 155.71,
+          "index": 121.16
         },
         {
           "date": "2026-06-12",
-          "halal": 162.94,
-          "index": 125.07
+          "halal": 159.5,
+          "index": 123.96
         },
         {
           "date": "2026-06-19",
-          "halal": 168.88,
-          "index": 128.42
+          "halal": 165.34,
+          "index": 127.27
         },
         {
           "date": "2026-06-26",
-          "halal": 160.17,
-          "index": 122.64
+          "halal": 156.77,
+          "index": 121.55
         },
         {
           "date": "2026-07-03",
-          "halal": 162.58,
-          "index": 123.69
+          "halal": 159.18,
+          "index": 122.59
         },
         {
           "date": "2026-07-10",
-          "halal": 168.77,
-          "index": 125.94
+          "halal": 165.21,
+          "index": 124.81
         },
         {
           "date": "2026-07-17",
-          "halal": 162.96,
-          "index": 120.7
+          "halal": 159.56,
+          "index": 119.62
         },
         {
           "date": "2026-07-24",
-          "halal": 162.78,
-          "index": 118.77
+          "halal": 159.3,
+          "index": 117.71
         },
         {
           "date": "2026-07-31",
-          "halal": 158.34,
-          "index": 119.42
+          "halal": 154.88,
+          "index": 118.36
         },
         {
           "date": "2026-08-07",
-          "halal": 168.8,
-          "index": 125.51
+          "halal": 164.97,
+          "index": 124.39
         },
         {
           "date": "2026-08-14",
-          "halal": 169.91,
-          "index": 126.9
+          "halal": 166.02,
+          "index": 125.77
         },
         {
           "date": "2026-08-21",
-          "halal": 166.14,
-          "index": 123.84
+          "halal": 162.32,
+          "index": 122.74
         },
         {
           "date": "2026-08-28",
-          "halal": 166.73,
-          "index": 124.36
+          "halal": 162.91,
+          "index": 123.25
         },
         {
           "date": "2026-09-04",
-          "halal": 169.63,
-          "index": 124.8
+          "halal": 165.66,
+          "index": 123.69
+        },
+        {
+          "date": "2026-09-11",
+          "halal": 163.76,
+          "index": 121.92
         }
       ]
     },
     "3y": {
       "start_date": "2023-09-15",
-      "end_date": "2026-09-04",
-      "data_points": 156,
+      "end_date": "2026-09-11",
+      "data_points": 157,
       "available_tickers": 66,
       "total_tickers": 66,
-      "halal_return_pct": 261.77,
-      "index_return_pct": 94.05,
-      "outperformance_pct": 167.72,
+      "halal_return_pct": 258.53,
+      "index_return_pct": 93.42,
+      "outperformance_pct": 165.1,
       "series": [
         {
           "date": "2023-09-15",
-          "halal": 97.82,
-          "index": 98.37
+          "halal": 98.89,
+          "index": 99.47
         },
         {
           "date": "2023-09-22",
-          "halal": 94.46,
-          "index": 95.08
+          "halal": 95.49,
+          "index": 96.15
         },
         {
           "date": "2023-09-29",
-          "halal": 95.69,
-          "index": 95.18
+          "halal": 96.71,
+          "index": 96.24
         },
         {
           "date": "2023-10-06",
-          "halal": 98.38,
-          "index": 96.89
+          "halal": 99.43,
+          "index": 97.97
         },
         {
           "date": "2023-10-13",
-          "halal": 98.51,
-          "index": 97.04
+          "halal": 99.56,
+          "index": 98.13
         },
         {
           "date": "2023-10-20",
-          "halal": 93.36,
-          "index": 94.2
+          "halal": 94.37,
+          "index": 95.26
         },
         {
           "date": "2023-10-27",
-          "halal": 91.32,
-          "index": 91.73
+          "halal": 92.31,
+          "index": 92.76
         },
         {
           "date": "2023-11-03",
-          "halal": 98.7,
-          "index": 97.68
+          "halal": 99.7,
+          "index": 98.78
         },
         {
           "date": "2023-11-10",
-          "halal": 103.09,
-          "index": 100.52
+          "halal": 104.12,
+          "index": 101.65
         },
         {
           "date": "2023-11-17",
-          "halal": 105.88,
-          "index": 102.55
+          "halal": 106.97,
+          "index": 103.7
         },
         {
           "date": "2023-11-24",
-          "halal": 105.81,
-          "index": 103.48
+          "halal": 106.93,
+          "index": 104.64
         },
         {
           "date": "2023-12-01",
-          "halal": 105.58,
-          "index": 103.59
+          "halal": 106.71,
+          "index": 104.75
         },
         {
           "date": "2023-12-08",
-          "halal": 106.81,
-          "index": 104.18
+          "halal": 107.98,
+          "index": 105.35
         },
         {
           "date": "2023-12-15",
-          "halal": 112.42,
-          "index": 107.68
+          "halal": 113.68,
+          "index": 108.89
         },
         {
           "date": "2023-12-22",
-          "halal": 112.56,
-          "index": 108.71
+          "halal": 113.79,
+          "index": 109.92
         },
         {
           "date": "2023-12-29",
-          "halal": 113.12,
-          "index": 109.07
+          "halal": 114.36,
+          "index": 110.29
         },
         {
           "date": "2024-01-05",
-          "halal": 108.96,
-          "index": 105.67
+          "halal": 110.07,
+          "index": 106.85
         },
         {
           "date": "2024-01-12",
-          "halal": 113.6,
-          "index": 109.08
+          "halal": 114.67,
+          "index": 110.3
         },
         {
           "date": "2024-01-19",
-          "halal": 119.76,
-          "index": 112.17
+          "halal": 120.87,
+          "index": 113.43
         },
         {
           "date": "2024-01-26",
-          "halal": 119.88,
-          "index": 112.87
+          "halal": 120.91,
+          "index": 114.14
         },
         {
           "date": "2024-02-02",
-          "halal": 121.77,
-          "index": 114.26
+          "halal": 122.69,
+          "index": 115.54
         },
         {
           "date": "2024-02-09",
-          "halal": 127.46,
-          "index": 116.4
+          "halal": 128.37,
+          "index": 117.7
         },
         {
           "date": "2024-02-16",
-          "halal": 126.15,
-          "index": 114.67
+          "halal": 127.06,
+          "index": 115.96
         },
         {
           "date": "2024-02-23",
-          "halal": 129.53,
-          "index": 116.33
+          "halal": 130.34,
+          "index": 117.63
         },
         {
           "date": "2024-03-01",
-          "halal": 134.78,
-          "index": 118.68
+          "halal": 135.61,
+          "index": 120.01
         },
         {
           "date": "2024-03-08",
-          "halal": 133.68,
-          "index": 116.92
+          "halal": 134.31,
+          "index": 118.23
         },
         {
           "date": "2024-03-15",
-          "halal": 131.38,
-          "index": 115.56
+          "halal": 131.95,
+          "index": 116.86
         },
         {
           "date": "2024-03-22",
-          "halal": 137.12,
-          "index": 119.04
+          "halal": 137.6,
+          "index": 120.38
         },
         {
           "date": "2024-03-29",
-          "halal": 136.37,
-          "index": 118.41
+          "halal": 136.88,
+          "index": 119.74
         },
         {
           "date": "2024-04-05",
-          "halal": 133.95,
-          "index": 117.46
+          "halal": 134.44,
+          "index": 118.78
         },
         {
           "date": "2024-04-12",
-          "halal": 134.29,
-          "index": 116.88
+          "halal": 134.82,
+          "index": 118.19
         },
         {
           "date": "2024-04-19",
-          "halal": 122.2,
-          "index": 110.58
+          "halal": 122.71,
+          "index": 111.82
         },
         {
           "date": "2024-04-26",
-          "halal": 131.83,
-          "index": 114.94
+          "halal": 132.28,
+          "index": 116.23
         },
         {
           "date": "2024-05-03",
-          "halal": 134.38,
-          "index": 116.13
+          "halal": 134.88,
+          "index": 117.44
         },
         {
           "date": "2024-05-10",
-          "halal": 135.7,
-          "index": 117.89
+          "halal": 136.19,
+          "index": 119.21
         },
         {
           "date": "2024-05-17",
-          "halal": 140.26,
-          "index": 120.48
+          "halal": 140.81,
+          "index": 121.83
         },
         {
           "date": "2024-05-24",
-          "halal": 146.21,
-          "index": 122.13
+          "halal": 146.6,
+          "index": 123.5
         },
         {
           "date": "2024-05-31",
-          "halal": 145.83,
-          "index": 120.2
+          "halal": 146.19,
+          "index": 121.54
         },
         {
           "date": "2024-06-07",
-          "halal": 152.02,
-          "index": 123.46
+          "halal": 152.29,
+          "index": 124.85
         },
         {
           "date": "2024-06-14",
-          "halal": 161.98,
-          "index": 127.79
+          "halal": 162.23,
+          "index": 129.22
         },
         {
           "date": "2024-06-21",
-          "halal": 160.15,
-          "index": 128.05
+          "halal": 160.44,
+          "index": 129.49
         },
         {
           "date": "2024-06-28",
-          "halal": 159.89,
-          "index": 127.97
+          "halal": 160.25,
+          "index": 129.41
         },
         {
           "date": "2024-07-05",
-          "halal": 167.45,
-          "index": 132.53
+          "halal": 168.03,
+          "index": 134.01
         },
         {
           "date": "2024-07-12",
-          "halal": 170.28,
-          "index": 132.17
+          "halal": 170.86,
+          "index": 133.65
         },
         {
           "date": "2024-07-19",
-          "halal": 159.32,
-          "index": 126.94
+          "halal": 159.89,
+          "index": 128.36
         },
         {
           "date": "2024-07-26",
-          "halal": 154.02,
-          "index": 123.66
+          "halal": 154.53,
+          "index": 125.05
         },
         {
           "date": "2024-08-02",
-          "halal": 145.92,
-          "index": 119.86
+          "halal": 146.41,
+          "index": 121.21
         },
         {
           "date": "2024-08-09",
-          "halal": 146.22,
-          "index": 120.31
+          "halal": 146.69,
+          "index": 121.66
         },
         {
           "date": "2024-08-16",
-          "halal": 160.5,
-          "index": 126.88
+          "halal": 160.86,
+          "index": 128.3
         },
         {
           "date": "2024-08-23",
-          "halal": 162.98,
-          "index": 128.21
+          "halal": 163.32,
+          "index": 129.65
         },
         {
           "date": "2024-08-30",
-          "halal": 159.5,
-          "index": 127.21
+          "halal": 159.96,
+          "index": 128.64
         },
         {
           "date": "2024-09-06",
-          "halal": 145.53,
-          "index": 119.85
+          "halal": 146.06,
+          "index": 121.19
         },
         {
           "date": "2024-09-13",
-          "halal": 158.16,
-          "index": 126.97
+          "halal": 158.63,
+          "index": 128.39
         },
         {
           "date": "2024-09-20",
-          "halal": 159.84,
-          "index": 128.86
+          "halal": 160.4,
+          "index": 130.31
         },
         {
           "date": "2024-09-27",
-          "halal": 165.47,
-          "index": 130.2
+          "halal": 166.0,
+          "index": 131.66
         },
         {
           "date": "2024-10-04",
-          "halal": 165.77,
-          "index": 130.35
+          "halal": 166.27,
+          "index": 131.81
         },
         {
           "date": "2024-10-11",
-          "halal": 169.82,
-          "index": 131.96
+          "halal": 170.13,
+          "index": 133.44
         },
         {
           "date": "2024-10-18",
-          "halal": 170.57,
-          "index": 132.26
+          "halal": 170.86,
+          "index": 133.74
         },
         {
           "date": "2024-10-25",
-          "halal": 172.08,
-          "index": 132.49
+          "halal": 172.39,
+          "index": 133.97
         },
         {
           "date": "2024-11-01",
-          "halal": 166.22,
-          "index": 130.38
+          "halal": 166.49,
+          "index": 131.84
         },
         {
           "date": "2024-11-08",
-          "halal": 178.6,
-          "index": 137.52
+          "halal": 178.88,
+          "index": 139.06
         },
         {
           "date": "2024-11-15",
-          "halal": 170.81,
-          "index": 132.82
+          "halal": 171.07,
+          "index": 134.31
         },
         {
           "date": "2024-11-22",
-          "halal": 175.06,
-          "index": 135.29
+          "halal": 175.35,
+          "index": 136.81
         },
         {
           "date": "2024-11-29",
-          "halal": 174.81,
-          "index": 136.34
+          "halal": 175.16,
+          "index": 137.87
         },
         {
           "date": "2024-12-06",
-          "halal": 180.08,
-          "index": 140.82
+          "halal": 180.48,
+          "index": 142.4
         },
         {
           "date": "2024-12-13",
-          "halal": 181.92,
-          "index": 141.91
+          "halal": 182.53,
+          "index": 143.5
         },
         {
           "date": "2024-12-20",
-          "halal": 178.54,
-          "index": 138.73
+          "halal": 179.17,
+          "index": 140.29
         },
         {
           "date": "2024-12-27",
-          "halal": 181.73,
-          "index": 140.0
+          "halal": 182.42,
+          "index": 141.57
         },
         {
           "date": "2025-01-03",
-          "halal": 182.01,
-          "index": 138.93
+          "halal": 182.54,
+          "index": 140.49
         },
         {
           "date": "2025-01-10",
-          "halal": 177.44,
-          "index": 135.88
+          "halal": 177.94,
+          "index": 137.41
         },
         {
           "date": "2025-01-17",
-          "halal": 182.5,
-          "index": 139.78
+          "halal": 183.01,
+          "index": 141.35
         },
         {
           "date": "2025-01-24",
-          "halal": 183.31,
-          "index": 141.89
+          "halal": 183.73,
+          "index": 143.48
         },
         {
           "date": "2025-01-31",
-          "halal": 175.7,
-          "index": 139.93
+          "halal": 176.36,
+          "index": 141.5
         },
         {
           "date": "2025-02-07",
-          "halal": 176.93,
-          "index": 140.1
+          "halal": 177.34,
+          "index": 141.67
         },
         {
           "date": "2025-02-14",
-          "halal": 185.63,
-          "index": 144.18
+          "halal": 186.06,
+          "index": 145.79
         },
         {
           "date": "2025-02-21",
-          "halal": 182.66,
-          "index": 140.94
+          "halal": 183.12,
+          "index": 142.52
         },
         {
           "date": "2025-02-28",
-          "halal": 173.59,
-          "index": 136.14
+          "halal": 174.01,
+          "index": 137.67
         },
         {
           "date": "2025-03-07",
-          "halal": 165.73,
-          "index": 131.76
+          "halal": 166.19,
+          "index": 133.23
         },
         {
           "date": "2025-03-14",
-          "halal": 164.74,
-          "index": 128.51
+          "halal": 164.96,
+          "index": 129.95
         },
         {
           "date": "2025-03-21",
-          "halal": 164.17,
-          "index": 128.82
+          "halal": 164.48,
+          "index": 130.27
         },
         {
           "date": "2025-03-28",
-          "halal": 158.22,
-          "index": 125.82
+          "halal": 158.61,
+          "index": 127.23
         },
         {
           "date": "2025-04-04",
-          "halal": 136.97,
-          "index": 113.41
+          "halal": 137.32,
+          "index": 114.68
         },
         {
           "date": "2025-04-11",
-          "halal": 151.3,
-          "index": 121.92
+          "halal": 151.58,
+          "index": 123.29
         },
         {
           "date": "2025-04-18",
-          "halal": 145.93,
-          "index": 119.16
+          "halal": 146.26,
+          "index": 120.49
         },
         {
           "date": "2025-04-25",
-          "halal": 158.79,
-          "index": 126.79
+          "halal": 159.16,
+          "index": 128.21
         },
         {
           "date": "2025-05-02",
-          "halal": 162.36,
-          "index": 131.16
+          "halal": 162.68,
+          "index": 132.63
         },
         {
           "date": "2025-05-09",
-          "halal": 163.18,
-          "index": 130.93
+          "halal": 163.49,
+          "index": 132.4
         },
         {
           "date": "2025-05-16",
-          "halal": 180.23,
-          "index": 139.93
+          "halal": 180.47,
+          "index": 141.5
         },
         {
           "date": "2025-05-23",
-          "halal": 173.53,
-          "index": 136.63
+          "halal": 173.68,
+          "index": 138.17
         },
         {
           "date": "2025-05-30",
-          "halal": 177.27,
-          "index": 139.28
+          "halal": 177.4,
+          "index": 140.84
         },
         {
           "date": "2025-06-06",
           "halal": 182.31,
-          "index": 142.18
+          "index": 143.78
         },
         {
           "date": "2025-06-13",
-          "halal": 182.84,
-          "index": 141.39
+          "halal": 182.83,
+          "index": 142.97
         },
         {
           "date": "2025-06-20",
-          "halal": 186.01,
-          "index": 141.35
+          "halal": 186.06,
+          "index": 142.94
         },
         {
           "date": "2025-06-27",
-          "halal": 195.0,
-          "index": 147.22
+          "halal": 194.97,
+          "index": 148.87
         },
         {
           "date": "2025-07-04",
-          "halal": 198.66,
-          "index": 149.41
+          "halal": 198.64,
+          "index": 151.08
         },
         {
           "date": "2025-07-11",
-          "halal": 199.78,
-          "index": 148.86
+          "halal": 199.7,
+          "index": 150.53
         },
         {
           "date": "2025-07-18",
-          "halal": 202.76,
-          "index": 150.76
+          "halal": 202.68,
+          "index": 152.45
         },
         {
           "date": "2025-07-25",
-          "halal": 203.27,
-          "index": 152.13
+          "halal": 203.19,
+          "index": 153.84
         },
         {
           "date": "2025-08-01",
-          "halal": 198.12,
-          "index": 148.78
+          "halal": 197.96,
+          "index": 150.45
         },
         {
           "date": "2025-08-08",
-          "halal": 210.41,
-          "index": 154.33
+          "halal": 210.28,
+          "index": 156.06
         },
         {
           "date": "2025-08-15",
-          "halal": 211.69,
-          "index": 155.08
+          "halal": 211.68,
+          "index": 156.82
         },
         {
           "date": "2025-08-22",
-          "halal": 210.13,
-          "index": 153.64
+          "halal": 210.12,
+          "index": 155.36
         },
         {
           "date": "2025-08-29",
-          "halal": 209.38,
-          "index": 153.22
+          "halal": 209.43,
+          "index": 154.93
         },
         {
           "date": "2025-09-05",
-          "halal": 212.41,
-          "index": 154.74
+          "halal": 212.6,
+          "index": 156.47
         },
         {
           "date": "2025-09-12",
-          "halal": 220.89,
-          "index": 157.58
+          "halal": 220.97,
+          "index": 159.35
         },
         {
           "date": "2025-09-19",
-          "halal": 228.0,
-          "index": 160.99
+          "halal": 228.22,
+          "index": 162.8
         },
         {
           "date": "2025-09-26",
-          "halal": 231.03,
-          "index": 160.27
+          "halal": 231.43,
+          "index": 162.07
         },
         {
           "date": "2025-10-03",
-          "halal": 239.98,
-          "index": 162.21
+          "halal": 240.21,
+          "index": 164.03
         },
         {
           "date": "2025-10-10",
-          "halal": 233.61,
-          "index": 158.53
+          "halal": 233.96,
+          "index": 160.31
         },
         {
           "date": "2025-10-17",
-          "halal": 242.24,
-          "index": 162.41
+          "halal": 242.71,
+          "index": 164.23
         },
         {
           "date": "2025-10-24",
-          "halal": 248.9,
-          "index": 165.95
+          "halal": 249.42,
+          "index": 167.81
         },
         {
           "date": "2025-10-31",
-          "halal": 258.68,
-          "index": 169.17
+          "halal": 259.16,
+          "index": 171.07
         },
         {
           "date": "2025-11-07",
-          "halal": 250.34,
-          "index": 163.97
+          "halal": 250.87,
+          "index": 165.81
         },
         {
           "date": "2025-11-14",
-          "halal": 250.5,
-          "index": 163.74
+          "halal": 250.99,
+          "index": 165.57
         },
         {
           "date": "2025-11-21",
-          "halal": 240.25,
-          "index": 158.68
+          "halal": 240.78,
+          "index": 160.46
         },
         {
           "date": "2025-11-28",
-          "halal": 253.01,
-          "index": 166.53
+          "halal": 253.8,
+          "index": 168.4
         },
         {
           "date": "2025-12-05",
-          "halal": 257.87,
-          "index": 168.21
+          "halal": 258.64,
+          "index": 170.09
         },
         {
           "date": "2025-12-12",
-          "halal": 252.7,
-          "index": 165.02
+          "halal": 253.46,
+          "index": 166.87
         },
         {
           "date": "2025-12-19",
-          "halal": 255.05,
-          "index": 165.94
+          "halal": 255.62,
+          "index": 167.8
         },
         {
           "date": "2025-12-26",
-          "halal": 259.98,
-          "index": 167.99
+          "halal": 260.42,
+          "index": 169.88
         },
         {
           "date": "2026-01-02",
-          "halal": 259.57,
-          "index": 165.09
+          "halal": 260.0,
+          "index": 166.95
         },
         {
           "date": "2026-01-09",
-          "halal": 261.17,
-          "index": 168.74
+          "halal": 261.5,
+          "index": 170.63
         },
         {
           "date": "2026-01-16",
-          "halal": 263.41,
-          "index": 167.29
+          "halal": 263.76,
+          "index": 169.16
         },
         {
           "date": "2026-01-23",
-          "halal": 263.88,
-          "index": 167.68
+          "halal": 264.19,
+          "index": 169.56
         },
         {
           "date": "2026-01-30",
-          "halal": 267.9,
-          "index": 167.45
+          "halal": 268.24,
+          "index": 169.33
         },
         {
           "date": "2026-02-06",
-          "halal": 269.16,
-          "index": 164.16
+          "halal": 269.71,
+          "index": 166.0
         },
         {
           "date": "2026-02-13",
-          "halal": 264.29,
-          "index": 162.08
+          "halal": 264.73,
+          "index": 163.9
         },
         {
           "date": "2026-02-20",
-          "halal": 269.55,
-          "index": 163.93
+          "halal": 269.87,
+          "index": 165.77
         },
         {
           "date": "2026-02-27",
-          "halal": 264.08,
-          "index": 163.52
+          "halal": 264.54,
+          "index": 165.36
         },
         {
           "date": "2026-03-06",
-          "halal": 258.15,
-          "index": 161.49
+          "halal": 258.54,
+          "index": 163.3
         },
         {
           "date": "2026-03-13",
-          "halal": 259.06,
-          "index": 159.87
+          "halal": 259.36,
+          "index": 161.66
         },
         {
           "date": "2026-03-20",
-          "halal": 254.64,
-          "index": 156.73
+          "halal": 255.03,
+          "index": 158.49
         },
         {
           "date": "2026-03-27",
-          "halal": 248.46,
-          "index": 151.68
+          "halal": 249.01,
+          "index": 153.38
         },
         {
           "date": "2026-04-03",
-          "halal": 259.0,
-          "index": 157.72
+          "halal": 259.57,
+          "index": 159.48
         },
         {
           "date": "2026-04-10",
-          "halal": 274.94,
-          "index": 164.75
+          "halal": 275.57,
+          "index": 166.6
         },
         {
           "date": "2026-04-17",
-          "halal": 293.26,
-          "index": 174.94
+          "halal": 293.95,
+          "index": 176.9
         },
         {
           "date": "2026-04-24",
-          "halal": 304.71,
-          "index": 178.99
+          "halal": 305.62,
+          "index": 180.99
         },
         {
           "date": "2026-05-01",
-          "halal": 307.41,
-          "index": 181.76
+          "halal": 308.67,
+          "index": 183.79
         },
         {
           "date": "2026-05-08",
-          "halal": 333.27,
-          "index": 191.75
+          "halal": 334.78,
+          "index": 193.9
         },
         {
           "date": "2026-05-15",
-          "halal": 336.61,
-          "index": 191.13
+          "halal": 338.02,
+          "index": 193.28
         },
         {
           "date": "2026-05-22",
-          "halal": 342.91,
-          "index": 193.46
+          "halal": 344.69,
+          "index": 195.62
         },
         {
           "date": "2026-05-29",
-          "halal": 352.66,
-          "index": 199.05
+          "halal": 354.53,
+          "index": 201.29
         },
         {
           "date": "2026-06-05",
-          "halal": 339.25,
-          "index": 190.09
+          "halal": 340.9,
+          "index": 192.22
         },
         {
           "date": "2026-06-12",
-          "halal": 347.51,
-          "index": 194.48
+          "halal": 349.2,
+          "index": 196.66
         },
         {
           "date": "2026-06-19",
-          "halal": 360.18,
-          "index": 199.68
+          "halal": 361.99,
+          "index": 201.92
         },
         {
           "date": "2026-06-26",
-          "halal": 341.6,
-          "index": 190.69
+          "halal": 343.24,
+          "index": 192.83
         },
         {
           "date": "2026-07-03",
-          "halal": 346.74,
-          "index": 192.33
+          "halal": 348.51,
+          "index": 194.49
         },
         {
           "date": "2026-07-10",
-          "halal": 359.93,
-          "index": 195.82
+          "halal": 361.71,
+          "index": 198.01
         },
         {
           "date": "2026-07-17",
-          "halal": 347.55,
-          "index": 187.67
+          "halal": 349.33,
+          "index": 189.78
         },
         {
           "date": "2026-07-24",
-          "halal": 347.16,
-          "index": 184.68
+          "halal": 348.76,
+          "index": 186.75
         },
         {
           "date": "2026-07-31",
-          "halal": 337.68,
-          "index": 185.69
+          "halal": 339.09,
+          "index": 187.77
         },
         {
           "date": "2026-08-07",
-          "halal": 360.0,
-          "index": 195.15
+          "halal": 361.19,
+          "index": 197.34
         },
         {
           "date": "2026-08-14",
-          "halal": 362.38,
-          "index": 197.32
+          "halal": 363.49,
+          "index": 199.53
         },
         {
           "date": "2026-08-21",
-          "halal": 354.32,
-          "index": 192.56
+          "halal": 355.39,
+          "index": 194.72
         },
         {
           "date": "2026-08-28",
-          "halal": 355.59,
-          "index": 193.37
+          "halal": 356.66,
+          "index": 195.54
         },
         {
           "date": "2026-09-04",
-          "halal": 361.77,
-          "index": 194.05
+          "halal": 362.69,
+          "index": 196.23
+        },
+        {
+          "date": "2026-09-11",
+          "halal": 358.53,
+          "index": 193.42
         }
       ]
     },
     "5y": {
-      "start_date": "2021-09-10",
-      "end_date": "2026-09-04",
+      "start_date": "2021-09-17",
+      "end_date": "2026-09-11",
       "data_points": 261,
       "available_tickers": 66,
       "total_tickers": 66,
-      "halal_return_pct": 405.87,
-      "index_return_pct": 95.23,
-      "outperformance_pct": 310.64,
+      "halal_return_pct": 395.69,
+      "index_return_pct": 94.04,
+      "outperformance_pct": 301.64,
       "series": [
         {
-          "date": "2021-09-10",
-          "halal": 99.55,
-          "index": 99.24
-        },
-        {
           "date": "2021-09-17",
-          "halal": 99.02,
-          "index": 98.51
+          "halal": 99.4,
+          "index": 99.34
         },
         {
           "date": "2021-09-24",
-          "halal": 99.78,
-          "index": 98.49
+          "halal": 100.18,
+          "index": 99.31
         },
         {
           "date": "2021-10-01",
-          "halal": 95.63,
-          "index": 95.02
+          "halal": 96.06,
+          "index": 95.81
         },
         {
           "date": "2021-10-08",
-          "halal": 95.83,
-          "index": 95.28
+          "halal": 96.27,
+          "index": 96.08
         },
         {
           "date": "2021-10-15",
-          "halal": 98.7,
-          "index": 97.33
+          "halal": 99.15,
+          "index": 98.14
         },
         {
           "date": "2021-10-22",
-          "halal": 101.32,
-          "index": 98.69
+          "halal": 101.79,
+          "index": 99.52
         },
         {
           "date": "2021-10-29",
-          "halal": 106.29,
-          "index": 101.86
+          "halal": 106.74,
+          "index": 102.71
         },
         {
           "date": "2021-11-05",
-          "halal": 114.13,
-          "index": 105.16
+          "halal": 114.5,
+          "index": 106.04
         },
         {
           "date": "2021-11-12",
-          "halal": 114.63,
-          "index": 104.13
-        },
-        {
-          "date": "2021-11-19",
-          "halal": 119.62,
-          "index": 106.58
-        },
-        {
-          "date": "2021-11-26",
-          "halal": 115.8,
-          "index": 103.21
-        },
-        {
-          "date": "2021-12-03",
-          "halal": 115.15,
-          "index": 101.08
-        },
-        {
-          "date": "2021-12-10",
-          "halal": 119.73,
+          "halal": 114.94,
           "index": 105.0
         },
         {
+          "date": "2021-11-19",
+          "halal": 119.95,
+          "index": 107.47
+        },
+        {
+          "date": "2021-11-26",
+          "halal": 116.15,
+          "index": 104.07
+        },
+        {
+          "date": "2021-12-03",
+          "halal": 115.54,
+          "index": 101.92
+        },
+        {
+          "date": "2021-12-10",
+          "halal": 120.24,
+          "index": 105.88
+        },
+        {
           "date": "2021-12-17",
-          "halal": 114.89,
-          "index": 101.55
+          "halal": 115.42,
+          "index": 102.39
         },
         {
           "date": "2021-12-24",
-          "halal": 121.3,
-          "index": 104.85
+          "halal": 121.83,
+          "index": 105.72
         },
         {
           "date": "2021-12-31",
-          "halal": 121.37,
-          "index": 105.09
+          "halal": 121.92,
+          "index": 105.97
         },
         {
           "date": "2022-01-07",
-          "halal": 115.75,
-          "index": 100.34
+          "halal": 116.34,
+          "index": 101.18
         },
         {
           "date": "2022-01-14",
-          "halal": 116.13,
-          "index": 100.38
+          "halal": 116.73,
+          "index": 101.22
         },
         {
           "date": "2022-01-21",
-          "halal": 104.83,
-          "index": 92.9
+          "halal": 105.45,
+          "index": 93.68
         },
         {
           "date": "2022-01-28",
-          "halal": 103.7,
-          "index": 92.93
+          "halal": 104.33,
+          "index": 93.7
         },
         {
           "date": "2022-02-04",
-          "halal": 107.77,
-          "index": 94.57
+          "halal": 108.43,
+          "index": 95.36
         },
         {
           "date": "2022-02-11",
-          "halal": 105.94,
-          "index": 91.68
+          "halal": 106.53,
+          "index": 92.44
         },
         {
           "date": "2022-02-18",
-          "halal": 105.22,
-          "index": 90.21
+          "halal": 105.84,
+          "index": 90.96
         },
         {
           "date": "2022-02-25",
-          "halal": 106.28,
-          "index": 91.34
+          "halal": 106.88,
+          "index": 92.1
         },
         {
           "date": "2022-03-04",
-          "halal": 103.19,
-          "index": 89.1
+          "halal": 103.84,
+          "index": 89.84
         },
         {
           "date": "2022-03-11",
-          "halal": 98.62,
-          "index": 85.69
+          "halal": 99.24,
+          "index": 86.41
         },
         {
           "date": "2022-03-18",
-          "halal": 109.39,
-          "index": 92.85
+          "halal": 109.92,
+          "index": 93.62
         },
         {
           "date": "2022-03-25",
-          "halal": 113.75,
-          "index": 95.04
+          "halal": 114.39,
+          "index": 95.83
         },
         {
           "date": "2022-04-01",
-          "halal": 112.55,
-          "index": 95.7
+          "halal": 113.17,
+          "index": 96.5
         },
         {
           "date": "2022-04-08",
-          "halal": 105.61,
-          "index": 92.34
+          "halal": 106.3,
+          "index": 93.11
         },
         {
           "date": "2022-04-15",
-          "halal": 101.45,
-          "index": 89.51
+          "halal": 102.15,
+          "index": 90.26
         },
         {
           "date": "2022-04-22",
-          "halal": 98.41,
-          "index": 86.06
+          "halal": 99.18,
+          "index": 86.78
         },
         {
           "date": "2022-04-29",
-          "halal": 94.46,
-          "index": 82.85
+          "halal": 95.2,
+          "index": 83.54
         },
         {
           "date": "2022-05-06",
-          "halal": 95.02,
-          "index": 81.79
+          "halal": 95.8,
+          "index": 82.47
         },
         {
           "date": "2022-05-13",
-          "halal": 92.1,
-          "index": 79.86
+          "halal": 92.83,
+          "index": 80.52
         },
         {
           "date": "2022-05-20",
-          "halal": 87.32,
-          "index": 76.35
+          "halal": 87.98,
+          "index": 76.99
         },
         {
           "date": "2022-05-27",
-          "halal": 95.47,
-          "index": 81.75
+          "halal": 96.19,
+          "index": 82.43
         },
         {
           "date": "2022-06-03",
-          "halal": 93.47,
-          "index": 80.98
+          "halal": 94.15,
+          "index": 81.66
         },
         {
           "date": "2022-06-10",
-          "halal": 87.32,
-          "index": 76.39
+          "halal": 87.99,
+          "index": 77.03
         },
         {
           "date": "2022-06-17",
-          "halal": 81.67,
-          "index": 72.65
+          "halal": 82.3,
+          "index": 73.26
         },
         {
           "date": "2022-06-24",
-          "halal": 87.6,
-          "index": 78.07
+          "halal": 88.26,
+          "index": 78.72
         },
         {
           "date": "2022-07-01",
-          "halal": 80.67,
-          "index": 74.76
+          "halal": 81.37,
+          "index": 75.39
         },
         {
           "date": "2022-07-08",
-          "halal": 85.83,
-          "index": 78.26
+          "halal": 86.55,
+          "index": 78.92
         },
         {
           "date": "2022-07-15",
-          "halal": 86.17,
-          "index": 77.34
+          "halal": 86.92,
+          "index": 77.99
         },
         {
           "date": "2022-07-22",
-          "halal": 91.15,
-          "index": 80.02
+          "halal": 91.9,
+          "index": 80.69
         },
         {
           "date": "2022-07-29",
-          "halal": 95.3,
-          "index": 83.59
+          "halal": 96.1,
+          "index": 84.29
         },
         {
           "date": "2022-08-05",
-          "halal": 97.83,
-          "index": 85.26
-        },
-        {
-          "date": "2022-08-12",
-          "halal": 99.56,
-          "index": 87.55
-        },
-        {
-          "date": "2022-08-19",
-          "halal": 96.6,
-          "index": 85.55
-        },
-        {
-          "date": "2022-08-26",
-          "halal": 91.38,
-          "index": 81.47
-        },
-        {
-          "date": "2022-09-02",
-          "halal": 84.39,
-          "index": 78.22
-        },
-        {
-          "date": "2022-09-09",
-          "halal": 88.3,
-          "index": 81.38
-        },
-        {
-          "date": "2022-09-16",
-          "halal": 83.13,
-          "index": 76.67
-        },
-        {
-          "date": "2022-09-23",
-          "halal": 79.21,
-          "index": 73.14
-        },
-        {
-          "date": "2022-09-30",
-          "halal": 76.12,
-          "index": 70.95
-        },
-        {
-          "date": "2022-10-07",
-          "halal": 76.43,
-          "index": 71.44
-        },
-        {
-          "date": "2022-10-14",
-          "halal": 72.65,
-          "index": 69.22
-        },
-        {
-          "date": "2022-10-21",
-          "halal": 78.23,
-          "index": 73.11
-        },
-        {
-          "date": "2022-10-28",
-          "halal": 83.39,
-          "index": 74.65
-        },
-        {
-          "date": "2022-11-04",
-          "halal": 80.86,
-          "index": 70.26
-        },
-        {
-          "date": "2022-11-11",
-          "halal": 89.24,
-          "index": 76.44
-        },
-        {
-          "date": "2022-11-18",
-          "halal": 87.27,
-          "index": 75.61
-        },
-        {
-          "date": "2022-11-25",
-          "halal": 88.63,
-          "index": 76.17
-        },
-        {
-          "date": "2022-12-02",
-          "halal": 90.03,
-          "index": 77.66
-        },
-        {
-          "date": "2022-12-09",
-          "halal": 88.08,
-          "index": 74.87
-        },
-        {
-          "date": "2022-12-16",
-          "halal": 84.68,
-          "index": 72.8
-        },
-        {
-          "date": "2022-12-23",
-          "halal": 80.81,
-          "index": 71.14
-        },
-        {
-          "date": "2022-12-30",
-          "halal": 80.04,
-          "index": 70.86
-        },
-        {
-          "date": "2023-01-06",
-          "halal": 81.66,
-          "index": 71.53
-        },
-        {
-          "date": "2023-01-13",
-          "halal": 86.67,
-          "index": 74.77
-        },
-        {
-          "date": "2023-01-20",
-          "halal": 88.55,
-          "index": 75.22
-        },
-        {
-          "date": "2023-01-27",
-          "halal": 96.0,
-          "index": 78.84
-        },
-        {
-          "date": "2023-02-03",
-          "halal": 99.64,
-          "index": 81.47
-        },
-        {
-          "date": "2023-02-10",
-          "halal": 98.56,
-          "index": 79.75
-        },
-        {
-          "date": "2023-02-17",
-          "halal": 99.25,
-          "index": 80.14
-        },
-        {
-          "date": "2023-02-24",
-          "halal": 98.93,
-          "index": 77.66
-        },
-        {
-          "date": "2023-03-03",
-          "halal": 101.79,
-          "index": 79.75
-        },
-        {
-          "date": "2023-03-10",
-          "halal": 98.15,
-          "index": 76.78
-        },
-        {
-          "date": "2023-03-17",
-          "halal": 104.08,
-          "index": 81.26
-        },
-        {
-          "date": "2023-03-24",
-          "halal": 107.08,
-          "index": 82.86
-        },
-        {
-          "date": "2023-03-31",
-          "halal": 110.96,
-          "index": 85.53
-        },
-        {
-          "date": "2023-04-07",
-          "halal": 107.85,
-          "index": 84.76
-        },
-        {
-          "date": "2023-04-14",
-          "halal": 108.28,
-          "index": 84.9
-        },
-        {
-          "date": "2023-04-21",
-          "halal": 107.39,
-          "index": 84.38
-        },
-        {
-          "date": "2023-04-28",
-          "halal": 108.75,
+          "halal": 98.6,
           "index": 85.97
         },
         {
+          "date": "2022-08-12",
+          "halal": 100.38,
+          "index": 88.28
+        },
+        {
+          "date": "2022-08-19",
+          "halal": 97.45,
+          "index": 86.27
+        },
+        {
+          "date": "2022-08-26",
+          "halal": 92.23,
+          "index": 82.15
+        },
+        {
+          "date": "2022-09-02",
+          "halal": 85.24,
+          "index": 78.87
+        },
+        {
+          "date": "2022-09-09",
+          "halal": 89.17,
+          "index": 82.05
+        },
+        {
+          "date": "2022-09-16",
+          "halal": 83.99,
+          "index": 77.31
+        },
+        {
+          "date": "2022-09-23",
+          "halal": 80.04,
+          "index": 73.75
+        },
+        {
+          "date": "2022-09-30",
+          "halal": 76.87,
+          "index": 71.54
+        },
+        {
+          "date": "2022-10-07",
+          "halal": 77.14,
+          "index": 72.03
+        },
+        {
+          "date": "2022-10-14",
+          "halal": 73.34,
+          "index": 69.8
+        },
+        {
+          "date": "2022-10-21",
+          "halal": 78.93,
+          "index": 73.72
+        },
+        {
+          "date": "2022-10-28",
+          "halal": 84.09,
+          "index": 75.28
+        },
+        {
+          "date": "2022-11-04",
+          "halal": 81.43,
+          "index": 70.85
+        },
+        {
+          "date": "2022-11-11",
+          "halal": 89.8,
+          "index": 77.08
+        },
+        {
+          "date": "2022-11-18",
+          "halal": 87.87,
+          "index": 76.24
+        },
+        {
+          "date": "2022-11-25",
+          "halal": 89.19,
+          "index": 76.8
+        },
+        {
+          "date": "2022-12-02",
+          "halal": 90.57,
+          "index": 78.31
+        },
+        {
+          "date": "2022-12-09",
+          "halal": 88.55,
+          "index": 75.5
+        },
+        {
+          "date": "2022-12-16",
+          "halal": 85.1,
+          "index": 73.41
+        },
+        {
+          "date": "2022-12-23",
+          "halal": 81.23,
+          "index": 71.74
+        },
+        {
+          "date": "2022-12-30",
+          "halal": 80.48,
+          "index": 71.45
+        },
+        {
+          "date": "2023-01-06",
+          "halal": 82.06,
+          "index": 72.12
+        },
+        {
+          "date": "2023-01-13",
+          "halal": 87.03,
+          "index": 75.39
+        },
+        {
+          "date": "2023-01-20",
+          "halal": 88.89,
+          "index": 75.85
+        },
+        {
+          "date": "2023-01-27",
+          "halal": 96.35,
+          "index": 79.49
+        },
+        {
+          "date": "2023-02-03",
+          "halal": 100.06,
+          "index": 82.15
+        },
+        {
+          "date": "2023-02-10",
+          "halal": 98.97,
+          "index": 80.42
+        },
+        {
+          "date": "2023-02-17",
+          "halal": 99.67,
+          "index": 80.81
+        },
+        {
+          "date": "2023-02-24",
+          "halal": 99.24,
+          "index": 78.31
+        },
+        {
+          "date": "2023-03-03",
+          "halal": 102.13,
+          "index": 80.41
+        },
+        {
+          "date": "2023-03-10",
+          "halal": 98.49,
+          "index": 77.42
+        },
+        {
+          "date": "2023-03-17",
+          "halal": 104.4,
+          "index": 81.93
+        },
+        {
+          "date": "2023-03-24",
+          "halal": 107.39,
+          "index": 83.55
+        },
+        {
+          "date": "2023-03-31",
+          "halal": 111.29,
+          "index": 86.25
+        },
+        {
+          "date": "2023-04-07",
+          "halal": 108.14,
+          "index": 85.47
+        },
+        {
+          "date": "2023-04-14",
+          "halal": 108.57,
+          "index": 85.61
+        },
+        {
+          "date": "2023-04-21",
+          "halal": 107.62,
+          "index": 85.08
+        },
+        {
+          "date": "2023-04-28",
+          "halal": 108.97,
+          "index": 86.68
+        },
+        {
           "date": "2023-05-05",
-          "halal": 110.37,
-          "index": 86.05
+          "halal": 110.57,
+          "index": 86.77
         },
         {
           "date": "2023-05-12",
-          "halal": 109.93,
-          "index": 86.62
+          "halal": 110.15,
+          "index": 87.35
         },
         {
           "date": "2023-05-19",
-          "halal": 116.7,
-          "index": 89.68
+          "halal": 116.88,
+          "index": 90.43
         },
         {
           "date": "2023-05-26",
-          "halal": 127.91,
-          "index": 92.85
+          "halal": 127.96,
+          "index": 93.63
         },
         {
           "date": "2023-06-02",
-          "halal": 129.46,
-          "index": 94.52
+          "halal": 129.55,
+          "index": 95.31
         },
         {
           "date": "2023-06-09",
-          "halal": 129.91,
-          "index": 94.48
+          "halal": 130.08,
+          "index": 95.27
         },
         {
           "date": "2023-06-16",
-          "halal": 136.71,
-          "index": 98.06
+          "halal": 136.82,
+          "index": 98.88
         },
         {
           "date": "2023-06-23",
-          "halal": 134.11,
-          "index": 96.75
+          "halal": 134.19,
+          "index": 97.56
         },
         {
           "date": "2023-06-30",
-          "halal": 137.23,
-          "index": 98.59
+          "halal": 137.38,
+          "index": 99.41
         },
         {
           "date": "2023-07-07",
-          "halal": 135.56,
-          "index": 97.74
+          "halal": 135.7,
+          "index": 98.56
         },
         {
           "date": "2023-07-14",
-          "halal": 140.91,
-          "index": 101.17
+          "halal": 140.95,
+          "index": 102.01
         },
         {
           "date": "2023-07-21",
-          "halal": 139.57,
-          "index": 100.25
+          "halal": 139.62,
+          "index": 101.08
         },
         {
           "date": "2023-07-28",
-          "halal": 144.39,
-          "index": 102.34
+          "halal": 144.38,
+          "index": 103.2
         },
         {
           "date": "2023-08-04",
-          "halal": 138.7,
-          "index": 99.29
+          "halal": 138.68,
+          "index": 100.12
         },
         {
           "date": "2023-08-11",
-          "halal": 133.07,
-          "index": 97.74
+          "halal": 133.09,
+          "index": 98.56
         },
         {
           "date": "2023-08-18",
-          "halal": 132.42,
-          "index": 95.58
+          "halal": 132.32,
+          "index": 96.37
         },
         {
           "date": "2023-08-25",
-          "halal": 136.64,
-          "index": 97.15
+          "halal": 136.51,
+          "index": 97.96
         },
         {
           "date": "2023-09-01",
-          "halal": 143.79,
-          "index": 100.77
+          "halal": 143.64,
+          "index": 101.61
         },
         {
           "date": "2023-09-08",
-          "halal": 138.89,
-          "index": 99.43
+          "halal": 138.76,
+          "index": 100.26
         },
         {
           "date": "2023-09-15",
-          "halal": 136.78,
-          "index": 98.96
+          "halal": 136.72,
+          "index": 99.79
         },
         {
           "date": "2023-09-22",
-          "halal": 132.08,
-          "index": 95.66
+          "halal": 132.03,
+          "index": 96.46
         },
         {
           "date": "2023-09-29",
-          "halal": 133.8,
-          "index": 95.75
+          "halal": 133.71,
+          "index": 96.55
         },
         {
           "date": "2023-10-06",
-          "halal": 137.57,
-          "index": 97.47
-        },
-        {
-          "date": "2023-10-13",
-          "halal": 137.75,
-          "index": 97.63
-        },
-        {
-          "date": "2023-10-20",
-          "halal": 130.55,
-          "index": 94.77
-        },
-        {
-          "date": "2023-10-27",
-          "halal": 127.69,
-          "index": 92.29
-        },
-        {
-          "date": "2023-11-03",
-          "halal": 138.01,
+          "halal": 137.47,
           "index": 98.28
         },
         {
+          "date": "2023-10-13",
+          "halal": 137.65,
+          "index": 98.44
+        },
+        {
+          "date": "2023-10-20",
+          "halal": 130.48,
+          "index": 95.56
+        },
+        {
+          "date": "2023-10-27",
+          "halal": 127.62,
+          "index": 93.06
+        },
+        {
+          "date": "2023-11-03",
+          "halal": 137.85,
+          "index": 99.1
+        },
+        {
           "date": "2023-11-10",
-          "halal": 144.15,
-          "index": 101.13
+          "halal": 143.95,
+          "index": 101.97
         },
         {
           "date": "2023-11-17",
-          "halal": 148.06,
-          "index": 103.18
+          "halal": 147.89,
+          "index": 104.04
         },
         {
           "date": "2023-11-24",
-          "halal": 147.96,
-          "index": 104.1
+          "halal": 147.84,
+          "index": 104.97
         },
         {
           "date": "2023-12-01",
-          "halal": 147.64,
-          "index": 104.22
+          "halal": 147.54,
+          "index": 105.09
         },
         {
           "date": "2023-12-08",
-          "halal": 149.35,
-          "index": 104.81
+          "halal": 149.28,
+          "index": 105.69
         },
         {
           "date": "2023-12-15",
-          "halal": 157.2,
-          "index": 108.33
+          "halal": 157.17,
+          "index": 109.24
         },
         {
           "date": "2023-12-22",
-          "halal": 157.39,
-          "index": 109.36
+          "halal": 157.33,
+          "index": 110.28
         },
         {
           "date": "2023-12-29",
-          "halal": 158.18,
-          "index": 109.73
+          "halal": 158.11,
+          "index": 110.64
         },
         {
           "date": "2024-01-05",
-          "halal": 152.36,
-          "index": 106.31
+          "halal": 152.18,
+          "index": 107.19
         },
         {
           "date": "2024-01-12",
-          "halal": 158.85,
-          "index": 109.74
+          "halal": 158.53,
+          "index": 110.65
         },
         {
           "date": "2024-01-19",
-          "halal": 167.46,
-          "index": 112.85
+          "halal": 167.11,
+          "index": 113.79
         },
         {
           "date": "2024-01-26",
-          "halal": 167.63,
-          "index": 113.56
+          "halal": 167.16,
+          "index": 114.5
         },
         {
           "date": "2024-02-02",
-          "halal": 170.27,
-          "index": 114.95
+          "halal": 169.63,
+          "index": 115.91
         },
         {
           "date": "2024-02-09",
-          "halal": 178.23,
-          "index": 117.1
+          "halal": 177.48,
+          "index": 118.08
         },
         {
           "date": "2024-02-16",
-          "halal": 176.4,
-          "index": 115.37
+          "halal": 175.67,
+          "index": 116.33
         },
         {
           "date": "2024-02-23",
-          "halal": 181.12,
-          "index": 117.03
+          "halal": 180.21,
+          "index": 118.01
         },
         {
           "date": "2024-03-01",
-          "halal": 188.46,
-          "index": 119.4
+          "halal": 187.49,
+          "index": 120.39
         },
         {
           "date": "2024-03-08",
-          "halal": 186.92,
-          "index": 117.63
+          "halal": 185.69,
+          "index": 118.61
         },
         {
           "date": "2024-03-15",
-          "halal": 183.71,
-          "index": 116.26
+          "halal": 182.43,
+          "index": 117.23
         },
         {
           "date": "2024-03-22",
-          "halal": 191.73,
-          "index": 119.76
+          "halal": 190.24,
+          "index": 120.76
         },
         {
           "date": "2024-03-29",
-          "halal": 190.69,
-          "index": 119.13
+          "halal": 189.25,
+          "index": 120.12
         },
         {
           "date": "2024-04-05",
-          "halal": 187.31,
-          "index": 118.18
+          "halal": 185.87,
+          "index": 119.16
         },
         {
           "date": "2024-04-12",
-          "halal": 187.78,
-          "index": 117.59
+          "halal": 186.39,
+          "index": 118.57
         },
         {
           "date": "2024-04-19",
-          "halal": 170.87,
-          "index": 111.25
+          "halal": 169.65,
+          "index": 112.18
         },
         {
           "date": "2024-04-26",
-          "halal": 184.33,
-          "index": 115.63
+          "halal": 182.88,
+          "index": 116.6
         },
         {
           "date": "2024-05-03",
-          "halal": 187.91,
-          "index": 116.84
+          "halal": 186.48,
+          "index": 117.81
         },
         {
           "date": "2024-05-10",
-          "halal": 189.75,
-          "index": 118.6
+          "halal": 188.29,
+          "index": 119.59
         },
         {
           "date": "2024-05-17",
-          "halal": 196.13,
-          "index": 121.2
+          "halal": 194.68,
+          "index": 122.22
         },
         {
           "date": "2024-05-24",
-          "halal": 204.44,
-          "index": 122.87
+          "halal": 202.69,
+          "index": 123.89
         },
         {
           "date": "2024-05-31",
-          "halal": 203.92,
-          "index": 120.92
+          "halal": 202.12,
+          "index": 121.93
         },
         {
           "date": "2024-06-07",
-          "halal": 212.58,
-          "index": 124.21
+          "halal": 210.55,
+          "index": 125.25
         },
         {
           "date": "2024-06-14",
-          "halal": 226.49,
-          "index": 128.56
-        },
-        {
-          "date": "2024-06-21",
-          "halal": 223.94,
-          "index": 128.83
-        },
-        {
-          "date": "2024-06-28",
-          "halal": 223.57,
-          "index": 128.75
-        },
-        {
-          "date": "2024-07-05",
-          "halal": 234.15,
-          "index": 133.33
-        },
-        {
-          "date": "2024-07-12",
-          "halal": 238.1,
-          "index": 132.97
-        },
-        {
-          "date": "2024-07-19",
-          "halal": 222.78,
-          "index": 127.71
-        },
-        {
-          "date": "2024-07-26",
-          "halal": 215.36,
-          "index": 124.41
-        },
-        {
-          "date": "2024-08-02",
-          "halal": 204.04,
-          "index": 120.59
-        },
-        {
-          "date": "2024-08-09",
-          "halal": 204.47,
-          "index": 121.03
-        },
-        {
-          "date": "2024-08-16",
-          "halal": 224.42,
-          "index": 127.65
-        },
-        {
-          "date": "2024-08-23",
-          "halal": 227.9,
-          "index": 128.99
-        },
-        {
-          "date": "2024-08-30",
-          "halal": 223.03,
-          "index": 127.98
-        },
-        {
-          "date": "2024-09-06",
-          "halal": 203.49,
-          "index": 120.57
-        },
-        {
-          "date": "2024-09-13",
-          "halal": 221.16,
-          "index": 127.73
-        },
-        {
-          "date": "2024-09-20",
-          "halal": 223.5,
+          "halal": 224.3,
           "index": 129.64
         },
         {
+          "date": "2024-06-21",
+          "halal": 221.82,
+          "index": 129.9
+        },
+        {
+          "date": "2024-06-28",
+          "halal": 221.55,
+          "index": 129.82
+        },
+        {
+          "date": "2024-07-05",
+          "halal": 232.31,
+          "index": 134.44
+        },
+        {
+          "date": "2024-07-12",
+          "halal": 236.23,
+          "index": 134.08
+        },
+        {
+          "date": "2024-07-19",
+          "halal": 221.06,
+          "index": 128.77
+        },
+        {
+          "date": "2024-07-26",
+          "halal": 213.65,
+          "index": 125.45
+        },
+        {
+          "date": "2024-08-02",
+          "halal": 202.42,
+          "index": 121.59
+        },
+        {
+          "date": "2024-08-09",
+          "halal": 202.81,
+          "index": 122.04
+        },
+        {
+          "date": "2024-08-16",
+          "halal": 222.4,
+          "index": 128.72
+        },
+        {
+          "date": "2024-08-23",
+          "halal": 225.81,
+          "index": 130.06
+        },
+        {
+          "date": "2024-08-30",
+          "halal": 221.16,
+          "index": 129.05
+        },
+        {
+          "date": "2024-09-06",
+          "halal": 201.94,
+          "index": 121.58
+        },
+        {
+          "date": "2024-09-13",
+          "halal": 219.31,
+          "index": 128.8
+        },
+        {
+          "date": "2024-09-20",
+          "halal": 221.76,
+          "index": 130.72
+        },
+        {
           "date": "2024-09-27",
-          "halal": 231.38,
-          "index": 130.98
+          "halal": 229.51,
+          "index": 132.08
         },
         {
           "date": "2024-10-04",
-          "halal": 231.8,
-          "index": 131.14
+          "halal": 229.88,
+          "index": 132.23
         },
         {
           "date": "2024-10-11",
-          "halal": 237.46,
-          "index": 132.76
+          "halal": 235.22,
+          "index": 133.87
         },
         {
           "date": "2024-10-18",
-          "halal": 238.51,
-          "index": 133.06
+          "halal": 236.23,
+          "index": 134.17
         },
         {
           "date": "2024-10-25",
-          "halal": 240.62,
-          "index": 133.29
+          "halal": 238.34,
+          "index": 134.4
         },
         {
           "date": "2024-11-01",
-          "halal": 232.43,
-          "index": 131.17
+          "halal": 230.19,
+          "index": 132.26
         },
         {
           "date": "2024-11-08",
-          "halal": 249.73,
-          "index": 138.35
+          "halal": 247.31,
+          "index": 139.51
         },
         {
           "date": "2024-11-15",
-          "halal": 238.85,
-          "index": 133.63
+          "halal": 236.52,
+          "index": 134.74
         },
         {
           "date": "2024-11-22",
-          "halal": 244.79,
-          "index": 136.11
+          "halal": 242.43,
+          "index": 137.24
         },
         {
           "date": "2024-11-29",
-          "halal": 244.44,
-          "index": 137.17
+          "halal": 242.17,
+          "index": 138.31
         },
         {
           "date": "2024-12-06",
-          "halal": 251.81,
-          "index": 141.67
+          "halal": 249.52,
+          "index": 142.86
         },
         {
           "date": "2024-12-13",
-          "halal": 254.37,
-          "index": 142.76
+          "halal": 252.36,
+          "index": 143.96
         },
         {
           "date": "2024-12-20",
-          "halal": 249.66,
-          "index": 139.57
+          "halal": 247.71,
+          "index": 140.74
         },
         {
           "date": "2024-12-27",
-          "halal": 254.12,
-          "index": 140.85
+          "halal": 252.21,
+          "index": 142.02
         },
         {
           "date": "2025-01-03",
-          "halal": 254.51,
-          "index": 139.77
-        },
-        {
-          "date": "2025-01-10",
-          "halal": 248.12,
-          "index": 136.7
-        },
-        {
-          "date": "2025-01-17",
-          "halal": 255.19,
-          "index": 140.63
-        },
-        {
-          "date": "2025-01-24",
-          "halal": 256.33,
-          "index": 142.75
-        },
-        {
-          "date": "2025-01-31",
-          "halal": 245.68,
-          "index": 140.77
-        },
-        {
-          "date": "2025-02-07",
-          "halal": 247.41,
+          "halal": 252.37,
           "index": 140.94
         },
         {
-          "date": "2025-02-14",
-          "halal": 259.57,
-          "index": 145.05
+          "date": "2025-01-10",
+          "halal": 246.01,
+          "index": 137.84
         },
         {
-          "date": "2025-02-21",
-          "halal": 255.41,
+          "date": "2025-01-17",
+          "halal": 253.02,
           "index": 141.8
         },
         {
+          "date": "2025-01-24",
+          "halal": 254.01,
+          "index": 143.94
+        },
+        {
+          "date": "2025-01-31",
+          "halal": 243.83,
+          "index": 141.95
+        },
+        {
+          "date": "2025-02-07",
+          "halal": 245.18,
+          "index": 142.12
+        },
+        {
+          "date": "2025-02-14",
+          "halal": 257.24,
+          "index": 146.26
+        },
+        {
+          "date": "2025-02-21",
+          "halal": 253.17,
+          "index": 142.98
+        },
+        {
           "date": "2025-02-28",
-          "halal": 242.73,
-          "index": 136.97
+          "halal": 240.58,
+          "index": 138.11
         },
         {
           "date": "2025-03-07",
-          "halal": 231.75,
-          "index": 132.55
+          "halal": 229.76,
+          "index": 133.66
         },
         {
           "date": "2025-03-14",
-          "halal": 230.36,
-          "index": 129.28
+          "halal": 228.07,
+          "index": 130.36
         },
         {
           "date": "2025-03-21",
-          "halal": 229.56,
-          "index": 129.6
+          "halal": 227.4,
+          "index": 130.68
         },
         {
           "date": "2025-03-28",
-          "halal": 221.23,
-          "index": 126.58
+          "halal": 219.29,
+          "index": 127.64
         },
         {
           "date": "2025-04-04",
-          "halal": 191.53,
-          "index": 114.09
+          "halal": 189.85,
+          "index": 115.04
         },
         {
           "date": "2025-04-11",
-          "halal": 211.56,
-          "index": 122.66
+          "halal": 209.57,
+          "index": 123.68
         },
         {
           "date": "2025-04-18",
-          "halal": 204.05,
-          "index": 119.88
+          "halal": 202.21,
+          "index": 120.88
         },
         {
           "date": "2025-04-25",
-          "halal": 222.04,
-          "index": 127.56
+          "halal": 220.04,
+          "index": 128.62
         },
         {
           "date": "2025-05-02",
-          "halal": 227.03,
-          "index": 131.95
+          "halal": 224.92,
+          "index": 133.05
         },
         {
           "date": "2025-05-09",
-          "halal": 228.17,
-          "index": 131.72
+          "halal": 226.03,
+          "index": 132.82
         },
         {
           "date": "2025-05-16",
-          "halal": 252.02,
-          "index": 140.77
+          "halal": 249.51,
+          "index": 141.95
         },
         {
           "date": "2025-05-23",
-          "halal": 242.65,
-          "index": 137.46
+          "halal": 240.13,
+          "index": 138.61
         },
         {
           "date": "2025-05-30",
-          "halal": 247.88,
-          "index": 140.13
+          "halal": 245.27,
+          "index": 141.29
         },
         {
           "date": "2025-06-06",
-          "halal": 254.92,
-          "index": 143.04
+          "halal": 252.06,
+          "index": 144.24
         },
         {
           "date": "2025-06-13",
-          "halal": 255.66,
-          "index": 142.24
+          "halal": 252.78,
+          "index": 143.43
         },
         {
           "date": "2025-06-20",
-          "halal": 260.1,
-          "index": 142.21
+          "halal": 257.23,
+          "index": 143.4
         },
         {
           "date": "2025-06-27",
-          "halal": 272.67,
-          "index": 148.11
+          "halal": 269.56,
+          "index": 149.35
         },
         {
           "date": "2025-07-04",
-          "halal": 277.79,
-          "index": 150.31
+          "halal": 274.64,
+          "index": 151.57
         },
         {
           "date": "2025-07-11",
-          "halal": 279.35,
-          "index": 149.77
+          "halal": 276.1,
+          "index": 151.02
         },
         {
           "date": "2025-07-18",
-          "halal": 283.53,
-          "index": 151.67
+          "halal": 280.22,
+          "index": 152.94
         },
         {
           "date": "2025-07-25",
-          "halal": 284.24,
-          "index": 153.05
+          "halal": 280.92,
+          "index": 154.33
         },
         {
           "date": "2025-08-01",
-          "halal": 277.03,
-          "index": 149.68
+          "halal": 273.69,
+          "index": 150.93
         },
         {
           "date": "2025-08-08",
-          "halal": 294.22,
-          "index": 155.26
+          "halal": 290.72,
+          "index": 156.56
         },
         {
           "date": "2025-08-15",
-          "halal": 296.01,
-          "index": 156.02
+          "halal": 292.66,
+          "index": 157.32
         },
         {
           "date": "2025-08-22",
-          "halal": 293.83,
-          "index": 154.57
+          "halal": 290.5,
+          "index": 155.86
         },
         {
           "date": "2025-08-29",
-          "halal": 292.77,
-          "index": 154.14
+          "halal": 289.55,
+          "index": 155.43
         },
         {
           "date": "2025-09-05",
-          "halal": 297.02,
-          "index": 155.67
+          "halal": 293.93,
+          "index": 156.97
         },
         {
           "date": "2025-09-12",
-          "halal": 308.87,
-          "index": 158.54
+          "halal": 305.51,
+          "index": 159.86
         },
         {
           "date": "2025-09-19",
-          "halal": 318.81,
-          "index": 161.97
+          "halal": 315.52,
+          "index": 163.32
         },
         {
           "date": "2025-09-26",
-          "halal": 323.05,
-          "index": 161.24
+          "halal": 319.97,
+          "index": 162.59
         },
         {
           "date": "2025-10-03",
-          "halal": 335.57,
-          "index": 163.19
+          "halal": 332.1,
+          "index": 164.55
         },
         {
           "date": "2025-10-10",
-          "halal": 326.67,
-          "index": 159.49
+          "halal": 323.46,
+          "index": 160.82
         },
         {
           "date": "2025-10-17",
-          "halal": 338.73,
-          "index": 163.39
+          "halal": 335.57,
+          "index": 164.76
         },
         {
           "date": "2025-10-24",
-          "halal": 348.04,
-          "index": 166.96
+          "halal": 344.84,
+          "index": 168.35
         },
         {
           "date": "2025-10-31",
-          "halal": 361.71,
-          "index": 170.2
+          "halal": 358.31,
+          "index": 171.62
         },
         {
           "date": "2025-11-07",
-          "halal": 350.05,
-          "index": 164.97
+          "halal": 346.84,
+          "index": 166.34
         },
         {
           "date": "2025-11-14",
-          "halal": 350.28,
-          "index": 164.73
+          "halal": 347.01,
+          "index": 166.1
         },
         {
           "date": "2025-11-21",
-          "halal": 335.94,
-          "index": 159.64
+          "halal": 332.89,
+          "index": 160.98
         },
         {
           "date": "2025-11-28",
-          "halal": 353.79,
-          "index": 167.54
+          "halal": 350.89,
+          "index": 168.94
         },
         {
           "date": "2025-12-05",
-          "halal": 360.58,
-          "index": 169.22
+          "halal": 357.58,
+          "index": 170.64
         },
         {
           "date": "2025-12-12",
-          "halal": 353.35,
-          "index": 166.02
+          "halal": 350.42,
+          "index": 167.4
         },
         {
           "date": "2025-12-19",
-          "halal": 356.63,
-          "index": 166.94
+          "halal": 353.42,
+          "index": 168.34
         },
         {
           "date": "2025-12-26",
-          "halal": 363.54,
-          "index": 169.01
+          "halal": 360.05,
+          "index": 170.42
         },
         {
           "date": "2026-01-02",
-          "halal": 362.96,
-          "index": 166.09
+          "halal": 359.47,
+          "index": 167.48
         },
         {
           "date": "2026-01-09",
-          "halal": 365.2,
-          "index": 169.76
+          "halal": 361.54,
+          "index": 171.18
         },
         {
           "date": "2026-01-16",
-          "halal": 368.33,
-          "index": 168.3
+          "halal": 364.66,
+          "index": 169.7
         },
         {
           "date": "2026-01-23",
-          "halal": 368.99,
-          "index": 168.69
+          "halal": 365.26,
+          "index": 170.1
         },
         {
           "date": "2026-01-30",
-          "halal": 374.61,
-          "index": 168.46
+          "halal": 370.85,
+          "index": 169.87
         },
         {
           "date": "2026-02-06",
-          "halal": 376.37,
-          "index": 165.15
+          "halal": 372.89,
+          "index": 166.53
         },
         {
           "date": "2026-02-13",
-          "halal": 369.56,
-          "index": 163.06
+          "halal": 366.0,
+          "index": 164.42
         },
         {
           "date": "2026-02-20",
-          "halal": 376.92,
-          "index": 164.93
+          "halal": 373.12,
+          "index": 166.3
         },
         {
           "date": "2026-02-27",
-          "halal": 369.27,
-          "index": 164.51
+          "halal": 365.74,
+          "index": 165.89
         },
         {
           "date": "2026-03-06",
-          "halal": 360.97,
-          "index": 162.47
+          "halal": 357.44,
+          "index": 163.83
         },
         {
           "date": "2026-03-13",
-          "halal": 362.25,
-          "index": 160.84
+          "halal": 358.58,
+          "index": 162.18
         },
         {
           "date": "2026-03-20",
-          "halal": 356.06,
-          "index": 157.68
+          "halal": 352.59,
+          "index": 159.0
         },
         {
           "date": "2026-03-27",
-          "halal": 347.43,
-          "index": 152.59
+          "halal": 344.27,
+          "index": 153.87
         },
         {
           "date": "2026-04-03",
-          "halal": 362.16,
-          "index": 158.67
+          "halal": 358.87,
+          "index": 159.99
         },
         {
           "date": "2026-04-10",
-          "halal": 384.45,
-          "index": 165.75
+          "halal": 380.99,
+          "index": 167.13
         },
         {
           "date": "2026-04-17",
-          "halal": 410.06,
-          "index": 175.99
+          "halal": 406.4,
+          "index": 177.46
         },
         {
           "date": "2026-04-24",
-          "halal": 426.08,
-          "index": 180.07
+          "halal": 422.53,
+          "index": 181.57
         },
         {
           "date": "2026-05-01",
-          "halal": 429.85,
-          "index": 182.86
+          "halal": 426.75,
+          "index": 184.38
         },
         {
           "date": "2026-05-08",
-          "halal": 466.02,
-          "index": 192.91
+          "halal": 462.86,
+          "index": 194.52
         },
         {
           "date": "2026-05-15",
-          "halal": 470.69,
-          "index": 192.29
+          "halal": 467.33,
+          "index": 193.9
         },
         {
           "date": "2026-05-22",
-          "halal": 479.5,
-          "index": 194.63
+          "halal": 476.56,
+          "index": 196.25
         },
         {
           "date": "2026-05-29",
-          "halal": 493.13,
-          "index": 200.26
+          "halal": 490.16,
+          "index": 201.93
         },
         {
           "date": "2026-06-05",
-          "halal": 474.37,
-          "index": 191.24
+          "halal": 471.31,
+          "index": 192.84
         },
         {
           "date": "2026-06-12",
-          "halal": 485.92,
-          "index": 195.66
+          "halal": 482.79,
+          "index": 197.29
         },
         {
           "date": "2026-06-19",
-          "halal": 503.64,
-          "index": 200.89
+          "halal": 500.48,
+          "index": 202.56
         },
         {
           "date": "2026-06-26",
-          "halal": 477.66,
-          "index": 191.85
+          "halal": 474.55,
+          "index": 193.45
         },
         {
           "date": "2026-07-03",
-          "halal": 484.85,
-          "index": 193.5
+          "halal": 481.84,
+          "index": 195.11
         },
         {
           "date": "2026-07-10",
-          "halal": 503.29,
-          "index": 197.0
+          "halal": 500.09,
+          "index": 198.65
         },
         {
           "date": "2026-07-17",
-          "halal": 485.98,
-          "index": 188.81
+          "halal": 482.97,
+          "index": 190.38
         },
         {
           "date": "2026-07-24",
-          "halal": 485.44,
-          "index": 185.79
+          "halal": 482.18,
+          "index": 187.35
         },
         {
           "date": "2026-07-31",
-          "halal": 472.19,
-          "index": 186.82
+          "halal": 468.81,
+          "index": 188.37
         },
         {
           "date": "2026-08-07",
-          "halal": 503.4,
-          "index": 196.33
+          "halal": 499.36,
+          "index": 197.97
         },
         {
           "date": "2026-08-14",
-          "halal": 506.71,
-          "index": 198.51
+          "halal": 502.54,
+          "index": 200.17
         },
         {
           "date": "2026-08-21",
-          "halal": 495.45,
-          "index": 193.73
+          "halal": 491.35,
+          "index": 195.34
         },
         {
           "date": "2026-08-28",
-          "halal": 497.23,
-          "index": 194.54
+          "halal": 493.11,
+          "index": 196.16
         },
         {
           "date": "2026-09-04",
-          "halal": 505.87,
-          "index": 195.23
+          "halal": 501.44,
+          "index": 196.85
+        },
+        {
+          "date": "2026-09-11",
+          "halal": 495.69,
+          "index": 194.04
         }
       ]
     }
@@ -2388,2382 +2398,2392 @@
   "sp500": {
     "1y": {
       "start_date": "2025-09-12",
-      "end_date": "2026-09-04",
-      "data_points": 52,
+      "end_date": "2026-09-11",
+      "data_points": 53,
       "available_tickers": 228,
       "total_tickers": 228,
-      "halal_return_pct": 54.05,
-      "index_return_pct": 20.02,
-      "outperformance_pct": 34.03,
+      "halal_return_pct": 48.51,
+      "index_return_pct": 16.51,
+      "outperformance_pct": 31.99,
       "series": [
         {
           "date": "2025-09-12",
-          "halal": 102.58,
-          "index": 101.32
+          "halal": 100.12,
+          "index": 99.97
         },
         {
           "date": "2025-09-19",
-          "halal": 104.68,
-          "index": 102.58
+          "halal": 102.22,
+          "index": 101.2
         },
         {
           "date": "2025-09-26",
-          "halal": 105.35,
-          "index": 102.28
-        },
-        {
-          "date": "2025-10-03",
-          "halal": 108.91,
-          "index": 103.43
-        },
-        {
-          "date": "2025-10-10",
-          "halal": 106.54,
+          "halal": 102.92,
           "index": 100.92
         },
         {
+          "date": "2025-10-03",
+          "halal": 106.35,
+          "index": 102.04
+        },
+        {
+          "date": "2025-10-10",
+          "halal": 104.07,
+          "index": 99.57
+        },
+        {
           "date": "2025-10-17",
-          "halal": 109.25,
-          "index": 102.68
+          "halal": 106.75,
+          "index": 101.31
         },
         {
           "date": "2025-10-24",
-          "halal": 111.88,
-          "index": 104.67
+          "halal": 109.34,
+          "index": 103.27
         },
         {
           "date": "2025-10-31",
-          "halal": 114.36,
-          "index": 105.41
+          "halal": 111.76,
+          "index": 104.0
         },
         {
           "date": "2025-11-07",
-          "halal": 112.2,
-          "index": 103.7
+          "halal": 109.66,
+          "index": 102.31
         },
         {
           "date": "2025-11-14",
-          "halal": 112.81,
-          "index": 103.85
+          "halal": 110.23,
+          "index": 102.46
         },
         {
           "date": "2025-11-21",
-          "halal": 109.74,
-          "index": 101.85
+          "halal": 107.24,
+          "index": 100.49
         },
         {
           "date": "2025-11-28",
-          "halal": 114.33,
-          "index": 105.62
+          "halal": 111.79,
+          "index": 104.21
         },
         {
           "date": "2025-12-05",
-          "halal": 115.55,
-          "index": 105.97
+          "halal": 112.98,
+          "index": 104.56
         },
         {
           "date": "2025-12-12",
-          "halal": 114.36,
-          "index": 105.37
+          "halal": 111.81,
+          "index": 103.96
         },
         {
           "date": "2025-12-19",
-          "halal": 114.92,
-          "index": 105.5
+          "halal": 112.32,
+          "index": 104.08
         },
         {
           "date": "2025-12-26",
-          "halal": 116.95,
-          "index": 107.0
+          "halal": 114.27,
+          "index": 105.57
         },
         {
           "date": "2026-01-02",
-          "halal": 116.6,
-          "index": 105.9
+          "halal": 113.93,
+          "index": 104.48
         },
         {
           "date": "2026-01-09",
-          "halal": 117.48,
-          "index": 107.59
+          "halal": 114.76,
+          "index": 106.15
         },
         {
           "date": "2026-01-16",
-          "halal": 118.39,
-          "index": 107.21
+          "halal": 115.67,
+          "index": 105.78
         },
         {
           "date": "2026-01-23",
-          "halal": 118.47,
-          "index": 106.84
+          "halal": 115.73,
+          "index": 105.41
         },
         {
           "date": "2026-01-30",
-          "halal": 119.93,
-          "index": 107.26
+          "halal": 117.18,
+          "index": 105.83
         },
         {
           "date": "2026-02-06",
-          "halal": 121.66,
-          "index": 107.05
+          "halal": 118.93,
+          "index": 105.62
         },
         {
           "date": "2026-02-13",
-          "halal": 120.63,
-          "index": 105.68
+          "halal": 117.9,
+          "index": 104.26
         },
         {
           "date": "2026-02-20",
-          "halal": 121.96,
-          "index": 106.87
+          "halal": 119.18,
+          "index": 105.44
         },
         {
           "date": "2026-02-27",
-          "halal": 121.51,
-          "index": 106.33
+          "halal": 118.77,
+          "index": 104.91
         },
         {
           "date": "2026-03-06",
-          "halal": 118.37,
-          "index": 104.22
+          "halal": 115.69,
+          "index": 102.83
         },
         {
           "date": "2026-03-13",
-          "halal": 117.94,
-          "index": 102.66
+          "halal": 115.28,
+          "index": 101.29
         },
         {
           "date": "2026-03-20",
-          "halal": 115.84,
-          "index": 100.81
+          "halal": 113.25,
+          "index": 99.46
         },
         {
           "date": "2026-03-27",
-          "halal": 114.23,
-          "index": 98.56
+          "halal": 111.73,
+          "index": 97.24
         },
         {
           "date": "2026-04-03",
-          "halal": 118.1,
-          "index": 101.94
+          "halal": 115.5,
+          "index": 100.57
         },
         {
           "date": "2026-04-10",
-          "halal": 122.93,
-          "index": 105.61
+          "halal": 120.24,
+          "index": 104.2
         },
         {
           "date": "2026-04-17",
-          "halal": 129.06,
-          "index": 110.38
+          "halal": 126.24,
+          "index": 108.9
         },
         {
           "date": "2026-04-24",
-          "halal": 131.56,
-          "index": 110.97
+          "halal": 128.75,
+          "index": 109.48
         },
         {
           "date": "2026-05-01",
-          "halal": 132.8,
-          "index": 112.01
+          "halal": 130.07,
+          "index": 110.51
         },
         {
           "date": "2026-05-08",
-          "halal": 139.2,
-          "index": 114.65
+          "halal": 136.38,
+          "index": 113.11
         },
         {
           "date": "2026-05-15",
-          "halal": 140.6,
-          "index": 114.89
+          "halal": 137.74,
+          "index": 113.35
         },
         {
           "date": "2026-05-22",
-          "halal": 143.05,
-          "index": 115.9
+          "halal": 140.21,
+          "index": 114.34
         },
         {
           "date": "2026-05-29",
-          "halal": 146.13,
-          "index": 117.58
+          "halal": 143.21,
+          "index": 116.01
         },
         {
           "date": "2026-06-05",
-          "halal": 143.09,
-          "index": 114.64
+          "halal": 140.19,
+          "index": 113.1
         },
         {
           "date": "2026-06-12",
-          "halal": 144.89,
-          "index": 115.29
+          "halal": 141.96,
+          "index": 113.75
         },
         {
           "date": "2026-06-19",
-          "halal": 147.23,
-          "index": 116.37
+          "halal": 144.26,
+          "index": 114.81
         },
         {
           "date": "2026-06-26",
-          "halal": 144.42,
-          "index": 113.6
+          "halal": 141.47,
+          "index": 112.08
         },
         {
           "date": "2026-07-03",
-          "halal": 146.54,
-          "index": 116.06
+          "halal": 143.57,
+          "index": 114.51
         },
         {
           "date": "2026-07-10",
-          "halal": 149.77,
-          "index": 117.64
+          "halal": 146.74,
+          "index": 116.07
         },
         {
           "date": "2026-07-17",
-          "halal": 146.59,
-          "index": 115.83
+          "halal": 143.63,
+          "index": 114.28
         },
         {
           "date": "2026-07-24",
-          "halal": 147.21,
-          "index": 115.15
+          "halal": 144.19,
+          "index": 113.61
         },
         {
           "date": "2026-07-31",
-          "halal": 145.21,
-          "index": 116.41
+          "halal": 142.18,
+          "index": 114.85
         },
         {
           "date": "2026-08-07",
-          "halal": 152.38,
-          "index": 120.5
+          "halal": 149.13,
+          "index": 118.89
         },
         {
           "date": "2026-08-14",
-          "halal": 153.8,
-          "index": 120.98
+          "halal": 150.51,
+          "index": 119.36
         },
         {
           "date": "2026-08-21",
-          "halal": 152.44,
-          "index": 119.32
+          "halal": 149.18,
+          "index": 117.73
         },
         {
           "date": "2026-08-28",
-          "halal": 152.4,
-          "index": 119.89
+          "halal": 149.13,
+          "index": 118.28
         },
         {
           "date": "2026-09-04",
-          "halal": 154.05,
-          "index": 120.02
+          "halal": 150.71,
+          "index": 118.41
+        },
+        {
+          "date": "2026-09-11",
+          "halal": 148.51,
+          "index": 116.51
         }
       ]
     },
     "3y": {
       "start_date": "2023-09-15",
-      "end_date": "2026-09-04",
-      "data_points": 156,
+      "end_date": "2026-09-11",
+      "data_points": 157,
       "available_tickers": 228,
       "total_tickers": 228,
-      "halal_return_pct": 185.64,
-      "index_return_pct": 78.27,
-      "outperformance_pct": 107.37,
+      "halal_return_pct": 183.2,
+      "index_return_pct": 76.38,
+      "outperformance_pct": 106.82,
       "series": [
         {
           "date": "2023-09-15",
-          "halal": 98.3,
-          "index": 99.22
+          "halal": 99.17,
+          "index": 99.76
         },
         {
           "date": "2023-09-22",
-          "halal": 95.5,
-          "index": 96.32
+          "halal": 96.35,
+          "index": 96.85
         },
         {
           "date": "2023-09-29",
-          "halal": 95.87,
-          "index": 95.66
+          "halal": 96.72,
+          "index": 96.19
         },
         {
           "date": "2023-10-06",
-          "halal": 97.3,
-          "index": 96.12
+          "halal": 98.14,
+          "index": 96.65
         },
         {
           "date": "2023-10-13",
-          "halal": 97.65,
-          "index": 96.56
+          "halal": 98.5,
+          "index": 97.09
         },
         {
           "date": "2023-10-20",
-          "halal": 93.76,
-          "index": 94.25
+          "halal": 94.59,
+          "index": 94.77
         },
         {
           "date": "2023-10-27",
-          "halal": 91.36,
-          "index": 91.9
+          "halal": 92.16,
+          "index": 92.41
         },
         {
           "date": "2023-11-03",
-          "halal": 97.49,
-          "index": 97.27
+          "halal": 98.32,
+          "index": 97.81
         },
         {
           "date": "2023-11-10",
-          "halal": 100.12,
-          "index": 98.6
+          "halal": 100.96,
+          "index": 99.14
         },
         {
           "date": "2023-11-17",
-          "halal": 102.62,
-          "index": 100.88
+          "halal": 103.5,
+          "index": 101.43
         },
         {
           "date": "2023-11-24",
-          "halal": 103.0,
-          "index": 101.89
+          "halal": 103.89,
+          "index": 102.45
         },
         {
           "date": "2023-12-01",
-          "halal": 103.51,
-          "index": 102.74
+          "halal": 104.41,
+          "index": 103.3
         },
         {
           "date": "2023-12-08",
-          "halal": 104.07,
-          "index": 102.98
+          "halal": 104.98,
+          "index": 103.55
         },
         {
           "date": "2023-12-15",
-          "halal": 108.29,
-          "index": 105.45
+          "halal": 109.25,
+          "index": 106.03
         },
         {
           "date": "2023-12-22",
-          "halal": 108.8,
-          "index": 106.42
+          "halal": 109.75,
+          "index": 107.01
         },
         {
           "date": "2023-12-29",
-          "halal": 109.26,
-          "index": 106.79
+          "halal": 110.21,
+          "index": 107.38
         },
         {
           "date": "2024-01-05",
-          "halal": 106.83,
-          "index": 105.13
+          "halal": 107.71,
+          "index": 105.71
         },
         {
           "date": "2024-01-12",
-          "halal": 110.28,
-          "index": 107.1
+          "halal": 111.13,
+          "index": 107.69
         },
         {
           "date": "2024-01-19",
-          "halal": 113.84,
-          "index": 108.39
+          "halal": 114.7,
+          "index": 108.99
         },
         {
           "date": "2024-01-26",
-          "halal": 114.28,
-          "index": 109.51
+          "halal": 115.12,
+          "index": 110.12
         },
         {
           "date": "2024-02-02",
-          "halal": 116.39,
-          "index": 111.07
+          "halal": 117.16,
+          "index": 111.69
         },
         {
           "date": "2024-02-09",
-          "halal": 119.74,
-          "index": 112.61
+          "halal": 120.49,
+          "index": 113.23
         },
         {
           "date": "2024-02-16",
-          "halal": 119.38,
-          "index": 112.23
+          "halal": 120.12,
+          "index": 112.85
         },
         {
           "date": "2024-02-23",
-          "halal": 122.22,
-          "index": 114.11
+          "halal": 122.89,
+          "index": 114.74
         },
         {
           "date": "2024-03-01",
-          "halal": 126.14,
-          "index": 115.23
+          "halal": 126.83,
+          "index": 115.86
         },
         {
           "date": "2024-03-08",
-          "halal": 125.4,
-          "index": 114.98
+          "halal": 125.99,
+          "index": 115.61
         },
         {
           "date": "2024-03-15",
-          "halal": 124.32,
-          "index": 114.91
+          "halal": 124.89,
+          "index": 115.54
         },
         {
           "date": "2024-03-22",
-          "halal": 128.33,
-          "index": 117.47
+          "halal": 128.86,
+          "index": 118.12
         },
         {
           "date": "2024-03-29",
-          "halal": 128.49,
-          "index": 117.89
+          "halal": 129.05,
+          "index": 118.54
         },
         {
           "date": "2024-04-05",
-          "halal": 126.87,
-          "index": 116.84
+          "halal": 127.42,
+          "index": 117.49
         },
         {
           "date": "2024-04-12",
-          "halal": 125.76,
-          "index": 115.14
+          "halal": 126.33,
+          "index": 115.77
         },
         {
           "date": "2024-04-19",
-          "halal": 118.22,
-          "index": 111.6
+          "halal": 118.77,
+          "index": 112.22
         },
         {
           "date": "2024-04-26",
-          "halal": 124.6,
-          "index": 114.55
+          "halal": 125.12,
+          "index": 115.18
         },
         {
           "date": "2024-05-03",
-          "halal": 126.09,
-          "index": 115.24
+          "halal": 126.63,
+          "index": 115.87
         },
         {
           "date": "2024-05-10",
-          "halal": 128.21,
-          "index": 117.39
+          "halal": 128.73,
+          "index": 118.04
         },
         {
           "date": "2024-05-17",
-          "halal": 131.54,
-          "index": 119.33
+          "halal": 132.11,
+          "index": 119.99
         },
         {
           "date": "2024-05-24",
-          "halal": 134.32,
-          "index": 119.33
+          "halal": 134.79,
+          "index": 119.98
         },
         {
           "date": "2024-05-31",
-          "halal": 133.65,
-          "index": 118.86
+          "halal": 134.12,
+          "index": 119.52
         },
         {
           "date": "2024-06-07",
-          "halal": 136.87,
-          "index": 120.36
+          "halal": 137.28,
+          "index": 121.02
         },
         {
           "date": "2024-06-14",
-          "halal": 142.36,
-          "index": 122.33
+          "halal": 142.77,
+          "index": 123.01
         },
         {
           "date": "2024-06-21",
-          "halal": 142.33,
-          "index": 123.12
+          "halal": 142.75,
+          "index": 123.8
         },
         {
           "date": "2024-06-28",
-          "halal": 141.85,
-          "index": 123.05
+          "halal": 142.32,
+          "index": 123.73
         },
         {
           "date": "2024-07-05",
-          "halal": 145.84,
-          "index": 125.41
+          "halal": 146.44,
+          "index": 126.1
         },
         {
           "date": "2024-07-12",
-          "halal": 148.65,
-          "index": 126.62
+          "halal": 149.25,
+          "index": 127.32
         },
         {
           "date": "2024-07-19",
-          "halal": 142.7,
-          "index": 124.13
+          "halal": 143.29,
+          "index": 124.82
         },
         {
           "date": "2024-07-26",
-          "halal": 140.25,
-          "index": 123.1
+          "halal": 140.81,
+          "index": 123.78
         },
         {
           "date": "2024-08-02",
-          "halal": 135.47,
-          "index": 120.49
+          "halal": 136.0,
+          "index": 121.16
         },
         {
           "date": "2024-08-09",
-          "halal": 135.73,
-          "index": 120.51
+          "halal": 136.27,
+          "index": 121.18
         },
         {
           "date": "2024-08-16",
-          "halal": 145.06,
-          "index": 125.33
+          "halal": 145.55,
+          "index": 126.03
         },
         {
           "date": "2024-08-23",
-          "halal": 147.48,
-          "index": 127.1
+          "halal": 147.96,
+          "index": 127.8
         },
         {
           "date": "2024-08-30",
-          "halal": 146.44,
-          "index": 127.45
+          "halal": 146.97,
+          "index": 128.16
         },
         {
           "date": "2024-09-06",
-          "halal": 137.0,
-          "index": 122.18
+          "halal": 137.55,
+          "index": 122.85
         },
         {
           "date": "2024-09-13",
-          "halal": 145.8,
-          "index": 127.08
+          "halal": 146.32,
+          "index": 127.78
         },
         {
           "date": "2024-09-20",
-          "halal": 147.94,
-          "index": 128.88
+          "halal": 148.54,
+          "index": 129.59
         },
         {
           "date": "2024-09-27",
-          "halal": 151.13,
-          "index": 129.61
+          "halal": 151.73,
+          "index": 130.33
         },
         {
           "date": "2024-10-04",
-          "halal": 151.81,
-          "index": 129.95
+          "halal": 152.41,
+          "index": 130.67
         },
         {
           "date": "2024-10-11",
-          "halal": 154.83,
-          "index": 131.45
-        },
-        {
-          "date": "2024-10-18",
-          "halal": 155.84,
-          "index": 132.59
-        },
-        {
-          "date": "2024-10-25",
-          "halal": 155.27,
-          "index": 131.33
-        },
-        {
-          "date": "2024-11-01",
-          "halal": 151.89,
-          "index": 129.51
-        },
-        {
-          "date": "2024-11-08",
-          "halal": 161.26,
-          "index": 135.67
-        },
-        {
-          "date": "2024-11-15",
-          "halal": 155.04,
-          "index": 132.85
-        },
-        {
-          "date": "2024-11-22",
-          "halal": 159.09,
-          "index": 135.06
-        },
-        {
-          "date": "2024-11-29",
-          "halal": 159.34,
-          "index": 136.66
-        },
-        {
-          "date": "2024-12-06",
-          "halal": 161.53,
-          "index": 137.85
-        },
-        {
-          "date": "2024-12-13",
-          "halal": 161.02,
-          "index": 137.04
-        },
-        {
-          "date": "2024-12-20",
-          "halal": 157.7,
-          "index": 134.53
-        },
-        {
-          "date": "2024-12-27",
-          "halal": 159.68,
-          "index": 135.4
-        },
-        {
-          "date": "2025-01-03",
-          "halal": 159.77,
-          "index": 134.71
-        },
-        {
-          "date": "2025-01-10",
-          "halal": 156.66,
-          "index": 132.1
-        },
-        {
-          "date": "2025-01-17",
-          "halal": 161.24,
-          "index": 135.99
-        },
-        {
-          "date": "2025-01-24",
-          "halal": 163.34,
-          "index": 138.35
-        },
-        {
-          "date": "2025-01-31",
-          "halal": 158.71,
-          "index": 136.95
-        },
-        {
-          "date": "2025-02-07",
-          "halal": 159.82,
-          "index": 136.71
-        },
-        {
-          "date": "2025-02-14",
-          "halal": 164.62,
-          "index": 138.75
-        },
-        {
-          "date": "2025-02-21",
-          "halal": 162.9,
-          "index": 136.53
-        },
-        {
-          "date": "2025-02-28",
-          "halal": 158.6,
-          "index": 135.22
-        },
-        {
-          "date": "2025-03-07",
-          "halal": 152.44,
-          "index": 131.06
-        },
-        {
-          "date": "2025-03-14",
-          "halal": 150.78,
-          "index": 128.08
-        },
-        {
-          "date": "2025-03-21",
-          "halal": 150.91,
-          "index": 128.73
-        },
-        {
-          "date": "2025-03-28",
-          "halal": 147.09,
-          "index": 126.83
-        },
-        {
-          "date": "2025-04-04",
-          "halal": 129.84,
-          "index": 115.33
-        },
-        {
-          "date": "2025-04-11",
-          "halal": 139.56,
-          "index": 121.87
-        },
-        {
-          "date": "2025-04-18",
-          "halal": 137.48,
-          "index": 120.15
-        },
-        {
-          "date": "2025-04-25",
-          "halal": 146.69,
-          "index": 125.68
-        },
-        {
-          "date": "2025-05-02",
-          "halal": 150.1,
-          "index": 129.36
-        },
-        {
-          "date": "2025-05-09",
-          "halal": 150.0,
-          "index": 128.81
-        },
-        {
-          "date": "2025-05-16",
-          "halal": 161.86,
-          "index": 135.63
-        },
-        {
-          "date": "2025-05-23",
-          "halal": 156.6,
+          "halal": 155.33,
           "index": 132.18
         },
         {
+          "date": "2024-10-18",
+          "halal": 156.33,
+          "index": 133.32
+        },
+        {
+          "date": "2024-10-25",
+          "halal": 155.77,
+          "index": 132.05
+        },
+        {
+          "date": "2024-11-01",
+          "halal": 152.36,
+          "index": 130.23
+        },
+        {
+          "date": "2024-11-08",
+          "halal": 161.77,
+          "index": 136.42
+        },
+        {
+          "date": "2024-11-15",
+          "halal": 155.56,
+          "index": 133.58
+        },
+        {
+          "date": "2024-11-22",
+          "halal": 159.64,
+          "index": 135.81
+        },
+        {
+          "date": "2024-11-29",
+          "halal": 159.93,
+          "index": 137.41
+        },
+        {
+          "date": "2024-12-06",
+          "halal": 162.14,
+          "index": 138.61
+        },
+        {
+          "date": "2024-12-13",
+          "halal": 161.75,
+          "index": 137.79
+        },
+        {
+          "date": "2024-12-20",
+          "halal": 158.43,
+          "index": 135.27
+        },
+        {
+          "date": "2024-12-27",
+          "halal": 160.43,
+          "index": 136.15
+        },
+        {
+          "date": "2025-01-03",
+          "halal": 160.45,
+          "index": 135.45
+        },
+        {
+          "date": "2025-01-10",
+          "halal": 157.31,
+          "index": 132.83
+        },
+        {
+          "date": "2025-01-17",
+          "halal": 161.92,
+          "index": 136.74
+        },
+        {
+          "date": "2025-01-24",
+          "halal": 163.96,
+          "index": 139.12
+        },
+        {
+          "date": "2025-01-31",
+          "halal": 159.43,
+          "index": 137.71
+        },
+        {
+          "date": "2025-02-07",
+          "halal": 160.41,
+          "index": 137.47
+        },
+        {
+          "date": "2025-02-14",
+          "halal": 165.25,
+          "index": 139.51
+        },
+        {
+          "date": "2025-02-21",
+          "halal": 163.54,
+          "index": 137.28
+        },
+        {
+          "date": "2025-02-28",
+          "halal": 159.19,
+          "index": 135.96
+        },
+        {
+          "date": "2025-03-07",
+          "halal": 153.05,
+          "index": 131.78
+        },
+        {
+          "date": "2025-03-14",
+          "halal": 151.27,
+          "index": 128.78
+        },
+        {
+          "date": "2025-03-21",
+          "halal": 151.47,
+          "index": 129.44
+        },
+        {
+          "date": "2025-03-28",
+          "halal": 147.69,
+          "index": 127.53
+        },
+        {
+          "date": "2025-04-04",
+          "halal": 130.34,
+          "index": 115.97
+        },
+        {
+          "date": "2025-04-11",
+          "halal": 140.04,
+          "index": 122.54
+        },
+        {
+          "date": "2025-04-18",
+          "halal": 137.99,
+          "index": 120.82
+        },
+        {
+          "date": "2025-04-25",
+          "halal": 147.25,
+          "index": 126.38
+        },
+        {
+          "date": "2025-05-02",
+          "halal": 150.64,
+          "index": 130.08
+        },
+        {
+          "date": "2025-05-09",
+          "halal": 150.54,
+          "index": 129.52
+        },
+        {
+          "date": "2025-05-16",
+          "halal": 162.4,
+          "index": 136.37
+        },
+        {
+          "date": "2025-05-23",
+          "halal": 157.07,
+          "index": 132.91
+        },
+        {
           "date": "2025-05-30",
-          "halal": 159.53,
-          "index": 134.53
+          "halal": 160.01,
+          "index": 135.27
         },
         {
           "date": "2025-06-06",
-          "halal": 163.47,
-          "index": 136.75
+          "halal": 163.89,
+          "index": 137.51
         },
         {
           "date": "2025-06-13",
-          "halal": 164.28,
-          "index": 136.27
+          "halal": 164.73,
+          "index": 137.02
         },
         {
           "date": "2025-06-20",
-          "halal": 165.21,
-          "index": 136.05
+          "halal": 165.71,
+          "index": 136.8
         },
         {
           "date": "2025-06-27",
-          "halal": 171.22,
-          "index": 140.77
+          "halal": 171.68,
+          "index": 141.55
         },
         {
           "date": "2025-07-04",
-          "halal": 175.12,
-          "index": 143.16
+          "halal": 175.61,
+          "index": 143.95
         },
         {
           "date": "2025-07-11",
-          "halal": 175.8,
-          "index": 142.76
+          "halal": 176.28,
+          "index": 143.55
         },
         {
           "date": "2025-07-18",
-          "halal": 177.24,
-          "index": 143.67
+          "halal": 177.73,
+          "index": 144.46
         },
         {
           "date": "2025-07-25",
-          "halal": 179.73,
-          "index": 145.85
+          "halal": 180.22,
+          "index": 146.65
         },
         {
           "date": "2025-08-01",
-          "halal": 175.4,
-          "index": 142.33
+          "halal": 175.86,
+          "index": 143.11
         },
         {
           "date": "2025-08-08",
-          "halal": 181.68,
-          "index": 145.87
+          "halal": 182.22,
+          "index": 146.67
         },
         {
           "date": "2025-08-15",
-          "halal": 183.54,
-          "index": 147.3
+          "halal": 184.13,
+          "index": 148.11
         },
         {
           "date": "2025-08-22",
-          "halal": 183.97,
-          "index": 147.73
+          "halal": 184.55,
+          "index": 148.54
         },
         {
           "date": "2025-08-29",
-          "halal": 183.54,
-          "index": 147.67
+          "halal": 184.16,
+          "index": 148.48
         },
         {
           "date": "2025-09-05",
-          "halal": 184.86,
-          "index": 148.17
+          "halal": 185.57,
+          "index": 148.99
         },
         {
           "date": "2025-09-12",
-          "halal": 190.22,
-          "index": 150.5
+          "halal": 190.93,
+          "index": 151.33
         },
         {
           "date": "2025-09-19",
-          "halal": 194.11,
-          "index": 152.36
+          "halal": 194.93,
+          "index": 153.2
         },
         {
           "date": "2025-09-26",
-          "halal": 195.34,
-          "index": 151.93
+          "halal": 196.27,
+          "index": 152.77
         },
         {
           "date": "2025-10-03",
-          "halal": 201.94,
-          "index": 153.62
+          "halal": 202.8,
+          "index": 154.47
         },
         {
           "date": "2025-10-10",
-          "halal": 197.55,
-          "index": 149.91
+          "halal": 198.45,
+          "index": 150.73
         },
         {
           "date": "2025-10-17",
-          "halal": 202.59,
-          "index": 152.52
+          "halal": 203.57,
+          "index": 153.36
         },
         {
           "date": "2025-10-24",
-          "halal": 207.45,
-          "index": 155.47
+          "halal": 208.5,
+          "index": 156.33
         },
         {
           "date": "2025-10-31",
-          "halal": 212.05,
-          "index": 156.57
+          "halal": 213.13,
+          "index": 157.44
         },
         {
           "date": "2025-11-07",
-          "halal": 208.05,
-          "index": 154.03
+          "halal": 209.12,
+          "index": 154.88
         },
         {
           "date": "2025-11-14",
-          "halal": 209.18,
-          "index": 154.25
+          "halal": 210.21,
+          "index": 155.1
         },
         {
           "date": "2025-11-21",
-          "halal": 203.48,
-          "index": 151.29
+          "halal": 204.5,
+          "index": 152.12
         },
         {
           "date": "2025-11-28",
-          "halal": 211.99,
-          "index": 156.88
+          "halal": 213.17,
+          "index": 157.74
         },
         {
           "date": "2025-12-05",
-          "halal": 214.26,
-          "index": 157.41
+          "halal": 215.44,
+          "index": 158.28
         },
         {
           "date": "2025-12-12",
-          "halal": 212.05,
-          "index": 156.51
+          "halal": 213.21,
+          "index": 157.37
         },
         {
           "date": "2025-12-19",
-          "halal": 213.1,
-          "index": 156.7
+          "halal": 214.19,
+          "index": 157.56
         },
         {
           "date": "2025-12-26",
-          "halal": 216.86,
-          "index": 158.94
+          "halal": 217.9,
+          "index": 159.81
         },
         {
           "date": "2026-01-02",
-          "halal": 216.21,
-          "index": 157.29
+          "halal": 217.26,
+          "index": 158.16
         },
         {
           "date": "2026-01-09",
-          "halal": 217.84,
-          "index": 159.8
+          "halal": 218.84,
+          "index": 160.68
         },
         {
           "date": "2026-01-16",
-          "halal": 219.53,
-          "index": 159.25
+          "halal": 220.59,
+          "index": 160.13
         },
         {
           "date": "2026-01-23",
-          "halal": 219.68,
-          "index": 158.69
+          "halal": 220.69,
+          "index": 159.56
         },
         {
           "date": "2026-01-30",
-          "halal": 222.39,
-          "index": 159.32
+          "halal": 223.46,
+          "index": 160.2
         },
         {
           "date": "2026-02-06",
-          "halal": 225.6,
-          "index": 159.01
+          "halal": 226.8,
+          "index": 159.88
         },
         {
           "date": "2026-02-13",
-          "halal": 223.68,
-          "index": 156.97
+          "halal": 224.83,
+          "index": 157.83
         },
         {
           "date": "2026-02-20",
-          "halal": 226.14,
-          "index": 158.73
+          "halal": 227.28,
+          "index": 159.61
         },
         {
           "date": "2026-02-27",
-          "halal": 225.31,
-          "index": 157.94
+          "halal": 226.5,
+          "index": 158.81
         },
         {
           "date": "2026-03-06",
-          "halal": 219.49,
-          "index": 154.81
+          "halal": 220.62,
+          "index": 155.66
         },
         {
           "date": "2026-03-13",
-          "halal": 218.69,
-          "index": 152.48
+          "halal": 219.83,
+          "index": 153.33
         },
         {
           "date": "2026-03-20",
-          "halal": 214.79,
-          "index": 149.73
+          "halal": 215.97,
+          "index": 150.56
         },
         {
           "date": "2026-03-27",
-          "halal": 211.81,
-          "index": 146.39
+          "halal": 213.06,
+          "index": 147.2
         },
         {
           "date": "2026-04-03",
-          "halal": 218.98,
-          "index": 151.41
+          "halal": 220.26,
+          "index": 152.24
         },
         {
           "date": "2026-04-10",
-          "halal": 227.94,
-          "index": 156.87
+          "halal": 229.29,
+          "index": 157.73
         },
         {
           "date": "2026-04-17",
-          "halal": 239.31,
-          "index": 163.95
+          "halal": 240.74,
+          "index": 164.85
         },
         {
           "date": "2026-04-24",
-          "halal": 243.95,
-          "index": 164.83
+          "halal": 245.52,
+          "index": 165.73
         },
         {
           "date": "2026-05-01",
-          "halal": 246.24,
-          "index": 166.37
+          "halal": 248.04,
+          "index": 167.29
         },
         {
           "date": "2026-05-08",
-          "halal": 258.12,
-          "index": 170.29
+          "halal": 260.08,
+          "index": 171.23
         },
         {
           "date": "2026-05-15",
-          "halal": 260.7,
-          "index": 170.65
+          "halal": 262.67,
+          "index": 171.59
         },
         {
           "date": "2026-05-22",
-          "halal": 265.26,
-          "index": 172.14
+          "halal": 267.37,
+          "index": 173.09
         },
         {
           "date": "2026-05-29",
-          "halal": 270.96,
-          "index": 174.65
+          "halal": 273.1,
+          "index": 175.61
         },
         {
           "date": "2026-06-05",
-          "halal": 265.32,
-          "index": 170.28
+          "halal": 267.33,
+          "index": 171.22
         },
         {
           "date": "2026-06-12",
-          "halal": 268.67,
-          "index": 171.25
+          "halal": 270.71,
+          "index": 172.19
         },
         {
           "date": "2026-06-19",
-          "halal": 273.0,
-          "index": 172.84
+          "halal": 275.09,
+          "index": 173.8
         },
         {
           "date": "2026-06-26",
-          "halal": 267.8,
-          "index": 168.73
+          "halal": 269.78,
+          "index": 169.66
         },
         {
           "date": "2026-07-03",
-          "halal": 271.72,
-          "index": 172.39
+          "halal": 273.78,
+          "index": 173.34
         },
         {
           "date": "2026-07-10",
-          "halal": 277.71,
-          "index": 174.74
+          "halal": 279.83,
+          "index": 175.71
         },
         {
           "date": "2026-07-17",
-          "halal": 271.81,
-          "index": 172.04
+          "halal": 273.9,
+          "index": 172.99
         },
         {
           "date": "2026-07-24",
-          "halal": 272.96,
-          "index": 171.03
+          "halal": 274.97,
+          "index": 171.98
         },
         {
           "date": "2026-07-31",
-          "halal": 269.26,
-          "index": 172.91
+          "halal": 271.14,
+          "index": 173.86
         },
         {
           "date": "2026-08-07",
-          "halal": 282.56,
-          "index": 178.98
+          "halal": 284.38,
+          "index": 179.97
         },
         {
           "date": "2026-08-14",
-          "halal": 285.19,
-          "index": 179.69
+          "halal": 287.01,
+          "index": 180.68
         },
         {
           "date": "2026-08-21",
-          "halal": 282.66,
-          "index": 177.24
+          "halal": 284.47,
+          "index": 178.21
         },
         {
           "date": "2026-08-28",
-          "halal": 282.6,
-          "index": 178.08
+          "halal": 284.39,
+          "index": 179.06
         },
         {
           "date": "2026-09-04",
-          "halal": 285.64,
-          "index": 178.27
+          "halal": 287.39,
+          "index": 179.25
+        },
+        {
+          "date": "2026-09-11",
+          "halal": 283.2,
+          "index": 176.38
         }
       ]
     },
     "5y": {
-      "start_date": "2021-09-10",
-      "end_date": "2026-09-04",
+      "start_date": "2021-09-17",
+      "end_date": "2026-09-11",
       "data_points": 261,
       "available_tickers": 228,
       "total_tickers": 228,
-      "halal_return_pct": 305.26,
-      "index_return_pct": 83.54,
-      "outperformance_pct": 221.72,
+      "halal_return_pct": 298.65,
+      "index_return_pct": 81.57,
+      "outperformance_pct": 217.09,
       "series": [
         {
-          "date": "2021-09-10",
-          "halal": 99.57,
-          "index": 99.21
-        },
-        {
           "date": "2021-09-17",
-          "halal": 98.98,
-          "index": 98.63
+          "halal": 99.3,
+          "index": 99.16
         },
         {
           "date": "2021-09-24",
-          "halal": 100.01,
-          "index": 99.19
+          "halal": 100.34,
+          "index": 99.72
         },
         {
           "date": "2021-10-01",
-          "halal": 97.41,
-          "index": 97.03
+          "halal": 97.77,
+          "index": 97.55
         },
         {
           "date": "2021-10-08",
-          "halal": 97.99,
-          "index": 97.84
+          "halal": 98.36,
+          "index": 98.36
         },
         {
           "date": "2021-10-15",
-          "halal": 100.35,
-          "index": 99.63
+          "halal": 100.73,
+          "index": 100.16
         },
         {
           "date": "2021-10-22",
-          "halal": 102.7,
-          "index": 101.25
+          "halal": 103.1,
+          "index": 101.79
         },
         {
           "date": "2021-10-29",
-          "halal": 105.94,
-          "index": 102.62
+          "halal": 106.31,
+          "index": 103.17
         },
         {
           "date": "2021-11-05",
-          "halal": 111.5,
-          "index": 104.69
+          "halal": 111.84,
+          "index": 105.25
         },
         {
           "date": "2021-11-12",
-          "halal": 111.95,
-          "index": 104.41
+          "halal": 112.26,
+          "index": 104.97
         },
         {
           "date": "2021-11-19",
-          "halal": 114.4,
-          "index": 104.77
+          "halal": 114.71,
+          "index": 105.33
         },
         {
           "date": "2021-11-26",
-          "halal": 111.71,
-          "index": 102.55
+          "halal": 112.03,
+          "index": 103.1
         },
         {
           "date": "2021-12-03",
-          "halal": 110.94,
-          "index": 101.31
+          "halal": 111.28,
+          "index": 101.86
         },
         {
           "date": "2021-12-10",
-          "halal": 115.39,
-          "index": 105.18
+          "halal": 115.81,
+          "index": 105.75
         },
         {
           "date": "2021-12-17",
-          "halal": 112.41,
-          "index": 103.11
+          "halal": 112.83,
+          "index": 103.67
         },
         {
           "date": "2021-12-24",
-          "halal": 116.88,
-          "index": 105.52
+          "halal": 117.31,
+          "index": 106.09
         },
         {
           "date": "2021-12-31",
-          "halal": 117.67,
-          "index": 106.5
+          "halal": 118.11,
+          "index": 107.07
         },
         {
           "date": "2022-01-07",
-          "halal": 114.19,
-          "index": 104.51
+          "halal": 114.66,
+          "index": 105.07
         },
         {
           "date": "2022-01-14",
-          "halal": 114.22,
-          "index": 104.2
+          "halal": 114.73,
+          "index": 104.76
         },
         {
           "date": "2022-01-21",
-          "halal": 105.79,
-          "index": 98.21
+          "halal": 106.29,
+          "index": 98.73
         },
         {
           "date": "2022-01-28",
-          "halal": 105.89,
-          "index": 99.1
+          "halal": 106.39,
+          "index": 99.63
         },
         {
           "date": "2022-02-04",
-          "halal": 108.82,
-          "index": 100.61
+          "halal": 109.36,
+          "index": 101.15
         },
         {
           "date": "2022-02-11",
-          "halal": 107.23,
-          "index": 98.76
+          "halal": 107.73,
+          "index": 99.29
         },
         {
           "date": "2022-02-18",
-          "halal": 106.48,
-          "index": 97.37
+          "halal": 106.99,
+          "index": 97.89
         },
         {
           "date": "2022-02-25",
-          "halal": 107.31,
-          "index": 98.15
+          "halal": 107.83,
+          "index": 98.68
         },
         {
           "date": "2022-03-04",
-          "halal": 105.71,
-          "index": 96.9
+          "halal": 106.29,
+          "index": 97.42
         },
         {
           "date": "2022-03-11",
-          "halal": 102.56,
-          "index": 94.19
+          "halal": 103.11,
+          "index": 94.7
         },
         {
           "date": "2022-03-18",
-          "halal": 111.05,
-          "index": 99.98
+          "halal": 111.55,
+          "index": 100.52
         },
         {
           "date": "2022-03-25",
-          "halal": 114.41,
-          "index": 101.82
+          "halal": 114.99,
+          "index": 102.37
         },
         {
           "date": "2022-04-01",
-          "halal": 113.76,
-          "index": 101.87
+          "halal": 114.34,
+          "index": 102.42
         },
         {
           "date": "2022-04-08",
-          "halal": 109.71,
-          "index": 100.67
+          "halal": 110.32,
+          "index": 101.21
         },
         {
           "date": "2022-04-15",
-          "halal": 106.52,
-          "index": 98.47
+          "halal": 107.13,
+          "index": 99.0
         },
         {
           "date": "2022-04-22",
-          "halal": 103.6,
-          "index": 95.83
+          "halal": 104.23,
+          "index": 96.34
         },
         {
           "date": "2022-04-29",
-          "halal": 100.82,
-          "index": 92.67
+          "halal": 101.43,
+          "index": 93.17
         },
         {
           "date": "2022-05-06",
-          "halal": 101.19,
-          "index": 92.52
+          "halal": 101.84,
+          "index": 93.02
         },
         {
           "date": "2022-05-13",
-          "halal": 98.61,
-          "index": 90.36
+          "halal": 99.23,
+          "index": 90.84
         },
         {
           "date": "2022-05-20",
-          "halal": 94.94,
-          "index": 87.64
+          "halal": 95.51,
+          "index": 88.11
         },
         {
           "date": "2022-05-27",
-          "halal": 102.71,
-          "index": 93.4
+          "halal": 103.32,
+          "index": 93.9
         },
         {
           "date": "2022-06-03",
-          "halal": 101.04,
-          "index": 92.34
+          "halal": 101.64,
+          "index": 92.84
         },
         {
           "date": "2022-06-10",
-          "halal": 95.49,
-          "index": 87.67
+          "halal": 96.09,
+          "index": 88.15
         },
         {
           "date": "2022-06-17",
-          "halal": 89.44,
-          "index": 82.65
+          "halal": 89.98,
+          "index": 83.09
         },
         {
           "date": "2022-06-24",
-          "halal": 95.34,
-          "index": 88.12
+          "halal": 95.89,
+          "index": 88.59
         },
         {
           "date": "2022-07-01",
-          "halal": 90.25,
-          "index": 86.12
+          "halal": 90.83,
+          "index": 86.58
         },
         {
           "date": "2022-07-08",
-          "halal": 93.95,
-          "index": 87.8
+          "halal": 94.55,
+          "index": 88.27
         },
         {
           "date": "2022-07-15",
-          "halal": 93.94,
-          "index": 87.0
+          "halal": 94.55,
+          "index": 87.47
         },
         {
           "date": "2022-07-22",
-          "halal": 97.95,
-          "index": 89.25
+          "halal": 98.57,
+          "index": 89.73
         },
         {
           "date": "2022-07-29",
-          "halal": 102.33,
-          "index": 93.07
+          "halal": 103.01,
+          "index": 93.57
         },
         {
           "date": "2022-08-05",
-          "halal": 103.57,
-          "index": 93.4
+          "halal": 104.21,
+          "index": 93.9
         },
         {
           "date": "2022-08-12",
-          "halal": 105.97,
-          "index": 96.48
+          "halal": 106.65,
+          "index": 97.0
         },
         {
           "date": "2022-08-19",
-          "halal": 104.15,
-          "index": 95.36
+          "halal": 104.85,
+          "index": 95.87
         },
         {
           "date": "2022-08-26",
-          "halal": 99.43,
-          "index": 91.56
+          "halal": 100.14,
+          "index": 92.05
         },
         {
           "date": "2022-09-02",
-          "halal": 93.68,
-          "index": 88.6
+          "halal": 94.38,
+          "index": 89.08
         },
         {
           "date": "2022-09-09",
-          "halal": 97.68,
-          "index": 91.85
+          "halal": 98.39,
+          "index": 92.34
         },
         {
           "date": "2022-09-16",
-          "halal": 92.58,
-          "index": 87.45
+          "halal": 93.27,
+          "index": 87.92
         },
         {
           "date": "2022-09-23",
-          "halal": 88.25,
-          "index": 83.46
+          "halal": 88.91,
+          "index": 83.91
         },
         {
           "date": "2022-09-30",
-          "halal": 85.64,
-          "index": 81.02
+          "halal": 86.25,
+          "index": 81.45
         },
         {
           "date": "2022-10-07",
-          "halal": 86.9,
-          "index": 82.29
+          "halal": 87.51,
+          "index": 82.73
         },
         {
           "date": "2022-10-14",
-          "halal": 84.04,
-          "index": 81.12
+          "halal": 84.64,
+          "index": 81.55
         },
         {
           "date": "2022-10-21",
-          "halal": 89.29,
-          "index": 84.9
+          "halal": 89.91,
+          "index": 85.35
         },
         {
           "date": "2022-10-28",
-          "halal": 94.98,
-          "index": 88.24
+          "halal": 95.61,
+          "index": 88.71
         },
         {
           "date": "2022-11-04",
-          "halal": 92.79,
-          "index": 85.36
+          "halal": 93.35,
+          "index": 85.82
         },
         {
           "date": "2022-11-11",
-          "halal": 100.19,
-          "index": 90.39
+          "halal": 100.74,
+          "index": 90.88
         },
         {
           "date": "2022-11-18",
-          "halal": 98.91,
-          "index": 89.83
+          "halal": 99.48,
+          "index": 90.31
         },
         {
           "date": "2022-11-25",
-          "halal": 100.62,
-          "index": 91.26
+          "halal": 101.16,
+          "index": 91.75
         },
         {
           "date": "2022-12-02",
-          "halal": 101.91,
-          "index": 92.3
+          "halal": 102.43,
+          "index": 92.79
         },
         {
           "date": "2022-12-09",
-          "halal": 99.17,
-          "index": 89.2
+          "halal": 99.63,
+          "index": 89.68
         },
         {
           "date": "2022-12-16",
-          "halal": 96.46,
-          "index": 87.33
+          "halal": 96.88,
+          "index": 87.8
         },
         {
           "date": "2022-12-23",
-          "halal": 94.16,
-          "index": 87.25
+          "halal": 94.59,
+          "index": 87.72
         },
         {
           "date": "2022-12-30",
-          "halal": 93.74,
-          "index": 87.14
+          "halal": 94.19,
+          "index": 87.61
         },
         {
           "date": "2023-01-06",
-          "halal": 95.61,
-          "index": 88.43
+          "halal": 96.03,
+          "index": 88.9
         },
         {
           "date": "2023-01-13",
-          "halal": 99.74,
-          "index": 90.8
+          "halal": 100.14,
+          "index": 91.29
         },
         {
           "date": "2023-01-20",
-          "halal": 100.51,
-          "index": 90.21
+          "halal": 100.9,
+          "index": 90.69
         },
         {
           "date": "2023-01-27",
-          "halal": 105.88,
-          "index": 92.44
+          "halal": 106.31,
+          "index": 92.94
         },
         {
           "date": "2023-02-03",
-          "halal": 108.63,
-          "index": 93.96
+          "halal": 109.09,
+          "index": 94.46
         },
         {
           "date": "2023-02-10",
-          "halal": 107.87,
-          "index": 92.98
+          "halal": 108.33,
+          "index": 93.48
         },
         {
           "date": "2023-02-17",
-          "halal": 108.04,
-          "index": 92.8
+          "halal": 108.49,
+          "index": 93.3
         },
         {
           "date": "2023-02-24",
-          "halal": 107.06,
-          "index": 90.32
+          "halal": 107.44,
+          "index": 90.81
         },
         {
           "date": "2023-03-03",
-          "halal": 109.83,
-          "index": 92.1
+          "halal": 110.23,
+          "index": 92.6
         },
         {
           "date": "2023-03-10",
-          "halal": 105.52,
-          "index": 87.93
+          "halal": 105.93,
+          "index": 88.41
         },
         {
           "date": "2023-03-17",
-          "halal": 109.04,
-          "index": 89.2
+          "halal": 109.43,
+          "index": 89.68
         },
         {
           "date": "2023-03-24",
-          "halal": 111.56,
-          "index": 90.52
+          "halal": 111.96,
+          "index": 91.01
         },
         {
           "date": "2023-03-31",
-          "halal": 115.74,
-          "index": 93.64
-        },
-        {
-          "date": "2023-04-07",
-          "halal": 113.76,
-          "index": 93.6
-        },
-        {
-          "date": "2023-04-14",
-          "halal": 114.82,
-          "index": 94.34
-        },
-        {
-          "date": "2023-04-21",
-          "halal": 114.39,
-          "index": 94.28
-        },
-        {
-          "date": "2023-04-28",
-          "halal": 115.48,
-          "index": 95.14
-        },
-        {
-          "date": "2023-05-05",
-          "halal": 116.22,
-          "index": 94.38
-        },
-        {
-          "date": "2023-05-12",
-          "halal": 115.79,
+          "halal": 116.15,
           "index": 94.14
         },
         {
+          "date": "2023-04-07",
+          "halal": 114.16,
+          "index": 94.1
+        },
+        {
+          "date": "2023-04-14",
+          "halal": 115.22,
+          "index": 94.85
+        },
+        {
+          "date": "2023-04-21",
+          "halal": 114.74,
+          "index": 94.79
+        },
+        {
+          "date": "2023-04-28",
+          "halal": 115.83,
+          "index": 95.65
+        },
+        {
+          "date": "2023-05-05",
+          "halal": 116.57,
+          "index": 94.89
+        },
+        {
+          "date": "2023-05-12",
+          "halal": 116.14,
+          "index": 94.65
+        },
+        {
           "date": "2023-05-19",
-          "halal": 120.52,
-          "index": 95.75
+          "halal": 120.86,
+          "index": 96.27
         },
         {
           "date": "2023-05-26",
-          "halal": 126.95,
-          "index": 96.07
+          "halal": 127.21,
+          "index": 96.59
         },
         {
           "date": "2023-06-02",
-          "halal": 128.93,
-          "index": 97.88
+          "halal": 129.21,
+          "index": 98.41
         },
         {
           "date": "2023-06-09",
-          "halal": 129.72,
-          "index": 98.33
+          "halal": 130.05,
+          "index": 98.86
         },
         {
           "date": "2023-06-16",
-          "halal": 135.39,
-          "index": 100.89
+          "halal": 135.68,
+          "index": 101.43
         },
         {
           "date": "2023-06-23",
-          "halal": 133.17,
-          "index": 99.46
+          "halal": 133.43,
+          "index": 99.99
         },
         {
           "date": "2023-06-30",
-          "halal": 136.74,
-          "index": 101.77
+          "halal": 137.04,
+          "index": 102.32
         },
         {
           "date": "2023-07-07",
-          "halal": 134.84,
-          "index": 100.68
+          "halal": 135.14,
+          "index": 101.22
         },
         {
           "date": "2023-07-14",
-          "halal": 139.11,
-          "index": 103.15
+          "halal": 139.33,
+          "index": 103.7
         },
         {
           "date": "2023-07-21",
-          "halal": 139.51,
-          "index": 103.81
+          "halal": 139.72,
+          "index": 104.37
         },
         {
           "date": "2023-07-28",
-          "halal": 142.41,
-          "index": 104.9
+          "halal": 142.6,
+          "index": 105.46
         },
         {
           "date": "2023-08-04",
-          "halal": 138.93,
-          "index": 102.58
+          "halal": 139.1,
+          "index": 103.13
         },
         {
           "date": "2023-08-11",
-          "halal": 136.48,
-          "index": 102.31
+          "halal": 136.66,
+          "index": 102.86
         },
         {
           "date": "2023-08-18",
-          "halal": 135.48,
-          "index": 100.21
+          "halal": 135.58,
+          "index": 100.75
         },
         {
           "date": "2023-08-25",
-          "halal": 138.39,
-          "index": 101.01
+          "halal": 138.47,
+          "index": 101.55
         },
         {
           "date": "2023-09-01",
-          "halal": 144.29,
-          "index": 103.59
+          "halal": 144.38,
+          "index": 104.14
         },
         {
           "date": "2023-09-08",
-          "halal": 141.09,
-          "index": 102.28
+          "halal": 141.19,
+          "index": 102.83
         },
         {
           "date": "2023-09-15",
-          "halal": 139.46,
-          "index": 102.15
+          "halal": 139.6,
+          "index": 102.7
         },
         {
           "date": "2023-09-22",
-          "halal": 135.49,
-          "index": 99.17
+          "halal": 135.63,
+          "index": 99.7
         },
         {
           "date": "2023-09-29",
-          "halal": 136.02,
-          "index": 98.49
+          "halal": 136.15,
+          "index": 99.02
         },
         {
           "date": "2023-10-06",
-          "halal": 138.04,
-          "index": 98.96
+          "halal": 138.15,
+          "index": 99.49
         },
         {
           "date": "2023-10-13",
-          "halal": 138.55,
-          "index": 99.41
+          "halal": 138.66,
+          "index": 99.95
         },
         {
           "date": "2023-10-20",
-          "halal": 133.03,
-          "index": 97.04
+          "halal": 133.16,
+          "index": 97.56
         },
         {
           "date": "2023-10-27",
-          "halal": 129.62,
-          "index": 94.62
+          "halal": 129.73,
+          "index": 95.13
         },
         {
           "date": "2023-11-03",
-          "halal": 138.32,
-          "index": 100.15
+          "halal": 138.4,
+          "index": 100.69
         },
         {
           "date": "2023-11-10",
-          "halal": 142.05,
-          "index": 101.51
+          "halal": 142.12,
+          "index": 102.06
         },
         {
           "date": "2023-11-17",
-          "halal": 145.6,
-          "index": 103.86
+          "halal": 145.69,
+          "index": 104.42
         },
         {
           "date": "2023-11-24",
-          "halal": 146.13,
-          "index": 104.9
+          "halal": 146.24,
+          "index": 105.46
         },
         {
           "date": "2023-12-01",
-          "halal": 146.86,
-          "index": 105.77
+          "halal": 146.97,
+          "index": 106.34
         },
         {
           "date": "2023-12-08",
-          "halal": 147.66,
-          "index": 106.03
+          "halal": 147.79,
+          "index": 106.6
         },
         {
           "date": "2023-12-15",
-          "halal": 153.64,
-          "index": 108.57
+          "halal": 153.8,
+          "index": 109.15
         },
         {
           "date": "2023-12-22",
-          "halal": 154.37,
-          "index": 109.57
+          "halal": 154.5,
+          "index": 110.16
         },
         {
           "date": "2023-12-29",
-          "halal": 155.02,
-          "index": 109.95
+          "halal": 155.14,
+          "index": 110.54
         },
         {
           "date": "2024-01-05",
-          "halal": 151.56,
-          "index": 108.24
+          "halal": 151.62,
+          "index": 108.82
         },
         {
           "date": "2024-01-12",
-          "halal": 156.46,
-          "index": 110.27
+          "halal": 156.43,
+          "index": 110.86
         },
         {
           "date": "2024-01-19",
-          "halal": 161.52,
-          "index": 111.6
+          "halal": 161.46,
+          "index": 112.2
         },
         {
           "date": "2024-01-26",
-          "halal": 162.14,
-          "index": 112.75
+          "halal": 162.05,
+          "index": 113.36
         },
         {
           "date": "2024-02-02",
-          "halal": 165.13,
-          "index": 114.36
+          "halal": 164.93,
+          "index": 114.97
         },
         {
           "date": "2024-02-09",
-          "halal": 169.88,
-          "index": 115.94
+          "halal": 169.61,
+          "index": 116.56
         },
         {
           "date": "2024-02-16",
-          "halal": 169.37,
-          "index": 115.55
+          "halal": 169.1,
+          "index": 116.17
         },
         {
           "date": "2024-02-23",
-          "halal": 173.39,
-          "index": 117.48
+          "halal": 172.99,
+          "index": 118.11
         },
         {
           "date": "2024-03-01",
-          "halal": 178.97,
-          "index": 118.64
+          "halal": 178.54,
+          "index": 119.27
         },
         {
           "date": "2024-03-08",
-          "halal": 177.91,
-          "index": 118.37
+          "halal": 177.35,
+          "index": 119.01
         },
         {
           "date": "2024-03-15",
-          "halal": 176.38,
-          "index": 118.3
+          "halal": 175.81,
+          "index": 118.94
         },
         {
           "date": "2024-03-22",
-          "halal": 182.07,
-          "index": 120.94
+          "halal": 181.4,
+          "index": 121.59
         },
         {
           "date": "2024-03-29",
-          "halal": 182.3,
-          "index": 121.38
+          "halal": 181.66,
+          "index": 122.03
         },
         {
           "date": "2024-04-05",
-          "halal": 180.0,
-          "index": 120.3
+          "halal": 179.37,
+          "index": 120.95
         },
         {
           "date": "2024-04-12",
-          "halal": 178.43,
-          "index": 118.54
+          "halal": 177.83,
+          "index": 119.18
         },
         {
           "date": "2024-04-19",
-          "halal": 167.73,
-          "index": 114.9
+          "halal": 167.2,
+          "index": 115.52
         },
         {
           "date": "2024-04-26",
-          "halal": 176.77,
-          "index": 117.94
+          "halal": 176.13,
+          "index": 118.57
         },
         {
           "date": "2024-05-03",
-          "halal": 178.9,
-          "index": 118.64
+          "halal": 178.26,
+          "index": 119.28
         },
         {
           "date": "2024-05-10",
-          "halal": 181.9,
-          "index": 120.86
+          "halal": 181.22,
+          "index": 121.51
         },
         {
           "date": "2024-05-17",
-          "halal": 186.63,
-          "index": 122.86
+          "halal": 185.97,
+          "index": 123.52
         },
         {
           "date": "2024-05-24",
-          "halal": 190.57,
-          "index": 122.85
+          "halal": 189.75,
+          "index": 123.51
         },
         {
           "date": "2024-05-31",
-          "halal": 189.62,
-          "index": 122.37
+          "halal": 188.8,
+          "index": 123.03
         },
         {
           "date": "2024-06-07",
-          "halal": 194.19,
-          "index": 123.91
+          "halal": 193.25,
+          "index": 124.58
         },
         {
           "date": "2024-06-14",
-          "halal": 201.97,
-          "index": 125.95
+          "halal": 200.98,
+          "index": 126.63
         },
         {
           "date": "2024-06-21",
-          "halal": 201.94,
-          "index": 126.76
+          "halal": 200.95,
+          "index": 127.44
         },
         {
           "date": "2024-06-28",
-          "halal": 201.25,
-          "index": 126.69
+          "halal": 200.35,
+          "index": 127.37
         },
         {
           "date": "2024-07-05",
-          "halal": 206.91,
-          "index": 129.12
+          "halal": 206.14,
+          "index": 129.81
         },
         {
           "date": "2024-07-12",
-          "halal": 210.9,
-          "index": 130.36
+          "halal": 210.09,
+          "index": 131.06
         },
         {
           "date": "2024-07-19",
-          "halal": 202.46,
-          "index": 127.8
+          "halal": 201.71,
+          "index": 128.49
         },
         {
           "date": "2024-07-26",
-          "halal": 198.99,
-          "index": 126.74
+          "halal": 198.22,
+          "index": 127.42
         },
         {
           "date": "2024-08-02",
-          "halal": 192.2,
-          "index": 124.06
+          "halal": 191.45,
+          "index": 124.72
         },
         {
           "date": "2024-08-09",
-          "halal": 192.57,
-          "index": 124.08
+          "halal": 191.83,
+          "index": 124.74
         },
         {
           "date": "2024-08-16",
-          "halal": 205.8,
-          "index": 129.04
+          "halal": 204.9,
+          "index": 129.73
         },
         {
           "date": "2024-08-23",
-          "halal": 209.24,
-          "index": 130.86
+          "halal": 208.28,
+          "index": 131.56
         },
         {
           "date": "2024-08-30",
-          "halal": 207.76,
-          "index": 131.22
+          "halal": 206.89,
+          "index": 131.93
         },
         {
           "date": "2024-09-06",
-          "halal": 194.37,
-          "index": 125.79
+          "halal": 193.62,
+          "index": 126.47
         },
         {
           "date": "2024-09-13",
-          "halal": 206.85,
-          "index": 130.83
+          "halal": 205.97,
+          "index": 131.54
         },
         {
           "date": "2024-09-20",
-          "halal": 209.9,
-          "index": 132.69
+          "halal": 209.09,
+          "index": 133.4
         },
         {
           "date": "2024-09-27",
-          "halal": 214.42,
-          "index": 133.44
+          "halal": 213.6,
+          "index": 134.16
         },
         {
           "date": "2024-10-04",
-          "halal": 215.38,
-          "index": 133.8
+          "halal": 214.54,
+          "index": 134.51
         },
         {
           "date": "2024-10-11",
-          "halal": 219.66,
-          "index": 135.34
+          "halal": 218.66,
+          "index": 136.06
         },
         {
           "date": "2024-10-18",
-          "halal": 221.11,
-          "index": 136.51
+          "halal": 220.06,
+          "index": 137.24
         },
         {
           "date": "2024-10-25",
-          "halal": 220.29,
-          "index": 135.21
+          "halal": 219.28,
+          "index": 135.94
         },
         {
           "date": "2024-11-01",
-          "halal": 215.5,
-          "index": 133.34
+          "halal": 214.47,
+          "index": 134.06
         },
         {
           "date": "2024-11-08",
-          "halal": 228.78,
-          "index": 139.68
+          "halal": 227.73,
+          "index": 140.43
         },
         {
           "date": "2024-11-15",
-          "halal": 219.97,
-          "index": 136.78
+          "halal": 218.98,
+          "index": 137.51
         },
         {
           "date": "2024-11-22",
-          "halal": 225.72,
-          "index": 139.06
+          "halal": 224.73,
+          "index": 139.8
         },
         {
           "date": "2024-11-29",
-          "halal": 226.07,
-          "index": 140.7
+          "halal": 225.13,
+          "index": 141.46
         },
         {
           "date": "2024-12-06",
-          "halal": 229.17,
-          "index": 141.93
+          "halal": 228.24,
+          "index": 142.69
         },
         {
           "date": "2024-12-13",
-          "halal": 228.45,
-          "index": 141.09
+          "halal": 227.7,
+          "index": 141.85
         },
         {
           "date": "2024-12-20",
-          "halal": 223.75,
-          "index": 138.5
+          "halal": 223.01,
+          "index": 139.25
         },
         {
           "date": "2024-12-27",
-          "halal": 226.54,
-          "index": 139.41
+          "halal": 225.84,
+          "index": 140.16
         },
         {
           "date": "2025-01-03",
-          "halal": 226.67,
-          "index": 138.69
+          "halal": 225.87,
+          "index": 139.44
         },
         {
           "date": "2025-01-10",
-          "halal": 222.26,
-          "index": 136.01
+          "halal": 221.44,
+          "index": 136.74
         },
         {
           "date": "2025-01-17",
-          "halal": 228.77,
-          "index": 140.01
-        },
-        {
-          "date": "2025-01-24",
-          "halal": 231.74,
-          "index": 142.44
-        },
-        {
-          "date": "2025-01-31",
-          "halal": 225.17,
-          "index": 141.0
-        },
-        {
-          "date": "2025-02-07",
-          "halal": 226.74,
+          "halal": 227.94,
           "index": 140.76
         },
         {
+          "date": "2025-01-24",
+          "halal": 230.8,
+          "index": 143.21
+        },
+        {
+          "date": "2025-01-31",
+          "halal": 224.43,
+          "index": 141.76
+        },
+        {
+          "date": "2025-02-07",
+          "halal": 225.81,
+          "index": 141.51
+        },
+        {
           "date": "2025-02-14",
-          "halal": 233.56,
-          "index": 142.85
+          "halal": 232.62,
+          "index": 143.62
         },
         {
           "date": "2025-02-21",
-          "halal": 231.11,
-          "index": 140.56
+          "halal": 230.21,
+          "index": 141.32
         },
         {
           "date": "2025-02-28",
-          "halal": 225.02,
-          "index": 139.21
+          "halal": 224.09,
+          "index": 139.96
         },
         {
           "date": "2025-03-07",
-          "halal": 216.28,
-          "index": 134.93
+          "halal": 215.45,
+          "index": 135.66
         },
         {
           "date": "2025-03-14",
-          "halal": 213.92,
-          "index": 131.86
+          "halal": 212.94,
+          "index": 132.57
         },
         {
           "date": "2025-03-21",
-          "halal": 214.1,
-          "index": 132.53
+          "halal": 213.22,
+          "index": 133.25
         },
         {
           "date": "2025-03-28",
-          "halal": 208.69,
-          "index": 130.58
+          "halal": 207.9,
+          "index": 131.28
         },
         {
           "date": "2025-04-04",
-          "halal": 184.21,
-          "index": 118.74
+          "halal": 183.48,
+          "index": 119.38
         },
         {
           "date": "2025-04-11",
-          "halal": 198.0,
-          "index": 125.48
+          "halal": 197.13,
+          "index": 126.15
         },
         {
           "date": "2025-04-18",
-          "halal": 195.06,
-          "index": 123.71
+          "halal": 194.25,
+          "index": 124.37
         },
         {
           "date": "2025-04-25",
-          "halal": 208.12,
-          "index": 129.4
+          "halal": 207.28,
+          "index": 130.1
         },
         {
           "date": "2025-05-02",
-          "halal": 212.96,
-          "index": 133.19
+          "halal": 212.05,
+          "index": 133.9
         },
         {
           "date": "2025-05-09",
-          "halal": 212.82,
-          "index": 132.62
+          "halal": 211.91,
+          "index": 133.33
         },
         {
           "date": "2025-05-16",
-          "halal": 229.65,
-          "index": 139.64
+          "halal": 228.61,
+          "index": 140.39
         },
         {
           "date": "2025-05-23",
-          "halal": 222.18,
-          "index": 136.09
+          "halal": 221.11,
+          "index": 136.82
         },
         {
           "date": "2025-05-30",
-          "halal": 226.34,
-          "index": 138.51
+          "halal": 225.24,
+          "index": 139.25
         },
         {
           "date": "2025-06-06",
-          "halal": 231.93,
-          "index": 140.8
+          "halal": 230.7,
+          "index": 141.55
         },
         {
           "date": "2025-06-13",
-          "halal": 233.07,
-          "index": 140.29
+          "halal": 231.89,
+          "index": 141.05
         },
         {
           "date": "2025-06-20",
-          "halal": 234.39,
-          "index": 140.07
+          "halal": 233.26,
+          "index": 140.82
         },
         {
           "date": "2025-06-27",
-          "halal": 242.92,
-          "index": 144.93
+          "halal": 241.67,
+          "index": 145.71
         },
         {
           "date": "2025-07-04",
-          "halal": 248.46,
-          "index": 147.39
+          "halal": 247.2,
+          "index": 148.18
         },
         {
           "date": "2025-07-11",
-          "halal": 249.41,
-          "index": 146.98
+          "halal": 248.14,
+          "index": 147.77
         },
         {
           "date": "2025-07-18",
-          "halal": 251.46,
-          "index": 147.92
+          "halal": 250.18,
+          "index": 148.71
         },
         {
           "date": "2025-07-25",
-          "halal": 254.99,
-          "index": 150.16
+          "halal": 253.69,
+          "index": 150.97
         },
         {
           "date": "2025-08-01",
-          "halal": 248.85,
-          "index": 146.54
+          "halal": 247.55,
+          "index": 147.32
         },
         {
           "date": "2025-08-08",
-          "halal": 257.76,
-          "index": 150.18
+          "halal": 256.51,
+          "index": 150.99
         },
         {
           "date": "2025-08-15",
-          "halal": 260.4,
-          "index": 151.65
+          "halal": 259.2,
+          "index": 152.47
         },
         {
           "date": "2025-08-22",
-          "halal": 261.01,
-          "index": 152.1
+          "halal": 259.79,
+          "index": 152.91
         },
         {
           "date": "2025-08-29",
-          "halal": 260.39,
-          "index": 152.03
+          "halal": 259.23,
+          "index": 152.85
         },
         {
           "date": "2025-09-05",
-          "halal": 262.28,
-          "index": 152.55
+          "halal": 261.22,
+          "index": 153.37
         },
         {
           "date": "2025-09-12",
-          "halal": 269.87,
-          "index": 154.95
+          "halal": 268.76,
+          "index": 155.78
         },
         {
           "date": "2025-09-19",
-          "halal": 275.39,
-          "index": 156.86
+          "halal": 274.4,
+          "index": 157.71
         },
         {
           "date": "2025-09-26",
-          "halal": 277.15,
-          "index": 156.42
+          "halal": 276.29,
+          "index": 157.26
         },
         {
           "date": "2025-10-03",
-          "halal": 286.51,
-          "index": 158.17
+          "halal": 285.48,
+          "index": 159.02
         },
         {
           "date": "2025-10-10",
-          "halal": 280.28,
-          "index": 154.34
+          "halal": 279.35,
+          "index": 155.17
         },
         {
           "date": "2025-10-17",
-          "halal": 287.42,
-          "index": 157.03
+          "halal": 286.56,
+          "index": 157.87
         },
         {
           "date": "2025-10-24",
-          "halal": 294.32,
-          "index": 160.07
+          "halal": 293.5,
+          "index": 160.93
         },
         {
           "date": "2025-10-31",
-          "halal": 300.85,
-          "index": 161.2
+          "halal": 300.02,
+          "index": 162.07
         },
         {
           "date": "2025-11-07",
-          "halal": 295.17,
-          "index": 158.58
+          "halal": 294.37,
+          "index": 159.43
         },
         {
           "date": "2025-11-14",
-          "halal": 296.77,
-          "index": 158.81
+          "halal": 295.91,
+          "index": 159.66
         },
         {
           "date": "2025-11-21",
-          "halal": 288.69,
-          "index": 155.76
+          "halal": 287.87,
+          "index": 156.6
         },
         {
           "date": "2025-11-28",
-          "halal": 300.76,
-          "index": 161.52
+          "halal": 300.08,
+          "index": 162.39
         },
         {
           "date": "2025-12-05",
-          "halal": 303.99,
-          "index": 162.06
+          "halal": 303.28,
+          "index": 162.93
         },
         {
           "date": "2025-12-12",
-          "halal": 300.86,
-          "index": 161.13
+          "halal": 300.14,
+          "index": 162.0
         },
         {
           "date": "2025-12-19",
-          "halal": 302.33,
-          "index": 161.33
+          "halal": 301.52,
+          "index": 162.2
         },
         {
           "date": "2025-12-26",
-          "halal": 307.68,
-          "index": 163.63
+          "halal": 306.74,
+          "index": 164.51
         },
         {
           "date": "2026-01-02",
-          "halal": 306.75,
-          "index": 161.94
+          "halal": 305.84,
+          "index": 162.81
         },
         {
           "date": "2026-01-09",
-          "halal": 309.07,
-          "index": 164.53
+          "halal": 308.07,
+          "index": 165.41
         },
         {
           "date": "2026-01-16",
-          "halal": 311.46,
-          "index": 163.95
+          "halal": 310.52,
+          "index": 164.84
         },
         {
           "date": "2026-01-23",
-          "halal": 311.67,
-          "index": 163.38
+          "halal": 310.66,
+          "index": 164.26
         },
         {
           "date": "2026-01-30",
-          "halal": 315.52,
-          "index": 164.03
+          "halal": 314.57,
+          "index": 164.91
         },
         {
           "date": "2026-02-06",
-          "halal": 320.07,
-          "index": 163.71
+          "halal": 319.27,
+          "index": 164.59
         },
         {
           "date": "2026-02-13",
-          "halal": 317.35,
-          "index": 161.61
+          "halal": 316.5,
+          "index": 162.47
         },
         {
           "date": "2026-02-20",
-          "halal": 320.85,
-          "index": 163.43
+          "halal": 319.94,
+          "index": 164.3
         },
         {
           "date": "2026-02-27",
-          "halal": 319.67,
-          "index": 162.61
+          "halal": 318.84,
+          "index": 163.48
         },
         {
           "date": "2026-03-06",
-          "halal": 311.4,
-          "index": 159.38
+          "halal": 310.57,
+          "index": 160.24
         },
         {
           "date": "2026-03-13",
-          "halal": 310.27,
-          "index": 156.99
+          "halal": 309.45,
+          "index": 157.84
         },
         {
           "date": "2026-03-20",
-          "halal": 304.74,
-          "index": 154.16
+          "halal": 304.01,
+          "index": 154.99
         },
         {
           "date": "2026-03-27",
-          "halal": 300.51,
-          "index": 150.72
+          "halal": 299.92,
+          "index": 151.53
         },
         {
           "date": "2026-04-03",
-          "halal": 310.68,
-          "index": 155.89
+          "halal": 310.06,
+          "index": 156.72
         },
         {
           "date": "2026-04-10",
-          "halal": 323.4,
-          "index": 161.5
+          "halal": 322.77,
+          "index": 162.37
         },
         {
           "date": "2026-04-17",
-          "halal": 339.52,
-          "index": 168.79
-        },
-        {
-          "date": "2026-04-24",
-          "halal": 346.11,
+          "halal": 338.89,
           "index": 169.7
         },
         {
+          "date": "2026-04-24",
+          "halal": 345.62,
+          "index": 170.61
+        },
+        {
           "date": "2026-05-01",
-          "halal": 349.36,
-          "index": 171.29
+          "halal": 349.16,
+          "index": 172.21
         },
         {
           "date": "2026-05-08",
-          "halal": 366.21,
-          "index": 175.33
+          "halal": 366.11,
+          "index": 176.27
         },
         {
           "date": "2026-05-15",
-          "halal": 369.87,
-          "index": 175.7
+          "halal": 369.76,
+          "index": 176.64
         },
         {
           "date": "2026-05-22",
-          "halal": 376.34,
-          "index": 177.23
+          "halal": 376.37,
+          "index": 178.19
         },
         {
           "date": "2026-05-29",
-          "halal": 384.42,
-          "index": 179.81
+          "halal": 384.44,
+          "index": 180.78
         },
         {
           "date": "2026-06-05",
-          "halal": 376.43,
-          "index": 175.31
+          "halal": 376.32,
+          "index": 176.25
         },
         {
           "date": "2026-06-12",
-          "halal": 381.18,
-          "index": 176.31
+          "halal": 381.07,
+          "index": 177.26
         },
         {
           "date": "2026-06-19",
-          "halal": 387.33,
-          "index": 177.95
+          "halal": 387.24,
+          "index": 178.91
         },
         {
           "date": "2026-06-26",
-          "halal": 379.94,
-          "index": 173.72
+          "halal": 379.77,
+          "index": 174.66
         },
         {
           "date": "2026-07-03",
-          "halal": 385.51,
-          "index": 177.48
+          "halal": 385.39,
+          "index": 178.44
         },
         {
           "date": "2026-07-10",
-          "halal": 394.01,
-          "index": 179.91
+          "halal": 393.92,
+          "index": 180.88
         },
         {
           "date": "2026-07-17",
-          "halal": 385.63,
-          "index": 177.13
+          "halal": 385.56,
+          "index": 178.08
         },
         {
           "date": "2026-07-24",
-          "halal": 387.26,
-          "index": 176.09
+          "halal": 387.08,
+          "index": 177.04
         },
         {
           "date": "2026-07-31",
-          "halal": 382.01,
-          "index": 178.02
+          "halal": 381.68,
+          "index": 178.98
         },
         {
           "date": "2026-08-07",
-          "halal": 400.88,
-          "index": 184.27
+          "halal": 400.32,
+          "index": 185.26
         },
         {
           "date": "2026-08-14",
-          "halal": 404.62,
-          "index": 185.01
+          "halal": 404.02,
+          "index": 186.0
         },
         {
           "date": "2026-08-21",
-          "halal": 401.03,
-          "index": 182.47
+          "halal": 400.45,
+          "index": 183.46
         },
         {
           "date": "2026-08-28",
-          "halal": 400.94,
-          "index": 183.34
+          "halal": 400.33,
+          "index": 184.33
         },
         {
           "date": "2026-09-04",
-          "halal": 405.26,
-          "index": 183.54
+          "halal": 404.56,
+          "index": 184.53
+        },
+        {
+          "date": "2026-09-11",
+          "halal": 398.65,
+          "index": 181.57
         }
       ]
     }
