@@ -1,11 +1,11 @@
-# Drafts tweets @muslimfinance_ — mis a jour 2026-09-08
+# Drafts tweets @muslimfinance_ — mis a jour 2026-09-11
 
 Hook éditorial : « battre le SP500 avec actions halal AAOIFI »
 
-Source data : `data/backtest.json` (mis à jour 2026-09-08)
-- NASDAQ 100 halal 1Y : +69,6% vs QQQ +24,8% (+44,8 pts)
-- S&P 500 halal 1Y : +54,0% vs SPY +20,0% (+34,0 pts)
-- S&P 500 halal 3Y : +107,4 pts / 5Y : +221,7 pts
+Source data : `data/backtest.json` (mis à jour 2026-09-11)
+- NASDAQ 100 halal 1Y : +63,8% vs QQQ +21,9% (+41,8 pts)
+- S&P 500 halal 1Y : +48,5% vs SPY +16,5% (+32,0 pts)
+- S&P 500 halal 3Y : +106,8 pts / 5Y : +217,1 pts
 - 66 actions halal sur 102 NASDAQ, 228 sur 503 SP500
 
 Disclaimer légal : ne pas promettre des perfs futures, mentionner que backtest = composition actuelle appliquée historiquement (voir disclaimer site).
@@ -14,9 +14,9 @@ Disclaimer légal : ne pas promettre des perfs futures, mentionner que backtest 
 
 ## Tweet 1 — Hook performance (à publier en premier J0 — vendredi 17/05)
 
-> 1 an. NASDAQ 100 halal : **+69,6 %**.
-> NASDAQ 100 classique (QQQ) : +24,8 %.
-> 45 points d'écart. Sans riba, sans alcool, sans armes.
+> 1 an. NASDAQ 100 halal : **+63,8 %**.
+> NASDAQ 100 classique (QQQ) : +21,9 %.
+> 42 points d'écart. Sans riba, sans alcool, sans armes.
 >
 > 66 actions sur 102 passent le filtre AAOIFI.
 > La liste complète : muslimfinance.net/nasdaq-halal
@@ -37,17 +37,17 @@ Disclaimer légal : ne pas promettre des perfs futures, mentionner que backtest 
 
 > Mythe : "investir halal = laisser de l'argent sur la table".
 >
-> Réalité : NASDAQ 100 halal +69,6 % vs QQQ +24,8 % sur 12 mois.
-> S&P 500 halal bat le SPY de +34,0 pts sur 1 an, +221,7 pts sur 5 ans.
+> Réalité : NASDAQ 100 halal +63,8 % vs QQQ +21,9 % sur 12 mois.
+> S&P 500 halal bat le SPY de +32,0 pts sur 1 an, +217,1 pts sur 5 ans.
 >
 > Le filtre AAOIFI exclut les banques riba. Ça ne coûte rien.
 
 ## Tweet 4 — Comparatif global (J3 — lundi 20/05)
 
 > S&P 500 halal vs SPY classique :
-> – 1 an : +34,0 pts
-> – 3 ans : +107,4 pts
-> – 5 ans : +221,7 pts
+> – 1 an : +32,0 pts
+> – 3 ans : +106,8 pts
+> – 5 ans : +217,1 pts
 >
 > Sans alcool. Sans armes. Sans riba. Sans copy trader sketch sur Insta.
 >
@@ -57,11 +57,11 @@ Disclaimer légal : ne pas promettre des perfs futures, mentionner que backtest 
 
 > Top 5 actions du NASDAQ 100 halal (par poids) :
 >
-> 1. NVDA — 23,5 %
-> 2. AAPL — 19,7 %
-> 3. AVGO — 7,2 %
-> 4. TSLA — 5,9 %
-> 5. MU — 4,8 %
+> 1. NVDA — 22,6 %
+> 2. AAPL — 20,3 %
+> 3. AVGO — 7,3 %
+> 4. TSLA — 6,1 %
+> 5. MU — 4,7 %
 >
 > 66 sur 102 passent AAOIFI. 36 exclues (riba, alcool, secteurs interdits).
 >
