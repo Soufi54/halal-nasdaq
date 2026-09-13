@@ -247,18 +247,18 @@
     "scraped_at": "2026-09-12T00:09:16+00:00"
   },
   {
-    "ticker": "GE",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:09:19+00:00"
-  },
-  {
     "ticker": "MS",
     "status": "not_halal",
     "interest_pct": 51.37,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:09:23+00:00"
+  },
+  {
+    "ticker": "GE",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:09:19+00:00"
   },
   {
     "ticker": "NFLX",
@@ -275,18 +275,18 @@
     "scraped_at": "2026-09-12T00:09:29+00:00"
   },
   {
-    "ticker": "PM",
-    "status": "not_halal",
-    "interest_pct": 1.53,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:09:32+00:00"
-  },
-  {
     "ticker": "GS",
     "status": "not_halal",
     "interest_pct": 64.25,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:09:36+00:00"
+  },
+  {
+    "ticker": "PM",
+    "status": "not_halal",
+    "interest_pct": 1.53,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:09:32+00:00"
   },
   {
     "ticker": "WFC",
@@ -421,18 +421,18 @@
     "scraped_at": "2026-09-12T00:10:35+00:00"
   },
   {
-    "ticker": "QCOM",
-    "status": "halal",
-    "interest_pct": 1.44,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:10:38+00:00"
-  },
-  {
     "ticker": "TMUS",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:10:41+00:00"
+  },
+  {
+    "ticker": "QCOM",
+    "status": "halal",
+    "interest_pct": 1.44,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:10:38+00:00"
   },
   {
     "ticker": "STX",
@@ -575,18 +575,18 @@
     "scraped_at": "2026-09-12T00:11:46+00:00"
   },
   {
-    "ticker": "DHR",
-    "status": "halal",
-    "interest_pct": 0.12,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:11:49+00:00"
-  },
-  {
     "ticker": "GLW",
     "status": "halal",
     "interest_pct": 0.24,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:11:52+00:00"
+  },
+  {
+    "ticker": "DHR",
+    "status": "halal",
+    "interest_pct": 0.12,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:11:49+00:00"
   },
   {
     "ticker": "TJX",
@@ -673,18 +673,18 @@
     "scraped_at": "2026-09-12T00:12:31+00:00"
   },
   {
-    "ticker": "LMT",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:12:35+00:00"
-  },
-  {
     "ticker": "CVS",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:12:38+00:00"
+  },
+  {
+    "ticker": "LMT",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:12:35+00:00"
   },
   {
     "ticker": "PH",
@@ -722,18 +722,18 @@
     "scraped_at": "2026-09-12T00:12:54+00:00"
   },
   {
-    "ticker": "VLO",
-    "status": "halal",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:12:57+00:00"
-  },
-  {
     "ticker": "ACN",
     "status": "halal",
     "interest_pct": 0.48,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:13:00+00:00"
+  },
+  {
+    "ticker": "VLO",
+    "status": "halal",
+    "interest_pct": 5.0,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:12:57+00:00"
   },
   {
     "ticker": "MPC",
@@ -743,17 +743,17 @@
     "scraped_at": "2026-09-12T00:13:04+00:00"
   },
   {
-    "ticker": "BNY",
-    "status": "unknown",
-    "source": "zoya",
-    "detail": "404"
-  },
-  {
     "ticker": "LOW",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:13:09+00:00"
+  },
+  {
+    "ticker": "BNY",
+    "status": "unknown",
+    "source": "zoya",
+    "detail": "404"
   },
   {
     "ticker": "APP",
@@ -794,13 +794,6 @@
     "scraped_at": "2026-09-12T00:13:25+00:00"
   },
   {
-    "ticker": "FCX",
-    "status": "halal",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:13:28+00:00"
-  },
-  {
     "ticker": "EQIX",
     "status": "halal",
     "interest_pct": 2.08,
@@ -808,11 +801,11 @@
     "scraped_at": "2026-09-12T00:13:31+00:00"
   },
   {
-    "ticker": "CEG",
+    "ticker": "FCX",
     "status": "halal",
     "interest_pct": 5.0,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:13:35+00:00"
+    "scraped_at": "2026-09-12T00:13:28+00:00"
   },
   {
     "ticker": "HOOD",
@@ -822,11 +815,11 @@
     "scraped_at": "2026-09-12T00:13:38+00:00"
   },
   {
-    "ticker": "SO",
-    "status": "not_halal",
-    "interest_pct": null,
+    "ticker": "CEG",
+    "status": "halal",
+    "interest_pct": 5.0,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:13:41+00:00"
+    "scraped_at": "2026-09-12T00:13:35+00:00"
   },
   {
     "ticker": "ABNB",
@@ -834,6 +827,13 @@
     "interest_pct": 5.76,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:13:44+00:00"
+  },
+  {
+    "ticker": "SO",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:13:41+00:00"
   },
   {
     "ticker": "ADBE",
@@ -871,18 +871,18 @@
     "scraped_at": "2026-09-12T00:14:00+00:00"
   },
   {
-    "ticker": "TT",
-    "status": "halal",
-    "interest_pct": 0.02,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:14:04+00:00"
-  },
-  {
     "ticker": "PNC",
     "status": "not_halal",
     "interest_pct": 80.74,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:14:07+00:00"
+  },
+  {
+    "ticker": "TT",
+    "status": "halal",
+    "interest_pct": 0.02,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:14:04+00:00"
   },
   {
     "ticker": "BX",
@@ -920,13 +920,6 @@
     "scraped_at": "2026-09-12T00:14:23+00:00"
   },
   {
-    "ticker": "CSX",
-    "status": "halal",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:14:26+00:00"
-  },
-  {
     "ticker": "ELV",
     "status": "not_halal",
     "interest_pct": null,
@@ -939,6 +932,13 @@
     "interest_pct": 12.47,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:14:33+00:00"
+  },
+  {
+    "ticker": "CSX",
+    "status": "halal",
+    "interest_pct": 5.0,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:14:26+00:00"
   },
   {
     "ticker": "CMCSA",
@@ -955,13 +955,6 @@
     "scraped_at": "2026-09-12T00:14:39+00:00"
   },
   {
-    "ticker": "ICE",
-    "status": "not_halal",
-    "interest_pct": 1.11,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:14:43+00:00"
-  },
-  {
     "ticker": "JCI",
     "status": "halal",
     "interest_pct": 0.08,
@@ -969,11 +962,11 @@
     "scraped_at": "2026-09-12T00:14:46+00:00"
   },
   {
-    "ticker": "MAR",
+    "ticker": "ICE",
     "status": "not_halal",
-    "interest_pct": 0.16,
+    "interest_pct": 1.11,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:14:49+00:00"
+    "scraped_at": "2026-09-12T00:14:43+00:00"
   },
   {
     "ticker": "DASH",
@@ -981,6 +974,13 @@
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:14:52+00:00"
+  },
+  {
+    "ticker": "MAR",
+    "status": "not_halal",
+    "interest_pct": 0.16,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:14:49+00:00"
   },
   {
     "ticker": "INTU",
@@ -1004,6 +1004,20 @@
     "scraped_at": "2026-09-12T00:15:02+00:00"
   },
   {
+    "ticker": "MMM",
+    "status": "halal",
+    "interest_pct": 0.7,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:15:15+00:00"
+  },
+  {
+    "ticker": "MNST",
+    "status": "halal",
+    "interest_pct": 1.03,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:15:10+00:00"
+  },
+  {
     "ticker": "EMR",
     "status": "halal",
     "interest_pct": 0.83,
@@ -1017,18 +1031,11 @@
     "detail": "404"
   },
   {
-    "ticker": "MNST",
+    "ticker": "SLB",
     "status": "halal",
-    "interest_pct": 1.03,
+    "interest_pct": 0.61,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:15:10+00:00"
-  },
-  {
-    "ticker": "MMM",
-    "status": "halal",
-    "interest_pct": 0.7,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:15:15+00:00"
+    "scraped_at": "2026-09-12T00:15:21+00:00"
   },
   {
     "ticker": "LITE",
@@ -1036,13 +1043,6 @@
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:15:18+00:00"
-  },
-  {
-    "ticker": "SLB",
-    "status": "halal",
-    "interest_pct": 0.61,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:15:21+00:00"
   },
   {
     "ticker": "AMT",
@@ -1080,11 +1080,11 @@
     "scraped_at": "2026-09-12T00:15:37+00:00"
   },
   {
-    "ticker": "DDOG",
-    "status": "not_halal",
-    "interest_pct": null,
+    "ticker": "MDLZ",
+    "status": "halal",
+    "interest_pct": 5.0,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:15:40+00:00"
+    "scraped_at": "2026-09-12T00:15:47+00:00"
   },
   {
     "ticker": "CDNS",
@@ -1094,18 +1094,11 @@
     "scraped_at": "2026-09-12T00:15:43+00:00"
   },
   {
-    "ticker": "MDLZ",
-    "status": "halal",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:15:47+00:00"
-  },
-  {
-    "ticker": "TRV",
+    "ticker": "DDOG",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:15:50+00:00"
+    "scraped_at": "2026-09-12T00:15:40+00:00"
   },
   {
     "ticker": "SHW",
@@ -1115,18 +1108,18 @@
     "scraped_at": "2026-09-12T00:15:53+00:00"
   },
   {
+    "ticker": "TRV",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:15:50+00:00"
+  },
+  {
     "ticker": "ECL",
     "status": "halal",
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:15:56+00:00"
-  },
-  {
-    "ticker": "MSI",
-    "status": "halal",
-    "interest_pct": 0.5,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:16:00+00:00"
   },
   {
     "ticker": "EOG",
@@ -1136,18 +1129,18 @@
     "scraped_at": "2026-09-12T00:16:03+00:00"
   },
   {
+    "ticker": "MSI",
+    "status": "halal",
+    "interest_pct": 0.5,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:16:00+00:00"
+  },
+  {
     "ticker": "CMI",
     "status": "halal",
     "interest_pct": 0.63,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:16:06+00:00"
-  },
-  {
-    "ticker": "SNPS",
-    "status": "halal",
-    "interest_pct": 3.94,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:16:09+00:00"
   },
   {
     "ticker": "ITW",
@@ -1164,6 +1157,13 @@
     "scraped_at": "2026-09-12T00:16:16+00:00"
   },
   {
+    "ticker": "SNPS",
+    "status": "halal",
+    "interest_pct": 3.94,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:16:09+00:00"
+  },
+  {
     "ticker": "GM",
     "status": "not_halal",
     "interest_pct": 0.46,
@@ -1171,11 +1171,11 @@
     "scraped_at": "2026-09-12T00:16:19+00:00"
   },
   {
-    "ticker": "NOC",
+    "ticker": "CI",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:16:22+00:00"
+    "scraped_at": "2026-09-12T00:16:29+00:00"
   },
   {
     "ticker": "FDX",
@@ -1185,11 +1185,11 @@
     "scraped_at": "2026-09-12T00:16:25+00:00"
   },
   {
-    "ticker": "CI",
+    "ticker": "NOC",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:16:29+00:00"
+    "scraped_at": "2026-09-12T00:16:22+00:00"
   },
   {
     "ticker": "ROST",
@@ -1241,18 +1241,18 @@
     "scraped_at": "2026-09-12T00:16:51+00:00"
   },
   {
-    "ticker": "HLT",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:16:54+00:00"
-  },
-  {
     "ticker": "CL",
     "status": "halal",
     "interest_pct": 0.37,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:16:58+00:00"
+  },
+  {
+    "ticker": "HLT",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:16:54+00:00"
   },
   {
     "ticker": "KMI",
@@ -1304,18 +1304,18 @@
     "scraped_at": "2026-09-12T00:17:20+00:00"
   },
   {
-    "ticker": "HON",
-    "status": "not_halal",
-    "interest_pct": 0.99,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:17:24+00:00"
-  },
-  {
     "ticker": "ALL",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:17:27+00:00"
+  },
+  {
+    "ticker": "HON",
+    "status": "not_halal",
+    "interest_pct": 0.99,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:17:24+00:00"
   },
   {
     "ticker": "TDG",
@@ -1374,6 +1374,13 @@
     "scraped_at": "2026-09-12T00:17:54+00:00"
   },
   {
+    "ticker": "TEL",
+    "status": "halal",
+    "interest_pct": 0.49,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:18:04+00:00"
+  },
+  {
     "ticker": "COR",
     "status": "halal",
     "interest_pct": 0.04,
@@ -1386,20 +1393,6 @@
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:18:00+00:00"
-  },
-  {
-    "ticker": "TEL",
-    "status": "halal",
-    "interest_pct": 0.49,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:18:04+00:00"
-  },
-  {
-    "ticker": "OKE",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:18:07+00:00"
   },
   {
     "ticker": "GWW",
@@ -1444,18 +1437,18 @@
     "scraped_at": "2026-09-12T00:18:26+00:00"
   },
   {
-    "ticker": "BKR",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:18:29+00:00"
-  },
-  {
     "ticker": "NUE",
     "status": "halal",
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:18:33+00:00"
+  },
+  {
+    "ticker": "BKR",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:18:29+00:00"
   },
   {
     "ticker": "AFL",
@@ -1465,18 +1458,18 @@
     "scraped_at": "2026-09-12T00:18:36+00:00"
   },
   {
-    "ticker": "MRNA",
-    "status": "not_halal",
-    "interest_pct": 16.15,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:18:39+00:00"
-  },
-  {
     "ticker": "KEYS",
     "status": "halal",
     "interest_pct": 1.9,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:18:42+00:00"
+  },
+  {
+    "ticker": "MRNA",
+    "status": "not_halal",
+    "interest_pct": 16.15,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:18:39+00:00"
   },
   {
     "ticker": "FANG",
@@ -1493,13 +1486,6 @@
     "scraped_at": "2026-09-12T00:18:49+00:00"
   },
   {
-    "ticker": "O",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:18:52+00:00"
-  },
-  {
     "ticker": "FAST",
     "status": "halal",
     "interest_pct": 0.07,
@@ -1507,18 +1493,18 @@
     "scraped_at": "2026-09-12T00:18:55+00:00"
   },
   {
+    "ticker": "O",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:18:52+00:00"
+  },
+  {
     "ticker": "CTVA",
     "status": "halal",
     "interest_pct": 0.78,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:18:58+00:00"
-  },
-  {
-    "ticker": "PSA",
-    "status": "not_halal",
-    "interest_pct": 0.76,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:19:01+00:00"
   },
   {
     "ticker": "F",
@@ -1535,18 +1521,18 @@
     "scraped_at": "2026-09-12T00:19:08+00:00"
   },
   {
+    "ticker": "PSA",
+    "status": "not_halal",
+    "interest_pct": 0.76,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:19:01+00:00"
+  },
+  {
     "ticker": "DVN",
     "status": "halal",
     "interest_pct": 0.33,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:19:12+00:00"
-  },
-  {
-    "ticker": "GRMN",
-    "status": "halal",
-    "interest_pct": 1.78,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:19:15+00:00"
   },
   {
     "ticker": "NKE",
@@ -1561,6 +1547,13 @@
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:19:21+00:00"
+  },
+  {
+    "ticker": "GRMN",
+    "status": "halal",
+    "interest_pct": 1.78,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:19:15+00:00"
   },
   {
     "ticker": "SRE",
@@ -1604,6 +1597,12 @@
     "scraped_at": "2026-09-12T00:19:41+00:00"
   },
   {
+    "ticker": "HONA",
+    "status": "unknown",
+    "source": "zoya",
+    "detail": "404"
+  },
+  {
     "ticker": "VST",
     "status": "not_halal",
     "interest_pct": null,
@@ -1618,10 +1617,11 @@
     "scraped_at": "2026-09-12T00:19:48+00:00"
   },
   {
-    "ticker": "HONA",
-    "status": "unknown",
+    "ticker": "FITB",
+    "status": "not_halal",
+    "interest_pct": 76.97,
     "source": "zoya",
-    "detail": "404"
+    "scraped_at": "2026-09-12T00:20:00+00:00"
   },
   {
     "ticker": "CIEN",
@@ -1638,13 +1638,6 @@
     "scraped_at": "2026-09-12T00:19:56+00:00"
   },
   {
-    "ticker": "FITB",
-    "status": "not_halal",
-    "interest_pct": 76.97,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:20:00+00:00"
-  },
-  {
     "ticker": "HUM",
     "status": "not_halal",
     "interest_pct": null,
@@ -1659,18 +1652,18 @@
     "scraped_at": "2026-09-12T00:20:06+00:00"
   },
   {
-    "ticker": "EBAY",
-    "status": "halal",
-    "interest_pct": 1.78,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:20:09+00:00"
-  },
-  {
     "ticker": "BDX",
     "status": "not_halal",
     "interest_pct": 0.17,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:20:13+00:00"
+  },
+  {
+    "ticker": "EBAY",
+    "status": "halal",
+    "interest_pct": 1.78,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:20:09+00:00"
   },
   {
     "ticker": "WAB",
@@ -1701,18 +1694,18 @@
     "scraped_at": "2026-09-12T00:20:26+00:00"
   },
   {
-    "ticker": "AZO",
-    "status": "halal",
-    "interest_pct": 0.06,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:20:29+00:00"
-  },
-  {
     "ticker": "XEL",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:20:32+00:00"
+  },
+  {
+    "ticker": "AZO",
+    "status": "halal",
+    "interest_pct": 0.06,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:20:29+00:00"
   },
   {
     "ticker": "COIN",
@@ -1736,18 +1729,18 @@
     "scraped_at": "2026-09-12T00:20:42+00:00"
   },
   {
-    "ticker": "LHX",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:20:45+00:00"
-  },
-  {
     "ticker": "CMG",
     "status": "not_halal",
     "interest_pct": 0.62,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:20:48+00:00"
+  },
+  {
+    "ticker": "LHX",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:20:45+00:00"
   },
   {
     "ticker": "WDAY",
@@ -1785,6 +1778,13 @@
     "scraped_at": "2026-09-12T00:21:04+00:00"
   },
   {
+    "ticker": "FLEX",
+    "status": "halal",
+    "interest_pct": 0.18,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:21:14+00:00"
+  },
+  {
     "ticker": "KDP",
     "status": "not_halal",
     "interest_pct": null,
@@ -1799,13 +1799,6 @@
     "scraped_at": "2026-09-12T00:21:11+00:00"
   },
   {
-    "ticker": "FLEX",
-    "status": "halal",
-    "interest_pct": 0.18,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:21:14+00:00"
-  },
-  {
     "ticker": "ADM",
     "status": "halal",
     "interest_pct": 0.15,
@@ -1813,18 +1806,18 @@
     "scraped_at": "2026-09-12T00:21:17+00:00"
   },
   {
-    "ticker": "IBKR",
-    "status": "not_halal",
-    "interest_pct": 40.78,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:21:20+00:00"
-  },
-  {
     "ticker": "A",
     "status": "halal",
     "interest_pct": 0.89,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:21:24+00:00"
+  },
+  {
+    "ticker": "IBKR",
+    "status": "not_halal",
+    "interest_pct": 40.78,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:21:20+00:00"
   },
   {
     "ticker": "PAYX",
@@ -1848,20 +1841,6 @@
     "scraped_at": "2026-09-12T00:21:33+00:00"
   },
   {
-    "ticker": "SYY",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:21:37+00:00"
-  },
-  {
-    "ticker": "TTWO",
-    "status": "doubtful",
-    "interest_pct": 1.28,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:21:40+00:00"
-  },
-  {
     "ticker": "MSCI",
     "status": "halal",
     "interest_pct": 0.51,
@@ -1876,11 +1855,11 @@
     "scraped_at": "2026-09-12T00:21:48+00:00"
   },
   {
-    "ticker": "IDXX",
-    "status": "halal",
-    "interest_pct": 0.06,
+    "ticker": "TTWO",
+    "status": "doubtful",
+    "interest_pct": 1.28,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:21:51+00:00"
+    "scraped_at": "2026-09-12T00:21:40+00:00"
   },
   {
     "ticker": "WAT",
@@ -1888,6 +1867,20 @@
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:21:55+00:00"
+  },
+  {
+    "ticker": "SYY",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:21:37+00:00"
+  },
+  {
+    "ticker": "IDXX",
+    "status": "halal",
+    "interest_pct": 0.06,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:21:51+00:00"
   },
   {
     "ticker": "LYV",
@@ -1925,6 +1918,13 @@
     "scraped_at": "2026-09-12T00:22:11+00:00"
   },
   {
+    "ticker": "DHI",
+    "status": "halal",
+    "interest_pct": 5.0,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:22:21+00:00"
+  },
+  {
     "ticker": "YUM",
     "status": "not_halal",
     "interest_pct": null,
@@ -1937,13 +1937,6 @@
     "interest_pct": null,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:22:17+00:00"
-  },
-  {
-    "ticker": "DHI",
-    "status": "halal",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:22:21+00:00"
   },
   {
     "ticker": "ODFL",
@@ -1960,13 +1953,6 @@
     "scraped_at": "2026-09-12T00:22:27+00:00"
   },
   {
-    "ticker": "PEG",
-    "status": "not_halal",
-    "interest_pct": 1.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:22:30+00:00"
-  },
-  {
     "ticker": "MLM",
     "status": "halal",
     "interest_pct": 5.0,
@@ -1974,11 +1960,11 @@
     "scraped_at": "2026-09-12T00:22:34+00:00"
   },
   {
-    "ticker": "KR",
+    "ticker": "PEG",
     "status": "not_halal",
-    "interest_pct": null,
+    "interest_pct": 1.0,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:22:37+00:00"
+    "scraped_at": "2026-09-12T00:22:30+00:00"
   },
   {
     "ticker": "UAL",
@@ -1988,18 +1974,25 @@
     "scraped_at": "2026-09-12T00:22:40+00:00"
   },
   {
-    "ticker": "HSY",
-    "status": "halal",
-    "interest_pct": 0.24,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:22:43+00:00"
-  },
-  {
     "ticker": "EL",
     "status": "not_halal",
     "interest_pct": 0.6,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:22:47+00:00"
+  },
+  {
+    "ticker": "KR",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:22:37+00:00"
+  },
+  {
+    "ticker": "HSY",
+    "status": "halal",
+    "interest_pct": 0.24,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:22:43+00:00"
   },
   {
     "ticker": "MTB",
@@ -2021,6 +2014,13 @@
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:22:56+00:00"
+  },
+  {
+    "ticker": "STLD",
+    "status": "halal",
+    "interest_pct": 5.0,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:23:19+00:00"
   },
   {
     "ticker": "WEC",
@@ -2065,11 +2065,11 @@
     "scraped_at": "2026-09-12T00:23:16+00:00"
   },
   {
-    "ticker": "STLD",
-    "status": "halal",
-    "interest_pct": 5.0,
+    "ticker": "RJF",
+    "status": "not_halal",
+    "interest_pct": 25.1,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:23:19+00:00"
+    "scraped_at": "2026-09-12T00:23:26+00:00"
   },
   {
     "ticker": "JBL",
@@ -2079,11 +2079,11 @@
     "scraped_at": "2026-09-12T00:23:22+00:00"
   },
   {
-    "ticker": "RJF",
+    "ticker": "CNC",
     "status": "not_halal",
-    "interest_pct": 25.1,
+    "interest_pct": null,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:23:26+00:00"
+    "scraped_at": "2026-09-12T00:23:39+00:00"
   },
   {
     "ticker": "ACGL",
@@ -2107,13 +2107,6 @@
     "scraped_at": "2026-09-12T00:23:35+00:00"
   },
   {
-    "ticker": "CNC",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:23:39+00:00"
-  },
-  {
     "ticker": "CCI",
     "status": "not_halal",
     "interest_pct": 0.3,
@@ -2135,13 +2128,6 @@
     "scraped_at": "2026-09-12T00:23:48+00:00"
   },
   {
-    "ticker": "DXCM",
-    "status": "halal",
-    "interest_pct": 2.42,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:23:52+00:00"
-  },
-  {
     "ticker": "RMD",
     "status": "halal",
     "interest_pct": 5.0,
@@ -2149,18 +2135,18 @@
     "scraped_at": "2026-09-12T00:23:55+00:00"
   },
   {
+    "ticker": "DXCM",
+    "status": "halal",
+    "interest_pct": 2.42,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:23:52+00:00"
+  },
+  {
     "ticker": "CCL",
     "status": "not_halal",
     "interest_pct": 0.19,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:23:58+00:00"
-  },
-  {
-    "ticker": "ARES",
-    "status": "not_halal",
-    "interest_pct": 10.37,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:24:01+00:00"
   },
   {
     "ticker": "PCG",
@@ -2184,11 +2170,25 @@
     "scraped_at": "2026-09-12T00:24:11+00:00"
   },
   {
+    "ticker": "ARES",
+    "status": "not_halal",
+    "interest_pct": 10.37,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:24:01+00:00"
+  },
+  {
     "ticker": "HAL",
     "status": "halal",
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:24:14+00:00"
+  },
+  {
+    "ticker": "CFG",
+    "status": "not_halal",
+    "interest_pct": 86.68,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:24:24+00:00"
   },
   {
     "ticker": "ON",
@@ -2203,13 +2203,6 @@
     "interest_pct": 1.05,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:24:21+00:00"
-  },
-  {
-    "ticker": "CFG",
-    "status": "not_halal",
-    "interest_pct": 86.68,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:24:24+00:00"
   },
   {
     "ticker": "WTW",
@@ -2296,6 +2289,12 @@
     "scraped_at": "2026-09-12T00:25:02+00:00"
   },
   {
+    "ticker": "FISV",
+    "status": "unknown",
+    "source": "zoya",
+    "detail": "404"
+  },
+  {
     "ticker": "AWK",
     "status": "not_halal",
     "interest_pct": 1.75,
@@ -2311,12 +2310,6 @@
   },
   {
     "ticker": "ECHO",
-    "status": "unknown",
-    "source": "zoya",
-    "detail": "404"
-  },
-  {
-    "ticker": "FISV",
     "status": "unknown",
     "source": "zoya",
     "detail": "404"
@@ -2357,11 +2350,11 @@
     "scraped_at": "2026-09-12T00:25:29+00:00"
   },
   {
-    "ticker": "OTIS",
-    "status": "not_halal",
-    "interest_pct": null,
+    "ticker": "Q",
+    "status": "halal",
+    "interest_pct": 0.08,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:25:33+00:00"
+    "scraped_at": "2026-09-12T00:25:42+00:00"
   },
   {
     "ticker": "SMCI",
@@ -2371,25 +2364,18 @@
     "scraped_at": "2026-09-12T00:25:36+00:00"
   },
   {
+    "ticker": "OTIS",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:25:33+00:00"
+  },
+  {
     "ticker": "CINF",
     "status": "not_halal",
     "interest_pct": 9.22,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:25:39+00:00"
-  },
-  {
-    "ticker": "Q",
-    "status": "halal",
-    "interest_pct": 0.08,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:25:42+00:00"
-  },
-  {
-    "ticker": "MTD",
-    "status": "halal",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:25:45+00:00"
   },
   {
     "ticker": "WRB",
@@ -2399,11 +2385,18 @@
     "scraped_at": "2026-09-12T00:25:49+00:00"
   },
   {
-    "ticker": "CNP",
-    "status": "not_halal",
-    "interest_pct": null,
+    "ticker": "DGX",
+    "status": "halal",
+    "interest_pct": 5.0,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:25:52+00:00"
+    "scraped_at": "2026-09-12T00:25:58+00:00"
+  },
+  {
+    "ticker": "MTD",
+    "status": "halal",
+    "interest_pct": 5.0,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:25:45+00:00"
   },
   {
     "ticker": "ES",
@@ -2413,18 +2406,11 @@
     "scraped_at": "2026-09-12T00:25:55+00:00"
   },
   {
-    "ticker": "DGX",
-    "status": "halal",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:25:58+00:00"
-  },
-  {
-    "ticker": "PPL",
+    "ticker": "CNP",
     "status": "not_halal",
-    "interest_pct": 0.22,
+    "interest_pct": null,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:26:02+00:00"
+    "scraped_at": "2026-09-12T00:25:52+00:00"
   },
   {
     "ticker": "RF",
@@ -2432,6 +2418,13 @@
     "interest_pct": 73.62,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:26:05+00:00"
+  },
+  {
+    "ticker": "PPL",
+    "status": "not_halal",
+    "interest_pct": 0.22,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:26:02+00:00"
   },
   {
     "ticker": "DOV",
@@ -2448,18 +2441,18 @@
     "scraped_at": "2026-09-12T00:26:11+00:00"
   },
   {
-    "ticker": "LH",
-    "status": "halal",
-    "interest_pct": 0.11,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:26:15+00:00"
-  },
-  {
     "ticker": "JBHT",
     "status": "halal",
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:26:18+00:00"
+  },
+  {
+    "ticker": "LH",
+    "status": "halal",
+    "interest_pct": 0.11,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:26:15+00:00"
   },
   {
     "ticker": "EXPD",
@@ -2490,18 +2483,18 @@
     "scraped_at": "2026-09-12T00:26:31+00:00"
   },
   {
-    "ticker": "WST",
-    "status": "halal",
-    "interest_pct": 0.58,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:26:34+00:00"
-  },
-  {
     "ticker": "INCY",
     "status": "halal",
     "interest_pct": 2.05,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:26:37+00:00"
+  },
+  {
+    "ticker": "WST",
+    "status": "halal",
+    "interest_pct": 0.58,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:26:34+00:00"
   },
   {
     "ticker": "HUBB",
@@ -2525,6 +2518,13 @@
     "scraped_at": "2026-09-12T00:26:47+00:00"
   },
   {
+    "ticker": "TPR",
+    "status": "halal",
+    "interest_pct": 5.0,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:26:57+00:00"
+  },
+  {
     "ticker": "BG",
     "status": "not_halal",
     "interest_pct": 0.29,
@@ -2539,11 +2539,11 @@
     "scraped_at": "2026-09-12T00:26:53+00:00"
   },
   {
-    "ticker": "TPR",
+    "ticker": "ULTA",
     "status": "halal",
     "interest_pct": 5.0,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:26:57+00:00"
+    "scraped_at": "2026-09-12T00:27:03+00:00"
   },
   {
     "ticker": "GPN",
@@ -2551,13 +2551,6 @@
     "interest_pct": 2.01,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:27:00+00:00"
-  },
-  {
-    "ticker": "ULTA",
-    "status": "halal",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:27:03+00:00"
   },
   {
     "ticker": "FFIV",
@@ -2574,25 +2567,18 @@
     "scraped_at": "2026-09-12T00:27:10+00:00"
   },
   {
-    "ticker": "VRSK",
-    "status": "doubtful",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:27:13+00:00"
-  },
-  {
-    "ticker": "SW",
-    "status": "not_halal",
-    "interest_pct": 0.36,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:27:16+00:00"
-  },
-  {
     "ticker": "VLTO",
     "status": "halal",
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:27:19+00:00"
+  },
+  {
+    "ticker": "VRSK",
+    "status": "doubtful",
+    "interest_pct": 5.0,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:27:13+00:00"
   },
   {
     "ticker": "CASY",
@@ -2607,6 +2593,13 @@
     "interest_pct": 6.8,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:27:26+00:00"
+  },
+  {
+    "ticker": "SW",
+    "status": "not_halal",
+    "interest_pct": 0.36,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:27:16+00:00"
   },
   {
     "ticker": "PHM",
@@ -2693,18 +2686,18 @@
     "scraped_at": "2026-09-12T00:28:05+00:00"
   },
   {
-    "ticker": "STZ",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:28:08+00:00"
-  },
-  {
     "ticker": "DOW",
     "status": "not_halal",
     "interest_pct": 0.38,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:28:11+00:00"
+  },
+  {
+    "ticker": "STZ",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:28:08+00:00"
   },
   {
     "ticker": "PKG",
@@ -2756,18 +2749,18 @@
     "scraped_at": "2026-09-12T00:28:34+00:00"
   },
   {
-    "ticker": "FIS",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:28:38+00:00"
-  },
-  {
     "ticker": "SBAC",
     "status": "not_halal",
     "interest_pct": 1.13,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:28:41+00:00"
+  },
+  {
+    "ticker": "FIS",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:28:38+00:00"
   },
   {
     "ticker": "AMCR",
@@ -2784,6 +2777,13 @@
     "scraped_at": "2026-09-12T00:28:47+00:00"
   },
   {
+    "ticker": "CDW",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:28:54+00:00"
+  },
+  {
     "ticker": "LUV",
     "status": "halal",
     "interest_pct": 0.73,
@@ -2791,11 +2791,10 @@
     "scraped_at": "2026-09-12T00:28:51+00:00"
   },
   {
-    "ticker": "CDW",
-    "status": "not_halal",
-    "interest_pct": null,
+    "ticker": "FDXF",
+    "status": "unknown",
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:28:54+00:00"
+    "detail": "404"
   },
   {
     "ticker": "LEN",
@@ -2819,10 +2818,11 @@
     "scraped_at": "2026-09-12T00:29:04+00:00"
   },
   {
-    "ticker": "FDXF",
-    "status": "unknown",
+    "ticker": "BBY",
+    "status": "not_halal",
+    "interest_pct": null,
     "source": "zoya",
-    "detail": "404"
+    "scraped_at": "2026-09-12T00:29:12+00:00"
   },
   {
     "ticker": "VTRS",
@@ -2830,13 +2830,6 @@
     "interest_pct": null,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:29:09+00:00"
-  },
-  {
-    "ticker": "BBY",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:29:12+00:00"
   },
   {
     "ticker": "EVRG",
@@ -2895,18 +2888,18 @@
     "scraped_at": "2026-09-12T00:29:38+00:00"
   },
   {
-    "ticker": "LNT",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:29:41+00:00"
-  },
-  {
     "ticker": "NDSN",
     "status": "halal",
     "interest_pct": 0.07,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:29:44+00:00"
+  },
+  {
+    "ticker": "LNT",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:29:41+00:00"
   },
   {
     "ticker": "CHTR",
@@ -2916,18 +2909,18 @@
     "scraped_at": "2026-09-12T00:29:48+00:00"
   },
   {
-    "ticker": "DD",
-    "status": "halal",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:29:51+00:00"
-  },
-  {
     "ticker": "TSCO",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:29:54+00:00"
+  },
+  {
+    "ticker": "DD",
+    "status": "halal",
+    "interest_pct": 5.0,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:29:51+00:00"
   },
   {
     "ticker": "BEN",
@@ -2993,18 +2986,18 @@
     "scraped_at": "2026-09-12T00:30:23+00:00"
   },
   {
-    "ticker": "BALL",
-    "status": "not_halal",
-    "interest_pct": 0.23,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:30:27+00:00"
-  },
-  {
     "ticker": "WY",
     "status": "not_halal",
     "interest_pct": 0.32,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:30:30+00:00"
+  },
+  {
+    "ticker": "BALL",
+    "status": "not_halal",
+    "interest_pct": 0.23,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:30:27+00:00"
   },
   {
     "ticker": "APA",
@@ -3077,13 +3070,6 @@
     "scraped_at": "2026-09-12T00:31:03+00:00"
   },
   {
-    "ticker": "TXT",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:31:06+00:00"
-  },
-  {
     "ticker": "AIZ",
     "status": "not_halal",
     "interest_pct": null,
@@ -3091,11 +3077,11 @@
     "scraped_at": "2026-09-12T00:31:10+00:00"
   },
   {
-    "ticker": "ALB",
-    "status": "halal",
-    "interest_pct": 5.0,
+    "ticker": "TXT",
+    "status": "not_halal",
+    "interest_pct": null,
     "source": "zoya",
-    "scraped_at": "2026-09-12T00:31:13+00:00"
+    "scraped_at": "2026-09-12T00:31:06+00:00"
   },
   {
     "ticker": "TKO",
@@ -3110,6 +3096,13 @@
     "interest_pct": 1.09,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:31:19+00:00"
+  },
+  {
+    "ticker": "ALB",
+    "status": "halal",
+    "interest_pct": 5.0,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:31:13+00:00"
   },
   {
     "ticker": "MKC",
@@ -3168,18 +3161,18 @@
     "scraped_at": "2026-09-12T00:31:45+00:00"
   },
   {
-    "ticker": "GL",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:31:49+00:00"
-  },
-  {
     "ticker": "FOXA",
     "status": "not_halal",
     "interest_pct": null,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:31:52+00:00"
+  },
+  {
+    "ticker": "GL",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:31:49+00:00"
   },
   {
     "ticker": "ALLE",
@@ -3210,18 +3203,18 @@
     "scraped_at": "2026-09-12T00:32:05+00:00"
   },
   {
-    "ticker": "ERIE",
-    "status": "not_halal",
-    "interest_pct": 1.97,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:32:08+00:00"
-  },
-  {
     "ticker": "AVY",
     "status": "halal",
     "interest_pct": 5.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:32:11+00:00"
+  },
+  {
+    "ticker": "ERIE",
+    "status": "not_halal",
+    "interest_pct": 1.97,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:32:08+00:00"
   },
   {
     "ticker": "LII",
@@ -3238,18 +3231,18 @@
     "scraped_at": "2026-09-12T00:32:18+00:00"
   },
   {
-    "ticker": "BAX",
-    "status": "not_halal",
-    "interest_pct": 0.46,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:32:21+00:00"
-  },
-  {
     "ticker": "CSGP",
     "status": "doubtful",
     "interest_pct": 3.39,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:32:25+00:00"
+  },
+  {
+    "ticker": "BAX",
+    "status": "not_halal",
+    "interest_pct": 0.46,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:32:21+00:00"
   },
   {
     "ticker": "BF.B",
@@ -3286,18 +3279,18 @@
     "scraped_at": "2026-09-12T00:32:39+00:00"
   },
   {
-    "ticker": "HRL",
-    "status": "not_halal",
-    "interest_pct": 0.2,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:32:43+00:00"
-  },
-  {
     "ticker": "IT",
     "status": "not_halal",
     "interest_pct": 1.0,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:32:46+00:00"
+  },
+  {
+    "ticker": "HRL",
+    "status": "not_halal",
+    "interest_pct": 0.2,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:32:43+00:00"
   },
   {
     "ticker": "TECH",
@@ -3328,18 +3321,18 @@
     "scraped_at": "2026-09-12T00:32:59+00:00"
   },
   {
-    "ticker": "HII",
-    "status": "not_halal",
-    "interest_pct": null,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:33:03+00:00"
-  },
-  {
     "ticker": "GNRC",
     "status": "halal",
     "interest_pct": 0.18,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:33:06+00:00"
+  },
+  {
+    "ticker": "HII",
+    "status": "not_halal",
+    "interest_pct": null,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:33:03+00:00"
   },
   {
     "ticker": "LULU",
@@ -3370,25 +3363,11 @@
     "scraped_at": "2026-09-12T00:33:19+00:00"
   },
   {
-    "ticker": "COO",
-    "status": "halal",
-    "interest_pct": 5.0,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:33:23+00:00"
-  },
-  {
     "ticker": "NWSA",
     "status": "doubtful",
     "interest_pct": 0.32,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:33:26+00:00"
-  },
-  {
-    "ticker": "DPZ",
-    "status": "not_halal",
-    "interest_pct": 0.3,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:33:29+00:00"
   },
   {
     "ticker": "BXP",
@@ -3398,11 +3377,25 @@
     "scraped_at": "2026-09-12T00:33:32+00:00"
   },
   {
+    "ticker": "DPZ",
+    "status": "not_halal",
+    "interest_pct": 0.3,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:33:29+00:00"
+  },
+  {
     "ticker": "UHS",
     "status": "not_halal",
     "interest_pct": 0.01,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:33:36+00:00"
+  },
+  {
+    "ticker": "COO",
+    "status": "halal",
+    "interest_pct": 5.0,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:33:23+00:00"
   },
   {
     "ticker": "MGM",
@@ -3433,18 +3426,18 @@
     "scraped_at": "2026-09-12T00:33:49+00:00"
   },
   {
-    "ticker": "PODD",
-    "status": "halal",
-    "interest_pct": 1.28,
-    "source": "zoya",
-    "scraped_at": "2026-09-12T00:33:52+00:00"
-  },
-  {
     "ticker": "FDS",
     "status": "halal",
     "interest_pct": 0.28,
     "source": "zoya",
     "scraped_at": "2026-09-12T00:33:56+00:00"
+  },
+  {
+    "ticker": "PODD",
+    "status": "halal",
+    "interest_pct": 1.28,
+    "source": "zoya",
+    "scraped_at": "2026-09-12T00:33:52+00:00"
   },
   {
     "ticker": "WYNN",
