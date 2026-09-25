@@ -1,12 +1,12 @@
-# Drafts tweets @muslimfinance_ — mis a jour 2026-09-20
+# Drafts tweets @muslimfinance_ — mis a jour 2026-09-25
 
 Hook éditorial : « battre le SP500 avec actions halal AAOIFI »
 
-Source data : `data/backtest.json` (mis à jour 2026-09-20)
-- NASDAQ 100 halal 1Y : +58,4% vs QQQ +20,2% (+38,2 pts)
-- S&P 500 halal 1Y : +46,7% vs SPY +15,5% (+31,2 pts)
-- S&P 500 halal 3Y : +118,9 pts / 5Y : +230,1 pts
-- 66 actions halal sur 101 NASDAQ, 228 sur 503 SP500
+Source data : `data/backtest.json` (mis à jour 2026-09-25)
+- NASDAQ 100 halal 1Y : +66,4% vs QQQ +25,4% (+41,0 pts)
+- S&P 500 halal 1Y : +52,7% vs SPY +17,8% (+34,9 pts)
+- S&P 500 halal 3Y : +126,0 pts / 5Y : +232,6 pts
+- 66 actions halal sur 101 NASDAQ, 230 sur 503 SP500
 
 Disclaimer légal : ne pas promettre des perfs futures, mentionner que backtest = composition actuelle appliquée historiquement (voir disclaimer site).
 
@@ -14,11 +14,11 @@ Disclaimer légal : ne pas promettre des perfs futures, mentionner que backtest 
 
 ## Tweet 1 — Hook performance (à publier en premier J0 — vendredi 17/05)
 
-> 1 an. NASDAQ 100 halal : **+58,4 %**.
-> NASDAQ 100 classique (QQQ) : +20,2 %.
-> 38 points d'écart. Sans riba, sans alcool, sans armes.
+> 1 an. NASDAQ 100 halal : **+66,4 %**.
+> NASDAQ 100 classique (QQQ) : +25,4 %.
+> 41 points d'écart. Sans riba, sans alcool, sans armes.
 >
-> 66 actions sur 102 passent le filtre AAOIFI.
+> 66 actions sur 101 passent le filtre AAOIFI.
 > La liste complète : muslimfinance.net/nasdaq-halal
 >
 > ⚠️ Performances passées ≠ futures. Backtest sur composition actuelle.
@@ -37,17 +37,17 @@ Disclaimer légal : ne pas promettre des perfs futures, mentionner que backtest 
 
 > Mythe : "investir halal = laisser de l'argent sur la table".
 >
-> Réalité : NASDAQ 100 halal +58,4 % vs QQQ +20,2 % sur 12 mois.
-> S&P 500 halal bat le SPY de +31,2 pts sur 1 an, +230,1 pts sur 5 ans.
+> Réalité : NASDAQ 100 halal +66,4 % vs QQQ +25,4 % sur 12 mois.
+> S&P 500 halal bat le SPY de +34,9 pts sur 1 an, +232,6 pts sur 5 ans.
 >
 > Le filtre AAOIFI exclut les banques riba. Ça ne coûte rien.
 
 ## Tweet 4 — Comparatif global (J3 — lundi 20/05)
 
 > S&P 500 halal vs SPY classique :
-> – 1 an : +31,2 pts
-> – 3 ans : +118,9 pts
-> – 5 ans : +230,1 pts
+> – 1 an : +34,9 pts
+> – 3 ans : +126,0 pts
+> – 5 ans : +232,6 pts
 >
 > Sans alcool. Sans armes. Sans riba. Sans copy trader sketch sur Insta.
 >
@@ -57,13 +57,13 @@ Disclaimer légal : ne pas promettre des perfs futures, mentionner que backtest 
 
 > Top 5 actions du NASDAQ 100 halal (par poids) :
 >
-> 1. NVDA — 22,3 %
-> 2. AAPL — 20,5 %
-> 3. AVGO — 7,3 %
+> 1. NVDA — 22,1 %
+> 2. AAPL — 20,0 %
+> 3. AVGO — 6,8 %
 > 4. TSLA — 6,1 %
-> 5. MU — 4,7 %
+> 5. MU — 5,0 %
 >
-> 66 sur 101 passent AAOIFI. 36 exclues (riba, alcool, secteurs interdits).
+> 66 sur 101 passent AAOIFI. 35 exclues (riba, alcool, secteurs interdits).
 >
 > Détail : muslimfinance.net/nasdaq-halal
 
