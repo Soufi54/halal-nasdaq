@@ -3,25 +3,25 @@
     "rank": 1,
     "company": "Nvidia Corp",
     "ticker": "NVDA",
-    "weight": 12.64
+    "weight": 12.62
   },
   {
     "rank": 2,
     "company": "Apple Inc.",
     "ticker": "AAPL",
-    "weight": 11.45
+    "weight": 11.56
   },
   {
     "rank": 3,
     "company": "Microsoft Corp",
     "ticker": "MSFT",
-    "weight": 8.62
+    "weight": 8.9
   },
   {
     "rank": 4,
     "company": "Amazon.Com Inc",
     "ticker": "AMZN",
-    "weight": 6.28
+    "weight": 6.25
   },
   {
     "rank": 5,
@@ -33,19 +33,19 @@
     "rank": 6,
     "company": "Alphabet Inc. Class C Capital Stock",
     "ticker": "GOOG",
-    "weight": 4.69
+    "weight": 4.7
   },
   {
     "rank": 7,
-    "company": "Meta Platforms, Inc. Class A Common Stock",
-    "ticker": "META",
-    "weight": 4.62
-  },
-  {
-    "rank": 8,
     "company": "Space Exploration Technologies Corp. Class A Common Stock",
     "ticker": "SPCX",
     "weight": 4.55
+  },
+  {
+    "rank": 8,
+    "company": "Meta Platforms, Inc. Class A Common Stock",
+    "ticker": "META",
+    "weight": 4.45
   },
   {
     "rank": 9,
@@ -57,19 +57,19 @@
     "rank": 10,
     "company": "Tesla, Inc. Common Stock",
     "ticker": "TSLA",
-    "weight": 3.49
+    "weight": 3.41
   },
   {
     "rank": 11,
     "company": "Micron Technology, Inc.",
     "ticker": "MU",
-    "weight": 2.85
+    "weight": 2.84
   },
   {
     "rank": 12,
     "company": "Advanced Micro Devices",
     "ticker": "AMD",
-    "weight": 2.4
+    "weight": 2.39
   },
   {
     "rank": 13,
@@ -79,21 +79,21 @@
   },
   {
     "rank": 14,
-    "company": "Intel Corp",
-    "ticker": "INTC",
-    "weight": 1.57
-  },
-  {
-    "rank": 15,
     "company": "ASML Holding NV",
     "ticker": "ASML",
     "weight": 1.55
   },
   {
+    "rank": 15,
+    "company": "Intel Corp",
+    "ticker": "INTC",
+    "weight": 1.51
+  },
+  {
     "rank": 16,
     "company": "Palantir Technologies Inc. Class A Common Stock",
     "ticker": "PLTR",
-    "weight": 1.08
+    "weight": 1.06
   },
   {
     "rank": 17,
@@ -105,19 +105,19 @@
     "rank": 18,
     "company": "Costco Wholesale Corp",
     "ticker": "COST",
-    "weight": 0.93
+    "weight": 0.95
   },
   {
     "rank": 19,
     "company": "Lam Research Corp",
     "ticker": "LRCX",
-    "weight": 0.89
+    "weight": 0.92
   },
   {
     "rank": 20,
     "company": "Applied Materials Inc",
     "ticker": "AMAT",
-    "weight": 0.88
+    "weight": 0.89
   },
   {
     "rank": 21,
@@ -129,31 +129,31 @@
     "rank": 22,
     "company": "Palo Alto Networks, Inc. Common Stock",
     "ticker": "PANW",
-    "weight": 0.74
+    "weight": 0.71
   },
   {
     "rank": 23,
     "company": "NetFlix Inc",
     "ticker": "NFLX",
-    "weight": 0.7
+    "weight": 0.69
   },
   {
     "rank": 24,
-    "company": "CrowdStrike Holdings, Inc. Class A Common Stock",
-    "ticker": "CRWD",
-    "weight": 0.62
+    "company": "Sandisk Corporation Common Stock",
+    "ticker": "SNDK",
+    "weight": 0.6
   },
   {
     "rank": 25,
-    "company": "Sandisk Corporation Common Stock",
-    "ticker": "SNDK",
+    "company": "CrowdStrike Holdings, Inc. Class A Common Stock",
+    "ticker": "CRWD",
     "weight": 0.6
   },
   {
     "rank": 26,
     "company": "Texas Instruments Incorporated",
     "ticker": "TXN",
-    "weight": 0.58
+    "weight": 0.59
   },
   {
     "rank": 27,
@@ -165,25 +165,25 @@
     "rank": 28,
     "company": "Marvell Technology, Inc. Common Stock",
     "ticker": "MRVL",
-    "weight": 0.54
+    "weight": 0.55
   },
   {
     "rank": 29,
     "company": "Amgen Inc",
     "ticker": "AMGN",
-    "weight": 0.51
+    "weight": 0.52
   },
   {
     "rank": 30,
     "company": "Linde plc Ordinary Share",
     "ticker": "LIN",
-    "weight": 0.51
+    "weight": 0.5
   },
   {
     "rank": 31,
     "company": "Qualcomm Inc",
     "ticker": "QCOM",
-    "weight": 0.48
+    "weight": 0.5
   },
   {
     "rank": 32,
@@ -193,8 +193,8 @@
   },
   {
     "rank": 33,
-    "company": "Shopify Inc. Class A subordinate voting shares",
-    "ticker": "SHOP",
+    "company": "Analog Devices, Inc.",
+    "ticker": "ADI",
     "weight": 0.44
   },
   {
@@ -205,9 +205,9 @@
   },
   {
     "rank": 35,
-    "company": "Analog Devices, Inc.",
-    "ticker": "ADI",
-    "weight": 0.43
+    "company": "Shopify Inc. Class A subordinate voting shares",
+    "ticker": "SHOP",
+    "weight": 0.42
   },
   {
     "rank": 36,
@@ -243,13 +243,13 @@
     "rank": 41,
     "company": "Fortinet, Inc.",
     "ticker": "FTNT",
-    "weight": 0.31
+    "weight": 0.3
   },
   {
     "rank": 42,
     "company": "Booking Holdings Inc. Common Stock",
     "ticker": "BKNG",
-    "weight": 0.28
+    "weight": 0.29
   },
   {
     "rank": 43,
@@ -265,56 +265,56 @@
   },
   {
     "rank": 45,
-    "company": "Applovin Corporation Class A Common Stock",
-    "ticker": "APP",
-    "weight": 0.24
-  },
-  {
-    "rank": 46,
     "company": "Automatic Data Processing",
     "ticker": "ADP",
     "weight": 0.24
   },
   {
+    "rank": 46,
+    "company": "Applovin Corporation Class A Common Stock",
+    "ticker": "APP",
+    "weight": 0.24
+  },
+  {
     "rank": 47,
-    "company": "Adobe Inc.",
-    "ticker": "ADBE",
-    "weight": 0.22
-  },
-  {
-    "rank": 48,
-    "company": "Constellation Energy Corporation Common Stock",
-    "ticker": "CEG",
-    "weight": 0.22
-  },
-  {
-    "rank": 49,
     "company": "Datadog, Inc. Class A Common Stock",
     "ticker": "DDOG",
     "weight": 0.22
   },
   {
+    "rank": 48,
+    "company": "Adobe Inc.",
+    "ticker": "ADBE",
+    "weight": 0.22
+  },
+  {
+    "rank": 49,
+    "company": "Constellation Energy Corporation Common Stock",
+    "ticker": "CEG",
+    "weight": 0.22
+  },
+  {
     "rank": 50,
+    "company": "Airbnb, Inc. Class A Common Stock",
+    "ticker": "ABNB",
+    "weight": 0.22
+  },
+  {
+    "rank": 51,
     "company": "Marriott International Class A Common Stock",
     "ticker": "MAR",
     "weight": 0.21
   },
   {
-    "rank": 51,
-    "company": "Airbnb, Inc. Class A Common Stock",
-    "ticker": "ABNB",
-    "weight": 0.21
-  },
-  {
     "rank": 52,
-    "company": "Mercado Libre, Inc",
-    "ticker": "MELI",
+    "company": "Cadence Design Systems",
+    "ticker": "CDNS",
     "weight": 0.21
   },
   {
     "rank": 53,
-    "company": "Cadence Design Systems",
-    "ticker": "CDNS",
+    "company": "Mercado Libre, Inc",
+    "ticker": "MELI",
     "weight": 0.21
   },
   {
@@ -325,39 +325,39 @@
   },
   {
     "rank": 55,
+    "company": "Lumentum Holdings Inc. Common Stock",
+    "ticker": "LITE",
+    "weight": 0.2
+  },
+  {
+    "rank": 56,
     "company": "Monster Beverage Corporation",
     "ticker": "MNST",
     "weight": 0.2
   },
   {
-    "rank": 56,
-    "company": "Lumentum Holdings Inc. Common Stock",
-    "ticker": "LITE",
-    "weight": 0.19
-  },
-  {
     "rank": 57,
-    "company": "Regeneron Pharmaceuticals Inc",
-    "ticker": "REGN",
-    "weight": 0.19
-  },
-  {
-    "rank": 58,
     "company": "DoorDash, Inc. Class A Common Stock",
     "ticker": "DASH",
     "weight": 0.19
   },
   {
-    "rank": 59,
+    "rank": 58,
     "company": "Synopsys Inc",
     "ticker": "SNPS",
+    "weight": 0.19
+  },
+  {
+    "rank": 59,
+    "company": "Regeneron Pharmaceuticals Inc",
+    "ticker": "REGN",
     "weight": 0.19
   },
   {
     "rank": 60,
     "company": "Cintas Corp",
     "ticker": "CTAS",
-    "weight": 0.18
+    "weight": 0.19
   },
   {
     "rank": 61,
@@ -367,14 +367,14 @@
   },
   {
     "rank": 62,
-    "company": "Mondelez International, Inc. Class A",
-    "ticker": "MDLZ",
+    "company": "Warner Bros. Discovery, Inc. Series A Common Stock",
+    "ticker": "WBD",
     "weight": 0.18
   },
   {
     "rank": 63,
-    "company": "Warner Bros. Discovery, Inc. Series A Common Stock",
-    "ticker": "WBD",
+    "company": "Mondelez International, Inc. Class A",
+    "ticker": "MDLZ",
     "weight": 0.18
   },
   {
@@ -403,32 +403,32 @@
   },
   {
     "rank": 68,
+    "company": "Monolithic Power Systems, Inc.",
+    "ticker": "MPWR",
+    "weight": 0.16
+  },
+  {
+    "rank": 69,
     "company": "Nebius Group N.V. Class A Ordinary Shares",
     "ticker": "NBIS",
     "weight": 0.15
   },
   {
-    "rank": 69,
-    "company": "Monolithic Power Systems, Inc.",
-    "ticker": "MPWR",
-    "weight": 0.15
-  },
-  {
     "rank": 70,
-    "company": "Strategy Inc Common Stock Class A",
-    "ticker": "MSTR",
-    "weight": 0.15
-  },
-  {
-    "rank": 71,
     "company": "American Electric Power Company, Inc.",
     "ticker": "AEP",
     "weight": 0.15
   },
   {
-    "rank": 72,
+    "rank": 71,
     "company": "Astera Labs, Inc. Common Stock",
     "ticker": "ALAB",
+    "weight": 0.15
+  },
+  {
+    "rank": 72,
+    "company": "Strategy Inc Common Stock Class A",
+    "ticker": "MSTR",
     "weight": 0.15
   },
   {
@@ -439,21 +439,21 @@
   },
   {
     "rank": 74,
+    "company": "NXP Semiconductors N.V.",
+    "ticker": "NXPI",
+    "weight": 0.14
+  },
+  {
+    "rank": 75,
     "company": "Paccar Inc",
     "ticker": "PCAR",
     "weight": 0.14
   },
   {
-    "rank": 75,
+    "rank": 76,
     "company": "Fastenal Co",
     "ticker": "FAST",
-    "weight": 0.14
-  },
-  {
-    "rank": 76,
-    "company": "NXP Semiconductors N.V.",
-    "ticker": "NXPI",
-    "weight": 0.14
+    "weight": 0.13
   },
   {
     "rank": 77,
@@ -477,7 +477,7 @@
     "rank": 80,
     "company": "CoreWeave, Inc. Class A Common Stock",
     "ticker": "CRWV",
-    "weight": 0.12
+    "weight": 0.11
   },
   {
     "rank": 81,
@@ -487,62 +487,62 @@
   },
   {
     "rank": 82,
+    "company": "PayPal Holdings, Inc. Common Stock",
+    "ticker": "PYPL",
+    "weight": 0.11
+  },
+  {
+    "rank": 83,
     "company": "Workday, Inc. Class A Common Stock",
     "ticker": "WDAY",
     "weight": 0.11
   },
   {
-    "rank": 83,
-    "company": "PayPal Holdings, Inc. Common Stock",
-    "ticker": "PYPL",
-    "weight": 0.1
-  },
-  {
     "rank": 84,
-    "company": "Autodesk Inc",
-    "ticker": "ADSK",
-    "weight": 0.1
-  },
-  {
-    "rank": 85,
-    "company": "Xcel Energy, Inc.",
-    "ticker": "XEL",
-    "weight": 0.1
-  },
-  {
-    "rank": 86,
     "company": "Coca-Cola Europacific Partners plc Ordinary Shares",
     "ticker": "CCEP",
     "weight": 0.1
   },
   {
-    "rank": 87,
-    "company": "Thomson Reuters Corporation Common Shares",
-    "ticker": "TRI",
+    "rank": 85,
+    "company": "Autodesk Inc",
+    "ticker": "ADSK",
     "weight": 0.1
   },
   {
-    "rank": 88,
+    "rank": 86,
+    "company": "Xcel Energy, Inc.",
+    "ticker": "XEL",
+    "weight": 0.1
+  },
+  {
+    "rank": 87,
     "company": "Keurig Dr Pepper Inc.",
     "ticker": "KDP",
     "weight": 0.1
   },
   {
+    "rank": 88,
+    "company": "Thomson Reuters Corporation Common Shares",
+    "ticker": "TRI",
+    "weight": 0.1
+  },
+  {
     "rank": 89,
+    "company": "Microchip Technology Inc",
+    "ticker": "MCHP",
+    "weight": 0.1
+  },
+  {
+    "rank": 90,
     "company": "Exelon Corporation",
     "ticker": "EXC",
     "weight": 0.1
   },
   {
-    "rank": 90,
+    "rank": 91,
     "company": "Idexx Laboratories Inc",
     "ticker": "IDXX",
-    "weight": 0.09
-  },
-  {
-    "rank": 91,
-    "company": "Microchip Technology Inc",
-    "ticker": "MCHP",
     "weight": 0.09
   },
   {
@@ -559,38 +559,38 @@
   },
   {
     "rank": 94,
-    "company": "Axon Enterprise, Inc. Common Stock",
-    "ticker": "AXON",
-    "weight": 0.08
-  },
-  {
-    "rank": 95,
     "company": "Paychex Inc",
     "ticker": "PAYX",
     "weight": 0.08
   },
   {
-    "rank": 96,
+    "rank": 95,
     "company": "Old Dominion Freight Line",
     "ticker": "ODFL",
     "weight": 0.08
   },
   {
-    "rank": 97,
+    "rank": 96,
     "company": "Roper Technologies, Inc. Common Stock",
     "ticker": "ROP",
     "weight": 0.08
   },
   {
+    "rank": 97,
+    "company": "Axon Enterprise, Inc. Common Stock",
+    "ticker": "AXON",
+    "weight": 0.08
+  },
+  {
     "rank": 98,
-    "company": "DexCom, Inc.",
-    "ticker": "DXCM",
+    "company": "Alnylam Pharmaceuticals, Inc.",
+    "ticker": "ALNY",
     "weight": 0.08
   },
   {
     "rank": 99,
-    "company": "Alnylam Pharmaceuticals, Inc.",
-    "ticker": "ALNY",
+    "company": "DexCom, Inc.",
+    "ticker": "DXCM",
     "weight": 0.08
   },
   {

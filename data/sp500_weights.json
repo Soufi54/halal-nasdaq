@@ -3,25 +3,25 @@
     "rank": 1,
     "company": "Nvidia Corp",
     "ticker": "NVDA",
-    "weight": 7.72
+    "weight": 7.71
   },
   {
     "rank": 2,
     "company": "Apple Inc.",
     "ticker": "AAPL",
-    "weight": 6.99
+    "weight": 7.06
   },
   {
     "rank": 3,
     "company": "Microsoft Corp",
     "ticker": "MSFT",
-    "weight": 5.26
+    "weight": 5.44
   },
   {
     "rank": 4,
     "company": "Amazon.Com Inc",
     "ticker": "AMZN",
-    "weight": 3.83
+    "weight": 3.82
   },
   {
     "rank": 5,
@@ -33,13 +33,13 @@
     "rank": 6,
     "company": "Alphabet Inc. Class C Capital Stock",
     "ticker": "GOOG",
-    "weight": 2.86
+    "weight": 2.87
   },
   {
     "rank": 7,
     "company": "Meta Platforms, Inc. Class A Common Stock",
     "ticker": "META",
-    "weight": 2.82
+    "weight": 2.72
   },
   {
     "rank": 8,
@@ -51,13 +51,13 @@
     "rank": 9,
     "company": "Tesla, Inc. Common Stock",
     "ticker": "TSLA",
-    "weight": 2.13
+    "weight": 2.08
   },
   {
     "rank": 10,
     "company": "Micron Technology, Inc.",
     "ticker": "MU",
-    "weight": 1.74
+    "weight": 1.73
   },
   {
     "rank": 11,
@@ -75,13 +75,13 @@
     "rank": 13,
     "company": "Advanced Micro Devices",
     "ticker": "AMD",
-    "weight": 1.47
+    "weight": 1.46
   },
   {
     "rank": 14,
     "company": "JPMorgan Chase & Co.",
     "ticker": "JPM",
-    "weight": 1.28
+    "weight": 1.29
   },
   {
     "rank": 15,
@@ -97,62 +97,62 @@
   },
   {
     "rank": 17,
-    "company": "Intel Corp",
-    "ticker": "INTC",
-    "weight": 0.96
+    "company": "ExxonMobil Holdings Corporation",
+    "ticker": "XOM",
+    "weight": 0.94
   },
   {
     "rank": 18,
-    "company": "ExxonMobil Holdings Corporation",
-    "ticker": "XOM",
-    "weight": 0.95
-  },
-  {
-    "rank": 19,
     "company": "Johnson & Johnson",
     "ticker": "JNJ",
     "weight": 0.93
   },
   {
+    "rank": 19,
+    "company": "Intel Corp",
+    "ticker": "INTC",
+    "weight": 0.92
+  },
+  {
     "rank": 20,
     "company": "Mastercard Incorporated",
     "ticker": "MA",
-    "weight": 0.7
+    "weight": 0.71
   },
   {
     "rank": 21,
     "company": "ABBVIE INC.",
     "ticker": "ABBV",
-    "weight": 0.67
+    "weight": 0.66
   },
   {
     "rank": 22,
     "company": "Palantir Technologies Inc. Class A Common Stock",
     "ticker": "PLTR",
-    "weight": 0.66
+    "weight": 0.65
   },
   {
     "rank": 23,
-    "company": "Oracle Corp",
-    "ticker": "ORCL",
-    "weight": 0.6
-  },
-  {
-    "rank": 24,
     "company": "Cisco Systems, Inc. Common Stock (DE)",
     "ticker": "CSCO",
     "weight": 0.6
   },
   {
+    "rank": 24,
+    "company": "Oracle Corp",
+    "ticker": "ORCL",
+    "weight": 0.59
+  },
+  {
     "rank": 25,
-    "company": "Chevron Corporation",
-    "ticker": "CVX",
-    "weight": 0.57
+    "company": "Costco Wholesale Corp",
+    "ticker": "COST",
+    "weight": 0.58
   },
   {
     "rank": 26,
-    "company": "Costco Wholesale Corp",
-    "ticker": "COST",
+    "company": "Chevron Corporation",
+    "ticker": "CVX",
     "weight": 0.57
   },
   {
@@ -165,25 +165,25 @@
     "rank": 28,
     "company": "Lam Research Corp",
     "ticker": "LRCX",
-    "weight": 0.55
+    "weight": 0.56
   },
   {
     "rank": 29,
-    "company": "Coca-Cola Company",
-    "ticker": "KO",
-    "weight": 0.54
+    "company": "Applied Materials Inc",
+    "ticker": "AMAT",
+    "weight": 0.55
   },
   {
     "rank": 30,
-    "company": "Applied Materials Inc",
-    "ticker": "AMAT",
+    "company": "Coca-Cola Company",
+    "ticker": "KO",
     "weight": 0.54
   },
   {
     "rank": 31,
     "company": "Caterpillar Inc.",
     "ticker": "CAT",
-    "weight": 0.53
+    "weight": 0.54
   },
   {
     "rank": 32,
@@ -195,7 +195,7 @@
     "rank": 33,
     "company": "Dell Technologies Inc.",
     "ticker": "DELL",
-    "weight": 0.49
+    "weight": 0.51
   },
   {
     "rank": 34,
@@ -205,33 +205,33 @@
   },
   {
     "rank": 35,
+    "company": "GE Aerospace",
+    "ticker": "GE",
+    "weight": 0.48
+  },
+  {
+    "rank": 36,
     "company": "UNITEDHEALTH GROUP INCORPORATED (Delaware)",
     "ticker": "UNH",
     "weight": 0.48
   },
   {
-    "rank": 36,
-    "company": "GE Aerospace",
-    "ticker": "GE",
-    "weight": 0.47
-  },
-  {
     "rank": 37,
-    "company": "Palo Alto Networks, Inc. Common Stock",
-    "ticker": "PANW",
-    "weight": 0.45
-  },
-  {
-    "rank": 38,
     "company": "Morgan Stanley",
     "ticker": "MS",
     "weight": 0.44
   },
   {
+    "rank": 38,
+    "company": "Palo Alto Networks, Inc. Common Stock",
+    "ticker": "PANW",
+    "weight": 0.43
+  },
+  {
     "rank": 39,
     "company": "Philip Morris International Inc.",
     "ticker": "PM",
-    "weight": 0.43
+    "weight": 0.42
   },
   {
     "rank": 40,
@@ -243,30 +243,30 @@
     "rank": 41,
     "company": "Home Depot, Inc.",
     "ticker": "HD",
-    "weight": 0.42
+    "weight": 0.41
   },
   {
     "rank": 42,
     "company": "Goldman Sachs Group Inc.",
     "ticker": "GS",
-    "weight": 0.38
+    "weight": 0.39
   },
   {
     "rank": 43,
-    "company": "CrowdStrike Holdings, Inc. Class A Common Stock",
-    "ticker": "CRWD",
-    "weight": 0.38
-  },
-  {
-    "rank": 44,
     "company": "Arista Networks",
     "ticker": "ANET",
     "weight": 0.37
   },
   {
-    "rank": 45,
+    "rank": 44,
     "company": "Sandisk Corporation Common Stock",
     "ticker": "SNDK",
+    "weight": 0.37
+  },
+  {
+    "rank": 45,
+    "company": "CrowdStrike Holdings, Inc. Class A Common Stock",
+    "ticker": "CRWD",
     "weight": 0.37
   },
   {
@@ -283,20 +283,20 @@
   },
   {
     "rank": 48,
-    "company": "Thermo Fisher Scientific, Inc.",
-    "ticker": "TMO",
+    "company": "Texas Instruments Incorporated",
+    "ticker": "TXN",
     "weight": 0.36
   },
   {
     "rank": 49,
     "company": "Wells Fargo & Co.",
     "ticker": "WFC",
-    "weight": 0.35
+    "weight": 0.36
   },
   {
     "rank": 50,
-    "company": "Texas Instruments Incorporated",
-    "ticker": "TXN",
+    "company": "Thermo Fisher Scientific, Inc.",
+    "ticker": "TMO",
     "weight": 0.35
   },
   {
@@ -321,7 +321,7 @@
     "rank": 54,
     "company": "Amgen Inc",
     "ticker": "AMGN",
-    "weight": 0.31
+    "weight": 0.32
   },
   {
     "rank": 55,
@@ -331,27 +331,27 @@
   },
   {
     "rank": 56,
-    "company": "International Business Machines Corporation",
-    "ticker": "IBM",
+    "company": "Qualcomm Inc",
+    "ticker": "QCOM",
     "weight": 0.31
   },
   {
     "rank": 57,
-    "company": "Qualcomm Inc",
-    "ticker": "QCOM",
+    "company": "International Business Machines Corporation",
+    "ticker": "IBM",
     "weight": 0.3
   },
   {
     "rank": 58,
     "company": "American Express Company",
     "ticker": "AXP",
-    "weight": 0.29
+    "weight": 0.3
   },
   {
     "rank": 59,
     "company": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
     "ticker": "STX",
-    "weight": 0.29
+    "weight": 0.3
   },
   {
     "rank": 60,
@@ -369,24 +369,24 @@
     "rank": 62,
     "company": "Salesforce, Inc.",
     "ticker": "CRM",
-    "weight": 0.28
+    "weight": 0.27
   },
   {
     "rank": 63,
-    "company": "Deere & Company",
-    "ticker": "DE",
+    "company": "Analog Devices, Inc.",
+    "ticker": "ADI",
     "weight": 0.27
   },
   {
     "rank": 64,
     "company": "Gilead Sciences Inc",
     "ticker": "GILD",
-    "weight": 0.26
+    "weight": 0.27
   },
   {
     "rank": 65,
-    "company": "Analog Devices, Inc.",
-    "ticker": "ADI",
+    "company": "Deere & Company",
+    "ticker": "DE",
     "weight": 0.26
   },
   {
@@ -433,20 +433,20 @@
   },
   {
     "rank": 73,
+    "company": "Blackrock, Inc.",
+    "ticker": "BLK",
+    "weight": 0.24
+  },
+  {
+    "rank": 74,
     "company": "McDonald's Corporation",
     "ticker": "MCD",
     "weight": 0.24
   },
   {
-    "rank": 74,
+    "rank": 75,
     "company": "Welltower Inc.",
     "ticker": "WELL",
-    "weight": 0.24
-  },
-  {
-    "rank": 75,
-    "company": "Blackrock, Inc.",
-    "ticker": "BLK",
     "weight": 0.24
   },
   {
@@ -493,14 +493,14 @@
   },
   {
     "rank": 83,
-    "company": "TJX Companies, Inc. (The)",
-    "ticker": "TJX",
-    "weight": 0.21
+    "company": "Intuitive Surgical Inc.",
+    "ticker": "ISRG",
+    "weight": 0.2
   },
   {
     "rank": 84,
-    "company": "SERVICENOW, INC.",
-    "ticker": "NOW",
+    "company": "TJX Companies, Inc. (The)",
+    "ticker": "TJX",
     "weight": 0.2
   },
   {
@@ -511,8 +511,8 @@
   },
   {
     "rank": 86,
-    "company": "Intuitive Surgical Inc.",
-    "ticker": "ISRG",
+    "company": "SERVICENOW, INC.",
+    "ticker": "NOW",
     "weight": 0.2
   },
   {
@@ -529,32 +529,32 @@
   },
   {
     "rank": 89,
-    "company": "Fortinet, Inc.",
-    "ticker": "FTNT",
-    "weight": 0.19
-  },
-  {
-    "rank": 90,
     "company": "Chubb Limited",
     "ticker": "CB",
     "weight": 0.18
   },
   {
-    "rank": 91,
-    "company": "PROLOGIS, INC.",
-    "ticker": "PLD",
+    "rank": 90,
+    "company": "Bristol-Myers Squibb Co.",
+    "ticker": "BMY",
     "weight": 0.18
   },
   {
-    "rank": 92,
+    "rank": 91,
     "company": "Newmont Corporation",
     "ticker": "NEM",
     "weight": 0.18
   },
   {
+    "rank": 92,
+    "company": "Fortinet, Inc.",
+    "ticker": "FTNT",
+    "weight": 0.18
+  },
+  {
     "rank": 93,
-    "company": "Bristol-Myers Squibb Co.",
-    "ticker": "BMY",
+    "company": "PROLOGIS, INC.",
+    "ticker": "PLD",
     "weight": 0.18
   },
   {
@@ -565,8 +565,8 @@
   },
   {
     "rank": 95,
-    "company": "Lockheed Martin Corp.",
-    "ticker": "LMT",
+    "company": "Booking Holdings Inc. Common Stock",
+    "ticker": "BKNG",
     "weight": 0.17
   },
   {
@@ -577,20 +577,20 @@
   },
   {
     "rank": 97,
-    "company": "S&P Global Inc.",
-    "ticker": "SPGI",
+    "company": "Lockheed Martin Corp.",
+    "ticker": "LMT",
     "weight": 0.17
   },
   {
     "rank": 98,
-    "company": "Booking Holdings Inc. Common Stock",
-    "ticker": "BKNG",
+    "company": "Progressive Corporation",
+    "ticker": "PGR",
     "weight": 0.17
   },
   {
     "rank": 99,
-    "company": "Progressive Corporation",
-    "ticker": "PGR",
+    "company": "S&P Global Inc.",
+    "ticker": "SPGI",
     "weight": 0.17
   },
   {
@@ -601,44 +601,44 @@
   },
   {
     "rank": 101,
-    "company": "Medtronic plc",
-    "ticker": "MDT",
-    "weight": 0.16
-  },
-  {
-    "rank": 102,
-    "company": "Valero Energy Corporation",
-    "ticker": "VLO",
-    "weight": 0.16
-  },
-  {
-    "rank": 103,
-    "company": "MARATHON PETROLEUM CORPORATION",
-    "ticker": "MPC",
-    "weight": 0.16
-  },
-  {
-    "rank": 104,
-    "company": "Accenture PLC",
-    "ticker": "ACN",
-    "weight": 0.16
-  },
-  {
-    "rank": 105,
     "company": "CVS HEALTH CORPORATION",
     "ticker": "CVS",
     "weight": 0.16
   },
   {
+    "rank": 102,
+    "company": "Medtronic plc",
+    "ticker": "MDT",
+    "weight": 0.16
+  },
+  {
+    "rank": 103,
+    "company": "Valero Energy Corporation",
+    "ticker": "VLO",
+    "weight": 0.16
+  },
+  {
+    "rank": 104,
+    "company": "MARATHON PETROLEUM CORPORATION",
+    "ticker": "MPC",
+    "weight": 0.16
+  },
+  {
+    "rank": 105,
+    "company": "Starbucks Corp",
+    "ticker": "SBUX",
+    "weight": 0.15
+  },
+  {
     "rank": 106,
-    "company": "Robinhood Markets, Inc. Class A Common Stock",
-    "ticker": "HOOD",
+    "company": "Accenture PLC",
+    "ticker": "ACN",
     "weight": 0.15
   },
   {
     "rank": 107,
-    "company": "Starbucks Corp",
-    "ticker": "SBUX",
+    "company": "Robinhood Markets, Inc. Class A Common Stock",
+    "ticker": "HOOD",
     "weight": 0.15
   },
   {
@@ -649,20 +649,20 @@
   },
   {
     "rank": 109,
-    "company": "Applovin Corporation Class A Common Stock",
-    "ticker": "APP",
-    "weight": 0.15
-  },
-  {
-    "rank": 110,
     "company": "Automatic Data Processing",
     "ticker": "ADP",
     "weight": 0.15
   },
   {
-    "rank": 111,
+    "rank": 110,
     "company": "Stryker Corporation",
     "ticker": "SYK",
+    "weight": 0.15
+  },
+  {
+    "rank": 111,
+    "company": "Applovin Corporation Class A Common Stock",
+    "ticker": "APP",
     "weight": 0.15
   },
   {
@@ -673,92 +673,92 @@
   },
   {
     "rank": 113,
-    "company": "McKesson Corporation",
-    "ticker": "MCK",
-    "weight": 0.15
-  },
-  {
-    "rank": 114,
-    "company": "Equinix, Inc. Common Stock REIT",
-    "ticker": "EQIX",
-    "weight": 0.15
-  },
-  {
-    "rank": 115,
-    "company": "Bank of New York Mellon Corporation",
-    "ticker": "BNY",
-    "weight": 0.15
-  },
-  {
-    "rank": 116,
     "company": "PHILLIPS 66",
     "ticker": "PSX",
-    "weight": 0.15
-  },
-  {
-    "rank": 117,
-    "company": "Quanta Services, Inc.",
-    "ticker": "PWR",
     "weight": 0.14
   },
   {
-    "rank": 118,
+    "rank": 114,
+    "company": "Bank of New York Mellon Corporation",
+    "ticker": "BNY",
+    "weight": 0.14
+  },
+  {
+    "rank": 115,
+    "company": "McKesson Corporation",
+    "ticker": "MCK",
+    "weight": 0.14
+  },
+  {
+    "rank": 116,
     "company": "Trane Technologies plc",
     "ticker": "TT",
     "weight": 0.14
   },
   {
+    "rank": 117,
+    "company": "Equinix, Inc. Common Stock REIT",
+    "ticker": "EQIX",
+    "weight": 0.14
+  },
+  {
+    "rank": 118,
+    "company": "Quanta Services, Inc.",
+    "ticker": "PWR",
+    "weight": 0.14
+  },
+  {
     "rank": 119,
-    "company": "CME Group Inc.",
-    "ticker": "CME",
-    "weight": 0.14
-  },
-  {
-    "rank": 120,
-    "company": "The Southern Company",
-    "ticker": "SO",
-    "weight": 0.14
-  },
-  {
-    "rank": 121,
-    "company": "Adobe Inc.",
-    "ticker": "ADBE",
-    "weight": 0.14
-  },
-  {
-    "rank": 122,
     "company": "Vertiv Holdings Co Class A Common Stock",
     "ticker": "VRT",
     "weight": 0.14
   },
   {
-    "rank": 123,
-    "company": "Constellation Energy Corporation Common Stock",
-    "ticker": "CEG",
-    "weight": 0.13
-  },
-  {
-    "rank": 124,
+    "rank": 120,
     "company": "Datadog, Inc. Class A Common Stock",
     "ticker": "DDOG",
+    "weight": 0.14
+  },
+  {
+    "rank": 121,
+    "company": "The Southern Company",
+    "ticker": "SO",
+    "weight": 0.14
+  },
+  {
+    "rank": 122,
+    "company": "CME Group Inc.",
+    "ticker": "CME",
     "weight": 0.13
   },
   {
-    "rank": 125,
-    "company": "Howmet Aerospace Inc.",
-    "ticker": "HWM",
-    "weight": 0.13
-  },
-  {
-    "rank": 126,
+    "rank": 123,
     "company": "HCA Healthcare, Inc.",
     "ticker": "HCA",
     "weight": 0.13
   },
   {
+    "rank": 124,
+    "company": "Adobe Inc.",
+    "ticker": "ADBE",
+    "weight": 0.13
+  },
+  {
+    "rank": 125,
+    "company": "Constellation Energy Corporation Common Stock",
+    "ticker": "CEG",
+    "weight": 0.13
+  },
+  {
+    "rank": 126,
+    "company": "Airbnb, Inc. Class A Common Stock",
+    "ticker": "ABNB",
+    "weight": 0.13
+  },
+  {
     "rank": 127,
-    "company": "Marriott International Class A Common Stock",
-    "ticker": "MAR",
+    "company": "Howmet Aerospace Inc.",
+    "ticker": "HWM",
     "weight": 0.13
   },
   {
@@ -769,62 +769,62 @@
   },
   {
     "rank": 129,
+    "company": "Marriott International Class A Common Stock",
+    "ticker": "MAR",
+    "weight": 0.13
+  },
+  {
+    "rank": 130,
     "company": "General Dynamics Corporation",
     "ticker": "GD",
     "weight": 0.13
   },
   {
-    "rank": 130,
-    "company": "Airbnb, Inc. Class A Common Stock",
-    "ticker": "ABNB",
-    "weight": 0.13
-  },
-  {
     "rank": 131,
-    "company": "PNC Financial Services Group",
-    "ticker": "PNC",
-    "weight": 0.13
-  },
-  {
-    "rank": 132,
-    "company": "Cadence Design Systems",
-    "ticker": "CDNS",
-    "weight": 0.13
-  },
-  {
-    "rank": 133,
     "company": "Johnson Controls International plc",
     "ticker": "JCI",
     "weight": 0.13
   },
   {
+    "rank": 132,
+    "company": "PNC Financial Services Group",
+    "ticker": "PNC",
+    "weight": 0.13
+  },
+  {
+    "rank": 133,
+    "company": "Cadence Design Systems",
+    "ticker": "CDNS",
+    "weight": 0.13
+  },
+  {
     "rank": 134,
-    "company": "Duke Energy Corporation",
-    "ticker": "DUK",
-    "weight": 0.13
-  },
-  {
-    "rank": 135,
-    "company": "Intercontinental Exchange  Inc.",
-    "ticker": "ICE",
-    "weight": 0.13
-  },
-  {
-    "rank": 136,
     "company": "Blackstone Inc.",
     "ticker": "BX",
     "weight": 0.13
   },
   {
-    "rank": 137,
+    "rank": 135,
+    "company": "Duke Energy Corporation",
+    "ticker": "DUK",
+    "weight": 0.13
+  },
+  {
+    "rank": 136,
     "company": "Emerson Electric Co.",
     "ticker": "EMR",
+    "weight": 0.13
+  },
+  {
+    "rank": 137,
+    "company": "3M Company",
+    "ticker": "MMM",
     "weight": 0.12
   },
   {
     "rank": 138,
-    "company": "Williams Companies Inc.",
-    "ticker": "WMB",
+    "company": "KKR & Co. Inc.",
+    "ticker": "KKR",
     "weight": 0.12
   },
   {
@@ -835,62 +835,62 @@
   },
   {
     "rank": 140,
+    "company": "Intercontinental Exchange  Inc.",
+    "ticker": "ICE",
+    "weight": 0.12
+  },
+  {
+    "rank": 141,
     "company": "Elevance Health, Inc.",
     "ticker": "ELV",
     "weight": 0.12
   },
   {
-    "rank": 141,
-    "company": "3M Company",
-    "ticker": "MMM",
-    "weight": 0.12
-  },
-  {
     "rank": 142,
-    "company": "KKR & Co. Inc.",
-    "ticker": "KKR",
+    "company": "Bloom Energy Corporation",
+    "ticker": "BE",
     "weight": 0.12
   },
   {
     "rank": 143,
-    "company": "Hewlett Packard Enterprise Company",
-    "ticker": "HPE",
+    "company": "Williams Companies Inc.",
+    "ticker": "WMB",
     "weight": 0.12
   },
   {
     "rank": 144,
-    "company": "Monster Beverage Corporation",
-    "ticker": "MNST",
-    "weight": 0.12
-  },
-  {
-    "rank": 145,
     "company": "Lumentum Holdings Inc. Common Stock",
     "ticker": "LITE",
     "weight": 0.12
   },
   {
+    "rank": 145,
+    "company": "Monster Beverage Corporation",
+    "ticker": "MNST",
+    "weight": 0.12
+  },
+  {
     "rank": 146,
+    "company": "DoorDash, Inc. Class A Common Stock",
+    "ticker": "DASH",
+    "weight": 0.12
+  },
+  {
+    "rank": 147,
+    "company": "Hewlett Packard Enterprise Company",
+    "ticker": "HPE",
+    "weight": 0.12
+  },
+  {
+    "rank": 148,
     "company": "Waste Management, Inc.",
     "ticker": "WM",
     "weight": 0.12
   },
   {
-    "rank": 147,
-    "company": "Regeneron Pharmaceuticals Inc",
-    "ticker": "REGN",
-    "weight": 0.12
-  },
-  {
-    "rank": 148,
-    "company": "Moody's Corporation",
-    "ticker": "MCO",
-    "weight": 0.12
-  },
-  {
     "rank": 149,
-    "company": "DoorDash, Inc. Class A Common Stock",
-    "ticker": "DASH",
+    "company": "Marsh",
+    "ticker": "MRSH",
     "weight": 0.12
   },
   {
@@ -901,32 +901,32 @@
   },
   {
     "rank": 151,
-    "company": "Marsh",
-    "ticker": "MRSH",
+    "company": "Moody's Corporation",
+    "ticker": "MCO",
     "weight": 0.12
   },
   {
     "rank": 152,
-    "company": "Cintas Corp",
-    "ticker": "CTAS",
-    "weight": 0.11
+    "company": "Regeneron Pharmaceuticals Inc",
+    "ticker": "REGN",
+    "weight": 0.12
   },
   {
     "rank": 153,
-    "company": "Comcast Corp",
-    "ticker": "CMCSA",
-    "weight": 0.11
-  },
-  {
-    "rank": 154,
     "company": "United Parcel Service, Inc. Class B",
     "ticker": "UPS",
     "weight": 0.11
   },
   {
+    "rank": 154,
+    "company": "The Sherwin-Williams Company",
+    "ticker": "SHW",
+    "weight": 0.11
+  },
+  {
     "rank": 155,
-    "company": "Bloom Energy Corporation",
-    "ticker": "BE",
+    "company": "Cintas Corp",
+    "ticker": "CTAS",
     "weight": 0.11
   },
   {
@@ -943,20 +943,20 @@
   },
   {
     "rank": 158,
-    "company": "The Sherwin-Williams Company",
-    "ticker": "SHW",
+    "company": "Ecolab, Inc.",
+    "ticker": "ECL",
     "weight": 0.11
   },
   {
     "rank": 159,
-    "company": "Mondelez International, Inc. Class A",
-    "ticker": "MDLZ",
+    "company": "Illinois Tool Works Inc.",
+    "ticker": "ITW",
     "weight": 0.11
   },
   {
     "rank": 160,
-    "company": "Illinois Tool Works Inc.",
-    "ticker": "ITW",
+    "company": "Comcast Corp",
+    "ticker": "CMCSA",
     "weight": 0.11
   },
   {
@@ -967,8 +967,8 @@
   },
   {
     "rank": 162,
-    "company": "Ecolab, Inc.",
-    "ticker": "ECL",
+    "company": "Mondelez International, Inc. Class A",
+    "ticker": "MDLZ",
     "weight": 0.11
   },
   {
@@ -979,14 +979,14 @@
   },
   {
     "rank": 164,
-    "company": "Motorola Solutions, Inc. New",
-    "ticker": "MSI",
+    "company": "The Travelers Companies, Inc.",
+    "ticker": "TRV",
     "weight": 0.11
   },
   {
     "rank": 165,
-    "company": "The Travelers Companies, Inc.",
-    "ticker": "TRV",
+    "company": "Motorola Solutions, Inc. New",
+    "ticker": "MSI",
     "weight": 0.11
   },
   {
@@ -997,15 +997,15 @@
   },
   {
     "rank": 167,
-    "company": "EOG Resources, Inc.",
-    "ticker": "EOG",
-    "weight": 0.11
+    "company": "Intuit Inc",
+    "ticker": "INTU",
+    "weight": 0.1
   },
   {
     "rank": 168,
-    "company": "Intuit Inc",
-    "ticker": "INTU",
-    "weight": 0.11
+    "company": "EOG Resources, Inc.",
+    "ticker": "EOG",
+    "weight": 0.1
   },
   {
     "rank": 169,
@@ -1015,68 +1015,68 @@
   },
   {
     "rank": 170,
-    "company": "Cummins Inc.",
-    "ticker": "CMI",
-    "weight": 0.1
-  },
-  {
-    "rank": 171,
-    "company": "Apollo Global Management, Inc.",
-    "ticker": "APO",
-    "weight": 0.1
-  },
-  {
-    "rank": 172,
-    "company": "Target Corporation",
-    "ticker": "TGT",
-    "weight": 0.1
-  },
-  {
-    "rank": 173,
     "company": "General Motors Company",
     "ticker": "GM",
     "weight": 0.1
   },
   {
-    "rank": 174,
-    "company": "Hilton Worldwide Holdings Inc.",
-    "ticker": "HLT",
+    "rank": 171,
+    "company": "Cummins Inc.",
+    "ticker": "CMI",
     "weight": 0.1
   },
   {
-    "rank": 175,
-    "company": "Norfolk Southern Corp.",
-    "ticker": "NSC",
-    "weight": 0.1
-  },
-  {
-    "rank": 176,
+    "rank": 172,
     "company": "The Cigna Group",
     "ticker": "CI",
     "weight": 0.1
   },
   {
-    "rank": 177,
-    "company": "Kinder Morgan, Inc.",
-    "ticker": "KMI",
+    "rank": 173,
+    "company": "Apollo Global Management, Inc.",
+    "ticker": "APO",
     "weight": 0.1
   },
   {
-    "rank": 178,
+    "rank": 174,
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "weight": 0.1
+  },
+  {
+    "rank": 175,
+    "company": "Hilton Worldwide Holdings Inc.",
+    "ticker": "HLT",
+    "weight": 0.1
+  },
+  {
+    "rank": 176,
+    "company": "Norfolk Southern Corp.",
+    "ticker": "NSC",
+    "weight": 0.1
+  },
+  {
+    "rank": 177,
     "company": "O'Reilly Automotive, Inc.",
     "ticker": "ORLY",
     "weight": 0.1
   },
   {
-    "rank": 179,
+    "rank": 178,
     "company": "Colgate-Palmolive Company",
     "ticker": "CL",
     "weight": 0.1
   },
   {
+    "rank": 179,
+    "company": "Kinder Morgan, Inc.",
+    "ticker": "KMI",
+    "weight": 0.1
+  },
+  {
     "rank": 180,
-    "company": "Digital Realty Trust, Inc.",
-    "ticker": "DLR",
+    "company": "FedEx Corporation",
+    "ticker": "FDX",
     "weight": 0.1
   },
   {
@@ -1087,32 +1087,32 @@
   },
   {
     "rank": 182,
+    "company": "Monolithic Power Systems, Inc.",
+    "ticker": "MPWR",
+    "weight": 0.1
+  },
+  {
+    "rank": 183,
     "company": "Simon Property Group, Inc.",
     "ticker": "SPG",
     "weight": 0.09
   },
   {
-    "rank": 183,
-    "company": "FedEx Corporation",
-    "ticker": "FDX",
-    "weight": 0.09
-  },
-  {
     "rank": 184,
-    "company": "Monolithic Power Systems, Inc.",
-    "ticker": "MPWR",
+    "company": "Digital Realty Trust, Inc.",
+    "ticker": "DLR",
     "weight": 0.09
   },
   {
     "rank": 185,
-    "company": "Republic Services Inc.",
-    "ticker": "RSG",
+    "company": "United Rentals, Inc.",
+    "ticker": "URI",
     "weight": 0.09
   },
   {
     "rank": 186,
-    "company": "Boston Scientific Corp.",
-    "ticker": "BSX",
+    "company": "Republic Services Inc.",
+    "ticker": "RSG",
     "weight": 0.09
   },
   {
@@ -1129,62 +1129,62 @@
   },
   {
     "rank": 189,
-    "company": "United Rentals, Inc.",
-    "ticker": "URI",
+    "company": "Boston Scientific Corp.",
+    "ticker": "BSX",
     "weight": 0.09
   },
   {
     "rank": 190,
-    "company": "Air Products & Chemicals, Inc.",
-    "ticker": "APD",
-    "weight": 0.09
-  },
-  {
-    "rank": 191,
-    "company": "MetLife, Inc.",
-    "ticker": "MET",
-    "weight": 0.09
-  },
-  {
-    "rank": 192,
-    "company": "TransDigm Group Incorporated",
-    "ticker": "TDG",
-    "weight": 0.09
-  },
-  {
-    "rank": 193,
-    "company": "Targa Resources Corp.",
-    "ticker": "TRGP",
-    "weight": 0.09
-  },
-  {
-    "rank": 194,
-    "company": "Keysight Technologies, Inc.",
-    "ticker": "KEYS",
-    "weight": 0.09
-  },
-  {
-    "rank": 195,
     "company": "TE Connectivity plc",
     "ticker": "TEL",
     "weight": 0.09
   },
   {
-    "rank": 196,
+    "rank": 191,
+    "company": "Air Products & Chemicals, Inc.",
+    "ticker": "APD",
+    "weight": 0.09
+  },
+  {
+    "rank": 192,
     "company": "Teradyne, Inc. Common Stock",
     "ticker": "TER",
     "weight": 0.09
   },
   {
-    "rank": 197,
-    "company": "W.W. Grainger, Inc.",
-    "ticker": "GWW",
+    "rank": 193,
+    "company": "MetLife, Inc.",
+    "ticker": "MET",
     "weight": 0.09
   },
   {
+    "rank": 194,
+    "company": "TransDigm Group Incorporated",
+    "ticker": "TDG",
+    "weight": 0.09
+  },
+  {
+    "rank": 195,
+    "company": "Keysight Technologies, Inc.",
+    "ticker": "KEYS",
+    "weight": 0.09
+  },
+  {
+    "rank": 196,
+    "company": "NXP Semiconductors N.V.",
+    "ticker": "NXPI",
+    "weight": 0.09
+  },
+  {
+    "rank": 197,
+    "company": "Targa Resources Corp.",
+    "ticker": "TRGP",
+    "weight": 0.08
+  },
+  {
     "rank": 198,
-    "company": "Cencora, Inc.",
-    "ticker": "COR",
+    "company": "Arthur J. Gallagher & Co.",
+    "ticker": "AJG",
     "weight": 0.08
   },
   {
@@ -1201,56 +1201,56 @@
   },
   {
     "rank": 201,
-    "company": "Fastenal Co",
-    "ticker": "FAST",
+    "company": "Cencora, Inc.",
+    "ticker": "COR",
     "weight": 0.08
   },
   {
     "rank": 202,
-    "company": "Ametek, Inc.",
-    "ticker": "AME",
+    "company": "W.W. Grainger, Inc.",
+    "ticker": "GWW",
     "weight": 0.08
   },
   {
     "rank": 203,
-    "company": "Arthur J. Gallagher & Co.",
-    "ticker": "AJG",
-    "weight": 0.08
-  },
-  {
-    "rank": 204,
-    "company": "Occidental Petroleum Corporation",
-    "ticker": "OXY",
-    "weight": 0.08
-  },
-  {
-    "rank": 205,
-    "company": "NXP Semiconductors N.V.",
-    "ticker": "NXPI",
-    "weight": 0.08
-  },
-  {
-    "rank": 206,
-    "company": "The Allstate Corporation",
-    "ticker": "ALL",
-    "weight": 0.08
-  },
-  {
-    "rank": 207,
     "company": "Comfort Systems USA, Inc.",
     "ticker": "FIX",
     "weight": 0.08
   },
   {
-    "rank": 208,
+    "rank": 204,
     "company": "Truist Financial Corporation",
     "ticker": "TFC",
     "weight": 0.08
   },
   {
+    "rank": 205,
+    "company": "Coherent Corp.",
+    "ticker": "COHR",
+    "weight": 0.08
+  },
+  {
+    "rank": 206,
+    "company": "Fastenal Co",
+    "ticker": "FAST",
+    "weight": 0.08
+  },
+  {
+    "rank": 207,
+    "company": "The Allstate Corporation",
+    "ticker": "ALL",
+    "weight": 0.08
+  },
+  {
+    "rank": 208,
+    "company": "Ametek, Inc.",
+    "ticker": "AME",
+    "weight": 0.08
+  },
+  {
     "rank": 209,
-    "company": "Oneok, Inc.",
-    "ticker": "OKE",
+    "company": "Baker Hughes Company",
+    "ticker": "BKR",
     "weight": 0.08
   },
   {
@@ -1261,32 +1261,32 @@
   },
   {
     "rank": 211,
-    "company": "Coherent Corp.",
-    "ticker": "COHR",
+    "company": "Occidental Petroleum Corporation",
+    "ticker": "OXY",
     "weight": 0.08
   },
   {
     "rank": 212,
-    "company": "Baker Hughes Company",
-    "ticker": "BKR",
-    "weight": 0.08
-  },
-  {
-    "rank": 213,
     "company": "Garmin Ltd",
     "ticker": "GRMN",
     "weight": 0.08
   },
   {
-    "rank": 214,
+    "rank": 213,
     "company": "CRH Public Limited Company",
     "ticker": "CRH",
     "weight": 0.08
   },
   {
-    "rank": 215,
+    "rank": 214,
     "company": "Nucor Corporation",
     "ticker": "NUE",
+    "weight": 0.08
+  },
+  {
+    "rank": 215,
+    "company": "Oneok, Inc.",
+    "ticker": "OKE",
     "weight": 0.08
   },
   {
@@ -1297,8 +1297,8 @@
   },
   {
     "rank": 217,
-    "company": "Devon Energy Corporation",
-    "ticker": "DVN",
+    "company": "Public Storage",
+    "ticker": "PSA",
     "weight": 0.08
   },
   {
@@ -1315,32 +1315,32 @@
   },
   {
     "rank": 220,
-    "company": "Corteva, Inc. Common Stock",
-    "ticker": "CTVA",
-    "weight": 0.08
+    "company": "Realty Income Corporation",
+    "ticker": "O",
+    "weight": 0.07
   },
   {
     "rank": 221,
-    "company": "Public Storage",
-    "ticker": "PSA",
-    "weight": 0.08
+    "company": "Corteva, Inc. Common Stock",
+    "ticker": "CTVA",
+    "weight": 0.07
   },
   {
     "rank": 222,
-    "company": "Diamondback Energy, Inc.",
-    "ticker": "FANG",
-    "weight": 0.08
+    "company": "Nasdaq, Inc. Common Stock",
+    "ticker": "NDAQ",
+    "weight": 0.07
   },
   {
     "rank": 223,
-    "company": "Nasdaq, Inc. Common Stock",
-    "ticker": "NDAQ",
-    "weight": 0.08
+    "company": "Diamondback Energy, Inc.",
+    "ticker": "FANG",
+    "weight": 0.07
   },
   {
     "rank": 224,
-    "company": "Realty Income Corporation",
-    "ticker": "O",
+    "company": "Devon Energy Corporation",
+    "ticker": "DVN",
     "weight": 0.07
   },
   {
@@ -1363,26 +1363,26 @@
   },
   {
     "rank": 228,
-    "company": "Ciena Corporation",
-    "ticker": "CIEN",
-    "weight": 0.07
-  },
-  {
-    "rank": 229,
-    "company": "Honeywell Aerospace Inc. Common Stock",
-    "ticker": "HONA",
-    "weight": 0.07
-  },
-  {
-    "rank": 230,
     "company": "Ford Motor Company",
     "ticker": "F",
     "weight": 0.07
   },
   {
+    "rank": 229,
+    "company": "Ciena Corporation",
+    "ticker": "CIEN",
+    "weight": 0.07
+  },
+  {
+    "rank": 230,
+    "company": "Honeywell Aerospace Inc. Common Stock",
+    "ticker": "HONA",
+    "weight": 0.07
+  },
+  {
     "rank": 231,
-    "company": "Edwards Lifesciences Corp",
-    "ticker": "EW",
+    "company": "Becton, Dickinson and Co.",
+    "ticker": "BDX",
     "weight": 0.07
   },
   {
@@ -1393,20 +1393,20 @@
   },
   {
     "rank": 233,
-    "company": "Becton, Dickinson and Co.",
-    "ticker": "BDX",
+    "company": "Edwards Lifesciences Corp",
+    "ticker": "EW",
     "weight": 0.07
   },
   {
     "rank": 234,
-    "company": "Wabtec Inc.",
-    "ticker": "WAB",
+    "company": "Agilent Technologies Inc.",
+    "ticker": "A",
     "weight": 0.07
   },
   {
     "rank": 235,
-    "company": "Agilent Technologies Inc.",
-    "ticker": "A",
+    "company": "Wabtec Inc.",
+    "ticker": "WAB",
     "weight": 0.07
   },
   {
@@ -1423,14 +1423,14 @@
   },
   {
     "rank": 238,
-    "company": "Vivmark Residential",
-    "ticker": "VMRK",
+    "company": "Humana Inc.",
+    "ticker": "HUM",
     "weight": 0.07
   },
   {
     "rank": 239,
-    "company": "Entergy Corporation",
-    "ticker": "ETR",
+    "company": "Vivmark Residential",
+    "ticker": "VMRK",
     "weight": 0.07
   },
   {
@@ -1441,14 +1441,14 @@
   },
   {
     "rank": 241,
-    "company": "Vistra Corp.",
-    "ticker": "VST",
+    "company": "Entergy Corporation",
+    "ticker": "ETR",
     "weight": 0.07
   },
   {
     "rank": 242,
-    "company": "AutoZone, Inc.",
-    "ticker": "AZO",
+    "company": "PayPal Holdings, Inc. Common Stock",
+    "ticker": "PYPL",
     "weight": 0.07
   },
   {
@@ -1459,50 +1459,50 @@
   },
   {
     "rank": 244,
-    "company": "Workday, Inc. Class A Common Stock",
-    "ticker": "WDAY",
+    "company": "Vistra Corp.",
+    "ticker": "VST",
     "weight": 0.07
   },
   {
     "rank": 245,
+    "company": "Carrier Global Corporation",
+    "ticker": "CARR",
+    "weight": 0.07
+  },
+  {
+    "rank": 246,
+    "company": "AutoZone, Inc.",
+    "ticker": "AZO",
+    "weight": 0.07
+  },
+  {
+    "rank": 247,
     "company": "Block, Inc.",
     "ticker": "XYZ",
     "weight": 0.07
   },
   {
-    "rank": 246,
-    "company": "Humana Inc.",
-    "ticker": "HUM",
-    "weight": 0.07
+    "rank": 248,
+    "company": "Workday, Inc. Class A Common Stock",
+    "ticker": "WDAY",
+    "weight": 0.06
   },
   {
-    "rank": 247,
+    "rank": 249,
+    "company": "Veeva Systems Inc.",
+    "ticker": "VEEV",
+    "weight": 0.06
+  },
+  {
+    "rank": 250,
     "company": "IQVIA Holdings Inc.",
     "ticker": "IQV",
     "weight": 0.06
   },
   {
-    "rank": 248,
-    "company": "Carrier Global Corporation",
-    "ticker": "CARR",
-    "weight": 0.06
-  },
-  {
-    "rank": 249,
-    "company": "PayPal Holdings, Inc. Common Stock",
-    "ticker": "PYPL",
-    "weight": 0.06
-  },
-  {
-    "rank": 250,
+    "rank": 251,
     "company": "Ventas, Inc.",
     "ticker": "VTR",
-    "weight": 0.06
-  },
-  {
-    "rank": 251,
-    "company": "Veeva Systems Inc.",
-    "ticker": "VEEV",
     "weight": 0.06
   },
   {
@@ -1531,26 +1531,26 @@
   },
   {
     "rank": 256,
-    "company": "Ferguson Enterprises Inc.",
-    "ticker": "FERG",
-    "weight": 0.06
-  },
-  {
-    "rank": 257,
-    "company": "Waters Corp",
-    "ticker": "WAT",
-    "weight": 0.06
-  },
-  {
-    "rank": 258,
     "company": "Keurig Dr Pepper Inc.",
     "ticker": "KDP",
     "weight": 0.06
   },
   {
+    "rank": 257,
+    "company": "Ferguson Enterprises Inc.",
+    "ticker": "FERG",
+    "weight": 0.06
+  },
+  {
+    "rank": 258,
+    "company": "Microchip Technology Inc",
+    "ticker": "MCHP",
+    "weight": 0.06
+  },
+  {
     "rank": 259,
-    "company": "Exelon Corporation",
-    "ticker": "EXC",
+    "company": "Waters Corp",
+    "ticker": "WAT",
     "weight": 0.06
   },
   {
@@ -1561,104 +1561,104 @@
   },
   {
     "rank": 261,
-    "company": "Illumina Inc",
-    "ticker": "ILMN",
-    "weight": 0.06
-  },
-  {
-    "rank": 262,
-    "company": "Prudential Financial, Inc.",
-    "ticker": "PRU",
-    "weight": 0.06
-  },
-  {
-    "rank": 263,
     "company": "Everpure, Inc.",
     "ticker": "P",
     "weight": 0.06
   },
   {
+    "rank": 262,
+    "company": "Exelon Corporation",
+    "ticker": "EXC",
+    "weight": 0.06
+  },
+  {
+    "rank": 263,
+    "company": "Prudential Financial, Inc.",
+    "ticker": "PRU",
+    "weight": 0.06
+  },
+  {
     "rank": 264,
-    "company": "Interactive Brokers Group, Inc. Class A Common Stock",
-    "ticker": "IBKR",
-    "weight": 0.06
-  },
-  {
-    "rank": 265,
-    "company": "MSCI, Inc.",
-    "ticker": "MSCI",
-    "weight": 0.06
-  },
-  {
-    "rank": 266,
-    "company": "Chipotle Mexican Grill, Inc.",
-    "ticker": "CMG",
-    "weight": 0.06
-  },
-  {
-    "rank": 267,
     "company": "Idexx Laboratories Inc",
     "ticker": "IDXX",
     "weight": 0.06
   },
   {
-    "rank": 268,
-    "company": "Microchip Technology Inc",
-    "ticker": "MCHP",
+    "rank": 265,
+    "company": "Illumina Inc",
+    "ticker": "ILMN",
     "weight": 0.06
   },
   {
-    "rank": 269,
+    "rank": 266,
+    "company": "Interactive Brokers Group, Inc. Class A Common Stock",
+    "ticker": "IBKR",
+    "weight": 0.06
+  },
+  {
+    "rank": 267,
+    "company": "MSCI, Inc.",
+    "ticker": "MSCI",
+    "weight": 0.06
+  },
+  {
+    "rank": 268,
     "company": "Live Nation Entertainment Inc.",
     "ticker": "LYV",
     "weight": 0.06
   },
   {
+    "rank": 269,
+    "company": "Chipotle Mexican Grill, Inc.",
+    "ticker": "CMG",
+    "weight": 0.06
+  },
+  {
     "rank": 270,
-    "company": "CBRE GROUP, INC.",
-    "ticker": "CBRE",
-    "weight": 0.06
-  },
-  {
-    "rank": 271,
-    "company": "Archer Daniels Midland Company",
-    "ticker": "ADM",
-    "weight": 0.06
-  },
-  {
-    "rank": 272,
     "company": "D.R. Horton Inc.",
     "ticker": "DHI",
     "weight": 0.06
   },
   {
-    "rank": 273,
-    "company": "American International Group, Inc.",
-    "ticker": "AIG",
-    "weight": 0.06
-  },
-  {
-    "rank": 274,
+    "rank": 271,
     "company": "NetApp, Inc",
     "ticker": "NTAP",
     "weight": 0.06
   },
   {
-    "rank": 275,
-    "company": "Take-Two Interactive Software Inc",
-    "ticker": "TTWO",
-    "weight": 0.05
+    "rank": 272,
+    "company": "Archer Daniels Midland Company",
+    "ticker": "ADM",
+    "weight": 0.06
   },
   {
-    "rank": 276,
+    "rank": 273,
+    "company": "CBRE GROUP, INC.",
+    "ticker": "CBRE",
+    "weight": 0.06
+  },
+  {
+    "rank": 274,
+    "company": "American International Group, Inc.",
+    "ticker": "AIG",
+    "weight": 0.06
+  },
+  {
+    "rank": 275,
     "company": "Consolidated Edison, Inc.",
     "ticker": "ED",
     "weight": 0.05
   },
   {
-    "rank": 277,
+    "rank": 276,
     "company": "Yum! Brands, Inc.",
     "ticker": "YUM",
+    "weight": 0.05
+  },
+  {
+    "rank": 277,
+    "company": "Take-Two Interactive Software Inc",
+    "ticker": "TTWO",
     "weight": 0.05
   },
   {
@@ -1675,8 +1675,8 @@
   },
   {
     "rank": 280,
-    "company": "Axon Enterprise, Inc. Common Stock",
-    "ticker": "AXON",
+    "company": "United Airlines Holdings, Inc. Common Stock",
+    "ticker": "UAL",
     "weight": 0.05
   },
   {
@@ -1687,20 +1687,20 @@
   },
   {
     "rank": 282,
-    "company": "United Airlines Holdings, Inc. Common Stock",
-    "ticker": "UAL",
-    "weight": 0.05
-  },
-  {
-    "rank": 283,
     "company": "Old Dominion Freight Line",
     "ticker": "ODFL",
     "weight": 0.05
   },
   {
-    "rank": 284,
+    "rank": 283,
     "company": "Roper Technologies, Inc. Common Stock",
     "ticker": "ROP",
+    "weight": 0.05
+  },
+  {
+    "rank": 284,
+    "company": "Axon Enterprise, Inc. Common Stock",
+    "ticker": "AXON",
     "weight": 0.05
   },
   {
@@ -1711,20 +1711,20 @@
   },
   {
     "rank": 286,
-    "company": "The Estee Lauder Companies Inc. Class A",
-    "ticker": "EL",
+    "company": "Martin Marietta Materials",
+    "ticker": "MLM",
     "weight": 0.05
   },
   {
     "rank": 287,
-    "company": "Iron Mountain Inc.",
-    "ticker": "IRM",
+    "company": "Kenvue Inc.",
+    "ticker": "KVUE",
     "weight": 0.05
   },
   {
     "rank": 288,
-    "company": "Martin Marietta Materials",
-    "ticker": "MLM",
+    "company": "The Estee Lauder Companies Inc. Class A",
+    "ticker": "EL",
     "weight": 0.05
   },
   {
@@ -1735,74 +1735,74 @@
   },
   {
     "rank": 290,
-    "company": "Kenvue Inc.",
-    "ticker": "KVUE",
-    "weight": 0.05
-  },
-  {
-    "rank": 291,
-    "company": "The Hershey Company",
-    "ticker": "HSY",
-    "weight": 0.05
-  },
-  {
-    "rank": 292,
     "company": "Biogen Inc. Common Stock",
     "ticker": "BIIB",
     "weight": 0.05
   },
   {
-    "rank": 293,
-    "company": "Public Service Enterprise Group Incorporated",
-    "ticker": "PEG",
-    "weight": 0.05
-  },
-  {
-    "rank": 294,
-    "company": "WEC Energy Group, Inc.",
-    "ticker": "WEC",
-    "weight": 0.05
-  },
-  {
-    "rank": 295,
-    "company": "Steel Dynamics Inc",
-    "ticker": "STLD",
-    "weight": 0.05
-  },
-  {
-    "rank": 296,
+    "rank": 291,
     "company": "EMCOR Group, Inc.",
     "ticker": "EME",
     "weight": 0.05
   },
   {
-    "rank": 297,
-    "company": "DexCom, Inc.",
-    "ticker": "DXCM",
+    "rank": 292,
+    "company": "Steel Dynamics Inc",
+    "ticker": "STLD",
     "weight": 0.05
   },
   {
-    "rank": 298,
+    "rank": 293,
+    "company": "The Hershey Company",
+    "ticker": "HSY",
+    "weight": 0.05
+  },
+  {
+    "rank": 294,
+    "company": "Public Service Enterprise Group Incorporated",
+    "ticker": "PEG",
+    "weight": 0.05
+  },
+  {
+    "rank": 295,
     "company": "Jabil Inc.",
     "ticker": "JBL",
     "weight": 0.05
   },
   {
+    "rank": 296,
+    "company": "Iron Mountain Inc.",
+    "ticker": "IRM",
+    "weight": 0.05
+  },
+  {
+    "rank": 297,
+    "company": "WEC Energy Group, Inc.",
+    "ticker": "WEC",
+    "weight": 0.05
+  },
+  {
+    "rank": 298,
+    "company": "Kimberly-Clark Corp.",
+    "ticker": "KMB",
+    "weight": 0.05
+  },
+  {
     "rank": 299,
+    "company": "DexCom, Inc.",
+    "ticker": "DXCM",
+    "weight": 0.05
+  },
+  {
+    "rank": 300,
     "company": "Arch Capital Group Ltd",
     "ticker": "ACGL",
     "weight": 0.05
   },
   {
-    "rank": 300,
-    "company": "EQT CORP",
-    "ticker": "EQT",
-    "weight": 0.05
-  },
-  {
     "rank": 301,
-    "company": "Kimberly-Clark Corp.",
-    "ticker": "KMB",
+    "company": "Northern Trust Corp",
+    "ticker": "NTRS",
     "weight": 0.05
   },
   {
@@ -1813,21 +1813,21 @@
   },
   {
     "rank": 303,
-    "company": "Northern Trust Corp",
-    "ticker": "NTRS",
+    "company": "M&T Bank Corp.",
+    "ticker": "MTB",
     "weight": 0.05
   },
   {
     "rank": 304,
-    "company": "M&T Bank Corp.",
-    "ticker": "MTB",
+    "company": "EQT CORP",
+    "ticker": "EQT",
     "weight": 0.05
   },
   {
     "rank": 305,
     "company": "Vulcan Materials Company(Holding Company)",
     "ticker": "VMC",
-    "weight": 0.04
+    "weight": 0.05
   },
   {
     "rank": 306,
@@ -1855,14 +1855,14 @@
   },
   {
     "rank": 310,
-    "company": "Mettler-Toledo International",
-    "ticker": "MTD",
+    "company": "Carnival Corporation Ltd.",
+    "ticker": "CCL",
     "weight": 0.04
   },
   {
     "rank": 311,
-    "company": "Carnival Corporation Ltd.",
-    "ticker": "CCL",
+    "company": "Mettler-Toledo International",
+    "ticker": "MTD",
     "weight": 0.04
   },
   {
@@ -1873,8 +1873,8 @@
   },
   {
     "rank": 313,
-    "company": "Reddit, Inc.",
-    "ticker": "RDDT",
+    "company": "ON Semiconductor Corp",
+    "ticker": "ON",
     "weight": 0.04
   },
   {
@@ -1897,20 +1897,20 @@
   },
   {
     "rank": 317,
-    "company": "ON Semiconductor Corp",
-    "ticker": "ON",
+    "company": "Reddit, Inc.",
+    "ticker": "RDDT",
     "weight": 0.04
   },
   {
     "rank": 318,
-    "company": "The Kraft Heinz Company",
-    "ticker": "KHC",
+    "company": "Teledyne Technologies Incorporated",
+    "ticker": "TDY",
     "weight": 0.04
   },
   {
     "rank": 319,
-    "company": "Teledyne Technologies Incorporated",
-    "ticker": "TDY",
+    "company": "Super Micro Computer, Inc. Common Stock",
+    "ticker": "SMCI",
     "weight": 0.04
   },
   {
@@ -1921,62 +1921,62 @@
   },
   {
     "rank": 321,
-    "company": "Cboe Global Markets, Inc.",
-    "ticker": "CBOE",
-    "weight": 0.04
-  },
-  {
-    "rank": 322,
     "company": "Extra Space Storage, Inc.",
     "ticker": "EXR",
     "weight": 0.04
   },
   {
+    "rank": 322,
+    "company": "The Kraft Heinz Company",
+    "ticker": "KHC",
+    "weight": 0.04
+  },
+  {
     "rank": 323,
-    "company": "Ameren Corporation",
-    "ticker": "AEE",
-    "weight": 0.04
-  },
-  {
-    "rank": 324,
-    "company": "Halliburton Company",
-    "ticker": "HAL",
-    "weight": 0.04
-  },
-  {
-    "rank": 325,
-    "company": "Citizens Financial Group, Inc.",
-    "ticker": "CFG",
-    "weight": 0.04
-  },
-  {
-    "rank": 326,
     "company": "Ares Management Corporation Class A Common Stock",
     "ticker": "ARES",
     "weight": 0.04
   },
   {
-    "rank": 327,
-    "company": "Willis Towers Watson Public Limited Company Ordinary Shares",
-    "ticker": "WTW",
+    "rank": 324,
+    "company": "Citizens Financial Group, Inc.",
+    "ticker": "CFG",
     "weight": 0.04
   },
   {
-    "rank": 328,
-    "company": "Super Micro Computer, Inc. Common Stock",
-    "ticker": "SMCI",
-    "weight": 0.04
-  },
-  {
-    "rank": 329,
+    "rank": 325,
     "company": "Dollar General Corp.",
     "ticker": "DG",
     "weight": 0.04
   },
   {
-    "rank": 330,
+    "rank": 326,
+    "company": "Ameren Corporation",
+    "ticker": "AEE",
+    "weight": 0.04
+  },
+  {
+    "rank": 327,
     "company": "Williams-Sonoma, Inc.",
     "ticker": "WSM",
+    "weight": 0.04
+  },
+  {
+    "rank": 328,
+    "company": "Willis Towers Watson Public Limited Company Ordinary Shares",
+    "ticker": "WTW",
+    "weight": 0.04
+  },
+  {
+    "rank": 329,
+    "company": "Halliburton Company",
+    "ticker": "HAL",
+    "weight": 0.04
+  },
+  {
+    "rank": 330,
+    "company": "Cboe Global Markets, Inc.",
+    "ticker": "CBOE",
     "weight": 0.04
   },
   {
@@ -1993,62 +1993,62 @@
   },
   {
     "rank": 333,
-    "company": "West Pharmaceutical Services, Inc.",
-    "ticker": "WST",
-    "weight": 0.04
-  },
-  {
-    "rank": 334,
     "company": "Corpay, Inc.",
     "ticker": "CPAY",
     "weight": 0.04
   },
   {
-    "rank": 335,
-    "company": "American Water Works Company, Inc",
-    "ticker": "AWK",
-    "weight": 0.04
-  },
-  {
-    "rank": 336,
-    "company": "VeriSign Inc",
-    "ticker": "VRSN",
-    "weight": 0.04
-  },
-  {
-    "rank": 337,
-    "company": "Copart Inc",
-    "ticker": "CPRT",
-    "weight": 0.04
-  },
-  {
-    "rank": 338,
-    "company": "Quest Diagnostics Inc.",
-    "ticker": "DGX",
-    "weight": 0.04
-  },
-  {
-    "rank": 339,
-    "company": "Cognizant Technology Solutions",
-    "ticker": "CTSH",
-    "weight": 0.04
-  },
-  {
-    "rank": 340,
-    "company": "VICI Properties Inc. Common Stock",
-    "ticker": "VICI",
-    "weight": 0.04
-  },
-  {
-    "rank": 341,
+    "rank": 334,
     "company": "Qnity Electronics, Inc.",
     "ticker": "Q",
     "weight": 0.04
   },
   {
+    "rank": 335,
+    "company": "Quest Diagnostics Inc.",
+    "ticker": "DGX",
+    "weight": 0.04
+  },
+  {
+    "rank": 336,
+    "company": "West Pharmaceutical Services, Inc.",
+    "ticker": "WST",
+    "weight": 0.04
+  },
+  {
+    "rank": 337,
+    "company": "American Water Works Company, Inc",
+    "ticker": "AWK",
+    "weight": 0.04
+  },
+  {
+    "rank": 338,
+    "company": "VeriSign Inc",
+    "ticker": "VRSN",
+    "weight": 0.04
+  },
+  {
+    "rank": 339,
+    "company": "VICI Properties Inc. Common Stock",
+    "ticker": "VICI",
+    "weight": 0.04
+  },
+  {
+    "rank": 340,
+    "company": "Dover Corporation",
+    "ticker": "DOV",
+    "weight": 0.04
+  },
+  {
+    "rank": 341,
+    "company": "Cognizant Technology Solutions",
+    "ticker": "CTSH",
+    "weight": 0.04
+  },
+  {
     "rank": 342,
-    "company": "Incyte Genomics Inc",
-    "ticker": "INCY",
+    "company": "Copart Inc",
+    "ticker": "CPRT",
     "weight": 0.04
   },
   {
@@ -2059,62 +2059,62 @@
   },
   {
     "rank": 344,
-    "company": "Dover Corporation",
-    "ticker": "DOV",
-    "weight": 0.04
-  },
-  {
-    "rank": 345,
-    "company": "Otis Worldwide Corporation",
-    "ticker": "OTIS",
-    "weight": 0.04
-  },
-  {
-    "rank": 346,
-    "company": "F5, Inc. Common Stock",
-    "ticker": "FFIV",
-    "weight": 0.04
-  },
-  {
-    "rank": 347,
-    "company": "FirstEnergy Corp.",
-    "ticker": "FE",
-    "weight": 0.04
-  },
-  {
-    "rank": 348,
-    "company": "W.R. Berkley Corporation",
-    "ticker": "WRB",
-    "weight": 0.04
-  },
-  {
-    "rank": 349,
     "company": "Las Vegas Sands Corp.",
     "ticker": "LVS",
     "weight": 0.04
   },
   {
-    "rank": 350,
+    "rank": 345,
+    "company": "Incyte Genomics Inc",
+    "ticker": "INCY",
+    "weight": 0.04
+  },
+  {
+    "rank": 346,
     "company": "Labcorp Holdings Inc.",
     "ticker": "LH",
     "weight": 0.04
   },
   {
-    "rank": 351,
+    "rank": 347,
+    "company": "Otis Worldwide Corporation",
+    "ticker": "OTIS",
+    "weight": 0.04
+  },
+  {
+    "rank": 348,
+    "company": "F5, Inc. Common Stock",
+    "ticker": "FFIV",
+    "weight": 0.04
+  },
+  {
+    "rank": 349,
+    "company": "FirstEnergy Corp.",
+    "ticker": "FE",
+    "weight": 0.04
+  },
+  {
+    "rank": 350,
     "company": "Cincinnati Financial Corp",
     "ticker": "CINF",
     "weight": 0.04
   },
   {
+    "rank": 351,
+    "company": "W.R. Berkley Corporation",
+    "ticker": "WRB",
+    "weight": 0.04
+  },
+  {
     "rank": 352,
-    "company": "CenterPoint Energy, Inc.",
-    "ticker": "CNP",
-    "weight": 0.03
+    "company": "Fiserv, Inc. Common Stock",
+    "ticker": "FISV",
+    "weight": 0.04
   },
   {
     "rank": 353,
-    "company": "Fiserv, Inc. Common Stock",
-    "ticker": "FISV",
+    "company": "Hubbell Incorporated",
+    "ticker": "HUBB",
     "weight": 0.03
   },
   {
@@ -2125,20 +2125,20 @@
   },
   {
     "rank": 355,
-    "company": "Hubbell Incorporated",
-    "ticker": "HUBB",
+    "company": "Expeditors International of Washington, Inc.",
+    "ticker": "EXPD",
     "weight": 0.03
   },
   {
     "rank": 356,
-    "company": "Eversource Energy",
-    "ticker": "ES",
+    "company": "Smurfit Westrock plc",
+    "ticker": "SW",
     "weight": 0.03
   },
   {
     "rank": 357,
-    "company": "Smurfit Westrock plc",
-    "ticker": "SW",
+    "company": "CenterPoint Energy, Inc.",
+    "ticker": "CNP",
     "weight": 0.03
   },
   {
@@ -2149,56 +2149,56 @@
   },
   {
     "rank": 359,
+    "company": "Eversource Energy",
+    "ticker": "ES",
+    "weight": 0.03
+  },
+  {
+    "rank": 360,
     "company": "Xylem Inc",
     "ticker": "XYL",
     "weight": 0.03
   },
   {
-    "rank": 360,
-    "company": "Expeditors International of Washington, Inc.",
-    "ticker": "EXPD",
-    "weight": 0.03
-  },
-  {
     "rank": 361,
-    "company": "Veralto Corporation",
-    "ticker": "VLTO",
-    "weight": 0.03
-  },
-  {
-    "rank": 362,
     "company": "PPG Industries, Inc.",
     "ticker": "PPG",
     "weight": 0.03
   },
   {
+    "rank": 362,
+    "company": "SYNCHRONY FINANCIAL",
+    "ticker": "SYF",
+    "weight": 0.03
+  },
+  {
     "rank": 363,
-    "company": "Darden Restaurants, Inc.",
-    "ticker": "DRI",
+    "company": "Veralto Corporation",
+    "ticker": "VLTO",
     "weight": 0.03
   },
   {
     "rank": 364,
-    "company": "Texas Pacific Land Corporation",
-    "ticker": "TPL",
-    "weight": 0.03
-  },
-  {
-    "rank": 365,
-    "company": "Ulta Beauty, Inc. Common Stock",
-    "ticker": "ULTA",
-    "weight": 0.03
-  },
-  {
-    "rank": 366,
     "company": "Regions Financial Corp.",
     "ticker": "RF",
     "weight": 0.03
   },
   {
+    "rank": 365,
+    "company": "Texas Pacific Land Corporation",
+    "ticker": "TPL",
+    "weight": 0.03
+  },
+  {
+    "rank": 366,
+    "company": "Ulta Beauty, Inc. Common Stock",
+    "ticker": "ULTA",
+    "weight": 0.03
+  },
+  {
     "rank": 367,
-    "company": "SYNCHRONY FINANCIAL",
-    "ticker": "SYF",
+    "company": "Global Payments, Inc.",
+    "ticker": "GPN",
     "weight": 0.03
   },
   {
@@ -2221,20 +2221,20 @@
   },
   {
     "rank": 371,
-    "company": "Global Payments, Inc.",
-    "ticker": "GPN",
+    "company": "Darden Restaurants, Inc.",
+    "ticker": "DRI",
     "weight": 0.03
   },
   {
     "rank": 372,
-    "company": "Casey's General Stores Inc",
-    "ticker": "CASY",
+    "company": "T Rowe Price Group Inc",
+    "ticker": "TROW",
     "weight": 0.03
   },
   {
     "rank": 373,
-    "company": "T Rowe Price Group Inc",
-    "ticker": "TROW",
+    "company": "Casey's General Stores Inc",
+    "ticker": "CASY",
     "weight": 0.03
   },
   {
@@ -2245,104 +2245,104 @@
   },
   {
     "rank": 375,
-    "company": "International Flavors & Fragrances Inc.",
-    "ticker": "IFF",
-    "weight": 0.03
-  },
-  {
-    "rank": 376,
-    "company": "JB Hunt Transport Services Inc",
-    "ticker": "JBHT",
-    "weight": 0.03
-  },
-  {
-    "rank": 377,
     "company": "KeyCorp",
     "ticker": "KEY",
     "weight": 0.03
   },
   {
-    "rank": 378,
+    "rank": 376,
+    "company": "International Flavors & Fragrances Inc.",
+    "ticker": "IFF",
+    "weight": 0.03
+  },
+  {
+    "rank": 377,
     "company": "Loews Corporation",
     "ticker": "L",
     "weight": 0.03
   },
   {
-    "rank": 379,
+    "rank": 378,
     "company": "Dollar Tree Inc.",
     "ticker": "DLTR",
     "weight": 0.03
   },
   {
-    "rank": 380,
-    "company": "Packaging Corp of America",
-    "ticker": "PKG",
-    "weight": 0.03
-  },
-  {
-    "rank": 381,
+    "rank": 379,
     "company": "Ralph Lauren Corporation",
     "ticker": "RL",
     "weight": 0.03
   },
   {
-    "rank": 382,
-    "company": "Bunge Global SA",
-    "ticker": "BG",
+    "rank": 380,
+    "company": "JB Hunt Transport Services Inc",
+    "ticker": "JBHT",
     "weight": 0.03
   },
   {
-    "rank": 383,
+    "rank": 381,
+    "company": "Packaging Corp of America",
+    "ticker": "PKG",
+    "weight": 0.03
+  },
+  {
+    "rank": 382,
     "company": "NRG Energy, Inc.",
     "ticker": "NRG",
     "weight": 0.03
   },
   {
-    "rank": 384,
-    "company": "Dow Inc.",
-    "ticker": "DOW",
+    "rank": 383,
+    "company": "Bunge Global SA",
+    "ticker": "BG",
     "weight": 0.03
   },
   {
-    "rank": 385,
+    "rank": 384,
     "company": "Omnicom Group Inc.",
     "ticker": "OMC",
     "weight": 0.03
   },
   {
-    "rank": 386,
-    "company": "Edison International",
-    "ticker": "EIX",
-    "weight": 0.03
-  },
-  {
-    "rank": 387,
-    "company": "Expand Energy Corporation Common Stock",
-    "ticker": "EXE",
-    "weight": 0.03
-  },
-  {
-    "rank": 388,
-    "company": "STERIS plc",
-    "ticker": "STE",
-    "weight": 0.03
-  },
-  {
-    "rank": 389,
+    "rank": 385,
     "company": "Southwest Airlines Co.",
     "ticker": "LUV",
     "weight": 0.03
   },
   {
-    "rank": 390,
+    "rank": 386,
+    "company": "Viatris Inc. Common Stock",
+    "ticker": "VTRS",
+    "weight": 0.03
+  },
+  {
+    "rank": 387,
+    "company": "STERIS plc",
+    "ticker": "STE",
+    "weight": 0.03
+  },
+  {
+    "rank": 388,
     "company": "Brown & Brown, Inc.",
     "ticker": "BRO",
     "weight": 0.03
   },
   {
+    "rank": 389,
+    "company": "Edison International",
+    "ticker": "EIX",
+    "weight": 0.03
+  },
+  {
+    "rank": 390,
+    "company": "Dow Inc.",
+    "ticker": "DOW",
+    "weight": 0.03
+  },
+  {
     "rank": 391,
-    "company": "Viatris Inc. Common Stock",
-    "ticker": "VTRS",
+    "company": "Expand Energy Corporation Common Stock",
+    "ticker": "EXE",
     "weight": 0.03
   },
   {
@@ -2359,26 +2359,26 @@
   },
   {
     "rank": 394,
-    "company": "Constellation Brands, Inc.",
-    "ticker": "STZ",
-    "weight": 0.03
-  },
-  {
-    "rank": 395,
     "company": "Amcor plc Ordinary Shares",
     "ticker": "AMCR",
     "weight": 0.03
   },
   {
+    "rank": 395,
+    "company": "Constellation Brands, Inc.",
+    "ticker": "STZ",
+    "weight": 0.03
+  },
+  {
     "rank": 396,
-    "company": "LyondellBasell Industries N.V. Class A",
-    "ticker": "LYB",
+    "company": "First Solar, Inc.",
+    "ticker": "FSLR",
     "weight": 0.03
   },
   {
     "rank": 397,
-    "company": "Akamai Technologies Inc",
-    "ticker": "AKAM",
+    "company": "Snap-on Incorporated",
+    "ticker": "SNA",
     "weight": 0.03
   },
   {
@@ -2389,56 +2389,56 @@
   },
   {
     "rank": 399,
-    "company": "Snap-on Incorporated",
-    "ticker": "SNA",
-    "weight": 0.03
-  },
-  {
-    "rank": 400,
     "company": "NiSource Inc.",
     "ticker": "NI",
     "weight": 0.03
   },
   {
+    "rank": 400,
+    "company": "LyondellBasell Industries N.V. Class A",
+    "ticker": "LYB",
+    "weight": 0.03
+  },
+  {
     "rank": 401,
-    "company": "General Mills, Inc.",
-    "ticker": "GIS",
-    "weight": 0.03
-  },
-  {
-    "rank": 402,
-    "company": "First Solar, Inc.",
-    "ticker": "FSLR",
-    "weight": 0.03
-  },
-  {
-    "rank": 403,
-    "company": "Fair Isaac Corporation",
-    "ticker": "FICO",
-    "weight": 0.03
-  },
-  {
-    "rank": 404,
     "company": "Broadridge Financial Solutions Inc",
     "ticker": "BR",
     "weight": 0.03
   },
   {
-    "rank": 405,
+    "rank": 402,
+    "company": "Fair Isaac Corporation",
+    "ticker": "FICO",
+    "weight": 0.03
+  },
+  {
+    "rank": 403,
     "company": "International Paper Co.",
     "ticker": "IP",
     "weight": 0.03
   },
   {
-    "rank": 406,
+    "rank": 404,
+    "company": "Fidelity National Information Services, Inc.",
+    "ticker": "FIS",
+    "weight": 0.03
+  },
+  {
+    "rank": 405,
     "company": "Nordson Corp",
     "ticker": "NDSN",
     "weight": 0.03
   },
   {
+    "rank": 406,
+    "company": "Evergy, Inc.",
+    "ticker": "EVRG",
+    "weight": 0.03
+  },
+  {
     "rank": 407,
-    "company": "CF Industries Holding, Inc.",
-    "ticker": "CF",
+    "company": "General Mills, Inc.",
+    "ticker": "GIS",
     "weight": 0.03
   },
   {
@@ -2449,33 +2449,33 @@
   },
   {
     "rank": 409,
-    "company": "Evergy, Inc.",
-    "ticker": "EVRG",
-    "weight": 0.03
-  },
-  {
-    "rank": 410,
-    "company": "Fidelity National Information Services, Inc.",
-    "ticker": "FIS",
-    "weight": 0.03
-  },
-  {
-    "rank": 411,
     "company": "Genuine Parts Company",
     "ticker": "GPC",
     "weight": 0.03
   },
   {
-    "rank": 412,
+    "rank": 410,
+    "company": "DuPont de Nemours, Inc. Common Stock",
+    "ticker": "DD",
+    "weight": 0.03
+  },
+  {
+    "rank": 411,
     "company": "SBA Communications Corp",
     "ticker": "SBAC",
     "weight": 0.03
   },
   {
+    "rank": 412,
+    "company": "Zebra Technologies Corporation",
+    "ticker": "ZBRA",
+    "weight": 0.02
+  },
+  {
     "rank": 413,
-    "company": "DuPont de Nemours, Inc. Common Stock",
-    "ticker": "DD",
-    "weight": 0.03
+    "company": "Essex Property Trust, Inc",
+    "ticker": "ESS",
+    "weight": 0.02
   },
   {
     "rank": 414,
@@ -2485,56 +2485,56 @@
   },
   {
     "rank": 415,
-    "company": "CDW Corporation",
-    "ticker": "CDW",
-    "weight": 0.02
-  },
-  {
-    "rank": 416,
-    "company": "Essex Property Trust, Inc",
-    "ticker": "ESS",
-    "weight": 0.02
-  },
-  {
-    "rank": 417,
     "company": "Zimmer Biomet Holdings, Inc.",
     "ticker": "ZBH",
     "weight": 0.02
   },
   {
-    "rank": 418,
-    "company": "Zebra Technologies Corporation",
-    "ticker": "ZBRA",
+    "rank": 416,
+    "company": "CF Industries Holding, Inc.",
+    "ticker": "CF",
     "weight": 0.02
   },
   {
-    "rank": 419,
-    "company": "FedEx Freight Holding Company, Inc.",
-    "ticker": "FDXF",
-    "weight": 0.02
-  },
-  {
-    "rank": 420,
-    "company": "Revvity, Inc.",
-    "ticker": "RVTY",
-    "weight": 0.02
-  },
-  {
-    "rank": 421,
+    "rank": 417,
     "company": "C.H. Robinson Worldwide, Inc.",
     "ticker": "CHRW",
     "weight": 0.02
   },
   {
-    "rank": 422,
+    "rank": 418,
     "company": "IDEX Corporation",
     "ticker": "IEX",
     "weight": 0.02
   },
   {
-    "rank": 423,
+    "rank": 419,
     "company": "Fortive Corporation",
     "ticker": "FTV",
+    "weight": 0.02
+  },
+  {
+    "rank": 420,
+    "company": "CDW Corporation",
+    "ticker": "CDW",
+    "weight": 0.02
+  },
+  {
+    "rank": 421,
+    "company": "FedEx Freight Holding Company, Inc.",
+    "ticker": "FDXF",
+    "weight": 0.02
+  },
+  {
+    "rank": 422,
+    "company": "Revvity, Inc.",
+    "ticker": "RVTY",
+    "weight": 0.02
+  },
+  {
+    "rank": 423,
+    "company": "Tractor Supply Co",
+    "ticker": "TSCO",
     "weight": 0.02
   },
   {
@@ -2557,8 +2557,8 @@
   },
   {
     "rank": 427,
-    "company": "Tractor Supply Co",
-    "ticker": "TSCO",
+    "company": "Akamai Technologies Inc",
+    "ticker": "AKAM",
     "weight": 0.02
   },
   {
@@ -2581,20 +2581,20 @@
   },
   {
     "rank": 431,
-    "company": "APA Corporation Common Stock",
-    "ticker": "APA",
-    "weight": 0.02
-  },
-  {
-    "rank": 432,
     "company": "Host Hotels & Resorts, Inc.",
     "ticker": "HST",
     "weight": 0.02
   },
   {
-    "rank": 433,
+    "rank": 432,
     "company": "Solventum Corporation",
     "ticker": "SOLV",
+    "weight": 0.02
+  },
+  {
+    "rank": 433,
+    "company": "Kimco Realty Corp.",
+    "ticker": "KIM",
     "weight": 0.02
   },
   {
@@ -2605,14 +2605,14 @@
   },
   {
     "rank": 435,
-    "company": "Kimco Realty Corp.",
-    "ticker": "KIM",
+    "company": "PTC, INC",
+    "ticker": "PTC",
     "weight": 0.02
   },
   {
     "rank": 436,
-    "company": "PTC, INC",
-    "ticker": "PTC",
+    "company": "APA Corporation Common Stock",
+    "ticker": "APA",
     "weight": 0.02
   },
   {
@@ -2647,8 +2647,8 @@
   },
   {
     "rank": 442,
-    "company": "Gen Digital Inc. Common Stock",
-    "ticker": "GEN",
+    "company": "Stanley Black & Decker, Inc.",
+    "ticker": "SWK",
     "weight": 0.02
   },
   {
@@ -2659,14 +2659,14 @@
   },
   {
     "rank": 444,
-    "company": "Stanley Black & Decker, Inc.",
-    "ticker": "SWK",
+    "company": "Invesco LTD",
+    "ticker": "IVZ",
     "weight": 0.02
   },
   {
     "rank": 445,
-    "company": "TKO Group Holdings, Inc.",
-    "ticker": "TKO",
+    "company": "Masco Corporation",
+    "ticker": "MAS",
     "weight": 0.02
   },
   {
@@ -2677,74 +2677,74 @@
   },
   {
     "rank": 447,
-    "company": "Invesco LTD",
-    "ticker": "IVZ",
-    "weight": 0.02
-  },
-  {
-    "rank": 448,
-    "company": "Charter Comm Inc Del CL A New",
-    "ticker": "CHTR",
-    "weight": 0.02
-  },
-  {
-    "rank": 449,
-    "company": "Tyler Technologies, Inc.",
-    "ticker": "TYL",
-    "weight": 0.02
-  },
-  {
-    "rank": 450,
-    "company": "Regency Centers Corporation",
-    "ticker": "REG",
-    "weight": 0.02
-  },
-  {
-    "rank": 451,
-    "company": "Masco Corporation",
-    "ticker": "MAS",
-    "weight": 0.02
-  },
-  {
-    "rank": 452,
-    "company": "Textron, Inc.",
-    "ticker": "TXT",
-    "weight": 0.02
-  },
-  {
-    "rank": 453,
     "company": "Skyworks Solutions Inc",
     "ticker": "SWKS",
     "weight": 0.02
   },
   {
-    "rank": 454,
-    "company": "The J.M. Smucker Company",
-    "ticker": "SJM",
+    "rank": 448,
+    "company": "Regency Centers Corporation",
+    "ticker": "REG",
     "weight": 0.02
   },
   {
-    "rank": 455,
-    "company": "Assurant, Inc.",
-    "ticker": "AIZ",
+    "rank": 449,
+    "company": "TKO Group Holdings, Inc.",
+    "ticker": "TKO",
     "weight": 0.02
   },
   {
-    "rank": 456,
-    "company": "McCormick & Company, Incorporated Non-VTG CS",
-    "ticker": "MKC",
+    "rank": 450,
+    "company": "Tyler Technologies, Inc.",
+    "ticker": "TYL",
     "weight": 0.02
   },
   {
-    "rank": 457,
+    "rank": 451,
+    "company": "Textron, Inc.",
+    "ticker": "TXT",
+    "weight": 0.02
+  },
+  {
+    "rank": 452,
     "company": "Allegion Public Limited Company",
     "ticker": "ALLE",
     "weight": 0.02
   },
   {
+    "rank": 453,
+    "company": "Assurant, Inc.",
+    "ticker": "AIZ",
+    "weight": 0.02
+  },
+  {
+    "rank": 454,
+    "company": "Albemarle Corporation",
+    "ticker": "ALB",
+    "weight": 0.02
+  },
+  {
+    "rank": 455,
+    "company": "Gen Digital Inc. Common Stock",
+    "ticker": "GEN",
+    "weight": 0.02
+  },
+  {
+    "rank": 456,
+    "company": "The J.M. Smucker Company",
+    "ticker": "SJM",
+    "weight": 0.02
+  },
+  {
+    "rank": 457,
+    "company": "Charter Comm Inc Del CL A New",
+    "ticker": "CHTR",
+    "weight": 0.02
+  },
+  {
     "rank": 458,
-    "company": "Globe Life Inc.",
-    "ticker": "GL",
+    "company": "Lennox International Inc.",
+    "ticker": "LII",
     "weight": 0.02
   },
   {
@@ -2755,14 +2755,14 @@
   },
   {
     "rank": 460,
-    "company": "Albemarle Corporation",
-    "ticker": "ALB",
+    "company": "McCormick & Company, Incorporated Non-VTG CS",
+    "ticker": "MKC",
     "weight": 0.02
   },
   {
     "rank": 461,
-    "company": "GoDaddy Inc",
-    "ticker": "GDDY",
+    "company": "Globe Life Inc.",
+    "ticker": "GL",
     "weight": 0.02
   },
   {
@@ -2773,50 +2773,50 @@
   },
   {
     "rank": 463,
-    "company": "Lennox International Inc.",
-    "ticker": "LII",
-    "weight": 0.02
-  },
-  {
-    "rank": 464,
     "company": "Fox Corporation Class B Common Stock",
     "ticker": "FOX",
     "weight": 0.02
   },
   {
-    "rank": 465,
+    "rank": 464,
     "company": "Hasbro, Inc.",
     "ticker": "HAS",
     "weight": 0.02
   },
   {
+    "rank": 465,
+    "company": "GoDaddy Inc",
+    "ticker": "GDDY",
+    "weight": 0.02
+  },
+  {
     "rank": 466,
-    "company": "Baxter International Inc.",
-    "ticker": "BAX",
-    "weight": 0.02
-  },
-  {
-    "rank": 467,
-    "company": "Brown-Forman Corporation Class B",
-    "ticker": "BF.B",
-    "weight": 0.02
-  },
-  {
-    "rank": 468,
-    "company": "Erie Indemnity Co",
-    "ticker": "ERIE",
-    "weight": 0.02
-  },
-  {
-    "rank": 469,
     "company": "GENERAC HOLDINGS INC",
     "ticker": "GNRC",
     "weight": 0.02
   },
   {
+    "rank": 467,
+    "company": "Baxter International Inc.",
+    "ticker": "BAX",
+    "weight": 0.02
+  },
+  {
+    "rank": 468,
+    "company": "Brown-Forman Corporation Class B",
+    "ticker": "BF.B",
+    "weight": 0.02
+  },
+  {
+    "rank": 469,
+    "company": "Gartner, Inc.",
+    "ticker": "IT",
+    "weight": 0.02
+  },
+  {
     "rank": 470,
-    "company": "Paramount Skydance Corporation Class B Common Stock",
-    "ticker": "PSKY",
+    "company": "Erie Indemnity Co",
+    "ticker": "ERIE",
     "weight": 0.02
   },
   {
@@ -2827,14 +2827,14 @@
   },
   {
     "rank": 472,
-    "company": "CoStar Group Inc",
-    "ticker": "CSGP",
+    "company": "DaVita Inc.",
+    "ticker": "DVA",
     "weight": 0.02
   },
   {
     "rank": 473,
-    "company": "Gartner, Inc.",
-    "ticker": "IT",
+    "company": "CoStar Group Inc",
+    "ticker": "CSGP",
     "weight": 0.02
   },
   {
@@ -2851,8 +2851,8 @@
   },
   {
     "rank": 476,
-    "company": "DaVita Inc.",
-    "ticker": "DVA",
+    "company": "Paramount Skydance Corporation Class B Common Stock",
+    "ticker": "PSKY",
     "weight": 0.02
   },
   {
@@ -2863,14 +2863,14 @@
   },
   {
     "rank": 478,
-    "company": "Hormel Foods Corporation",
-    "ticker": "HRL",
+    "company": "UDR, Inc.",
+    "ticker": "UDR",
     "weight": 0.02
   },
   {
     "rank": 479,
-    "company": "UDR, Inc.",
-    "ticker": "UDR",
+    "company": "Hormel Foods Corporation",
+    "ticker": "HRL",
     "weight": 0.02
   },
   {
@@ -2887,32 +2887,32 @@
   },
   {
     "rank": 482,
-    "company": "The Cooper Companies, Inc. Common Stock",
-    "ticker": "COO",
-    "weight": 0.02
-  },
-  {
-    "rank": 483,
-    "company": "Huntington Ingalls Industries, Inc.",
-    "ticker": "HII",
-    "weight": 0.02
-  },
-  {
-    "rank": 484,
     "company": "Universal Health Services, Inc. Class B",
     "ticker": "UHS",
     "weight": 0.01
   },
   {
+    "rank": 483,
+    "company": "The Cooper Companies, Inc. Common Stock",
+    "ticker": "COO",
+    "weight": 0.01
+  },
+  {
+    "rank": 484,
+    "company": "Align Technology Inc",
+    "ticker": "ALGN",
+    "weight": 0.01
+  },
+  {
     "rank": 485,
-    "company": "Henry (Jack) & Associates",
-    "ticker": "JKHY",
+    "company": "Huntington Ingalls Industries, Inc.",
+    "ticker": "HII",
     "weight": 0.01
   },
   {
     "rank": 486,
-    "company": "Align Technology Inc",
-    "ticker": "ALGN",
+    "company": "Henry (Jack) & Associates",
+    "ticker": "JKHY",
     "weight": 0.01
   },
   {
@@ -2923,38 +2923,38 @@
   },
   {
     "rank": 488,
-    "company": "BXP, Inc.",
-    "ticker": "BXP",
-    "weight": 0.01
-  },
-  {
-    "rank": 489,
     "company": "Clorox Company",
     "ticker": "CLX",
     "weight": 0.01
   },
   {
-    "rank": 490,
-    "company": "Domino's Pizza Inc.",
-    "ticker": "DPZ",
+    "rank": 489,
+    "company": "BXP, Inc.",
+    "ticker": "BXP",
     "weight": 0.01
   },
   {
-    "rank": 491,
+    "rank": 490,
     "company": "Factset Research Systems",
     "ticker": "FDS",
     "weight": 0.01
   },
   {
+    "rank": 491,
+    "company": "Domino's Pizza Inc.",
+    "ticker": "DPZ",
+    "weight": 0.01
+  },
+  {
     "rank": 492,
-    "company": "Federal Realty Investment Trust",
-    "ticker": "FRT",
+    "company": "Henry Schein Inc",
+    "ticker": "HSIC",
     "weight": 0.01
   },
   {
     "rank": 493,
-    "company": "Henry Schein Inc",
-    "ticker": "HSIC",
+    "company": "Federal Realty Investment Trust",
+    "ticker": "FRT",
     "weight": 0.01
   },
   {
@@ -2977,20 +2977,20 @@
   },
   {
     "rank": 497,
-    "company": "MGM RESORTS INTERNATIONAL",
-    "ticker": "MGM",
-    "weight": 0.01
-  },
-  {
-    "rank": 498,
     "company": "Pentair plc",
     "ticker": "PNR",
     "weight": 0.01
   },
   {
-    "rank": 499,
+    "rank": 498,
     "company": "Wynn Resorts Ltd",
     "ticker": "WYNN",
+    "weight": 0.01
+  },
+  {
+    "rank": 499,
+    "company": "MGM RESORTS INTERNATIONAL",
+    "ticker": "MGM",
     "weight": 0.01
   },
   {
